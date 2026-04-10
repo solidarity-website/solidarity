@@ -1,0 +1,126 @@
+import { useEffect, useState } from 'react'
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+
+// Pages
+import HomePage from './pages/HomePage'
+import AboutPage from './pages/AboutPage'
+import TeamPage from './pages/TeamPage'
+import ProductOfferingPage from './pages/ProductOfferingPage'
+import PortfolioPerformancePage from './pages/PortfolioPerformancePage'
+import FeeStructurePage from './pages/FeeStructurePage'
+import DirectOnboardingPage from './pages/DirectOnboardingPage'
+import FAQPage from './pages/FAQPage'
+import ContactPage from './pages/ContactPage'
+import QuarterlyLettersPage from './pages/QuarterlyLettersPage'
+import DisclaimerPage from './pages/DisclaimerPage'
+import TermsPage from './pages/TermsPage'
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage'
+import RegulatoryDetailsPage from './pages/RegulatoryDetailsPage'
+import UPIPaymentDetailsPage from './pages/UPIPaymentDetailsPage'
+import FeeCalculationToolPage from './pages/FeeCalculationToolPage'
+import PerspectivesListingPage from './pages/PerspectivesListingPage'
+import SinglePostPage from './pages/SinglePostPage'
+
+import './App.css'
+
+// ── Scroll-to-top on route change ──────────────────────────────
+function ScrollToTop() {
+  const { pathname } = useLocation()
+  useEffect(() => { window.scrollTo({ top: 0, behavior: 'instant' as ScrollBehavior }) }, [pathname])
+  return null
+}
+
+
+// ── Main App Shell ─────────────────────────────────────────────
+function AppShell() {
+  const [loaded, setLoaded] = useState(false)
+  const [showScrollTop, setShowScrollTop] = useState(false)
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoaded(true), 500)
+    return () => clearTimeout(timer)
+  }, [])
+
+  useEffect(() => {
+    const onScroll = () => setShowScrollTop(window.scrollY > 300)
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+
+  return (
+    <>
+      {/* Preloader */}
+      <div className={`preloader${loaded ? ' hidden' : ''}`} aria-hidden={loaded}>
+        <div className="preloader-circles">
+          <span /><span /><span />
+        </div>
+      </div>
+
+      <ScrollToTop />
+      <Navbar />
+
+      <Routes>
+        {/* Home */}
+        <Route path="/" element={<HomePage />} />
+
+        {/* About */}
+        <Route path="/about-us" element={<AboutPage />} />
+        <Route path="/about-us/regulatory-details" element={<RegulatoryDetailsPage />} />
+
+        {/* Team */}
+        <Route path="/team" element={<TeamPage />} />
+
+        {/* Product */}
+        <Route path="/product-offering"     element={<ProductOfferingPage />} />
+        <Route path="/portfolio-performance" element={<PortfolioPerformancePage />} />
+        <Route path="/fee-structure"        element={<FeeStructurePage />} />
+        <Route path="/fee-calculation-tool" element={<FeeCalculationToolPage />} />
+        <Route path="/direct-onboarding"    element={<DirectOnboardingPage />} />
+        <Route path="/faqs"                 element={<FAQPage />} />
+
+        {/* Perspectives */}
+        <Route path="/perspectives/blogs"              element={<PerspectivesListingPage categoryTitle="Blogs" filterCategory="Blogs" />} />
+        <Route path="/perspectives/company-perspective" element={<PerspectivesListingPage categoryTitle="Select Company Perspectives" filterCategory="Company Perspective" />} />
+        <Route path="/perspectives/client-questions"   element={<PerspectivesListingPage categoryTitle="Perspective On Questions From Client Partners" filterCategory="Perspective On Questions From Client Partners" />} />
+        <Route path="/perspectives/asset-allocation"   element={<PerspectivesListingPage categoryTitle="Asset Allocation" filterCategory="Asset Allocation" />} />
+        <Route path="/perspectives/equity"             element={<PerspectivesListingPage categoryTitle="Equity" filterCategory="Equity" />} />
+        <Route path="/perspectives/investment-management" element={<PerspectivesListingPage categoryTitle="Investment Management" filterCategory="Investment Management" />} />
+        <Route path="/perspectives/macro-environment"  element={<PerspectivesListingPage categoryTitle="Macro Environment" filterCategory="Macro Environment" />} />
+        <Route path="/perspectives/venture-capital"    element={<PerspectivesListingPage categoryTitle="Venture Capital" filterCategory="Venture Capital" />} />
+        <Route path="/perspectives/quarterly-letters"  element={<QuarterlyLettersPage />} />
+        <Route path="/perspectives/post/:slug"         element={<SinglePostPage />} />
+
+        {/* Contact */}
+        <Route path="/contact-us" element={<ContactPage />} />
+
+        {/* Legal */}
+        <Route path="/terms-conditions"  element={<TermsPage />} />
+        <Route path="/privacy-policy"    element={<PrivacyPolicyPage />} />
+        <Route path="/disclaimer"        element={<DisclaimerPage />} />
+        <Route path="/upi-payment-details" element={<UPIPaymentDetailsPage />} />
+      </Routes>
+
+      <Footer />
+
+      {/* Scroll-to-top */}
+      <button
+        className={`scroll-top${showScrollTop ? ' visible' : ''}`}
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        aria-label="Scroll to top"
+      >
+        ↑
+      </button>
+    </>
+  )
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <AppShell />
+    </BrowserRouter>
+  )
+}

@@ -1,0 +1,46 @@
+.legal-body, .prose {
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: #333;
+  padding: 2rem 0;
+}
+
+.legal-body p, .prose p {
+  margin-bottom: 1.8rem;
+  font-size: 1.05rem;
+}
+
+.legal-body h2, .prose h2 {
+  font-size: 1.8rem;
+  margin: 2.5rem 0 1.2rem;
+  color: #222;
+  font-weight: 700;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.legal-body ul, .prose ul {
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+}
+
+.legal-body li, .prose li {
+  margin-bottom: 0.8rem;
+}
+
+.legal-body a, .prose a {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.legal-body strong, .prose strong {
+  font-weight: 700;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .legal-body, .prose {
+    padding: 1rem;
+  }
+}

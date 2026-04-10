@@ -1,0 +1,14 @@
+import InnerPageLayout from '../components/InnerPageLayout'
+import './LegalPage.css'
+
+export default function DisclaimerPage() {
+  return (
+    <InnerPageLayout title="Disclaimer">
+      <div className="legal-body">
+        <p>Solidarity Advisors Private Limited (SAPL) or its affiliates or any of its employees, directors or key managerial personnel or agents ('collectively referred as Solidarity') will <strong>never</strong> reach out to you offering services such as accepting cash, giving assured or guaranteed returns or dealing with advisory related to Cryptocurrencies, F&amp;O or any overnight rich schemes or providing any free tips on portfolios/stocks. Further, Solidarity does not operate any Telegram, Signal, Whatsapp Groups, or any other "social media groups" through which investment advice or such activities are offered, or meeting or jobs are promised with our employees/officials against any payment. The official media channels on LinkedIn &amp; YouTube have been linked to this website which are the only official channels for Solidarity. Therefore, the viewers/investors are advised to exercise caution while dealing with persons, social media handles or social media groups claiming to be employees/officials of Solidarity or when such services are solicited to you in the name of Solidarity. Further, our employees/officials are not associated with any other trading platforms or organisations except Solidarity and we do not render any investment/trading services (including advice) on social media platforms If you come across any such activity, we urge you to also kindly report the same to the appropriate law enforcement authorities, and also inform us on <a href="mailto:info@solidarity.in">info@solidarity.in</a>.</p>
+
+        <p>All information and materials published, distributed or otherwise made available on this Website are provided for informational purposes, for your non-commercial, personal use only. No information or materials published on this Website constitutes a solicitation, an offer, or a recommendation to buy or sell any investment instruments, to effect any transactions, or to conclude any legal act of any kind whatsoever. You acknowledge and confirm that by accessing the website, you are seeking information relating to the organisation of your own accord and that there has been no form of solicitation, advertisement or inducement by the organisation. Any part of the content is not, and should not be construed as, an offer or solicitation to buy or sell any securities or make any investments or any products. No material or information provided on this website should be construed as investment advice. Any action on your part on the basis of the said content is at your own risk and responsibility.</p>
+      </div>
+    </InnerPageLayout>
+  )
+}

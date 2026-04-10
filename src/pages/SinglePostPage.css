@@ -1,0 +1,208 @@
+/* ============================================================
+   SINGLE POST PAGE
+   ============================================================ */
+
+/* ── Post banner ── */
+.post-banner {
+  background-image: url('/assets/perspectives-banner.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 456px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.post-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.42);
+}
+
+.post-banner .container {
+  position: relative;
+  z-index: 1;
+}
+
+.post-banner__date {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  margin-bottom: 1.1rem;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  text-align: center;
+  font-family: var(--font-classic);
+  line-height: 1;
+}
+
+.post-banner__title {
+  font-family: var(--font-body);
+  font-size: clamp(24px, 4vw, 36px);
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.15;
+  margin: 0 auto 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  max-width: 980px;
+  text-align: center;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+.post-banner__meta {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  font-family: var(--font-classic);
+  line-height: 1.2;
+}
+
+.post-banner__meta a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 0;
+  transition: opacity 0.2s;
+}
+
+.post-banner__meta a:hover {
+  opacity: 0.85;
+}
+
+/* ── Two-column layout ── */
+.post-detail-container {
+  display: flex;
+  gap: 3.5rem;
+  align-items: flex-start;
+  margin-top: 3rem;
+}
+
+/* ── Article content ── */
+.post-content {
+  flex: 2;
+  min-width: 0;
+  background: #fff;
+}
+
+.post-article-body {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.post-article-body p {
+  margin-bottom: 1.6rem;
+}
+
+.post-article-body h2,
+.post-article-body h3,
+.post-article-body h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 2.5rem 0 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.post-article-body h2 { font-size: 22px; }
+.post-article-body h3 { font-size: 19px; }
+
+.post-article-body ul,
+.post-article-body ol {
+  padding-left: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.post-article-body li {
+  margin-bottom: 0.8rem;
+}
+
+.post-article-body blockquote {
+  margin: 2.5rem 0;
+  padding: 1.5rem 2.5rem;
+  background: #f8f9fb;
+  border-left: 4px solid var(--color-h4);
+  font-style: italic;
+  font-size: 18px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.post-article-body a {
+  color: var(--color-h4);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.post-article-body b, 
+.post-article-body strong {
+  color: #000;
+  font-weight: 700;
+}
+
+/* ── Footer ── */
+.post-footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eee;
+}
+
+.back-link {
+  color: #666;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.2s ease;
+}
+
+.back-link:hover {
+  color: var(--color-h4);
+}
+
+/* ── Sidebar ── */
+.post-detail-container .perspectives-sidebar {
+  flex: 1;
+  min-width: 200px;
+  max-width: 260px;
+}
+
+/* ── Responsive ── */
+@media (max-width: 1024px) {
+  .post-banner {
+    height: 380px;
+  }
+}
+
+@media (max-width: 900px) {
+  .post-detail-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .post-banner {
+    height: 320px;
+  }
+
+  .post-banner__date {
+    font-size: 13px;
+  }
+
+  .post-banner__meta {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 600px) {
+  .post-banner {
+    height: 240px;
+  }
+}

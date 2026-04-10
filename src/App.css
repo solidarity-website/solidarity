@@ -1,0 +1,33 @@
+/* ============================================================
+   APP-LEVEL LAYOUT STYLES
+   ============================================================ */
+
+/* Stack layout so footer sits at the bottom */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* All pages except home get navbar offset padding */
+main:not(.hero-page) {
+  flex: 1;
+}
+
+/* ── Coming Soon placeholder pages ── */
+.coming-soon {
+  min-height: calc(100vh - var(--navbar-height));
+  display: flex;
+  align-items: center;
+  padding: var(--space-2xl) 0;
+}
+
+.coming-soon h2 {
+  margin-bottom: 1rem;
+  color: var(--color-h4);
+}
+
+.coming-soon p {
+  color: var(--color-muted);
+  font-size: 16px;
+}

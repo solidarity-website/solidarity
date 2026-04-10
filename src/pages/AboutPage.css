@@ -1,0 +1,43 @@
+/* ============================================================
+   ABOUT PAGE — mirrors the original site exactly
+   ============================================================ */
+
+/*
+  Original layout:
+  - Content area is centered at max ~600px (vc_col-lg-8 with lg-offset-2)
+  - White background (#ffffff)
+  - The section has generous top/bottom padding matching vc_custom_1607605425085
+    (margin-top: -70px, padding-top: 105px, padding-bottom: 105px)
+  - h3 is centered, color #394872, bold
+  - ul has default browser list styling
+*/
+
+.about-guide {
+  max-width: 640px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 2.5rem 2rem;
+}
+
+.about-guide__heading {
+  text-align: center;
+  color: #394872;
+  font-size: var(--fs-h3);
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: 0;
+  line-height: 1.7;
+  margin-bottom: 1.4rem;
+}
+
+.about-guide__list {
+  padding-left: 1.5rem;
+  list-style: disc;
+}
+
+.about-guide__list li {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--color-body);
+  margin-bottom: 0.5rem;
+}

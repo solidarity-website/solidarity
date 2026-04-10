@@ -1,0 +1,83 @@
+/* ============================================================
+   FEE STRUCTURE PAGE
+   ============================================================ */
+
+.fee-intro {
+  margin-bottom: var(--space-xl);
+}
+.fee-intro p { font-size: 16px; line-height: 1.9; }
+
+/* ── Table ── */
+.fee-table-wrap {
+  overflow-x: auto;
+  margin-bottom: var(--space-xl);
+  border-radius: 8px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+}
+
+.fee-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.fee-table thead {
+  background: var(--color-h4);
+  color: white;
+}
+
+.fee-table th {
+  padding: 1rem 1.2rem;
+  text-align: left;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.fee-table tbody tr {
+  border-bottom: 1px solid var(--color-border);
+  transition: background var(--transition-fast);
+}
+
+.fee-table tbody tr:last-child { border-bottom: none; }
+
+.fee-table tbody tr:hover { background: var(--color-light-bg); }
+
+.fee-table td {
+  padding: 1.1rem 1.2rem;
+  vertical-align: top;
+  line-height: 1.6;
+  color: var(--color-body);
+}
+
+.fee-table__scheme {
+  font-weight: 700;
+  color: var(--color-h4);
+}
+
+.fee-table__notes {
+  color: var(--color-muted);
+  font-size: 13px;
+  font-style: italic;
+}
+
+.fee-link {
+  color: var(--color-h4);
+  font-weight: 600;
+  text-decoration: underline;
+}
+.fee-link:hover { opacity: 0.7; }
+
+.fee-notes { margin-bottom: var(--space-xl); }
+
+.fee-cta {
+  text-align: center;
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--color-border);
+}
+.fee-cta p {
+  font-size: 15px;
+  color: var(--color-muted);
+  margin-bottom: var(--space-md);
+}

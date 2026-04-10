@@ -1,0 +1,130 @@
+/* ============================================================
+   CONTACT PAGE
+   ============================================================ */
+
+/* ── Wrapper ── */
+.contact-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* ── Left column ── */
+.contact-left {
+  flex: 0 0 auto;
+  min-width: 340px;
+}
+
+.contact-heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-h4, #394872);
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+/* ── Table ── */
+.contact-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.contact-table tr {
+  border-bottom: 1px solid #e0e4ef;
+}
+
+.contact-table tr:first-child {
+  border-top: 1px solid #e0e4ef;
+}
+
+.contact-table td {
+  padding: 0.85rem 1rem;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #394872;
+}
+
+.contact-table__person {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 180px;
+}
+
+.contact-table__name {
+  font-weight: 700;
+  color: #394872;
+  font-size: 14px;
+}
+
+.contact-table__role {
+  font-size: 12.5px;
+  color: #6b7a9e;
+}
+
+.contact-table__email a {
+  color: #394872;
+  text-decoration: none;
+  font-size: 13.5px;
+  white-space: nowrap;
+}
+
+.contact-table__email a:hover {
+  text-decoration: underline;
+  color: var(--color-h4, #394872);
+}
+
+/* ── Divider ── */
+.contact-divider {
+  border: none;
+  border-top: 1px solid #e0e4ef;
+  margin: 1.5rem 0;
+}
+
+/* ── Address ── */
+.contact-address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.9;
+  color: #394872;
+}
+
+.contact-address strong {
+  font-weight: 600;
+}
+
+/* ── Map ── */
+.contact-map {
+  flex: 1;
+  min-width: 0;
+  min-height: 320px;
+}
+
+.contact-map img {
+  width: 100%;
+  height: auto;
+  min-height: 320px;
+  object-fit: cover;
+  display: block;
+  border-radius: 6px;
+}
+
+/* ── Responsive ── */
+@media (max-width: 720px) {
+  .contact-wrapper {
+    flex-direction: column;
+  }
+
+  .contact-left {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .contact-heading {
+    text-align: center;
+  }
+}

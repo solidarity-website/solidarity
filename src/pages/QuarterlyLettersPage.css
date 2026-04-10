@@ -1,0 +1,100 @@
+/* ============================================================
+   QUARTERLY LETTERS PAGE
+   ============================================================ */
+.ql-intro {
+  margin-bottom: var(--space-2xl);
+}
+.ql-intro p { font-size: 16px; line-height: 1.9; }
+
+.ql-year-group {
+  margin-bottom: var(--space-xl);
+}
+
+.ql-year-heading {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-h4);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: var(--space-md);
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-border);
+}
+
+.ql-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.ql-item {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 1.2rem 1.4rem;
+  transition: box-shadow var(--transition-fast), border-color var(--transition-fast);
+}
+.ql-item:hover {
+  box-shadow: 0 4px 16px rgba(57,72,114,0.1);
+  border-color: var(--color-h4);
+}
+
+.ql-item__quarter {
+  min-width: 44px;
+  height: 44px;
+  background: var(--color-light-bg);
+  border: 2px solid var(--color-h4);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--color-h4);
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+}
+
+.ql-item__body { flex: 1; }
+
+.ql-item__title {
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--color-body);
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 0.2rem;
+}
+
+.ql-item__date {
+  font-size: 12px;
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0;
+}
+
+.ql-badge {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--color-h4);
+  background: rgba(57,72,114,0.08);
+  padding: 4px 10px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.ql-login-cta {
+  margin-top: var(--space-xl);
+  text-align: center;
+}
+
+@media (max-width: 560px) {
+  .ql-item { flex-wrap: wrap; }
+  .ql-badge { width: 100%; text-align: center; }
+}

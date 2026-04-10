@@ -1,0 +1,307 @@
+/* ============================================================
+   NAVBAR STYLES
+   ============================================================ */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: var(--navbar-height);
+  background: transparent;
+  transition: background var(--transition-med), box-shadow var(--transition-med);
+}
+
+/* Becomes white/solid after scroll */
+.navbar--scrolled {
+  background: var(--color-nav-bg);
+  box-shadow: 0 2px 20px var(--color-nav-shadow);
+}
+
+.navbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--navbar-height);
+}
+
+/* ---------- Logo ---------- */
+.navbar__logo img {
+  height: 30px;
+  width: auto;
+  display: block;
+  transition: opacity var(--transition-med);
+}
+
+/* ---------- Desktop Menu ---------- */
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__item {
+  position: relative;
+}
+
+.navbar__link,
+.navbar__link--btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 14px;
+  height: var(--navbar-height);
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  background: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color var(--transition-fast);
+}
+
+.navbar--scrolled .navbar__link,
+.navbar--scrolled .navbar__link--btn {
+  color: var(--color-body);
+}
+
+.navbar__link:hover,
+.navbar__link--btn:hover {
+  color: var(--color-h4);
+  opacity: 1;
+}
+
+.navbar__chevron {
+  font-size: 10px;
+  transition: transform var(--transition-fast);
+}
+.navbar__item--has-dropdown:hover .navbar__chevron,
+.navbar__link--btn[aria-expanded="true"] .navbar__chevron {
+  transform: rotate(180deg);
+}
+
+/* ---------- Dropdown ---------- */
+.navbar__dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 240px;
+  background: white;
+  list-style: none;
+  margin: 0;
+  padding: 8px 0;
+  border-radius: 4px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px);
+  transition: opacity var(--transition-fast), visibility var(--transition-fast), transform var(--transition-fast);
+  pointer-events: none;
+}
+
+.navbar__dropdown--open,
+.navbar__item--has-dropdown:hover .navbar__dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.navbar__dropdown-link {
+  display: block;
+  padding: 9px 20px;
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-body);
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+.navbar__dropdown-link:hover {
+  background: var(--color-light-bg);
+  color: var(--color-h4);
+  opacity: 1;
+}
+
+/* ---------- Hamburger ---------- */
+.navbar__hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  gap: 3px;
+  padding: 4px;
+}
+
+.navbar__hamburger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: white;
+  border-radius: 2px;
+  transform-origin: center;
+  transition: transform var(--transition-fast), opacity var(--transition-fast), width var(--transition-fast);
+}
+
+.navbar--scrolled .navbar__hamburger span {
+  background: var(--color-body);
+}
+
+.navbar__hamburger--open span {
+  background: white !important;
+}
+
+/* X animation */
+.navbar__hamburger--open span:nth-child(1) { transform: translateY(5px) rotate(45deg); }
+.navbar__hamburger--open span:nth-child(2) { opacity: 0; }
+.navbar__hamburger--open span:nth-child(3) { transform: translateY(-5px) rotate(-45deg); }
+
+/* ============================================================
+   MOBILE MENU
+   ============================================================ */
+
+.mobile-menu {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.95);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-menu--open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-menu__header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--navbar-height);
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.mobile-menu__inner {
+  width: 100%;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.mobile-menu__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.mobile-menu__item {
+  border: none;
+}
+
+.mobile-menu__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.mobile-menu__link:hover {
+  opacity: 0.7;
+  background: none;
+}
+
+.mobile-menu__chevron {
+  font-size: 12px;
+}
+
+/* Sub-menu */
+.mobile-menu__sub {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.mobile-menu__sub--open {
+  max-height: 800px;
+  padding-top: 10px;
+}
+
+.mobile-menu__sub-link {
+  display: block;
+  padding: 0.6rem;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  transition: color 0.2s ease;
+}
+.mobile-menu__sub-link:hover {
+  color: white;
+  opacity: 1;
+}
+
+/* Backdrop */
+.mobile-menu__backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 998;
+  backdrop-filter: blur(2px);
+  animation: fadeIn 0.3s ease;
+}
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 992px) {
+  .navbar__menu { display: none; }
+  .navbar__hamburger { display: flex; }
+}
+
+@media (max-width: 480px) {
+  .navbar__logo img { height: 26px; }
+}
