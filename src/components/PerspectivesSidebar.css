@@ -2,8 +2,8 @@
 
 .perspectives-sidebar {
   flex: 1;
-  min-width: 220px;
-  max-width: 280px;
+  min-width: 250px;
+  max-width: 320px;
 }
 
 .sidebar-widget {
@@ -11,14 +11,14 @@
 }
 
 .sidebar-widget__title {
-  font-size: 14px;
+  font-size: 14.5px;
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--color-h4);
+  letter-spacing: 0.1em;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 3px solid #3c5678; /* Darker/Thicker border as in image */
 }
 
 .sidebar-widget ul {
@@ -28,24 +28,41 @@
 }
 
 .sidebar-widget li {
-  padding: 0.45rem 0;
-  border-bottom: 1px solid #f0f0f0;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f2f2f2;
 }
 
-.sidebar-widget li:last-child {
-  border-bottom: none;
+/* Specific styling for Latest Post links to match image */
+.sidebar-latest-item a {
+  color: #666;
+  font-size: 14.5px;
+  line-height: 1.6;
+  font-weight: 400;
+  display: block;
 }
 
 .sidebar-widget li a {
-  color: #555;
-  text-decoration: none;
-  font-size: 13.5px;
-  line-height: 1.5;
   transition: color 0.2s ease;
 }
 
 .sidebar-widget li a:hover {
-  color: var(--color-h4);
+  color: #3c5678;
+}
+
+/* Search input styling */
+.sidebar-search__input {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  color: #666;
+  outline: none;
+  background-color: #fff;
+}
+
+.sidebar-search__input:focus {
+  border-color: #3c5678;
 }
 
 @media (max-width: 900px) {

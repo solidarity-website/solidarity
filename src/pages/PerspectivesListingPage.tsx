@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { Link, useSearchParams } from 'react-router-dom'
 import InnerPageLayout from '../components/InnerPageLayout'
 import { ALL_POSTS } from '../data/posts'
 import PerspectivesSidebar from '../components/PerspectivesSidebar'
@@ -296,8 +296,18 @@ interface Props {
 }
 
 export default function PerspectivesListingPage({ categoryTitle, filterCategory }: Props) {
+  const [searchParams] = useSearchParams()
+  const initialQuery = searchParams.get('s') || ''
   const [currentPage, setCurrentPage] = useState(1)
-  const [searchQuery, setSearchQuery] = useState('')
+  const [searchQuery, setSearchQuery] = useState(initialQuery)
+
+  useEffect(() => {
+    const q = searchParams.get('s')
+    if (q !== null) {
+      setSearchQuery(q)
+      setCurrentPage(1)
+    }
+  }, [searchParams])
 
   const filteredPosts = filterCategory === 'Company Perspective'
     ? ALL_POSTS.filter(
@@ -368,22 +378,6 @@ export default function PerspectivesListingPage({ categoryTitle, filterCategory 
 
         {/* ── Posts column ── */}
         <div className="posts-column">
-        {/* Search box */}
-          <div className="posts-search">
-            <input
-              type="text"
-              className="posts-search__input"
-              placeholder="Search..."
-              value={searchQuery}
-              onChange={e => { setSearchQuery(e.target.value); setCurrentPage(1) }}
-              aria-label={`Search ${categoryTitle}`}
-            />
-          </div>
-
-          {searchQuery.trim() && searchedPosts.length === 0 && (
-            <p className="posts-no-results">No results found for "{searchQuery}".</p>
-          )}
-
           {searchQuery.trim() && searchedPosts.length === 0 && (
             <p className="posts-no-results">No results found for "{searchQuery}".</p>
           )}
