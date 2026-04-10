@@ -23,6 +23,7 @@ import UPIPaymentDetailsPage from './pages/UPIPaymentDetailsPage'
 import FeeCalculationToolPage from './pages/FeeCalculationToolPage'
 import PerspectivesListingPage from './pages/PerspectivesListingPage'
 import SinglePostPage from './pages/SinglePostPage'
+import InvestmentApproachPage from './pages/InvestmentApproachPage'
 
 import './App.css'
 
@@ -80,6 +81,7 @@ function AppShell() {
         <Route path="/fee-calculation-tool" element={<FeeCalculationToolPage />} />
         <Route path="/direct-onboarding"    element={<DirectOnboardingPage />} />
         <Route path="/faqs"                 element={<FAQPage />} />
+        <Route path="/investment-approach"  element={<InvestmentApproachPage />} />
 
         {/* Perspectives */}
         <Route path="/perspectives/blogs"              element={<PerspectivesListingPage categoryTitle="Blogs" filterCategory="Blogs" />} />
