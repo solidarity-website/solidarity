@@ -10,7 +10,7 @@ const POSTS_PER_PAGE = 10
 /** Curated blogs only: order matches site pagination (10 per page × 5 pages). Slugs align with ref-style paths (title lowercased, spaces → `-`). */
 const BLOGS_SLUG_SEQUENCE = [
   // Page 1
-  'investment-thesis-on-restaurant-brands-asia',
+  'perspective-on-qsr-sector-and-rba',
   'solidarity-partners-meet-interview-with-dr-harin-kanani-mr-prabh-mehar-singh',
   'stillness-backing-a-mission-oriented-promoter-and-the-rewards-of-good-karma-rakesh-jhunjhunwalas-incredible-340x-returns-in-inventurus',
   'what-i-learned-from-rakesh-jhunjhunwala',
@@ -67,7 +67,7 @@ const COMPANY_PERSPECTIVE_SLUG_SEQUENCE = [
   // Page 1
   'investment-thesis-on-synergy-green-industries-ltd',
   'investment-thesis-on-yasho-industries-limited',
-  'investment-thesis-on-restaurant-brands-asia',
+  'perspective-on-qsr-sector-and-rba',
   'investment-thesis-on-axtel-industries',
   'investment-thesis-on-sansera-engineering',
   'investment-thesis-on-pix-transmissions-limited',
@@ -82,11 +82,13 @@ const COMPANY_PERSPECTIVE_SLUG_SEQUENCE = [
   'investment-thesis-on-yasho-industries',
   'investment-thesis-on-indiamart-intermesh',
   'rationale-for-trimming-position-size-in-life-insurance-to-15',
+  'investment-thesis-on-restaurant-brands-asia',
   'why-have-we-continued-to-buy-star-health',
   'investment-thesis-on-kama-holdings',
   'investment-thesis-on-man-industries',
   // Page 3
   'perspective-on-life-insurance-companies-post-budget',
+  // Page 3
   'investment-thesis-on-neogen-chemicals-2',
   'investment-thesis-on-icici-prudential-life-insurance-2',
   'perspective-on-life-insurance-companies-2',
@@ -96,8 +98,8 @@ const COMPANY_PERSPECTIVE_SLUG_SEQUENCE = [
   'investment-thesis-on-mayur-uniquoters-2',
   'perspective-on-life-insurance-companies',
   'investment-thesis-on-solara-active-pharma-2',
-  // Page 4
   'investment-thesis-on-axis-bank',
+  // Page 4
   'investment-thesis-on-itc-2',
   'investment-thesis-on-india-mart-29-jan-2021',
   'investment-thesis-on-hdfc-bank-2',
@@ -110,7 +112,7 @@ const COMPANY_PERSPECTIVE_SLUG_SEQUENCE = [
 const EQUITY_SLUG_SEQUENCE = [
   // Page 1 (items 1-10)
   'investment-thesis-on-synergy-green-industries-ltd',
-  'investment-thesis-on-restaurant-brands-asia',
+  'perspective-on-qsr-sector-and-rba',
   'interview-with-mr-anurag-surana-a-domain-expert-on-specialty-chemicals-for-his-decadal-views-on-the-industry',
   'solidarity-partners-meet-interview-with-dr-harin-kanani-mr-prabh-mehar-singh',
   'investment-implications-for-indian-investors-in-a-trumpian-world',
