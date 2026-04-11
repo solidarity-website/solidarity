@@ -15,7 +15,7 @@ interface InnerPageLayoutProps {
  */
 export default function InnerPageLayout({ title, children, bannerBg }: InnerPageLayoutProps) {
   return (
-    <main className="inner-page">
+    <main id="main-content" className="inner-page">
       <PageBanner title={title} bgImage={bannerBg} />
       <div className="inner-page__content">
         <div className="container">

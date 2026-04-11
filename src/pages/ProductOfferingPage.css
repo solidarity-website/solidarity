@@ -23,6 +23,7 @@
 
 .product-list a {
   color: #000080;
+  text-decoration: underline;
 }
 
 /* ── Schemes ── */

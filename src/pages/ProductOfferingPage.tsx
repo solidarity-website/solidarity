@@ -17,7 +17,7 @@ export default function ProductOfferingPage() {
           <li>
             Please{' '}
             <a
-              href="ref/wp-content/uploads/2026/03/Introduction-to-Solidarity-30-Mar-2026.pdf"
+              href="wp-content/uploads/2026/03/Introduction-to-Solidarity-30-Mar-2026.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >

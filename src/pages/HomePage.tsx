@@ -4,11 +4,7 @@ export default function HomePage() {
   return (
     <main>
       {/* ── Hero Section ── */}
-      <section
-        id="hero"
-        className="hero"
-        aria-label="Hero – Solidarity Advisors"
-      >
+      <section id="hero" className="hero">
         <div className="hero__overlay" aria-hidden="true" />
         <div className="hero__content">
           <h1 className="hero__headline">

@@ -16,22 +16,20 @@ const teamMembers = [
 export default function TeamPage() {
   return (
     <InnerPageLayout title="Team">
-      <div className="team-grid">
+      <ul className="team-grid">
         {teamMembers.map((member) => (
-          <div key={member.name} className="team-card">
-            <div
-              className="team-card__photo-wrap"
-              style={{ backgroundImage: `url(${member.photo})` }}
-            >
-              <div className="team-card__overlay">
+          <li key={member.name} className="team-card">
+            <div className="team-card__photo-wrap" tabIndex={0}>
+              <img src={member.photo} alt="" className="team-card__photo" />
+              <div className="team-card__overlay" aria-hidden="true">
                 <p className="team-card__name">{member.name}</p>
                 <div className="team-card__sep" aria-hidden="true" />
                 <p className="team-card__role">{member.role}</p>
               </div>
             </div>
-          </div>
+          </li>
         ))}
-      </div>
+      </ul>
     </InnerPageLayout>
   )
 }

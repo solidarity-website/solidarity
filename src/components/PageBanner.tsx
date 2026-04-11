@@ -10,8 +10,6 @@ export default function PageBanner({ title, bgImage = '/assets/page-banner-bg.jp
     <div
       className="page-banner"
       style={{ backgroundImage: `url(${bgImage})` }}
-      role="banner"
-      aria-label={`${title} page banner`}
     >
       <div className="page-banner__overlay" aria-hidden="true" />
       <div className="page-banner__content container">

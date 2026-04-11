@@ -11,7 +11,7 @@ export default function DirectOnboardingPage() {
             href="https://forms.gle/tLNZUX1rBbf9kDPg6"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: '#0000FF' }}
+            style={{ color: '#0000FF', textDecoration: 'underline' }}
           >
             click here
           </a>

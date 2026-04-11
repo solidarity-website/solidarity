@@ -1,129 +1,117 @@
 import { useState, useEffect } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import InnerPageLayout from '../components/InnerPageLayout'
-import { ALL_POSTS } from '../data/posts'
+import { ALL_POSTS, type PostData } from '../data/posts'
 import PerspectivesSidebar from '../components/PerspectivesSidebar'
 import './PerspectivesListingPage.css'
 
 const POSTS_PER_PAGE = 10
 
-const BLOG_ORDER_REF_SLUGS = [
-  'interview-with-mr-anurag-surana-a-domain-expert-on-specialty-chemicals-for-his-decadal-views-on-the-industry',
-  'solidarity-partners-meet-interview-with-promoters-of-racl-geartech-and-neogen-chemicals',
-  'moving-forward-with-strategy-not-with-emotion-our-view-on-investing-in-small-and-mid-caps-at-present',
+/** Curated blogs only: order matches site pagination (10 per page × 5 pages). Slugs align with ref-style paths (title lowercased, spaces → `-`). */
+const BLOGS_SLUG_SEQUENCE = [
+  // Page 1
+  'investment-thesis-on-restaurant-brands-asia',
+  'solidarity-partners-meet-interview-with-dr-harin-kanani-mr-prabh-mehar-singh',
   'stillness-backing-a-mission-oriented-promoter-and-the-rewards-of-good-karma-rakesh-jhunjhunwalas-incredible-340x-returns-in-inventurus',
-  'what-explains-our-optimism-when-they-are-lower-roe-vs-consumer-companies-and-hardly-generate-any-free-cash-flow',
-  'how-do-we-decide-composition-of-small-mid-and-large-caps-in-the-portfolio',
-  'why-not-sell-if-we-are-concerned-that-small-and-microcaps-are-overvalued',
-  'our-approach-to-building-solidarity',
-  'a-perspective-on-churn',
-  'portfolio-positioning-and-approach',
   'what-i-learned-from-rakesh-jhunjhunwala',
-  'why-do-we-not-own-commodities',
+  'consequences-of-putins-war-in-ukraine',
   'investing-during-a-crisis',
   'signal-vs-noise-what-game-are-we-playing',
-  'our-process-for-exit-decisions-part-2',
-  'developing-a-process-to-shut-out-the-noise',
-  'our-perspective-to-some-commonly-asked-questions-part-1',
-  'the-futility-of-taking-cash-calls',
-  'our-perspective-to-some-commonly-asked-questions-part-2',
-  'our-process-for-exit-decisions',
+  'the-futility-of-taking-cash-calls-2',
+  'why-we-are-reluctant-to-take-cash-calls-at-present',
+  'dear-prime-minister-give-us-a-message-of-hope-courage-and-equanimity',
+  // Page 2
   'playing-the-game-vs-being-clear-on-what-game-you-are-playing',
   'why-did-franklin-templeton-wind-up-six-credit-funds',
   'positioning-portfolios-in-context-of-the-corona-virus-5',
   'positioning-portfolios-in-context-of-the-corona-virus-4',
-  'interpreting-news-flow',
-  'positioning-portfolios-in-context-of-the-corona-virus-3',
-  'positioning-portfolios-in-context-of-the-corona-virus-2',
-  'positioning-portfolios-in-context-of-the-corona-virus-1',
+  'positioning-portfolios-in-context-of-the-corona-virus-3-3',
+  'positioning-portfolios-in-context-of-the-corona-virus-2-3',
+  'positioning-portfolios-in-context-of-the-corona-virus',
+  'our-perspective-on-the-bharat-bond-etf',
+  'invest-in-some-gold-in-your-portfolios',
   'is-this-a-good-time-to-add-to-equity-allocations',
-  'our-approach-to-portfolio-design',
+
+  // Page 3
+  'are-you-aware-of-the-risk-in-your-debt-investments',
   'is-this-the-right-time-to-deploy-capital-in-equity-markets-an-answer-it-yourself-guide',
+  'i-can-think-i-can-wait-i-can-fast',
   'repetition-of-truths',
   'what-do-you-believe-in',
+  'trump-black-money-and-implications-for-stock-prices',
   'developing-competitive-advantage-as-an-investor',
   'role-of-behaviour-in-long-term-investment-performance',
   'the-pain-associated-with-being-a-long-term-investor',
+  'the-british-referendum-is-it-time-to-load-the-elephant-gun',
+  // Page 4
   'investment-perspectives-define-your-guiding-principles',
   'beware-the-enemy-within',
   'caveat-emptor',
+  'the-strategic-importance-of-holding-cash-and-equivalents',
+  'is-this-2008-once-again',
   'measuring-fund-manager-performance',
+  'the-fallacy-of-growth-now-profits-later-approach-to-building-a-business',
+  '5-reasons-your-venture-has-not-got-funding',
   'investment-strategy-at-the-current-juncture',
+  'will-the-fed-raise-rates-and-the-implications-for-indian-markets',
+  // Page 5
+  'the-three-questions-clients-should-ask-investment-advisors',
   'using-the-impatience-of-others-to-your-advantage',
   'the-importance-of-cash-generation-over-growth',
   'choosing-the-right-investor-a-guide-for-founders',
   'my-3-biggest-learnings-working-with-rakesh-jhunjhunwala',
-  'a-perspective-on-poor-sentiment-for-the-qsr-sector-and-why-we-retain-faith-in-rba',
-  'solidarity-partners-meet-interview-with-promoters-of-racl-geartech-neogen-chemicals',
-  'consequences-of-putins-war-in-ukraine',
-  'why-we-are-reluctant-to-take-cash-calls-at-present',
-  'dear-prime-minister-give-us-a-message-of-hope-courage-and-equanimity',
-  'our-perspective-on-the-bharat-bond-etf',
-  'invest-in-some-gold-in-your-portfolios',
-  'are-you-aware-of-the-risk-in-your-debt-investments',
-  'i-can-think-i-can-wait-i-can-fast',
-  'trump-black-money-and-implications-for-stock-prices',
-  'the-british-referendum-is-it-time-to-load-the-elephant-gun',
-  'the-strategic-importance-of-holding-cash-and-equivalents',
-  'is-this-2008-once-again',
-  'the-fallacy-of-growth-now-profits-later-approach-to-building-a-business',
-  '5-reasons-your-venture-has-not-got-funding',
-  'will-the-fed-raise-rates-and-the-implications-for-indian-markets',
-  'the-three-questions-clients-should-ask-investment-advisors',
-] 
-
-const BLOG_ORDER_INDEX = new Map<string, number>(BLOG_ORDER_REF_SLUGS.map((slug, idx) => [slug, idx]))
-const COMPANY_PERSPECTIVE_ORDER_REF_SLUGS = [
+]
+/** Select Company Perspectives only: order matches pagination (10 + 10 + 9 + 9). Slugs from post `slug` fields (ref-style paths). Same slug is not repeated (QSR note and Restaurant Brands Asia share one post). */
+const COMPANY_PERSPECTIVE_SLUG_SEQUENCE = [
+  // Page 1
   'investment-thesis-on-synergy-green-industries-ltd',
   'investment-thesis-on-yasho-industries-limited',
-  'a-perspective-on-poor-sentiment-for-the-qsr-sector-and-why-we-retain-faith-in-rba',
+  'investment-thesis-on-restaurant-brands-asia',
   'investment-thesis-on-axtel-industries',
   'investment-thesis-on-sansera-engineering',
   'investment-thesis-on-pix-transmissions-limited',
-  'solidarity-partners-meet-interview-with-promoters-of-racl-geartech-neogen-chemicals',
-  'investment-thesis-of-our-top-15-positions-held-under-the-prudence-scheme',
+  'solidarity-partners-meet-interview-with-dr-harin-kanani-mr-prabh-mehar-singh',
+  'investment-thesis-of-our-top-15-positions-in-our-prudence-scheme',
   'investment-in-shivalik-bimetal-controls-ltd-updated',
   'investment-thesis-on-indiamart',
+  // Page 2
   'investment-in-shivalik-bimetal-controls-ltd',
   'investment-thesis-on-racl-geartech',
   'investment-thesis-on-delhivery',
   'investment-thesis-on-yasho-industries',
   'investment-thesis-on-indiamart-intermesh',
   'rationale-for-trimming-position-size-in-life-insurance-to-15',
-  'investment-thesis-on-restaurant-brands-asia',
   'why-have-we-continued-to-buy-star-health',
   'investment-thesis-on-kama-holdings',
   'investment-thesis-on-man-industries',
+  // Page 3
   'perspective-on-life-insurance-companies-post-budget',
-  'investment-thesis-on-neogen-chemicals',
-  'investment-thesis-on-icici-prudential-life-insurance',
-  'perspective-on-life-insurance-companies-updated-thesis',
-  'investment-thesis-on-team-lease',
+  'investment-thesis-on-neogen-chemicals-2',
+  'investment-thesis-on-icici-prudential-life-insurance-2',
+  'perspective-on-life-insurance-companies-2',
+  'investment-thesis-on-team-lease-2',
   'exit-note-on-team-lease',
-  'investment-thesis-on-star-health-life-insurance',
-  'investment-thesis-on-mayur-uniquoters',
+  'investment-thesis-on-star-health-life-insurance-2',
+  'investment-thesis-on-mayur-uniquoters-2',
   'perspective-on-life-insurance-companies',
-  'investment-thesis-on-solara-active-pharma',
+  'investment-thesis-on-solara-active-pharma-2',
+  // Page 4
   'investment-thesis-on-axis-bank',
-  'investment-thesis-on-itc',
-  'investment-thesis-on-indiamart-jan-2021',
-  'investment-thesis-on-hdfc-bank',
+  'investment-thesis-on-itc-2',
+  'investment-thesis-on-india-mart-29-jan-2021',
+  'investment-thesis-on-hdfc-bank-2',
   'investment-thesis-on-garware-technical-fibres-ltd',
-  'investment-thesis-on-max-financials-play-on-max-life-insurance',
-  'investment-thesis-on-jsw-energy',
-  'investment-thesis-on-sequent-scientific',
-  'investment-thesis-on-srf',
+  'investment-thesis-on-max-life-insurance-2',
+  'investment-thesis-on-jsw-energy-2',
+  'investment-thesis-on-sequent-scientific-2',
+  'investment-thesis-on-srf-2',
 ]
-
-const COMPANY_PERSPECTIVE_ORDER_INDEX = new Map<string, number>(
-  COMPANY_PERSPECTIVE_ORDER_REF_SLUGS.map((slug, idx) => [slug, idx])
-)
 const EQUITY_SLUG_SEQUENCE = [
   // Page 1 (items 1-10)
   'investment-thesis-on-synergy-green-industries-ltd',
-  'a-perspective-on-poor-sentiment-for-the-qsr-sector',
+  'investment-thesis-on-restaurant-brands-asia',
   'interview-with-mr-anurag-surana-a-domain-expert-on-specialty-chemicals-for-his-decadal-views-on-the-industry',
-  'solidarity-partners-meet-interview',
+  'solidarity-partners-meet-interview-with-dr-harin-kanani-mr-prabh-mehar-singh',
   'investment-implications-for-indian-investors-in-a-trumpian-world',
   'moving-forward-with-strategy-not-with-emotion-our-view-on-investing-in-small-and-mid-caps-at-present',
   'investment-thesis-on-yasho-industries',
@@ -257,6 +245,7 @@ const VENTURE_CAPITAL_SLUG_SEQUENCE = [
 ]
 
 const CLIENT_QUESTIONS_SLUG_SEQUENCE = [
+  // Page 1
   'indian-markets-if-the-bjp-loses-the-2024-election-2',
   'outlook-for-future-returns-5',
   'what-explains-our-optimism-when-they-are-lower-roe-vs-consumer-companies-and-hardly-generate-any-free-cash-flow',
@@ -267,6 +256,8 @@ const CLIENT_QUESTIONS_SLUG_SEQUENCE = [
   'our-approach-to-building-solidarity-2',
   'a-perspective-on-churn-2',
   'return-expectations-from-indian-equities-2',
+
+  // Page 2
   'portfolio-positioning-and-approach-2',
   'gold-2',
   'has-india-decoupled-2',
@@ -277,18 +268,11 @@ const CLIENT_QUESTIONS_SLUG_SEQUENCE = [
   'the-futility-of-taking-cash-calls-2',
   'our-perspective-to-some-commonly-asked-questions-part-2-2',
   'our-process-for-exit-decisions',
+
+  // Page 3
   'observations-on-asset-allocation-2',
   'our-approach-to-portfolio-design-2',
-]
-
-function toRefStyleSlug(value: string): string {
-  return value
-    .toLowerCase()
-    .replace(/['’]/g, '')
-    .replace(/&/g, 'and')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-}
+];
 
 interface Props {
   categoryTitle: string
@@ -296,16 +280,16 @@ interface Props {
 }
 
 export default function PerspectivesListingPage({ categoryTitle, filterCategory }: Props) {
-  const [searchParams] = useSearchParams()
+  const [searchParams, setSearchParams] = useSearchParams()
   const initialQuery = searchParams.get('s') || ''
-  const [currentPage, setCurrentPage] = useState(1)
+  const currentPage = parseInt(searchParams.get('page') || '1', 10)
   const [searchQuery, setSearchQuery] = useState(initialQuery)
 
   useEffect(() => {
     const q = searchParams.get('s')
     if (q !== null) {
       setSearchQuery(q)
-      setCurrentPage(1)
+      setSearchParams(prev => { prev.set('page', '1'); return prev }, { replace: true })
     }
   }, [searchParams])
 
@@ -318,25 +302,13 @@ export default function PerspectivesListingPage({ categoryTitle, filterCategory 
       : ALL_POSTS
 
   const orderedPosts = filterCategory === 'Blogs'
-    ? filteredPosts
-        .map((post, originalIndex) => ({ post, originalIndex }))
-        .sort((a, b) => {
-          const rankA = BLOG_ORDER_INDEX.get(toRefStyleSlug(a.post.title)) ?? Number.MAX_SAFE_INTEGER
-          const rankB = BLOG_ORDER_INDEX.get(toRefStyleSlug(b.post.title)) ?? Number.MAX_SAFE_INTEGER
-          if (rankA !== rankB) return rankA - rankB
-          return a.originalIndex - b.originalIndex
-        })
-        .map(({ post }) => post)
+    ? BLOGS_SLUG_SEQUENCE
+        .map(slug => filteredPosts.find(post => post.slug === slug))
+        .filter((post): post is (typeof filteredPosts)[number] => Boolean(post))
     : filterCategory === 'Company Perspective'
-      ? filteredPosts
-          .map((post, originalIndex) => ({ post, originalIndex }))
-          .sort((a, b) => {
-            const rankA = COMPANY_PERSPECTIVE_ORDER_INDEX.get(toRefStyleSlug(a.post.title)) ?? Number.MAX_SAFE_INTEGER
-            const rankB = COMPANY_PERSPECTIVE_ORDER_INDEX.get(toRefStyleSlug(b.post.title)) ?? Number.MAX_SAFE_INTEGER
-            if (rankA !== rankB) return rankA - rankB
-            return a.originalIndex - b.originalIndex
-          })
-          .map(({ post }) => post)
+      ? COMPANY_PERSPECTIVE_SLUG_SEQUENCE
+          .map(slug => ALL_POSTS.find(post => post.slug === slug))
+          .filter((post): post is PostData => Boolean(post))
       : filterCategory === 'Investment Management'
         ? INVESTMENT_MANAGEMENT_SLUG_SEQUENCE
             .map(slug => filteredPosts.find(post => post.slug === slug))
@@ -385,40 +357,47 @@ export default function PerspectivesListingPage({ categoryTitle, filterCategory 
           {pagePosts.map(post => (
             <article key={post.id} className="post-item">
               <div className="post-item__body">
-                <h3 className="post-item__title">
+                <h2 className="post-item__title">
                   <Link to={`/perspectives/post/${post.slug}`}>{post.title}</Link>
-                </h3>
+                </h2>
                 <div className="post-item__excerpt">{post.excerpt}</div>
                 <Link to={`/perspectives/post/${post.slug}`} className="post-item__read-more">
-                  Read More
+                  Read More<span className="sr-only"> about {post.title}</span>
                 </Link>
               </div>
             </article>
           ))}
 
-          {totalPages > 1 && (
-            <nav className="pagination" aria-label="Page navigation">
-              {Array.from({ length: totalPages }, (_, i) => i + 1).map(page => (
-                <button
-                  key={page}
-                  className={`page-numbers${page === currentPage ? ' current' : ''}`}
-                  onClick={() => { setCurrentPage(page); window.scrollTo(0, 0) }}
-                  aria-current={page === currentPage ? 'page' : undefined}
-                >
-                  {page}
-                </button>
-              ))}
-            </nav>
-          )}
         </div>
 
         <PerspectivesSidebar
           latestPosts={orderedPosts.slice(0, 3)}
           searchQuery={searchQuery}
-          onSearchChange={q => { setSearchQuery(q); setCurrentPage(1) }}
+          onSearchChange={q => {
+            setSearchQuery(q)
+            setSearchParams(prev => { prev.set('page', '1'); return prev }, { replace: true })
+          }}
         />
 
       </div>
+
+      {totalPages > 1 && (
+        <nav className="pagination">
+          {Array.from({ length: totalPages }, (_, i) => i + 1).map(page => (
+            <button
+              key={page}
+              className={`page-numbers${page === currentPage ? ' current' : ''}`}
+              onClick={() => {
+                setSearchParams(prev => { prev.set('page', String(page)); return prev })
+                window.scrollTo(0, 0)
+              }}
+              aria-current={page === currentPage ? 'page' : undefined}
+            >
+              {page}
+            </button>
+          ))}
+        </nav>
+      )}
     </InnerPageLayout>
   )
 }

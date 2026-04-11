@@ -75,12 +75,24 @@
 
 .navbar__link:hover,
 .navbar__link--btn:hover {
-  color: var(--color-h4);
+  color: #ff837a;
   opacity: 1;
 }
 
+.navbar__link--active {
+  text-decoration: none;
+}
+
+.navbar__link--active .navbar__label {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 2px;
+}
+
 .navbar__chevron {
+  display: inline-block;
   font-size: 10px;
+  text-decoration: none;
   transition: transform var(--transition-fast);
 }
 .navbar__item--has-dropdown:hover .navbar__chevron,

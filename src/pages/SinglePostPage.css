@@ -146,6 +146,39 @@
   font-weight: 700;
 }
 
+/* ── Tables ── */
+.post-article-body table,
+.post-article-body .wp-block-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.post-article-body th,
+.post-article-body td,
+.post-article-body .wp-block-table th,
+.post-article-body .wp-block-table td {
+  border: 1px solid #d0d5e0;
+  padding: 0.65rem 0.9rem;
+  text-align: left;
+  vertical-align: top;
+  color: #333;
+}
+
+.post-article-body thead th,
+.post-article-body .wp-block-table thead th {
+  background: #f0f3f8;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.post-article-body tbody tr:nth-child(even),
+.post-article-body .wp-block-table tbody tr:nth-child(even) {
+  background: #f8f9fb;
+}
+
 /* ── Footer ── */
 .post-footer {
   margin-top: 4rem;

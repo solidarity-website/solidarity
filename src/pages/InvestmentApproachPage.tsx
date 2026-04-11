@@ -14,7 +14,7 @@ export default function InvestmentApproachPage() {
           <li>
             Please click{' '}
             <a
-              href="/ref/wp-content/uploads/2025/07/Introduction-to-Solidarity-8-July-2025-v1-1.pdf"
+              href="/wp-content/uploads/2025/07/Introduction-to-Solidarity-8-July-2025-v1-1.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="ia-link"

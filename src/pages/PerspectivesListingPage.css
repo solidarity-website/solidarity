@@ -37,7 +37,7 @@
 
 .post-item__title a {
   color: #333;
-  text-decoration: none;
+  text-decoration: underline;
   transition: color 0.2s ease;
 }
 
@@ -78,11 +78,15 @@
   font-style: italic;
 }
 
+.post-item__excerpt a {
+  text-decoration: underline;
+}
+
 /* Gray "Read More" button matching reference */
 .post-item__read-more {
   display: inline-block;
   padding: 8px 20px;
-  background: #6b7f99;
+  background: #5a697c;
   color: #fff;
   font-size: 12px;
   font-weight: 600;
@@ -104,6 +108,7 @@
   display: flex;
   gap: 4px;
   margin-top: 2rem;
+  justify-content: center;
 }
 
 .page-numbers {

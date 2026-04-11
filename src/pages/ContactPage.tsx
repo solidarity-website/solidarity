@@ -15,7 +15,7 @@ export default function ContactPage() {
 
         {/* ── Left column ── */}
         <div className="contact-left">
-          <h3 className="contact-heading">REACH OUT TO US!</h3>
+          <h2 className="contact-heading">REACH OUT TO US!</h2>
 
           <table className="contact-table">
             <tbody>

@@ -20,6 +20,13 @@
   padding-bottom: 0.5rem;
 }
 
+.legal-body h3, .prose h3 {
+  font-size: 1.4rem;
+  margin: 2rem 0 1rem;
+  color: #333;
+  font-weight: 700;
+}
+
 .legal-body ul, .prose ul {
   margin-bottom: 2rem;
   padding-left: 1.5rem;

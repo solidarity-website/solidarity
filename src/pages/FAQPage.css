@@ -152,9 +152,11 @@
   gap: 1rem;
 }
 
-.faq-toggle__title h4 {
+.faq-toggle__title h3 {
   font-size: 14px;
   font-weight: 600;
+  text-transform: none;
+  letter-spacing: normal;
   color: var(--color-body);
   line-height: 1.5;
   margin: 0;
@@ -162,7 +164,7 @@
   letter-spacing: 0;
 }
 
-.faq-toggle--open .faq-toggle__title h4 {
+.faq-toggle--open .faq-toggle__title h3 {
   color: var(--color-h4);
 }
 
@@ -229,6 +231,11 @@
   line-height: 1.8;
   color: #555;
   margin-bottom: 0.4rem;
+}
+
+.faq-link-underline {
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 /* ── Ask your question ── */

@@ -5,7 +5,7 @@ export default function AboutPage() {
   return (
     <InnerPageLayout title="About Us">
       <div id="guide" className="about-guide">
-        <h3 className="about-guide__heading">Guiding Principles</h3>
+        <h2 className="about-guide__heading">Guiding Principles</h2>
         <ul className="about-guide__list">
           <li>Disciplined investment approach with emphasis on risk management</li>
           <li>Relationship – rather than transactional – approach. We will treat clients as partners backed by complete alignment of interests</li>

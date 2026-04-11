@@ -62,7 +62,7 @@ export default function PerspectivesSidebar({ latestPosts, searchQuery, onSearch
             placeholder="Search..."
             value={searchQuery ?? localSearch}
             onChange={e => handleSearch(e.target.value)}
-            aria-label="Search posts"
+           
           />
         </form>
       </section>

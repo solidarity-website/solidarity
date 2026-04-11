@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import './Navbar.css'
 
 interface DropdownItem {
@@ -51,13 +51,13 @@ const navItems: NavItem[] = [
   {
     label: 'Disclosures',
     dropdown: [
-      { label: 'Investor Charter', href: '/ref/wp-content/uploads/2022/01/Annexure-A-Dec-21.pdf', external: true },
-      { label: 'Disclosure Document', href: '/ref/wp-content/uploads/2026/01/Disclosure_document_SAPL_22_Jan_2026.pdf', external: true },
+      { label: 'Investor Charter', href: '/wp-content/uploads/2022/01/Annexure-A-Dec-21.pdf', external: true },
+      { label: 'Disclosure Document', href: '/wp-content/uploads/2026/01/Disclosure_document_SAPL_22_Jan_2026.pdf', external: true },
       { label: 'Fee Calculation Tool', href: '/fee-calculation-tool' },
-      { label: 'Investor Complaints', href: '/ref/wp-content/uploads/2026/03/Annexure-B-FEB-26-NEW-FORMAT.pdf', external: true },
+      { label: 'Investor Complaints', href: '/wp-content/uploads/2026/03/Annexure-B-FEB-26-NEW-FORMAT.pdf', external: true },
       { label: 'Regulatory Details', href: '/about-us/regulatory-details' },
       { label: 'UPI Payment Details', href: '/upi-payment-details' },
-      { label: 'Stewardship Code', href: '/ref/wp-content/uploads/2026/01/Stewarship-Code_NP-7Jan26.pdf', external: true },
+      { label: 'Stewardship Code', href: '/wp-content/uploads/2026/01/Stewarship-Code_NP-7Jan26.pdf', external: true },
     ],
   },
   {
@@ -67,6 +67,7 @@ const navItems: NavItem[] = [
 ]
 
 export default function Navbar() {
+  const { pathname } = useLocation()
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [openDropdown, setOpenDropdown] = useState<number | null>(null)
@@ -96,70 +97,76 @@ export default function Navbar() {
     return () => { document.body.style.overflow = '' }
   }, [mobileOpen])
 
+  const isActive = (item: NavItem) => {
+    if (item.dropdown) {
+      // Check dropdown children first, plus the item's own href
+      const childMatch = item.dropdown.some(sub => !sub.external && (pathname === sub.href || pathname.startsWith(sub.href.split('#')[0] + '/')))
+      const selfMatch = item.href && !item.external && (pathname === item.href || pathname.startsWith(item.href + '/'))
+      return !!(childMatch || selfMatch)
+    }
+    if (item.href && !item.external) return pathname === item.href || pathname.startsWith(item.href + '/')
+    return false
+  }
+
   const renderLink = (item: Pick<DropdownItem, 'href' | 'external' | 'label'>, className?: string) => {
     if (item.external) {
       return (
         <a href={item.href} target="_blank" rel="noopener noreferrer" className={className}>
-          {item.label}
+          <span className="navbar__label">{item.label}</span>
         </a>
       )
     }
     return (
       <Link to={item.href!} className={className} onClick={() => setMobileOpen(false)}>
-        {item.label}
+        <span className="navbar__label">{item.label}</span>
       </Link>
     )
   }
 
   return (
     <>
-      <nav className={`navbar${scrolled ? ' navbar--scrolled' : ''}`} role="navigation" aria-label="Main navigation">
+      <nav className={`navbar${scrolled ? ' navbar--scrolled' : ''}`}>
         <div className="navbar__inner container">
           {/* Logo */}
           <div className="navbar__logo">
-            <Link to="/" aria-label="Solidarity – Home">
-              <img src="/assets/Logo.png" alt="Solidarity Investment Managers" height={30} />
+            <Link to="/">
+              <img src="/assets/Logo.png" alt="Solidarity Investment Managers Logo" height={30} />
             </Link>
           </div>
 
           {/* Desktop Nav */}
-          <ul className="navbar__menu" role="menubar">
+          <ul className="navbar__menu">
             {navItems.map((item, i) => (
               <li
                 key={i}
                 className={`navbar__item${item.dropdown ? ' navbar__item--has-dropdown' : ''}`}
-                role="none"
                 onMouseEnter={() => item.dropdown && setOpenDropdown(i)}
                 onMouseLeave={() => setOpenDropdown(null)}
               >
                 {item.href && !item.dropdown ? (
-                  renderLink({ href: item.href, label: item.label, external: item.external }, 'navbar__link')
+                  renderLink({ href: item.href, label: item.label, external: item.external }, `navbar__link${isActive(item) ? ' navbar__link--active' : ''}`)
                 ) : (
                   <button
-                    className="navbar__link navbar__link--btn"
-                    aria-haspopup={item.dropdown ? 'true' : undefined}
-                    aria-expanded={openDropdown === i ? 'true' : 'false'}
+                    className={`navbar__link navbar__link--btn${isActive(item) ? ' navbar__link--active' : ''}`}
                     onClick={() => setOpenDropdown(openDropdown === i ? null : i)}
                   >
-                    {item.label}
-                    {item.dropdown && <span className="navbar__chevron" aria-hidden="true">▾</span>}
+                    <span className="navbar__label">{item.label}</span>
+                    {item.dropdown && <span className="navbar__chevron">▾</span>}
                   </button>
                 )}
 
                 {item.dropdown && (
                   <ul
                     className={`navbar__dropdown${openDropdown === i ? ' navbar__dropdown--open' : ''}`}
-                    role="menu"
-                    aria-label={`${item.label} submenu`}
                   >
                     {item.dropdown.map((sub, j) => (
-                      <li key={j} role="none" className="navbar__dropdown-item">
+                      <li key={j} className="navbar__dropdown-item">
                         {sub.external ? (
-                          <a href={sub.href} target="_blank" rel="noopener noreferrer" role="menuitem" className="navbar__dropdown-link">
+                          <a href={sub.href} target="_blank" rel="noopener noreferrer" className="navbar__dropdown-link">
                             {sub.label}
                           </a>
                         ) : (
-                          <Link to={sub.href} role="menuitem" className="navbar__dropdown-link" onClick={() => setOpenDropdown(null)}>
+                          <Link to={sub.href} className="navbar__dropdown-link" onClick={() => setOpenDropdown(null)}>
                             {sub.label}
                           </Link>
                         )}
@@ -174,9 +181,6 @@ export default function Navbar() {
           {/* Hamburger */}
           <button
             className={`navbar__hamburger${mobileOpen ? ' navbar__hamburger--open' : ''}`}
-            aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
-            aria-expanded={mobileOpen}
-            aria-controls="mobile-menu"
             onClick={() => setMobileOpen(v => !v)}
           >
             <span /><span /><span />
@@ -188,7 +192,6 @@ export default function Navbar() {
       <div
         id="mobile-menu"
         className={`mobile-menu${mobileOpen ? ' mobile-menu--open' : ''}`}
-        aria-hidden={!mobileOpen}
       >
         <div className="mobile-menu__header container">
           <div className="navbar__logo">

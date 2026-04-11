@@ -162,6 +162,7 @@ const sections: FAQSection[] = [
                 href="/investment-approach"
                 target="_blank"
                 rel="noopener noreferrer"
+                style={{ textDecoration: 'underline' }}
               >
                 <strong>here</strong>
               </a>
@@ -193,6 +194,7 @@ const sections: FAQSection[] = [
                 href="https://forms.gle/tLNZUX1rBbf9kDPg6"
                 target="_blank"
                 rel="noopener noreferrer"
+                style={{ textDecoration: 'underline' }}
               >
                 form
               </a>
@@ -316,7 +318,7 @@ const sections: FAQSection[] = [
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <strong>disclosures</strong>
+                <strong className="faq-link-underline">disclosures</strong>
               </a>{" "}
               section.
             </p>
@@ -356,7 +358,7 @@ const sections: FAQSection[] = [
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <strong>here</strong>
+                <strong className="faq-link-underline">here</strong>
               </a>
               .
             </p>
@@ -547,6 +549,7 @@ const sections: FAQSection[] = [
                 href="https://app.solidarity.in/wealthspectrum/app/login"
                 target="_blank"
                 rel="noopener noreferrer"
+                style={{ textDecoration: 'underline' }}
               >
                 https://app.solidarity.in/wealthspectrum/app/login
               </a>
@@ -554,12 +557,13 @@ const sections: FAQSection[] = [
             <p>
               We have attached step-by-step instructions to guide you through
               the process. If you face any issues, please reach out to us at{" "}
-              <a href="mailto:info@solidarity.in">info@solidarity.in</a> and we
+              <a href="mailto:info@solidarity.in" style={{ textDecoration: 'underline' }}>info@solidarity.in</a> and we
               will be glad to assist. Please click{" "}
               <a
                 href="https://www.solidarity.in/wp-content/uploads/2025/07/Updated-User-manual-for-the-client-report-software-access-23-Jul-25.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
+                style={{ textDecoration: 'underline' }}
               >
                 <strong>here</strong>
               </a>{" "}
@@ -595,7 +599,7 @@ export default function FAQPage() {
                       onClick={() => setOpenKey(isOpen ? null : key)}
                       aria-expanded={isOpen}
                     >
-                      <h4>{item.q}</h4>
+                      <h3>{item.q}</h3>
                       <span className="faq-toggle__icon" aria-hidden="true" />
                     </button>
                     {isOpen && (
@@ -614,7 +618,7 @@ export default function FAQPage() {
           <p>
             If you have any questions that have not been addressed, please write
             to{" "}
-            <a href="mailto:clientservice@solidarity.in">
+            <a href="mailto:clientservice@solidarity.in" style={{ textDecoration: 'underline' }}>
               clientservice@solidarity.in
             </a>
             .
