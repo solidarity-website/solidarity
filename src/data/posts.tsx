@@ -48,7 +48,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-01",
     slug: "caveat-emptor",
     title: "Caveat Emptor",
-    date: "",
+    date: "March 12, 2016",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -71,7 +71,7 @@ export const ALL_POSTS: PostData[] = [
         className="post-content"
         dangerouslySetInnerHTML={{
           __html:
-            '<p>Complex products earn higher upfront commissions for Wealth Managers. Hence, there is frequent mis-selling of such complex financial products to investors.<span id="more-3321"></span></p>\n\n\n\n<p>We were recently asked our opinion on one such product which a "Large wealth management company" had pitched to a well-wisher. The product was a Nifty-linked debenture with the following characteristics:</p>\n\n\n\n<ul class="wp-block-list"><li>If 3 year Nifty returns are &gt;26.8% in absolute terms, investor gets \'Principal + 100% of Nifty return\'</li><li>If 3 year Nifty returns are &lt;26.8% in absolute terms, investor gets \'Principal + 26.8% absolute return\'</li></ul>\n\n\n\n<p>Assuming an initial Nifty value of 7400, the pay-off to the investor by was illustrated by the Wealth Manager via the graph below</p>\n\n\n\n<div class="wp-block-image"><figure class="aligncenter is-resized"><img fetchpriority="high" decoding="async" src="https://www.solidarity.in/wp-content/uploads/2019/06/image-8.png" alt="" class="wp-image-3322" width="360" height="216" srcset="https://www.solidarity.in/wp-content/uploads/2019/06/image-8.png 480w, https://www.solidarity.in/wp-content/uploads/2019/06/image-8-300x180.png 300w" sizes="(max-width: 360px) 100vw, 360px" /></figure>',
+            '<p>Complex products earn higher upfront commissions for Wealth Managers. Hence, there is frequent mis-selling of such complex financial products to investors.<span id="more-3321"></span></p>\n\n\n\n<p>We were recently asked our opinion on one such product which a "Large wealth management company" had pitched to a well-wisher. The product was a Nifty-linked debenture with the following characteristics:</p>\n\n\n\n<ul class="wp-block-list"><li>If 3 year Nifty returns are &gt;26.8% in absolute terms, investor gets \'Principal + 100% of Nifty return\'</li><li>If 3 year Nifty returns are &lt;26.8% in absolute terms, investor gets \'Principal + 26.8% absolute return\'</li></ul>\n\n\n\n<p>Assuming an initial Nifty value of 7400, the pay-off to the investor by was illustrated by the Wealth Manager via the graph below</p>\n\n\n\n<div class="wp-block-image"><figure class="aligncenter is-resized"><img fetchpriority="high" decoding="async" src="https://www.solidarity.in/wp-content/uploads/2019/06/image-8.png" alt="" class="wp-image-3322" width="360" height="216" srcset="https://www.solidarity.in/wp-content/uploads/2019/06/image-8.png 480w, https://www.solidarity.in/wp-content/uploads/2019/06/image-8-300x180.png 300w" sizes="(max-width: 360px) 100vw, 360px" /></figure></div>\n\n\n\n<p>An accompanying email described the product return as Minimum Absolute Return of 26.8% &#8211; "even if the Nifty gives a negative return, the product will still give returns @ 7% IRR". <strong>There was a footnote on this calculation being pre-tax and pre-fees.</strong></p>\n\n\n\n<p>We believe the Wealth Management firm was being economical with facts and being smart on representation</p>\n\n\n\n<ul class="wp-block-list"><li>Comparative Returns vs a Nifty ETF were not shown post taxes and post fees. <strong>Do taxes and fees not matter?</strong> Note, the upfront fees were 3% of Principal invested</li><li>This product benchmarked its performance to the Nifty at the end of 3 years but the lock-in period was 3.5 years. Thus, Nifty return was considered for only 3 years even when the lock-in for the product was 3.5 years. Simply put, it was assumed after 3 years the sum invested in Nifty would not earn any return, clearly a false assumption. At minimum, this sum could earn the rate offered by a tax-free GOI bond understating comparative Nifty CAGR to that extent.</li></ul>\n\n\n\n<p>We replotted the returns post-tax, post-fees on a wider range of NIFTY scenarios represented in the chart below:</p>\n\n\n\n<div class="wp-block-image"><figure class="aligncenter is-resized"><img decoding="async" src="https://www.solidarity.in/wp-content/uploads/2019/06/image-9.png" alt="" class="wp-image-3323" width="408" height="288" srcset="https://www.solidarity.in/wp-content/uploads/2019/06/image-9.png 544w, https://www.solidarity.in/wp-content/uploads/2019/06/image-9-300x212.png 300w" sizes="(max-width: 408px) 100vw, 408px" /></figure></div>\n\n\n\n<p>Our assumptions:</p>\n\n\n\n<ul class="wp-block-list"><li>We assumed tax free 7.5% p.a. returns for a period of last 6 months in calculating total returns for Nifty (since the product is benchmarked to Nifty at end of 3 years and lock-in for the product is 3.5 years)</li><li>Product returns were calculated after adjusting for 3% upfront fee and capital gain tax of 10% on this product on maturity</li></ul>\n\n\n\n<p><strong>Contrary to the chart mapped by the Wealth Manager which showed no loss of upside, our results show meaningful upside is given up when the NIFTY CAGR crosses 5.5% from starting value&#8230; and this upside increases as Nifty returns increase</strong>. All considered, it seemed the wealth manager used tactics of "Fear" and "Greed" &#8211; promising principal protection with full upside participation, but was economical with the truth in showing that adjusted for fees and taxes, the Investor would be worse off by investing in the Product vs buying a Nifty ETF under certain NIFTY outcomes.</p>\n\n\n\n<p><strong>This insight is critical as a true depiction may result in a client making different choices.</strong> With the broader markets being almost flat over the last 24 months, what is the probability an investor will lose Capital by investing in the Nifty over 3 years from today? That would imply negative returns over 5 years, surely a low probability event and one that does not merit allocation to a Principal protected product.</p>\n\n\n\n<p>Wealth managers have significant power to influence client decisions. This power should be exercised responsibly. Wealth Managers should have a moral obligation to make clients aware of risk return trade-offs, so clients can make better informed choices. Unfortunately, a commission driven model with annual revenue targets makes it difficult for most to serve client interests with absolute integrity. Solidarity has consciously avoided conflict of interest by choosing the path of being a "client pays fee" firm. Our independence, all in lower investment fees, and refusal to take commissions should offer comfort that our interests are aligned with clients.</p>\n\n\n\n<p>Investors can protect their interests by following a few simple rules</p>\n\n\n\n<ul class="wp-block-list"><li>Always compare product options post-tax and post-fees, under a wide range of plausible scenarios</li><li>Demand transparency from Wealth Managers on commissions. High upfront commissions are always a danger sign. Avoid products where fees are to be paid upfront and not linked to the performance of the product</li><li>Avoid complex products which are difficult to understand even after putting in a reasonable time and effort. A combination of equity and debt can closely replicate most outcomes promised by structured products.</li></ul>\n\n\n\n<p>Always remember there is no free lunch &#8211; if something seems too good to be true, it perhaps is not good, or not true.</p>',
         }}
       />
     ),
@@ -80,7 +80,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-02",
     slug: "our-perspective-to-some-commonly-asked-questions-part-1-2",
     title: "Our perspective to some commonly asked questions (Part 1)",
-    date: "",
+    date: "May 25, 2021",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -116,7 +116,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-03",
     slug: "positioning-portfolios-in-context-of-the-corona-virus",
     title: "Positioning portfolios in context of the Corona Virus (1)",
-    date: "",
+    date: "February 29, 2020",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -148,7 +148,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-01",
     slug: "investment-thesis-on-max-life-insurance-2",
     title: "INVESTMENT THESIS ON MAX fINANCIALS (PLAY ON MAX LIFE INSURANCE)",
-    date: "",
+    date: "October 2, 2019",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -180,7 +180,7 @@ export const ALL_POSTS: PostData[] = [
     slug: "solidarity-partners-meet-interview-with-dr-harin-kanani-mr-prabh-mehar-singh",
     title:
       "Solidarity Partners Meet - interview with promoters of RACL GearTech & Neogen Chemicals",
-    date: "",
+    date: "June 12, 2025",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management", "Equity"],
     categoryLinks: [
@@ -212,7 +212,7 @@ export const ALL_POSTS: PostData[] = [
     id: "aa-01",
     slug: "the-strategic-importance-of-holding-cash-and-equivalents",
     title: "The strategic importance of holding cash and equivalents",
-    date: "",
+    date: "February 11, 2016",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Asset Allocation"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -229,7 +229,7 @@ export const ALL_POSTS: PostData[] = [
         className="post-content"
         dangerouslySetInnerHTML={{
           __html:
-            '<p>Solidarity is a multi-family investment office.  We are often asked (by clients with high ability and willingness to take risk) why we recommend they should hold at least 10 -15% of their Investible Assets in Bonds/Liquid funds and not be fully invested in Equities; especially if clients don\'t need the capital for at least 3 years.  <span id="more-3328"></span>Many push back saying bonds offer lower yield and are tax inefficient and whether holding cash for redeployment later is akin to trying to "time the market". </p>\n\n\n\n<p>To explain why we recommend holding Bonds, one must appreciate that the cornerstone of our investment process is capital preservation and growth.  The sequence of this is important.  </p>\n\n\n\n<p>Secondly, every investment hypothesis is associated with a probability.  While we remain optimistic about India\'s long term prospects, we need to balance our confidence/optimism with a fair respect for the unexpected.  Even in normal market conditions, we will be wrong on multiple occasions or enter too early.  While stock prices are slaves to earnings in the long term, in the short term, sentiment has far more influence on market direction.   And sentiment can change on a dime.   In June 2014, with the euphoria around the BJPs election win, how many of us would have thought that the NIFTY would be at these levels 20 months hence?   Hence, even as the NIFTY trades at long term average multiples today, adverse sentiment could push markets even lower. </p>\n\n\n\n<p>This is where Bonds play a significant role.  While the "relatively" low returns of Bonds in a rising equity market do cause heart burn, they come with a decent coupon and the Optionality of being able to sell them and re-deploy proceeds into Equities when valuations turn even more favourable for equities.   The Option value they provide is often not considered by investors.     Cash combined with courage of conviction during times when sentiment is downbeat, such as at present, can result in exponential returns, which in turn can help balance losses or poorer returns on other portfolio constituents. </p>\n\n\n\n<p>Consider the analysis below for the time period 2001 till date.</p>\n\n\n\n<p>*  That markets have mainly stayed between a trailing PE of 16 to 20; entry at these levels have provided an IRR over 3 years of about 13.2%.  At this zone, investors should deploy money as markets are fairly valued</p>\n\n\n\n<p>*  However, if the market sentiment slips and Capital is invested when the market trades at a trailing PE between 12-16, the IRR obtained almost doubles to 28%... and on occasions of entry at points of extreme bearishness (e.g. summer of 2008), the IRR trebles to 39.5%</p>\n\n\n\n<p>*  The data also shows that a trailing PE band of 12-16 is not very infrequent and markets trade in that band almost a fourth of the time</p>\n\n\n\n<div class="wp-block-image" style="text-align: center;">\n<figure class="aligncenter is-resized"><img decoding="async" class="wp-image-3329 aligncenter" src="https://www.solidarity.in/wp-content/uploads/2019/06/image-10.png" alt="" width="371" height="133" srcset="https://www.solidarity.in/wp-content/uploads/2019/06/image-10.png 473w, https://www.solidarity.in/wp-content/uploads/2019/06/image-10-300x108.png 300w" sizes="(max-width: 371px) 100vw, 371px" />\n<figcaption><br />Note: Trailing PE is not our preferred metric to ascertain valuation; however, it has been used to illustrate the point</figcaption>\n</figure>',
+            '<p>Solidarity is a multi-family investment office.  We are often asked (by clients with high ability and willingness to take risk) why we recommend they should hold at least 10 -15% of their Investible Assets in Bonds/Liquid funds and not be fully invested in Equities; especially if clients don\'t need the capital for at least 3 years.  <span id="more-3328"></span>Many push back saying bonds offer lower yield and are tax inefficient and whether holding cash for redeployment later is akin to trying to "time the market". </p>\n\n\n\n<p>To explain why we recommend holding Bonds, one must appreciate that the cornerstone of our investment process is capital preservation and growth.  The sequence of this is important.  </p>\n\n\n\n<p>Secondly, every investment hypothesis is associated with a probability.  While we remain optimistic about India\'s long term prospects, we need to balance our confidence/optimism with a fair respect for the unexpected.  Even in normal market conditions, we will be wrong on multiple occasions or enter too early.  While stock prices are slaves to earnings in the long term, in the short term, sentiment has far more influence on market direction.   And sentiment can change on a dime.   In June 2014, with the euphoria around the BJPs election win, how many of us would have thought that the NIFTY would be at these levels 20 months hence?   Hence, even as the NIFTY trades at long term average multiples today, adverse sentiment could push markets even lower. </p>\n\n\n\n<p>This is where Bonds play a significant role.  While the "relatively" low returns of Bonds in a rising equity market do cause heart burn, they come with a decent coupon and the Optionality of being able to sell them and re-deploy proceeds into Equities when valuations turn even more favourable for equities.   The Option value they provide is often not considered by investors.     Cash combined with courage of conviction during times when sentiment is downbeat, such as at present, can result in exponential returns, which in turn can help balance losses or poorer returns on other portfolio constituents. </p>\n\n\n\n<p>Consider the analysis below for the time period 2001 till date.</p>\n\n\n\n<p>*  That markets have mainly stayed between a trailing PE of 16 to 20; entry at these levels have provided an IRR over 3 years of about 13.2%.  At this zone, investors should deploy money as markets are fairly valued</p>\n\n\n\n<p>*  However, if the market sentiment slips and Capital is invested when the market trades at a trailing PE between 12-16, the IRR obtained almost doubles to 28%... and on occasions of entry at points of extreme bearishness (e.g. summer of 2008), the IRR trebles to 39.5%</p>\n\n\n\n<p>*  The data also shows that a trailing PE band of 12-16 is not very infrequent and markets trade in that band almost a fourth of the time</p>\n\n\n\n<div class="wp-block-image" style="text-align: center;">\n<figure class="aligncenter is-resized"><img decoding="async" class="wp-image-3329 aligncenter" src="https://www.solidarity.in/wp-content/uploads/2019/06/image-10.png" alt="" width="371" height="133" srcset="https://www.solidarity.in/wp-content/uploads/2019/06/image-10.png 473w, https://www.solidarity.in/wp-content/uploads/2019/06/image-10-300x108.png 300w" sizes="(max-width: 371px) 100vw, 371px" />\n<figcaption><br />Note: Trailing PE is not our preferred metric to ascertain valuation; however, it has been used to illustrate the point</figcaption>\n</figure>\n</div>\n\n\n\n<p>How does one ensure one is not "timing the market" or freeze up when such opportunities present themselves. We follow a systematic plan of decreasing cash allocation when stocks in which we have conviction decline by certain percentage points from initial purchase price. Similarly, when markets or individual stock valuations get heady, we have found that it is prudent to trim the position a bit and move it to cash/bonds or rotate it to a position with better perceived pay offs. This does not mean not allowing our winners to run but recognizing that valuation ratios are mean reverting.</p>\n\n\n\n<p>Holding cash can be uncomfortable when others around you are making money. However, one should recognize that the race is long and is only with oneself. Life moves in cycles and cash provides significant strategic value during uncertain times</p>',
         }}
       />
     ),
@@ -238,7 +238,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-02",
     slug: "investment-thesis-on-india-mart-29-jan-2021",
     title: "INVESTMENT THESIS ON INDIAMART",
-    date: "",
+    date: "January 29, 2021",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -269,7 +269,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-05",
     slug: "what-do-you-believe-in",
     title: "What do you believe in?",
-    date: "",
+    date: "December 26, 2016",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -301,7 +301,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-01",
     slug: "why-buy-quality-a-lesson-from-college-days",
     title: "Why buy quality - a lesson from college days",
-    date: "",
+    date: "May 13, 2015",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -327,7 +327,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-06",
     slug: "our-approach-to-building-solidarity-2",
     title: "Our approach to building Solidarity",
-    date: "",
+    date: "April 6, 2023",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -363,7 +363,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-07",
     slug: "positioning-portfolios-in-context-of-the-corona-virus-5",
     title: "Positioning portfolios in context of the Corona Virus (5)",
-    date: "",
+    date: "April 14, 2020",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -395,7 +395,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-08",
     slug: "investment-perspectives-define-your-guiding-principles",
     title: "Investment Perspectives: Define your Guiding Principles",
-    date: "",
+    date: "June 13, 2016",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -418,7 +418,7 @@ export const ALL_POSTS: PostData[] = [
         className="post-content"
         dangerouslySetInnerHTML={{
           __html:
-            '<p>A prominent research house gave a bearish call on the market at the end of February.  Despite the Index climbing over 16% in the past 2 months, the firm stuck to its guns. <span id="more-3304"></span> However, last week, the firm reversed their bearish call, and suggested their base case now was a market 10% higher by March 2017.</p>\n\n\n\n<p>The change in forecast resulted in searing criticism from investors who feel they have been taken for a ride "by experts".  But is the research house to blame or are investors themselves responsible for not knowing the rules of the game they are playing?</p>\n\n\n\n<p>Investors are bombarded with non-stop commentary and contrary opinions (sometimes from experts within the same firm) on what\'s best for investors. Top 5 trades of the day, top picks of the week etc. etc.   It is critical for each one of us as investors to define what will be our investing "North Star" or guiding principles and then act to shut out the noise.  Defining your guiding principles is too critical a decision to be left to advisors.</p>\n\n\n\n<p>The following questions may help define your North Star</p>\n\n\n\n<p>*  Are you playing for a short term move or a long term gains?</p>\n\n\n\n<p>*  Can you trade short term and invest long term at the same time? </p>\n\n\n\n<p>*  What is the pain you are willing to bear?</p>\n\n\n\n<p>Are you playing for a short term move or long term gains? The chart below shows the Indexed value of the Sensex and Sensex EPS over the last 21 years.  It shows clearly that stock prices follow earnings growth over the long term, even as in the short term the market seems to have a mind of its own, running above or below fair price.  Note, this time period includes the Kargil war, the 2000 dot com market meltdown, the 2008 financial crisis, multiple Govt. at the centre and time periods of significant political uncertainty.</p>\n\n\n\n<div class="wp-block-image"><figure class="aligncenter is-resized"><img fetchpriority="high" decoding="async" src="https://www.solidarity.in/wp-content/uploads/2019/06/image-4.png" alt="" class="wp-image-3305" width="465" height="265" srcset="https://www.solidarity.in/wp-content/uploads/2019/06/image-4.png 620w, https://www.solidarity.in/wp-content/uploads/2019/06/image-4-300x171.png 300w" sizes="(max-width: 465px) 100vw, 465px" /></figure>',
+            '<p>A prominent research house gave a bearish call on the market at the end of February.  Despite the Index climbing over 16% in the past 2 months, the firm stuck to its guns. <span id="more-3304"></span> However, last week, the firm reversed their bearish call, and suggested their base case now was a market 10% higher by March 2017.</p>\n\n\n\n<p>The change in forecast resulted in searing criticism from investors who feel they have been taken for a ride "by experts".  But is the research house to blame or are investors themselves responsible for not knowing the rules of the game they are playing?</p>\n\n\n\n<p>Investors are bombarded with non-stop commentary and contrary opinions (sometimes from experts within the same firm) on what\'s best for investors. Top 5 trades of the day, top picks of the week etc. etc.   It is critical for each one of us as investors to define what will be our investing "North Star" or guiding principles and then act to shut out the noise.  Defining your guiding principles is too critical a decision to be left to advisors.</p>\n\n\n\n<p>The following questions may help define your North Star</p>\n\n\n\n<p>*  Are you playing for a short term move or a long term gains?</p>\n\n\n\n<p>*  Can you trade short term and invest long term at the same time? </p>\n\n\n\n<p>*  What is the pain you are willing to bear?</p>\n\n\n\n<p>Are you playing for a short term move or long term gains? The chart below shows the Indexed value of the Sensex and Sensex EPS over the last 21 years.  It shows clearly that stock prices follow earnings growth over the long term, even as in the short term the market seems to have a mind of its own, running above or below fair price.  Note, this time period includes the Kargil war, the 2000 dot com market meltdown, the 2008 financial crisis, multiple Govt. at the centre and time periods of significant political uncertainty.</p>\n\n\n\n<div class="wp-block-image"><figure class="aligncenter is-resized"><img fetchpriority="high" decoding="async" src="https://www.solidarity.in/wp-content/uploads/2019/06/image-4.png" alt="" class="wp-image-3305" width="465" height="265" srcset="https://www.solidarity.in/wp-content/uploads/2019/06/image-4.png 620w, https://www.solidarity.in/wp-content/uploads/2019/06/image-4-300x171.png 300w" sizes="(max-width: 465px) 100vw, 465px" /></figure></div>\n\n\n\n<p>Forecasting short term movements within this larger picture is a mug\'s game. Why so?</p>\n\n\n\n<p>• There are too many variables which influence short term direction; each day new ones get created, and others lose relevance. We do not have the wisdom to comprehend the tail winds or head winds of unknown variables.</p>\n\n\n\n<p>• We do not have models that predict the interplay of these variables and what influence they have on stock prices in the short term</p>\n\n\n\n<p>• The trader has a false implicit assumption that markets will behave rationally in the short term.</p>\n\n\n\n<p>In <a rel="noreferrer noopener" href="https://www.youtube.com/watch?v=nUjO0EdR4Ls" target="_blank"><strong>this</strong></a> video, Mr. Udayan Mukherjee, former high profile anchor of CNBC-TV18, is quite candid that experts and anchors trying to forecast market levels, actually harm the common investor. He also states that it is impossible to forecast short term market direction</p>\n\n\n\n<p>Can one trade short term and invest long term at the same time? In an investment career spanning over 10 years, I have met very few people who have been able to demonstrate both the above skills, simultaneously. Those who do, maintain separate trading and investment portfolios. Successful investment requires a deep conviction, often against the tide. Successful trading is price dependent, not opinion dependent as you have to cut losses to conserve capital. Moreover, frequent trading activity results in not only high transaction costs and taxes, but also reinvestment risk. In the example above, those following the research firm advice will perhaps enter the market 16% higher than when they exited</p>\n\n\n\n<p>"What is the pain I am willing to bear"? Long term investing is tied to the hip with the frequent pain of "notional losses". But most participants are unwilling to accept the pain of seeing your Capital below the initial invested price. Unfortunately, it is impossible to earn the long term returns without suffering this pain. Hence, it\'s critical to define your pain threshold and invest accordingly. (Technical jargon, get your "Asset Allocation" right)</p>\n\n\n\n<p>In conclusion, we recommend one not mix trading with investing. We recommend your investment principles be "spending time in the market by investing in companies which have longevity of earnings growth, and are available at reasonable valuations". As markets could deviate significantly below fair value, money needed over the next 24 months should not be invested in Equity markets. If you can stick with the above resolve, and ignore market corrections, the compounding power of earnings should give you a great result. You will then not need to succumb to the lure of short term gains obtained through trading.</p>',
         }}
       />
     ),
@@ -428,7 +428,7 @@ export const ALL_POSTS: PostData[] = [
     slug: "how-do-we-decide-composition-of-smallmid-and-large-caps-in-the-portfolio-2",
     title:
       "How do we decide composition of small,mid and large caps in the portfolio",
-    date: "",
+    date: "July 8, 2023",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -464,7 +464,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-03",
     slug: "investment-thesis-on-jsw-energy-2",
     title: "INVESTMENT THESIS ON JSW ENERGY",
-    date: "",
+    date: "October 2, 2019",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -495,7 +495,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-04",
     slug: "investment-thesis-on-sansera-engineering",
     title: "Investment Thesis on Sansera Engineering",
-    date: "",
+    date: "October 10, 2025",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -527,7 +527,7 @@ export const ALL_POSTS: PostData[] = [
     slug: "interview-with-mr-anurag-surana-a-domain-expert-on-specialty-chemicals-for-his-decadal-views-on-the-industry",
     title:
       "Interview with Mr Anurag Surana- a domain expert on Specialty Chemicals for his decadal views on the industry",
-    date: "",
+    date: "September 8, 2025",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -565,7 +565,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-02",
     slug: "implications-of-sebi-new-guidelines-on-multi-cap-funds",
     title: "Implications of SEBI new guidelines on Multi-Cap Funds",
-    date: "",
+    date: "September 12, 2020",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -591,7 +591,7 @@ export const ALL_POSTS: PostData[] = [
     id: "macro-01",
     slug: "implications-of-global-repricing-of-risk-2",
     title: "Implications of global repricing of risk",
-    date: "",
+    date: "April 6, 2023",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -624,7 +624,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-03",
     slug: "the-fin-tech-valuation-delusion",
     title: "The Fin Tech Valuation delusion",
-    date: "",
+    date: "December 3, 2021",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -650,7 +650,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-11",
     slug: "the-importance-of-cash-generation-over-growth",
     title: "The importance of cash generation over growth",
-    date: "",
+    date: "April 11, 2015",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -682,7 +682,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-04",
     slug: "is-it-different-this-time",
     title: "Is it different this time?",
-    date: "",
+    date: "September 19, 2023",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -708,7 +708,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-05",
     slug: "investment-thesis-on-garware-technical-fibres-ltd",
     title: "INVESTMENT THESIS ON GARWARE TECHNICAL FIBRES LTD",
-    date: "",
+    date: "January 2, 2020",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -739,7 +739,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-06",
     slug: "investment-thesis-on-srf-2",
     title: "INVESTMENT THESIS ON SRF",
-    date: "",
+    date: "April 3, 2019",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -770,7 +770,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-12",
     slug: "my-3-biggest-learnings-working-with-rakesh-jhunjhunwala",
     title: "My 3 biggest learnings working with Rakesh Jhunjhunwala",
-    date: "",
+    date: "December 30, 2014",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -802,7 +802,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-05",
     slug: "pms-vs-mutual-funds-vs-alternate-investment-fund-2",
     title: "PMS vs Mutual Funds vs Alternate Investment Fund",
-    date: "",
+    date: "April 6, 2023",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -832,7 +832,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-13",
     slug: "our-approach-to-portfolio-design-2",
     title: "Our approach to portfolio design",
-    date: "",
+    date: "April 3, 2019",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -868,7 +868,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-14",
     slug: "positioning-portfolios-in-context-of-the-corona-virus-4",
     title: "Positioning portfolios in context of the Corona Virus (4)",
-    date: "",
+    date: "March 24, 2020",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -891,7 +891,7 @@ export const ALL_POSTS: PostData[] = [
         className="post-content"
         dangerouslySetInnerHTML={{
           __html:
-            '<p>A salute to our doctors, nurses, police forces and sanitation workers who are at the forefront of this battle.   A salute also to the Indian state - we are always criticized by the West, but we show our best when our backs our against the wall.  And we have done a far better job than the developed world so far.</p>\n\n\n\n<p>I am writing to share a few thoughts</p>\n\n\n\n<p><strong>1.       </strong><strong>Be careful how you interpret the news you are reading</strong><span id="more-3709"></span></p>\n\n\n\n<p>There are multiple opinions around Covid-19.  But for every pearl of wisdom out there on the impact of Covid- 19, an opposite insight is equally true.   All estimates we have at present - whether on deaths, economic trajectories are all first-order thinking based on assumptions.   No one knows anything with certainty.</p>\n\n\n\n<p>There are many unanswered questions - how is China returning to normalcy? what percentage of deaths are attributable to pre-existing conditions? at what cumulative infections do we develop immunity as a community? What will be the scale of the stimulus? What medications in trials will work?</p>\n\n\n\n<p>The media likes to sensationalize things because pessimism sells.  For some strange reason, people like to hear the world is going to go into a basket case.</p>\n\n\n\n<p>Here is an article by a Nobel Laureate who is predicting a quick recovery <br /><a href="https://www.latimes.com/science/story/2020-03-22/coronavirus-outbreak-nobel-laureate">https://www.latimes.com/science/story/2020-03-22/coronavirus-outbreak-nobel-laureate</a></p>\n\n\n\n<p><strong>2.       </strong><strong>Financial Advice is always in the context of time horizons</strong></p>\n\n\n\n<p>What is right in financial markets in 3-6 month windows could be wrong in 3-5 year windows.  You have to align your actions to your time horizons. </p>\n\n\n\n<p>I am appending an interview of Aditya Puri which I thought put things in good perspective.    <br /><a href="https://twitter.com/CNBCTV18News/status/1241974993988149248?s=19">https://twitter.com/CNBCTV18News/status/1241974993988149248?s=19</a></p>\n\n\n\n<p><strong>3.       </strong><strong>A stimulus is coming</strong></p>\n\n\n\n<p>I see many of my peers deeply distressed because of no announcements by the RBI or the FM and attributing that to why markets are falling.   Just because India has not announced a stimulus, it does not mean there will not be one.  And with Oil at USD30/barrel, inflation under control, we have the ability to stimulate the economy. </p>\n\n\n\n<p>It is not the job of the State to talk up markets.   The state is focused on what is primary right now - the health of its citizens.   </p>\n\n\n\n<p>nd the gravest challenge of our time is managing inequality.   I would rather have a plan announced in 2 weeks which is thought through and rightly directed, than the one that works just in the interests of stock markets but which ignores how resources will be directed to people at the bottom of the pyramids.  Execution will matter more than any grandiose plan.    </p>\n\n\n\n<p><strong>4.       </strong><strong>This is not the time to sell</strong></p>\n\n\n\n<p>The world is always uncertain - both in terms of shocks and opportunities.  What matters is the price you pay for uncertainty.  Here is a chart tracked by ICICI MF which shows where valuations are at present. </p>\n\n\n\n<div class="wp-block-image">\n<figure class="aligncenter"><img fetchpriority="high" decoding="async" class="wp-image-3713" src="/wp-content/uploads/2020/03/image007.jpg" alt="" width="571" height="331" srcset="https://www.solidarity.in/wp-content/uploads/2020/03/image007.jpg 791w, https://www.solidarity.in/wp-content/uploads/2020/03/image007-300x174.jpg 300w, https://www.solidarity.in/wp-content/uploads/2020/03/image007-768x446.jpg 768w, https://www.solidarity.in/wp-content/uploads/2020/03/image007-680x395.jpg 680w" sizes="(max-width: 571px) 100vw, 571px" /></figure>',
+            '<p>A salute to our doctors, nurses, police forces and sanitation workers who are at the forefront of this battle.   A salute also to the Indian state - we are always criticized by the West, but we show our best when our backs our against the wall.  And we have done a far better job than the developed world so far.</p>\n\n\n\n<p>I am writing to share a few thoughts</p>\n\n\n\n<p><strong>1.       </strong><strong>Be careful how you interpret the news you are reading</strong><span id="more-3709"></span></p>\n\n\n\n<p>There are multiple opinions around Covid-19.  But for every pearl of wisdom out there on the impact of Covid- 19, an opposite insight is equally true.   All estimates we have at present - whether on deaths, economic trajectories are all first-order thinking based on assumptions.   No one knows anything with certainty.</p>\n\n\n\n<p>There are many unanswered questions - how is China returning to normalcy? what percentage of deaths are attributable to pre-existing conditions? at what cumulative infections do we develop immunity as a community? What will be the scale of the stimulus? What medications in trials will work?</p>\n\n\n\n<p>The media likes to sensationalize things because pessimism sells.  For some strange reason, people like to hear the world is going to go into a basket case.</p>\n\n\n\n<p>Here is an article by a Nobel Laureate who is predicting a quick recovery <br /><a href="https://www.latimes.com/science/story/2020-03-22/coronavirus-outbreak-nobel-laureate">https://www.latimes.com/science/story/2020-03-22/coronavirus-outbreak-nobel-laureate</a></p>\n\n\n\n<p><strong>2.       </strong><strong>Financial Advice is always in the context of time horizons</strong></p>\n\n\n\n<p>What is right in financial markets in 3-6 month windows could be wrong in 3-5 year windows.  You have to align your actions to your time horizons. </p>\n\n\n\n<p>I am appending an interview of Aditya Puri which I thought put things in good perspective.    <br /><a href="https://twitter.com/CNBCTV18News/status/1241974993988149248?s=19">https://twitter.com/CNBCTV18News/status/1241974993988149248?s=19</a></p>\n\n\n\n<p><strong>3.       </strong><strong>A stimulus is coming</strong></p>\n\n\n\n<p>I see many of my peers deeply distressed because of no announcements by the RBI or the FM and attributing that to why markets are falling.   Just because India has not announced a stimulus, it does not mean there will not be one.  And with Oil at USD30/barrel, inflation under control, we have the ability to stimulate the economy. </p>\n\n\n\n<p>It is not the job of the State to talk up markets.   The state is focused on what is primary right now - the health of its citizens.   </p>\n\n\n\n<p>nd the gravest challenge of our time is managing inequality.   I would rather have a plan announced in 2 weeks which is thought through and rightly directed, than the one that works just in the interests of stock markets but which ignores how resources will be directed to people at the bottom of the pyramids.  Execution will matter more than any grandiose plan.    </p>\n\n\n\n<p><strong>4.       </strong><strong>This is not the time to sell</strong></p>\n\n\n\n<p>The world is always uncertain - both in terms of shocks and opportunities.  What matters is the price you pay for uncertainty.  Here is a chart tracked by ICICI MF which shows where valuations are at present. </p>\n\n\n\n<div class="wp-block-image">\n<figure class="aligncenter"><img fetchpriority="high" decoding="async" class="wp-image-3713" src="/wp-content/uploads/2020/03/image007.jpg" alt="" width="571" height="331" srcset="https://www.solidarity.in/wp-content/uploads/2020/03/image007.jpg 791w, https://www.solidarity.in/wp-content/uploads/2020/03/image007-300x174.jpg 300w, https://www.solidarity.in/wp-content/uploads/2020/03/image007-768x446.jpg 768w, https://www.solidarity.in/wp-content/uploads/2020/03/image007-680x395.jpg 680w" sizes="(max-width: 571px) 100vw, 571px" /></figure></div>\n\n\n\n<p><strong>5.       </strong><strong>Portfolio actions we will be taking</strong></p>\n\n\n\n<p>I have shared with partners that we intend to wait out the storm where we don\'t have cash and buy when Capital comes in.   We intend to follow through with this.  We will not convert paper losses into permanent losses.  While I have no visibility on the short term, I have deep conviction &#8211; based on lessons from history &#8211; that our choice of companies will emerge stronger in a few years.  And this will reflect in higher stock prices down the line.   A long term investor has to be optimistic about the future.  That no matter the adversary, good management teams will find ways to navigate them</p>\n\n\n\n<p>And we don\'t have to look at financial markets.  Even if we look around our immediate family, there will be a history of a traumatic event, which is followed by a recovery and more strength.   We will get through this.</p>\n\n\n\n<p>What this correction has done however is provided the opportunity to reshuffle portfolios.   As we look through the portfolios, what we see is almost a similar move across most Equity positions.  This gives us an opportunity to deploy more into better quality names (higher growth longevity, leadership, resilience) compared to others which were relatively lower conviction.  You may therefore see some positions moving out of your DEMAT Accounts in the coming week.  I wanted to give you a heads up that this is not a change in strategy, but change in our tactical approach.</p>',
         }}
       />
     ),
@@ -900,7 +900,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-07",
     slug: "investment-thesis-on-team-lease-2",
     title: "INVESTMENT THESIS ON TEAM LEASE",
-    date: "",
+    date: "November 19, 2022",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -931,7 +931,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-08",
     slug: "investment-thesis-on-axis-bank",
     title: "INVESTMENT THESIS ON AXIS BANK",
-    date: "",
+    date: "January 5, 2022",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -962,7 +962,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-09",
     slug: "investment-thesis-on-indiamart",
     title: "Investment thesis on indiamart",
-    date: "",
+    date: "November 3, 2024",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -993,7 +993,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-15",
     slug: "beware-the-enemy-within",
     title: "Beware the enemy within",
-    date: "",
+    date: "April 30, 2016",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -1025,7 +1025,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-10",
     slug: "investment-thesis-on-solara-active-pharma-2",
     title: "INVESTMENT THESIS ON SOLARA ACTIVE PHARMA",
-    date: "",
+    date: "January 5, 2022",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -1056,7 +1056,7 @@ export const ALL_POSTS: PostData[] = [
     id: "macro-02",
     slug: "investment-implications-for-indian-investors-in-a-trumpian-world",
     title: "Investment implications for Indian investors in a Trumpian world",
-    date: "",
+    date: "March 23, 2025",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Macro Environment", "Equity"],
     categoryLinks: [
@@ -1085,7 +1085,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-16",
     slug: "investment-strategy-at-the-current-juncture",
     title: "Investment strategy at the current juncture",
-    date: "",
+    date: "September 25, 2015",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -1108,7 +1108,7 @@ export const ALL_POSTS: PostData[] = [
         className="post-content"
         dangerouslySetInnerHTML={{
           __html:
-            '<p>A simplistic view taken by many analysts at present is that the Nifty is trading near its 10-year average valuation (see chart below) and hence, one should still be fully invested.<span id="more-3355"></span></p>\n\n\n\n<div class="wp-block-image"><figure class="aligncenter"><img fetchpriority="high" decoding="async" width="528" height="285" src="https://www.solidarity.in/wp-content/uploads/2019/06/image-15.png" alt="" class="wp-image-3356" srcset="https://www.solidarity.in/wp-content/uploads/2019/06/image-15.png 528w, https://www.solidarity.in/wp-content/uploads/2019/06/image-15-300x162.png 300w" sizes="(max-width: 528px) 100vw, 528px" /><figcaption>Source: Bloomberg</figcaption></figure>',
+            '<p>A simplistic view taken by many analysts at present is that the Nifty is trading near its 10-year average valuation (see chart below) and hence, one should still be fully invested.</p>\n\n\n\n<div class="wp-block-image"><figure class="aligncenter"><img fetchpriority="high" decoding="async" width="528" height="285" src="https://www.solidarity.in/wp-content/uploads/2019/06/image-15.png" alt="" class="wp-image-3356" srcset="https://www.solidarity.in/wp-content/uploads/2019/06/image-15.png 528w, https://www.solidarity.in/wp-content/uploads/2019/06/image-15-300x162.png 300w" sizes="(max-width: 528px) 100vw, 528px" /><figcaption>Source: Bloomberg</figcaption></figure></div>\n\n\n\n<p>However, averages can be deceptive. Have you heard the story of the 6 feet tall man who drowned in a pool that was 4 feet deep on average?</p>\n\n\n\n<p>Solidarity\'s approach is to build concentrated portfolios in "quality" companies, i.e. companies demonstrating following characteristics:</p>\n\n\n\n<ul class="wp-block-list"><li>Strong moat with industry leadership</li><li>Secular and structural growth tailwinds</li><li>High Return on Invested Capital (ROIC)</li><li>Good corporate governance</li></ul>\n\n\n\n<p>Further, we invest in these companies when they are available at <strong>fair valuations.</strong> While the Nifty seems to be trading at a fair valuation, our analysis shows that premium for quality companies has increased significantly over the last 4 years (see below charts)</p>\n\n\n\n<div class="wp-block-image"><figure class="aligncenter"><img decoding="async" width="540" height="285" src="https://www.solidarity.in/wp-content/uploads/2019/06/image-16.png" alt="" class="wp-image-3357" srcset="https://www.solidarity.in/wp-content/uploads/2019/06/image-16.png 540w, https://www.solidarity.in/wp-content/uploads/2019/06/image-16-300x158.png 300w" sizes="(max-width: 540px) 100vw, 540px" /><figcaption>Notes: Classification of Nifty 50 cos. between "Quality" and "Others" is based on Solidarity\'s proprietary framework; Trailing PE Ratios</figcaption></figure></div>\n\n\n\n<div class="wp-block-image"><figure class="aligncenter"><img decoding="async" width="545" height="36" src="https://www.solidarity.in/wp-content/uploads/2019/06/image-17.png" alt="" class="wp-image-3358" srcset="https://www.solidarity.in/wp-content/uploads/2019/06/image-17.png 545w, https://www.solidarity.in/wp-content/uploads/2019/06/image-17-300x20.png 300w" sizes="(max-width: 545px) 100vw, 545px" /></figure></div>\n\n\n\n<p>Quality companies which were on average given a multiple similar to that of Nifty in FY11 are now quoting at a premium of ~47% over Nifty valuation.</p>\n\n\n\n<p>This presents a dilemma on how one should build a portfolio at present. As the saying goes, "The best businesses are worst investments if bought at wrong prices".</p>\n\n\n\n<p>Here is what we would suggest:</p>\n\n\n\n<ul class="wp-block-list"><li><strong>Take more concentrated bets on quality companies if they are available at a fair price</strong><ul><li>These opportunities don\'t come often and one must "load up" on them when available. Some banking names come to mind.</li></ul></li></ul>\n\n\n\n<ul class="wp-block-list"><li><strong>When facts change, one must be flexible: Be open to being unconstrained in pursuit of value</strong><ul><li>Some companies are available at a very deep discount to their intrinsic value due to extreme (and irrational) pessimism<ul><li>For example, some opportunities in the power generation sector at present</li></ul></li></ul><ul><li>Although these opportunities aren\'t secular compounders or high ROIC businesses, one could consider them if the risk-reward ratio is largely in the investor\'s favour. That is:<ul><li>Probability of permanent downside is very low</li><li>Upside, if one is right, is exponential (much higher than steady 15-20% compounding that one seeks)</li></ul></li></ul><ul><li>Ironically, these could be better bets than the richly valued quality companies given the lack of margin of safety in the latter</li></ul><ul><li>Borrowing from the legendary Howard Marks, "Everything is triple-A at the right price"</li></ul></li></ul>\n\n\n\n<ul class="wp-block-list"><li><strong>Consider opportunities in alternative asset classes</strong><ul><li>Given the scope for interest rate cuts, high quality long duration bonds could deliver respectable capital appreciation in addition to the coupon</li><li>People fully invested in equities or holding cash in bank accounts could consider some allocation in such bonds</li></ul></li></ul>\n\n\n\n<ul class="wp-block-list"><li><strong>Keep a cash buffer</strong><ul><li>Global macro suggests volatility will continue and India will not be immune in the short-term</li><li>Valuation of many quality companies would correct if they do not deliver on the earnings</li></ul></li></ul>\n\n\n\n<p>We should have some cash buffer to invest in quality companies when the above plays out</p>',
         }}
       />
     ),
@@ -1117,7 +1117,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-17",
     slug: "our-process-for-exit-decisions",
     title: "Our Process For Exit Decisions",
-    date: "",
+    date: "October 3, 2020",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -1153,7 +1153,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-18",
     slug: "our-perspective-to-some-commonly-asked-questions-part-2-2",
     title: "Our perspective to some commonly asked questions (Part 2)",
-    date: "",
+    date: "February 22, 2021",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -1189,7 +1189,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-06",
     slug: "tell-me-where-i-am-going-to-die-so-i-will-never-go-there-2",
     title: "Tell me where I am going to die, so I will never go there",
-    date: "",
+    date: "September 9, 2016",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -1215,7 +1215,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-07",
     slug: "perspective-on-life-insurance-companies-post-budget",
     title: "Perspective on Life Insurance companies post-budget",
-    date: "",
+    date: "February 3, 2023",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -1241,7 +1241,7 @@ export const ALL_POSTS: PostData[] = [
     id: "macro-03",
     slug: "indian-markets-if-the-bjp-loses-the-2024-election-2",
     title: "Indian markets if the BJP loses the 2024 election",
-    date: "",
+    date: "October 6, 2023",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -1274,7 +1274,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-08",
     slug: "perspective-on-life-insurance-companies-2",
     title: "Perspective on Life Insurance companies",
-    date: "",
+    date: "March 30, 2022",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -1300,7 +1300,7 @@ export const ALL_POSTS: PostData[] = [
     id: "macro-04",
     slug: "will-the-fed-raise-rates-and-the-implications-for-indian-markets",
     title: "Will the Fed raise rates and the implications for Indian Markets?",
-    date: "",
+    date: "September 15, 2015",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Macro Environment"],
     categoryLinks: [
@@ -1329,7 +1329,7 @@ export const ALL_POSTS: PostData[] = [
     id: "aa-02",
     slug: "i-can-think-i-can-wait-i-can-fast",
     title: "I can think. I can wait. I can fast",
-    date: "",
+    date: "April 29, 2017",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Asset Allocation"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -1355,7 +1355,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-09",
     slug: "the-shocking-resilience-of-indias-stock-markets",
     title: "The shocking resilience of India's stock markets",
-    date: "",
+    date: "May 8, 2021",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -1381,7 +1381,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-19",
     slug: "playing-the-game-vs-being-clear-on-what-game-you-are-playing",
     title: "Playing the game vs being clear on what game you are playing",
-    date: "",
+    date: "May 10, 2020",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -1413,7 +1413,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-20",
     slug: "the-pain-associated-with-being-a-long-term-investor",
     title: "The pain associated with being a long term investor",
-    date: "",
+    date: "August 5, 2016",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -1436,7 +1436,7 @@ export const ALL_POSTS: PostData[] = [
         className="post-content"
         dangerouslySetInnerHTML={{
           __html:
-            '<p>Our investment process emphasizes focus on "Secular and Structural" growth opportunities vs "cyclical" ones.   Secular and structural implies growth irrespective of economic conditions while cyclical implies opportunities that will be affected by trends.<span id="more-3295"></span>  We believe cyclical opportunities should not be core long term holdings in a portfolio. However, they may provide opportunities for "trading gains" - if one has that bent of mind. </p>\n\n\n\n<p>An example to illustrate the point is shown in the graphs below.</p>\n\n\n\n<p>The charts below shows the performance of two financial firms in India, both run by exceptional management teams.  We believe one of them is a structural and secular growth story, while the other is relatively cyclical. </p>\n\n\n\n<ul class="wp-block-list"><li>Chart 1 shows a basic measure of profitability, Return on Assets or ROA of both the Secular/Structural vs the Cyclical opportunity. Note the differences in consistency. </li><li>Chart 2 explains why the ROA of the Cyclical firm is so volatile.  Its Non-Performing Loans are linked to the vagaries of the monsoon. A key variable of its success is not within its control but dependent on the mercy of the Rain Gods.</li><li>Chart 3 shows relative share price performance. Despite significantly<strong> lower ROA, the more consistent performer has outperformed the cyclical one over long periods of time.  While the Red line is broadly smooth, the Blue line has periods of significant outperformance and underperformance.</strong></li><li>Chart 4 shows how the cyclical firm, in euphoric conditions (a good monsoon) has started outperforming the steady compounder. </li></ul>\n\n\n\n<p>Now for the moment of truth.  How will you react?  Will you stay invested with the steady compounder or will you try and jump in and out to make a spread on the cyclical?   We cannot time entry in and out of markets; further, even if we could, we need to consider the impact of brokerage and short term capital gain taxes on net investment performance.  <strong>Hence, if you decide to stay (keep a long term out-look) one needs to be willing to bear the pain of short term underperformance</strong></p>\n\n\n\n<div class="wp-block-image"><figure class="aligncenter is-resized"><img fetchpriority="high" decoding="async" src="https://www.solidarity.in/wp-content/uploads/2019/06/image.png" alt="" class="wp-image-3296" width="452" height="267" srcset="https://www.solidarity.in/wp-content/uploads/2019/06/image.png 602w, https://www.solidarity.in/wp-content/uploads/2019/06/image-300x177.png 300w" sizes="(max-width: 452px) 100vw, 452px" /></figure>',
+            '<p>Our investment process emphasizes focus on "Secular and Structural" growth opportunities vs "cyclical" ones.   Secular and structural implies growth irrespective of economic conditions while cyclical implies opportunities that will be affected by trends.<span id="more-3295"></span>  We believe cyclical opportunities should not be core long term holdings in a portfolio. However, they may provide opportunities for "trading gains" - if one has that bent of mind. </p>\n\n\n\n<p>An example to illustrate the point is shown in the graphs below.</p>\n\n\n\n<p>The charts below shows the performance of two financial firms in India, both run by exceptional management teams.  We believe one of them is a structural and secular growth story, while the other is relatively cyclical. </p>\n\n\n\n<ul class="wp-block-list"><li>Chart 1 shows a basic measure of profitability, Return on Assets or ROA of both the Secular/Structural vs the Cyclical opportunity. Note the differences in consistency. </li><li>Chart 2 explains why the ROA of the Cyclical firm is so volatile.  Its Non-Performing Loans are linked to the vagaries of the monsoon. A key variable of its success is not within its control but dependent on the mercy of the Rain Gods.</li><li>Chart 3 shows relative share price performance. Despite significantly<strong> lower ROA, the more consistent performer has outperformed the cyclical one over long periods of time.  While the Red line is broadly smooth, the Blue line has periods of significant outperformance and underperformance.</strong></li><li>Chart 4 shows how the cyclical firm, in euphoric conditions (a good monsoon) has started outperforming the steady compounder. </li></ul>\n\n\n\n<p>Now for the moment of truth.  How will you react?  Will you stay invested with the steady compounder or will you try and jump in and out to make a spread on the cyclical?   We cannot time entry in and out of markets; further, even if we could, we need to consider the impact of brokerage and short term capital gain taxes on net investment performance.  <strong>Hence, if you decide to stay (keep a long term out-look) one needs to be willing to bear the pain of short term underperformance</strong></p>\n\n\n\n<div class="wp-block-image"><figure class="aligncenter is-resized"><img fetchpriority="high" decoding="async" src="https://www.solidarity.in/wp-content/uploads/2019/06/image.png" alt="" class="wp-image-3296" width="452" height="267" srcset="https://www.solidarity.in/wp-content/uploads/2019/06/image.png 602w, https://www.solidarity.in/wp-content/uploads/2019/06/image-300x177.png 300w" sizes="(max-width: 452px) 100vw, 452px" /></figure></div>\n\n\n\n<div class="wp-block-image"><figure class="aligncenter is-resized"><img decoding="async" src="/wp-content/uploads/2019/06/image-1.png" alt="" width="452" height="267" /></figure></div>\n\n\n\n<div class="wp-block-image"><figure class="aligncenter is-resized"><img decoding="async" src="/wp-content/uploads/2019/06/image-2.png" alt="" width="452" height="267" /></figure></div>\n\n\n\n<div class="wp-block-image"><figure class="aligncenter is-resized"><img decoding="async" src="/wp-content/uploads/2019/06/image-3.png" alt="" width="452" height="267" /></figure></div>',
         }}
       />
     ),
@@ -1446,7 +1446,7 @@ export const ALL_POSTS: PostData[] = [
     slug: "is-this-the-right-time-to-deploy-capital-in-equity-markets-an-answer-it-yourself-guide",
     title:
       "Is this the right time to deploy capital in Equity Markets? An answer it yourself guide",
-    date: "",
+    date: "August 19, 2017",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -1478,7 +1478,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-11",
     slug: "investment-thesis-on-mayur-uniquoters-2",
     title: "INVESTMENT THESIS ON MAYUR UNIQUOTERS",
-    date: "",
+    date: "July 12, 2022",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -1509,7 +1509,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-12",
     slug: "investment-thesis-on-neogen-chemicals-2",
     title: "INVESTMENT THESIS ON NEOGEN CHEMICALS",
-    date: "",
+    date: "January 5, 2023",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -1537,10 +1537,72 @@ export const ALL_POSTS: PostData[] = [
     ),
   },
   {
+    id: "cp-27",
+    slug: "investment-in-shivalik-bimetal-controls-ltd-2",
+    title: "Investment in Shivalik Bimetal Controls Ltd",
+    date: "March 28, 2025",
+    author: "Solidarity Investment Managers",
+    categories: ["Blogs", "Company Perspective"],
+    categoryLinks: [
+      {
+        label: "Select Company Perspectives",
+        path: "/perspectives/company-perspective",
+      },
+    ],
+    excerpt: (
+      <div
+        dangerouslySetInnerHTML={{
+          __html:
+            '<p><strong>Summary views</strong></p>\n<ul class="wp-block-list">\n<li>Shivalik Bimetal offers possibilities of 15-20%+ Sales CAGR and 17-20%+ PAT CAGR over long periods. We see structural tailwinds of end market growth, potential for market share gains globally and forward integration into value-added products. Margins should expand from forward &amp; backward integration and operating leverage.</li>\n<li>The Ghumman family now has full control over the company with larger shareholding having recently bought stake from the other promoter group at 610 per share. A single promoter group can drive more decisive decision making and we are already seeing more investments behind Sales and R&amp;D.</li>\n<li>Business is resilient &amp; derisked and should generate meaningful Free Cash Flow over next few years despite Cap ex due to high steady state post tax ROIC of 30-35%+ due to the wide Technology moat.</li>\n<li>Recent share price correction (~35% decline from peak) can be explained by short-term growth challenges and market corrections. We remain optimistic long term and have used the correction to increase our position size to ~4% as we find current valuations attractive.</li>\n</ul>',
+        }}
+      />
+    ),
+    content: (
+      <div
+        className="post-content"
+        dangerouslySetInnerHTML={{
+          __html:
+            '<p><strong>Summary views</strong></p>\n<ul class="wp-block-list">\n<li>Shivalik Bimetal offers possibilities of 15-20%+ Sales CAGR and 17-20%+ PAT CAGR over long periods. We see structural tailwinds of end market growth, potential for market share gains globally and forward integration into value-added products. Margins should expand from forward &amp; backward integration and operating leverage.</li>\n<li>The Ghumman family now has full control over the company with larger shareholding having recently bought stake from the other promoter group at 610 per share. A single promoter group can drive more decisive decision making and we are already seeing more investments behind Sales and R&amp;D.</li>\n<li>Business is resilient &amp; derisked and should generate meaningful Free Cash Flow over next few years despite Cap ex due to high steady state post tax ROIC of 30-35%+ due to the wide Technology moat.</li>\n<li>Recent share price correction (~35% decline from peak) can be explained by short-term growth challenges and market corrections. We remain optimistic long term and have used the correction to increase our position size to ~4% as we find current valuations attractive. Any further decline will be an opportunity to add more to our positions.</li>\n<li>Shivalik is a Phase 3 co poised to become Phase 4.</li>\n</ul>\n<p><strong>What do they do?</strong></p>\n<ul class="wp-block-list">\n<li>Shivalik is a high-precision welding company that primarily specializes in joining metals mainly through Electron Beam Welding (EBW) &amp; Diffusion Bonding.</li>\n<li>Shivalik mainly caters to three broad segments &#8211; Shunt Resistors (~40% of Sales FY25e), Thermostatic Bimetals (~45%) and Electrical Contacts (~15%).</li>\n</ul>\n<p><strong>What do their products do?</strong></p>\n<ul class="wp-block-list">\n<li>EBW Shunt Resistors are used to detect and measure the flow of electrical current in a circuit in applications such as Energy Meters, Automotives, Battery Management Systems etc. Some of their customers are Vishay, Hella, Continental etc (Tier 1 suppliers to OEMs) and they compete with global players like Isabelenhuette.</li>\n<li>Thermostatic Bimetals are a combination of two or more alloys with different thermal coefficients which bend when heated and so are used to trigger Circuit breakers for Switchgear, Electrical appliances etc. Some of their customers are Schneider, ABB, Siemens etc. and they compete with global players like EMS and Aperam.</li>\n<li>Electrical Contacts are used as connecting points to allow/interrupt electricity flow when a switch is turned on/off and are used in Switchgears, Smart Meters etc. Their customers include C&amp;S Electric, Havells, Anchor and they compete with domestic players like Modison, Choksi and Heraeus.</li>\n</ul>\n<p><strong>Brief history of Shivalik</strong></p>\n<ul class="wp-block-list">\n<li>Shivalik was set up by Mr N S Ghumman and Mr SS Sandhu in 1984 as Asia\'s first Thermostatic Bimetal company. It later forayed into the Cathode Ray Tube parts to cater to the growing TV demand in India which gave it access to the EBW technology in 2000.</li>\n<li>It entered Silver Contacts in 2006 via JV with Checon USA but took full control of the entity in 2023. It also entered a JV with ArcelorMittal for Cladding material.</li>\n<li>While the CRT parts business got disrupted due to the rise of LED/LCD screens, promoters showed foresight by successfully diversifying into Shunt Resistors in 2015 by leveraging its EBW tech know-how.</li>\n<li>In 2011, Shivalik acquired Sandvik\'s Bimetal bonding equipment at an attractive price. Today Shivalik has the largest Electron Beam welding and Bonding capacity globally.</li>\n<li>The company is currently being run by Kabir and Sumer Ghumman post the exit of the Sandhu family in 2024. The Ghumman family bought a portion of the Sandhu family stake in Sept 2024 to increase their shareholding from ~26% to ~33% at 610 per share.</li>\n</ul>\n<p><strong>Shivalik is very well positioned for sustainable growth over long periods of time</strong></p>\n<p>Shivalik has grown Sales at a healthy pace of ~18% CAGR over the last decade. We believe conditions for 15-20%+ Sales CAGR for long periods exist.</p>\n<ul class="wp-block-list">\n<li>Supportive growth environment in all product segments.</li>\n<li>Scope for market share gains in core product categories.</li>\n<li>Expanding addressable market through forward integration.</li>\n<li>Stronger competitive edge as Shivalik has expanded its technology skill sets which reduces risk of margin compression.</li>\n</ul>\n<p><strong>Shunt Resistors</strong></p>\n<p>We estimate this segment to grow at 15-20%+ Sales CAGR for long periods of time. Shivalik is a dominant player in India with 80%+ share and has scope to gain market share globally (~15% global market share) due to its strong track record on quality and cost advantage from its end-to-end India manufacturing setup.</p>\n<p><strong>Bimetals</strong></p>\n<p>This segment is more niche and hence Sales would grow at low to mid-teens. In India, Shivalik enjoys strong dominance (~80% market share) and should grow in line or slightly faster than nominal GDP as it benefits from growth in real estate/infra.</p>\n<p><strong>Electrical Contacts</strong></p>\n<p>This segment could grow Sales in mid to high teens for long periods. This is a larger market ($1Bn globally FY25e) compared to the other 2 verticals, however, more competition exists.</p>\n<p><strong>Shivalik generates healthy economics as products are backed by wide technology moat with low competition intensity</strong></p>\n<p>Shivalik operates in a highly favourable industry structure (4-5 players globally ex China) and enjoys a strong position with 80-90%+ market share in Shunts and Bimetals in India. We estimate steady state ROIC Post tax to be upwards of 30-35%+ which is quite rare in B2B businesses.</p>\n<p><strong>Current valuations are reasonable given high ROIC business with longevity of growth</strong></p>\n<p>Shivalik is a very high-quality business (Dominant player, derisked, technology moat, net debt free with high ROIC) with longevity of growth. Promoters have demonstrated resilience in adversity and have grown the business in a focused manner by pursuing profitable opportunities.</p>\n<p>While markets might be concerned with weak short-term earnings growth, we are willing to stretch time given the long-term opportunity remains intact and promoters inspire trust. Any further price declines subject to relative opportunities, can be used to add to our position given we can go up to 8% position weight in such names.</p>\n<p>Please click <strong><a href="/wp-content/uploads/2025/03/Shivalik-Bimetal-Controls-Updated-Investment-Thesis-28-March-2025.pdf" target="_blank" rel="noreferrer noopener">here</a></strong> if you would like to download the PDF version of this blog</p>',
+        }}
+      />
+    ),
+  },
+  {
+    id: "cp-28",
+    slug: "investment-in-shivalik-bimetal-controls-ltd",
+    title: "investment in shivalik bimetal controls ltd",
+    date: "October 9, 2024",
+    author: "Solidarity Investment Managers",
+    categories: ["Blogs", "Company Perspective"],
+    categoryLinks: [
+      {
+        label: "Select Company Perspectives",
+        path: "/perspectives/company-perspective",
+      },
+    ],
+    excerpt: (
+      <div
+        dangerouslySetInnerHTML={{
+          __html:
+            "<p>Shivalik's core competency is high precision metal welding used to make specialized products like Shunt Resistors, Thermostatic Bimetals and Electrical Contacts.</p>\n\n<p>Shivalik can grow topline at 15-20%+ CAGR for long periods benefitting from multiple secular domestic and global tailwinds (growth in Domestic Smart Meters/ Electric Vehicles/Hybrid and global customers derisking supply chains). They have a dominant position in India and can become meaningful global players in their niches over time as customers derisk supply chains.</p>\n\n<p>Shivalik's steady state economics is attractive (30%+ ROE) and Balance sheet resilient (Debt free co) due to technology moat and favourable industry structure.</p>",
+        }}
+      />
+    ),
+    content: (
+      <div
+        className="post-content"
+        dangerouslySetInnerHTML={{
+          __html:
+            "<p>Shivalik's core competency is high precision metal welding used to make specialized products like Shunt Resistors, Thermostatic Bimetals and Electrical Contacts (explained below).</p>\n\n<p>Shivalik can grow topline at 15-20%+ CAGR for long periods benefitting from multiple secular domestic and global tailwinds (growth in Domestic Smart Meters/ Electric Vehicles/Hybrid and global customers derisking supply chains). They have a dominant position in India and can become meaningful global players in their niches over time as customers derisk supply chains.</p>\n\n<p>Shivalik's steady state economics is attractive (30%+ ROE) and Balance sheet resilient (Debt free co) due to technology moat (explained below) and favourable industry structure.</p>\n\n<p>Promoters have demonstrated strong execution, resilience and willingness to invest in the past. These are rare traits in a Small cap company.</p>\n\n<p><strong>What do their products do?</strong></p>\n\n<p>Shunt resistors measure electrical current. Applications are in Energy meters, Automotives, Battery management systems.</p>\n\n<p>Thermostatic Bimetals are used in overload protection devices like circuit breakers. Applications are in Switchgear.</p>\n\n<p>Electrical Contacts are used as connecting points when a switch is turned on/off. They are used in Switchgears etc.</p>\n\n<p><strong>Shivalik is a Phase 3 co poised to become Phase 4 with time.</strong></p>\n\n<p>Phase 1: Sowing seeds</p>\n\n<p>Began journey with Bimetals in 1986, later entered Cathode Ray Tube (CRT) parts which gave access to Electron Beam Welding tech (\"EBW\"). Forayed into Contacts in 2006 via JV with Checon USA.</p>\n\n<p>Phase 2: Building strong foundation, navigating disruption by entering adjacencies</p>\n\n<p>Slump sale acquisition of Sandvik's Bimetal equipment in 2011 helped establish larger presence in a low-cost manner. Shivalik deepened its tech expertise (Metallurgy knowledge, precision welding), expanded product portfolio &amp; added customers in India and globally.</p>\n\n<p>Even though their CRT parts business got disrupted (~30% of Sales in FY11) with advent of LED/LCD TVs, mgmt. demonstrated strong resilience by using EBW tech to enter Shunt Resistors in 2015 and has shown healthy growth (~14% Sales CAGR over last 15 years) despite challenges.</p>\n\n<p>Phase 3: Establishing domestic dominance, Improvement in business quality and seeding export markets</p>\n\n<p>Shivalik was able to establish Dominance in domestic markets through first mover edge/Import substitution. (~80% market share in Bimetals, ~70% share in Shunts for Single Phase Meters.) Shivalik grew Sales at ~20% CAGR over last decade with strong improvement in profit margins as quality of business has improved. Shivalik has forward integrated from Strips into Components, increased share of higher Margin Shunts from ~31% to ~40% and Exports from 51% to 65% of Sales over FY17 to FY24. Gross Profit Margins expanded from 40% to 44% over FY14-24 (48% in FY23) which drove strong Operating Profit growth of ~27% CAGR.</p>\n\n<p>Phase 4: Now attempting to become a meaningful global player in its niches</p>\n\n<p>Shivalik can gain market share from global peers over time. With its low-cost India manufacturing setup, in house tooling/ in house assembly of machinery parts it can offer cost savings, quality assurance and shorter lead time to its customers while also enjoying higher Margins and high Asset turns vs global peers.</p>\n\n<p>Shivalik has expanded capacities across 3 segments and can potentially do 1600 Cr Sales at peak utilisation from ~500Cr Sales today. Shivalik today has the largest EBW set up globally and 35% of global Bimetal capacity. We expect all 3 segments to grow.</p>\n\n<ul class=\"wp-block-list\">\n<li>Shunt Resistors (40% of sales FY24) can grow at &gt; 20% CAGR from Smart meter demand (Govt has set a target of 25 Cr installations, Manufacturing needs to be localized) and increasing Electric Vehicles/Hybrid penetration (Shunt requirement can be 2-4x in Hybrid and EV vs ICE 4W). Renewable energy storage will also drive growth. Last few years Shivalik has seeded relationships with leading Tier 1s suppliers which could translate into higher wallet share going forward in global Autos and reduce customer concentration risk.</li>\n<li>Bimetals (48% of sales FY24) can grow at 15%+ CAGR. The India business should continue to benefit from a robust Real Estate cycle. In Exports, Shivalik can gain share as global peers exit/move up the value chain.</li>\n<li>Contacts (12% of sales FY24) can grow exponentially from a small base. There should be a rise in demand in Smart Meters as India looks to plug electricity losses. Shivalik will explore global markets more aggressively and will leverage its existing MNC relationships. Any potential partnership with Metalor (Global tech leader) can expand the Total Addressable Market.</li>\n</ul>\n\n<p>With higher share of value add (components/assembly work), more automation and with Operating leverage, we believe EBITDAM can expand to 25%+ (from ~21% today) leading to 25%+ Profit CAGR.</p>\n\n<p><strong>Healthy steady state economics as Industry structurally favourable and Shivalik enjoys strong edge</strong></p>\n\n<p>Technology in these segments isn't easily available which explains consolidated global Industry structure (4-6 peers in Bimetals) and lack of credible domestic peers. Shivalik is much ahead in the learning curve as it has expertise built over many decades and today is a renowned player making low ohmic Shunts needing very precise Electron Beam Welding, high precision Bimetals with low micron level physical tolerances and longer life Contacts.</p>\n\n<p>Customer acquisition takes time as credibility builds slowly. Shivalik enjoys long term relationship with its key customers and has a strong track record of near zero rejections. Products are low cost, high criticality and largely customised in nature. We believe post tax ROEs can be 30%+ as Margins expands and Asset turns improve with better capacity utilisations.</p>\n\n<p>Promoters have grown the business in a thoughtful manner (targeted fewer profitable niches by leveraging existing technical skillsets, went deeper with existing customers and markets before exploring new markets). The current Total Addressable Market can be ~USD 2.5 Bn by 2030. While some applications may not be decadal+ opportunities (example domestic Smart Meters), we believe management can leverage its strong technical skillsets/customer trust to enter new segments, as they have done in the past. Sufficient management bandwidth exists, and we don't worry about key man risk, which can be a concern in many Small caps.</p>\n\n<p><strong>While trailing multiples seem high, one should look at valuations from multiple lens.</strong></p>\n\n<p>We have bought Shivalik at ~35-38x trailing normalized PE FY24 for our ~3% initial position. Shivalik merits higher valuations as it enjoys both high growth with longevity &amp; high ROIC. Trailing multiples don't capture longevity of growth.</p>\n\n<p>The challenge in illiquid stocks is the inability to buy the quantity you want at the price and time you want. One needs to build positions gradually. If one has decadal horizons and realizes in hindsight that we overpaid by 15%, that barely matter over longer time horizons. Even less so, if one intends to add to the position over time.</p>\n\n<p>Shivalik is a high-quality business (high growth, high FCF, debt free, derisked model, technology moat) run by people who have demonstrated resilience and whom we trust. They should command a 25-30x trailing PE 5 years out. We see a roadmap to 16-18%+ IRR over 5 years which justifies a base position. We can take up to 8-10% weight over time and would considering adding on valuation declines.</p>\n\n<p>Please click <strong><a href=\"/wp-content/uploads/2024/10/Shivalik-Bimetal-Controls-Ltd-Investment-thesis-9-Oct-24.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">here</a></strong> if you would like to download the PDF version of this blog</p>",
+        }}
+      />
+    ),
+  },
+  {
     id: "cp-13",
     slug: "investment-thesis-on-indiamart-intermesh",
     title: "Investment thesis on  IndiaMART InterMESH",
-    date: "",
+    date: "October 4, 2023",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -1571,7 +1633,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-22",
     slug: "choosing-the-right-investor-a-guide-for-founders",
     title: "Choosing the right investor - a guide for founders",
-    date: "",
+    date: "March 24, 2015",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -1603,7 +1665,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-23",
     slug: "what-i-learned-from-rakesh-jhunjhunwala",
     title: "What I learned from Rakesh Jhunjhunwala",
-    date: "",
+    date: "August 15, 2022",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -1635,7 +1697,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-24",
     slug: "role-of-behaviour-in-long-term-investment-performance",
     title: "Role of behaviour in long term investment performance",
-    date: "",
+    date: "September 18, 2016",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -1658,7 +1720,7 @@ export const ALL_POSTS: PostData[] = [
         className="post-content"
         dangerouslySetInnerHTML={{
           __html:
-            '<p>Investor behaviour is as much a determinant of long term investing success, as a fund manager\'s skill in building a portfolio.<span id="more-3280"></span></p>\n\n\n\n<p>The charts below illustrate this for three companies from different industries</p>\n\n\n\n<div class="wp-block-image">\n<figure class="aligncenter is-resized"><img fetchpriority="high" decoding="async" class="wp-image-3281" src="https://www.solidarity.in/wp-content/uploads/2019/06/Long-term-investing-success.png" alt="" width="691" height="440" srcset="https://www.solidarity.in/wp-content/uploads/2019/06/Long-term-investing-success.png 921w, https://www.solidarity.in/wp-content/uploads/2019/06/Long-term-investing-success-300x191.png 300w, https://www.solidarity.in/wp-content/uploads/2019/06/Long-term-investing-success-768x489.png 768w, https://www.solidarity.in/wp-content/uploads/2019/06/Long-term-investing-success-680x433.png 680w" sizes="(max-width: 691px) 100vw, 691px" /></figure>',
+            '<p>Investor behaviour is as much a determinant of long term investing success, as a fund manager\'s skill in building a portfolio.</p>\n\n\n\n<p>The charts below illustrate this for three companies from different industries</p>\n\n\n\n<div class="wp-block-image">\n<figure class="aligncenter is-resized"><img fetchpriority="high" decoding="async" class="wp-image-3281" src="https://www.solidarity.in/wp-content/uploads/2019/06/Long-term-investing-success.png" alt="" width="691" height="440" srcset="https://www.solidarity.in/wp-content/uploads/2019/06/Long-term-investing-success.png 921w, https://www.solidarity.in/wp-content/uploads/2019/06/Long-term-investing-success-300x191.png 300w, https://www.solidarity.in/wp-content/uploads/2019/06/Long-term-investing-success-768x489.png 768w, https://www.solidarity.in/wp-content/uploads/2019/06/Long-term-investing-success-680x433.png 680w" sizes="(max-width: 691px) 100vw, 691px" /></figure>\n</div>\n\n\n\n<p>The casual observer will express admiration for a fund manager on the multi-bagger returns earned.</p>\n\n\n\n<p>A more thoughtful observation will reveal the pain an investor has to be willing to bear to earn these returns</p>\n\n\n\n<ol class="wp-block-list">\n<li>The starting period of the investment saw almost flat returns</li>\n<li>There were periods where the stock saw an exponential rise; followed by a stretch of significant pull backs</li>\n<li>There were long periods intermittently when the returns were flat</li>\n<li>Even if one paid 2X or 3X the entry price, results would have been stellar</li>\n</ol>\n\n\n\n<p><strong>It require nerves of steel to keep the faith and stay invested for such long periods of time. But this is THE key driver of long term returns once you have made a call with conviction. No point making a great investment call, but not giving it time to play through.</strong></p>\n\n\n\n<p>As your fund managers, we don\'t remain immune to the temptation to sell when we see significant market declines (unfortunate, but true!!). Our "reptilian" brains trigger impulses to protect capital. Successful investing requires us to act against the natural instincts of the brain.</p>\n\n\n\n<p>We need to keep reminding ourselves that stock prices do not behave rationally, especially in the short term.</p>\n\n\n\n<ul class="wp-block-list">\n<li>Take the example of Brexit. It was supposed to trigger significant uncertainty and commentators out did each other on bearish forecasts.</li>\n<li>However, the markets are 12% higher post the Brexit decision.</li>\n</ul>\n\n\n\n<p>Having an investment strategy that buys quality companies reduces the risk of selling in panic. One will have greater confidence that a falling stock price reflects current market sentiment and not a governance issue or challenges to a business model/earnings growth. Stock prices of quality companies are also unlikely to fall like a knife through hot butter.</p>\n\n\n\n<p><strong>Our behaviour is likely to be tested in the months ahead.</strong> Indian markets are trading well above average multiples; there is uncertainty of policy action in the developed world, and the pace and broad nature of earnings recovery in domestic markets is under question. However, quality companies should continue to deliver earnings growth despite the uncertainty; and while in the short term stock prices MAY creep down, their longer term trajectory will be to follow earnings growth. Stay the course</p>',
         }}
       />
     ),
@@ -1667,7 +1729,7 @@ export const ALL_POSTS: PostData[] = [
     id: "aa-03",
     slug: "invest-in-some-gold-in-your-portfolios",
     title: "Invest in some Gold in your portfolios",
-    date: "",
+    date: "July 21, 2019",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Asset Allocation"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -1684,7 +1746,7 @@ export const ALL_POSTS: PostData[] = [
         className="post-content"
         dangerouslySetInnerHTML={{
           __html:
-            '<p>The starting point for Investors must always be Asset Allocation.   In some earlier letters, we have written to you recommending you should hold some Gold/Gold Equivalents in one\'s portfolio - as Insurance to guard against the "unknown unknowns" of excessive money printing and even as diversification into another Asset Class that is not correlated with Equities.<span id="more-3636"></span></p>\n\n\n\n<p>The argument against holding Gold is that it offers no yield unlike Bonds.  However, with now over USD 13 Trillion of Bonds trading at negative interest rates, Gold, that yields nothing, could be abetter investment for developed world investors than Bonds being subscribed at negative interest rates that are sure to lose Capital on maturity.   </p>\n\n\n\n<p>That seems to be playing out with the chart below showing strong correlation between the price of Gold and the cumulative amount of Bonds trading at negative yield. </p>\n\n\n\n<p>And all signs at present suggest more monetary easing to take place in the developed world.  If the correlation holds, Gold prices should move higher.</p>\n\n\n\n<div class="wp-block-image">\n<figure class="aligncenter"><img decoding="async" src="https://mail.google.com/mail/u/0?ui=2&ik=2197c7bd43&attid=0.1&permmsgid=msg-f:1639661149673923076&th=16c13f20da52a204&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_n5-fDUYU17Pk5NnTpLzisu9YXzd01T5VwOcjDGK9IjxzZL5a30CMgvgGouqoQI09UB1LBLNtByBwMJPYdFvFF5OQ_ENTvFhKueR-MU__pz36bTv8FW5i_mg0&disp=emb" alt="" /></figure>',
+            '<p>The starting point for Investors must always be Asset Allocation.   In some earlier letters, we have written to you recommending you should hold some Gold/Gold Equivalents in one\'s portfolio - as Insurance to guard against the "unknown unknowns" of excessive money printing and even as diversification into another Asset Class that is not correlated with Equities.<span id="more-3636"></span></p>\n\n\n\n<p>The argument against holding Gold is that it offers no yield unlike Bonds.  However, with now over USD 13 Trillion of Bonds trading at negative interest rates, Gold, that yields nothing, could be abetter investment for developed world investors than Bonds being subscribed at negative interest rates that are sure to lose Capital on maturity.   </p>\n\n\n\n<p>That seems to be playing out with the chart below showing strong correlation between the price of Gold and the cumulative amount of Bonds trading at negative yield. </p>\n\n\n\n<p>And all signs at present suggest more monetary easing to take place in the developed world.  If the correlation holds, Gold prices should move higher.</p>\n\n\n\n<div class="wp-block-image">\n<figure class="aligncenter"><img decoding="async" src="https://mail.google.com/mail/u/0?ui=2&ik=2197c7bd43&attid=0.1&permmsgid=msg-f:1639661149673923076&th=16c13f20da52a204&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_n5-fDUYU17Pk5NnTpLzisu9YXzd01T5VwOcjDGK9IjxzZL5a30CMgvgGouqoQI09UB1LBLNtByBwMJPYdFvFF5OQ_ENTvFhKueR-MU__pz36bTv8FW5i_mg0&disp=emb" alt="" /></figure>Solidarity constructs Long only Equity portfolios.  We, therefore, do not hold Gold in partner portfolios. However, from an aggregate Asset Allocation perspective and to protect from tail risk, we would recommend considering some exposure to Gold or Gold Equivalents of 3-5% of your aggregate portfolio.',
         }}
       />
     ),
@@ -1693,7 +1755,7 @@ export const ALL_POSTS: PostData[] = [
     id: "vc-01",
     slug: "5-reasons-your-venture-has-not-got-funding",
     title: "5 reasons your venture has not got funding",
-    date: "",
+    date: "October 18, 2015",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Venture Capital"],
     categoryLinks: [
@@ -1722,7 +1784,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-10",
     slug: "outlook-for-future-returns-5",
     title: "Outlook for future returns",
-    date: "",
+    date: "October 6, 2023",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -1752,7 +1814,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-11",
     slug: "return-expectations-from-indian-equities-2",
     title: "Return expectations from Indian Equities",
-    date: "",
+    date: "January 5, 2023",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -1782,7 +1844,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-14",
     slug: "investment-thesis-on-delhivery",
     title: "Investment thesis on Delhivery",
-    date: "",
+    date: "July 8, 2024",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -1813,7 +1875,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-25",
     slug: "why-did-franklin-templeton-wind-up-six-credit-funds",
     title: "Why did Franklin Templeton wind up Six credit funds?",
-    date: "",
+    date: "April 25, 2020",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -1836,7 +1898,7 @@ export const ALL_POSTS: PostData[] = [
         className="post-content"
         dangerouslySetInnerHTML={{
           __html:
-            '<p>Franklin Templeton Mutual Fund, on Thursday announced it would wind up six credit funds with a large exposure to higher-yielding, lower-rated credit securities. </p>\n\n\n\n<p><strong>Why did they do so?</strong>  The Corporate Bond markets in India are fairly illiquid.   FT schemes have got impacted because they invested in papers with low credit rating (they actively took on credit risk). <span id="more-3737"></span> Even if there was no instance of credit default in the paper, lack of liquidity and investor behaviour has created an event.    During stressful conditions, there is a flight to safety of cash, so typically there are more redemptions than inflows and this corresponds with widening spreads between quoted buying /selling prices ("bid-ask" spread).   Buyers will quote prices at significant discounts to fair value knowing that sellers have no choice but to redeem.   Selling paper at distressed prices is therefore disadvantageous to unit holders who choose to remain invested as NAVs get marked down.  By shutting the fund, and redeeming holdings gradually, it is more equitable to all holders. </p>\n\n\n\n<p><strong>What this means for Unit Holders?</strong> If you have exposure to this fund, redemptions will be halted temporarily while the Fund house sells down positions in an orderly fashion.  Your money will be returned to you gradually, but some hit on NAV is to be expected.</p>\n\n\n\n<p><strong>Other risks.</strong> This now creates a Pandora\'s box for other MF schemes who hold poor quality paper.  Because of the FT experience, unit holders may rush to redeem paper they hold in other schemes causing spreads to widen further and creating a vicious cycle.</p>\n\n\n\n<p><strong>Learnings. </strong>We have written to partners before on multiple occasions that while investing in debt, "Return of Capital" is more important than "Return on Capital". </p>\n\n\n\n<ul class="wp-block-list">\n<li>Read, "<span style="color: #993300;"><a style="color: #993300;" href="../are-you-aware-of-the-risk-in-your-debt-investments/index.html" target="_blank" rel="noreferrer noopener">Are you aware of the risk in your Debt Investments</a></span>" published on 31 Aug 2017</li>\n</ul>\n\n\n\n<ul class="wp-block-list">\n<li>Another article sent out last year <span style="color: #993300;">"<a style="color: #993300;" href="https://www.moneycontrol.com/news/business/personal-finance/opinion-debt-funds-have-gone-too-far-3555631.html" target="_blank" rel="noreferrer noopener">Is your Debt Manager taking Equity like risks for debt like returns" </a></span></li>\n</ul>\n\n\n\n<p><strong>Summary message.  Stay with funds who are investing in G Secs and "genuine AAA" companies.  Don\'t go down the quality curve in debt for the lure of incremental yield. </strong></p>',
+            '<p>Franklin Templeton Mutual Fund, on Thursday announced it would wind up six credit funds with a large exposure to higher-yielding, lower-rated credit securities. </p>\n\n\n\n<p><strong>Why did they do so?</strong>  The Corporate Bond markets in India are fairly illiquid.   FT schemes have got impacted because they invested in papers with low credit rating (they actively took on credit risk). <span id="more-3737"></span> Even if there was no instance of credit default in the paper, lack of liquidity and investor behaviour has created an event.    During stressful conditions, there is a flight to safety of cash, so typically there are more redemptions than inflows and this corresponds with widening spreads between quoted buying /selling prices ("bid-ask" spread).   Buyers will quote prices at significant discounts to fair value knowing that sellers have no choice but to redeem.   Selling paper at distressed prices is therefore disadvantageous to unit holders who choose to remain invested as NAVs get marked down.  By shutting the fund, and redeeming holdings gradually, it is more equitable to all holders. </p>\n\n\n\n<p><strong>What this means for Unit Holders?</strong> If you have exposure to this fund, redemptions will be halted temporarily while the Fund house sells down positions in an orderly fashion.  Your money will be returned to you gradually, but some hit on NAV is to be expected.</p>\n\n\n\n<p><strong>Other risks.</strong> This now creates a Pandora\'s box for other MF schemes who hold poor quality paper.  Because of the FT experience, unit holders may rush to redeem paper they hold in other schemes causing spreads to widen further and creating a vicious cycle.</p>\n\n\n\n<p><strong>Learnings. </strong>We have written to partners before on multiple occasions that while investing in debt, "Return of Capital" is more important than "Return on Capital". </p>\n\n\n\n<ul class="wp-block-list">\n<li>Read, "<span style="color: #993300;"><a style="color: #993300;" href="/perspectives/post/are-you-aware-of-the-risk-in-your-debt-investments" target="_blank" rel="noreferrer noopener">Are you aware of the risk in your Debt Investments</a></span>" published on 31 Aug 2017</li>\n</ul>\n\n\n\n<ul class="wp-block-list">\n<li>Another article sent out last year <span style="color: #993300;">"<a style="color: #993300;" href="https://www.moneycontrol.com/news/business/personal-finance/opinion-debt-funds-have-gone-too-far-3555631.html" target="_blank" rel="noreferrer noopener">Is your Debt Manager taking Equity like risks for debt like returns" </a></span></li>\n</ul>\n\n\n\n<p><strong>Summary message.  Stay with funds who are investing in G Secs and "genuine AAA" companies.  Don\'t go down the quality curve in debt for the lure of incremental yield. </strong></p>',
         }}
       />
     ),
@@ -1846,7 +1908,7 @@ export const ALL_POSTS: PostData[] = [
     slug: "why-do-we-never-go-down-the-risk-curve-in-financials-to-chase-cheap-valuations",
     title:
       "Why do we never go down the risk curve in Financials to chase cheap valuations",
-    date: "",
+    date: "March 12, 2023",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -1872,7 +1934,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-13",
     slug: "the-danger-of-1-year-forward-multiples",
     title: "The danger of 1 Year Forward Multiples",
-    date: "",
+    date: "October 9, 2015",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -1899,7 +1961,7 @@ export const ALL_POSTS: PostData[] = [
     slug: "stillness-backing-a-mission-oriented-promoter-and-the-rewards-of-good-karma-rakesh-jhunjhunwalas-incredible-340x-returns-in-inventurus",
     title:
       "Stillness, backing a mission oriented promoter and the rewards of good Karma - Rakesh Jhunjhunwala's incredible 340x returns in Inventurus",
-    date: "",
+    date: "December 1, 2024",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -1932,7 +1994,7 @@ export const ALL_POSTS: PostData[] = [
     slug: "investment-thesis-of-our-top-15-positions-in-our-prudence-scheme",
     title:
       "Investment Thesis of our Top 15 Positions held under the PRUDENCE Scheme",
-    date: "",
+    date: "April 4, 2025",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -1963,7 +2025,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-16",
     slug: "investment-thesis-on-icici-prudential-life-insurance-2",
     title: "INVESTMENT THESIS ON ICICI PRUDENTIAL LIFE INSURANCE",
-    date: "",
+    date: "January 5, 2023",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -1994,7 +2056,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-27",
     slug: "repetition-of-truths",
     title: "Repetition of truths",
-    date: "",
+    date: "January 28, 2017",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -2017,7 +2079,7 @@ export const ALL_POSTS: PostData[] = [
         className="post-content"
         dangerouslySetInnerHTML={{
           __html:
-            '<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow" style="text-align: center;">\n<p>Truths need to be repeated many times so that they don\'t lapse into oblivion</p>\n<cite>- Jose Saramago, Nobel Prize winning novelist and journalist </cite></blockquote>\n<p><span id="more-3257"></span></p>\n\n\n\n<div class="wp-block-image"><figure class="aligncenter is-resized"><img fetchpriority="high" decoding="async" src="https://www.solidarity.in/wp-content/uploads/2019/06/Financial-media-cartoon-website-1.png" alt="" class="wp-image-3263" width="575" height="379" srcset="https://www.solidarity.in/wp-content/uploads/2019/06/Financial-media-cartoon-website-1.png 766w, https://www.solidarity.in/wp-content/uploads/2019/06/Financial-media-cartoon-website-1-300x198.png 300w, https://www.solidarity.in/wp-content/uploads/2019/06/Financial-media-cartoon-website-1-680x448.png 680w" sizes="(max-width: 575px) 100vw, 575px" /></figure>',
+            '<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow" style="text-align: center;">\n<p>Truths need to be repeated many times so that they don\'t lapse into oblivion</p>\n<cite>- Jose Saramago, Nobel Prize winning novelist and journalist </cite></blockquote>\n\n\n\n<div class="wp-block-image"><figure class="aligncenter is-resized"><img fetchpriority="high" decoding="async" src="https://www.solidarity.in/wp-content/uploads/2019/06/Financial-media-cartoon-website-1.png" alt="" class="wp-image-3263" width="575" height="379" srcset="https://www.solidarity.in/wp-content/uploads/2019/06/Financial-media-cartoon-website-1.png 766w, https://www.solidarity.in/wp-content/uploads/2019/06/Financial-media-cartoon-website-1-300x198.png 300w, https://www.solidarity.in/wp-content/uploads/2019/06/Financial-media-cartoon-website-1-680x448.png 680w" sizes="(max-width: 575px) 100vw, 575px" /></figure></div>\n\n\n\n<p>Over the last 12 weeks, newspapers, television media and brokerage reports have been breathless in reporting the adverse impacts of demonetisation. Nearly every brokerage cut earnings estimates. However, the Indexes have crossed the levels they were before demonetisation was announced. Even companies that supposedly should have been severely impacted by demonetisation (e.g. TITAN in Jewellery) have crossed their price levels as of the day of demonetisation.</p>\n\n\n\n<p>Certain truths, which we have written about earlier, deserve repetition</p>\n\n\n\n<ol>\n<li>Bad news sells. The financial media\'s interest is in Advertising revenue through more eye balls. Their mission is not to look after your retirement nest egg.</li>\n<li>Forecasting short term movements is a mug\'s game. We do not have wisdom to comprehend what makes sentiment change on a dime. Those who claim to do so seldom publish their track record.</li>\n<li>Every time an uncertainty is confronted, we feel fear. However, what many people overlook is that we have always lived amidst uncertainty. The present always feels more uncertain than the past.</li>\n<li>Markets undergo a pull-back regularly. The ability to bear this pain is an inescapable part of the wealth creation journey.</li>\n</ol>\n\n\n\n<p>It is critical to define what will be your guiding principles and then shut out the noise. Understanding the behaviour of other market participants creates a significant behavioural advantage.</p>',
         }}
       />
     ),
@@ -2026,7 +2088,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-28",
     slug: "why-do-we-not-own-commodities-2",
     title: "Why do we not own commodities",
-    date: "",
+    date: "April 5, 2022",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -2062,7 +2124,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-17",
     slug: "investment-thesis-on-hdfc-bank-2",
     title: "INVESTMENT THESIS ON HDFC BANK",
-    date: "",
+    date: "April 2, 2020",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -2093,7 +2155,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-14",
     slug: "the-shadow-of-private-equity-ownership-on-our-buying-decisions",
     title: "The shadow of Private Equity ownership on our buying decisions",
-    date: "",
+    date: "May 28, 2023",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -2119,7 +2181,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-18",
     slug: "investment-thesis-on-pix-transmissions-limited",
     title: "Investment Thesis on Pix Transmissions Limited",
-    date: "",
+    date: "July 10, 2025",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -2150,7 +2212,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-15",
     slug: "a-perspective-on-fmcg-valuations",
     title: "A perspective on FMCG valuations",
-    date: "",
+    date: "November 16, 2018",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -2176,10 +2238,13 @@ export const ALL_POSTS: PostData[] = [
     id: "aa-04",
     slug: "are-you-aware-of-the-risk-in-your-debt-investments",
     title: "Are you aware of the risk in your Debt Investments?",
-    date: "",
+    date: "August 31, 2017",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Asset Allocation"],
-    categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
+    categoryLinks: [
+      { label: "Blogs", path: "/perspectives/blogs" },
+      { label: "Asset Allocation", path: "/perspectives/asset-allocation" },
+    ],
     excerpt: (
       <div
         dangerouslySetInnerHTML={{
@@ -2202,7 +2267,7 @@ export const ALL_POSTS: PostData[] = [
     id: "macro-05",
     slug: "has-india-decoupled-2",
     title: "Has India decoupled",
-    date: "",
+    date: "October 4, 2022",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -2235,7 +2300,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-29",
     slug: "investing-during-a-crisis",
     title: "Investing during a crisis",
-    date: "",
+    date: "February 24, 2022",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -2268,7 +2333,7 @@ export const ALL_POSTS: PostData[] = [
     slug: "our-perspectives-on-valuation-euphoria-in-small-and-micro-caps-at-present",
     title:
       "Our perspectives on valuation euphoria in Small and Micro Caps at present",
-    date: "",
+    date: "August 26, 2023",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -2294,7 +2359,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-17",
     slug: "high-noon-for-wholesale-funded-nbfcs",
     title: "High Noon for wholesale funded NBFCs",
-    date: "",
+    date: "September 30, 2018",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -2320,7 +2385,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-30",
     slug: "positioning-portfolios-in-context-of-the-corona-virus-2-3",
     title: "Positioning portfolios in context of the Corona Virus (2)",
-    date: "",
+    date: "March 12, 2020",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -2352,7 +2417,7 @@ export const ALL_POSTS: PostData[] = [
     id: "macro-06",
     slug: "the-british-referendum-is-it-time-to-load-the-elephant-gun",
     title: "The British Referendum: is it time to load the elephant gun?",
-    date: "",
+    date: "June 24, 2016",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Macro Environment"],
     categoryLinks: [
@@ -2381,7 +2446,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-19",
     slug: "investment-thesis-on-sequent-scientific-2",
     title: "INVESTMENT THESIS ON SEQUENT SCIENTIFIC",
-    date: "",
+    date: "July 1, 2019",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -2412,7 +2477,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-20",
     slug: "investment-thesis-on-star-health-life-insurance-2",
     title: "INVESTMENT THESIS ON STAR HEALTH LIFE INSURANCE",
-    date: "",
+    date: "October 4, 2022",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -2443,7 +2508,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-18",
     slug: "investment-thesis-on-kama-holdings",
     title: "Investment thesis on  Kama Holdings",
-    date: "",
+    date: "February 21, 2023",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity", "Company Perspective"],
     categoryLinks: [
@@ -2474,7 +2539,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-31",
     slug: "portfolio-positioning-and-approach-2",
     title: "Portfolio positioning and approach",
-    date: "",
+    date: "January 5, 2023",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -2510,7 +2575,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-32",
     slug: "measuring-fund-manager-performance",
     title: "Measuring fund manager performance",
-    date: "",
+    date: "December 26, 2015",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -2542,7 +2607,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-19",
     slug: "why-do-we-not-own-any-mid-sized-banks",
     title: "Why do we not own any Mid Sized Banks",
-    date: "",
+    date: "January 28, 2020",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -2568,7 +2633,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-20",
     slug: "investment-thesis-on-man-industries",
     title: "Investment thesis on MAN Industries",
-    date: "",
+    date: "February 13, 2023",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity", "Company Perspective"],
     categoryLinks: [
@@ -2599,7 +2664,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-21",
     slug: "performance-measurement-the-difference-between-twrr-and-xirr",
     title: "Performance measurement - the difference between TWRR and XIRR",
-    date: "",
+    date: "October 23, 2022",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -2625,7 +2690,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-22",
     slug: "indian-pharma-industry-implications-of-recent-developments",
     title: "Indian Pharma industry: Implications of recent developments",
-    date: "",
+    date: "August 2, 2015",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -2652,7 +2717,7 @@ export const ALL_POSTS: PostData[] = [
     slug: "investment-thesis-on-restaurant-brands-asia",
     title:
       "A perspective on poor sentiment for the QSR Sector and why we retain faith in RBA",
-    date: "",
+    date: "January 10, 2026",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective", "Equity"],
     categoryLinks: [
@@ -2666,7 +2731,7 @@ export const ALL_POSTS: PostData[] = [
       <div
         dangerouslySetInnerHTML={{
           __html:
-            '<p>We published our investment hypothesis on RBA which operates Burger King India (BK India) and Burger King and Popeyes franchises in Indonesia on Pg 7 of our <strong><a href="https://solidarity.sgp1.cdn.digitaloceanspaces.com/dev/quarterly-reports/6aSdIZaZa4dm0sRzGrb0zqqcwcglqt8EZ2EaSDue.pdf">Q1FY23 Letter</a>. </strong></p>\n\n\n\n<p>Over the last few months, we received some relevant questions on Quick Service Restaurants (QSRs) as well as RBA from partners and other colleagues in the Investment industry.  This note attempts to answer these questions. Please read the thesis above before reading further. <span id="more-4342"></span></p>\n\n\n\n<ol class="wp-block-list">\n<li>Would the Indian palette be a head wind to scale up of Western QSRs in India?</li>\n\n\n\n<li>How do you ascertain fair value when the franchise is loss making?</li>\n\n\n\n<li>Why did we invest in BK India (i.e., RBA) and not McDonalds (i.e., Westlife Foodworld) which seems to be a stronger franchise?</li>\n\n\n\n<li>Are we aligned with RBA\'s foray into Indonesia by acquiring the Burger King franchise and now bidding for and winning the Popeyes franchise?</li>\n\n\n\n<li>If RBA is getting sold by PE owners, aren\'t we better off waiting before entering?</li>\n</ol>\n\n\n\n<p><strong>Would the Indian palette be a head wind to scale up of Western QSRs in India?</strong></p>',
+            '<p><strong>Summary</strong></p>\n\n<ul class="wp-block-list">\n<li>Leading players in the QSR industry have all the key attributes of a good business we would like to own long term: growth longevity, 18%+ ROIC and low disruption risk.</li>\n\n<li>The sector is currently out of favour due to muted profit growth in recent years (weak consumer sentiment, Delivery Apps margin challenge, increased competitive intensity). But the long-term profitable growth story remains intact. The prevailing pessimism is creating reasonable to attractive entry points in many QSR names, especially in a market where value is hard to find. This is good for long-term investors.</li>\n</ul>\n\n<p>RBA continues to execute well in India. This is despite a tough environment and significant distraction of a promoter exit. There was a Capital allocation error into Indonesia. We believe the management will take a rational call to exit Indonesia if cash losses there continue. It is a very attractively priced Asset, and hence we have continued to add to our position.</p>',
         }}
       />
     ),
@@ -2675,7 +2740,7 @@ export const ALL_POSTS: PostData[] = [
         className="post-content"
         dangerouslySetInnerHTML={{
           __html:
-            '<p>We published our investment hypothesis on RBA which operates Burger King India (BK India) and Burger King and Popeyes franchises in Indonesia on Pg 7 of our <strong><a href="https://solidarity.sgp1.cdn.digitaloceanspaces.com/dev/quarterly-reports/6aSdIZaZa4dm0sRzGrb0zqqcwcglqt8EZ2EaSDue.pdf">Q1FY23 Letter</a>. </strong></p>\n\n\n\n<p>Over the last few months, we received some relevant questions on Quick Service Restaurants (QSRs) as well as RBA from partners and other colleagues in the Investment industry.  This note attempts to answer these questions. Please read the thesis above before reading further. <span id="more-4342"></span></p>\n\n\n\n<ol class="wp-block-list">\n<li>Would the Indian palette be a head wind to scale up of Western QSRs in India?</li>\n\n\n\n<li>How do you ascertain fair value when the franchise is loss making?</li>\n\n\n\n<li>Why did we invest in BK India (i.e., RBA) and not McDonalds (i.e., Westlife Foodworld) which seems to be a stronger franchise?</li>\n\n\n\n<li>Are we aligned with RBA\'s foray into Indonesia by acquiring the Burger King franchise and now bidding for and winning the Popeyes franchise?</li>\n\n\n\n<li>If RBA is getting sold by PE owners, aren\'t we better off waiting before entering?</li>\n</ol>\n\n\n\n<p><strong>Would the Indian palette be a head wind to scale up of Western QSRs in India?</strong></p>\n\n\n\n<ul class="wp-block-list">\n<li>The product innovation teams of Western QSRs adapt their menus to suit local tastes (e.g. India has a variety of spicy options on the menus, options built around preferred local food items like "butter chicken burger", "paneer burger", "masala whopper" etc.).</li>\n\n\n\n<li>Tastes are an acquired habit. ~50% of our population is less than 30 years old.  As this demographic grows up consuming western styled food, Western QSRs will gain market share, including from the unorganized sector.</li>\n</ul>\n\n\n\n<p>We share three interesting anecdotes to support the above arguments. </p>\n\n\n\n<ul class="wp-block-list">\n<li>One of our colleague\'s mother runs a school bus service. On the last day of each academic year they arrange a treat for all students who ride their buses. Around 6 years back, the students started asking for burgers instead of vada pavs or a samosa.</li>\n\n\n\n<li>Our first office in Mumbai was in Kurla, adjacent to the Phoenix Mall. On numerous occasions we would observe our office boy and his wife enjoying an outing at a Western QSR.</li>\n\n\n\n<li>In restaurant visits, we have observed teenagers from poorer sections of the society visit these restaurants in small groups and share meals that suit their budget.  Outings at QSRs are very aspirational. </li>\n</ul>\n\n\n\n<p>Hence, Western QSRs should do very well. </p>\n\n\n\n<ul class="wp-block-list">\n<li>Eating out is a structural growth story. The number of meals per month consumed out of home increases with GDP growth and rising per capita incomes. </li>\n\n\n\n<li>This is an affordable category people want to explore.  </li>\n\n\n\n<li>QSRs such as Burger King and McDonalds should be beneficiaries. Their value for money offering combined with a nice eating out experience in a contemporary setting serves as an affordable treat.</li>\n</ul>\n\n\n\n<p><strong>How do you ascertain fair value when the franchise is loss making?</strong></p>\n\n\n\n<p>RBA reported a net loss this year. This was not an unexpected outcome. When an enterprise is in gestation phase and is sub scale, one cannot use profitability metrics to gauge fair value.   Even basis trailing EV/OCF or EV/EBITDA (pre-IndAS 116 basis) valuation metrics would look very high optically. Trailing metrics are more suitable for linear growth stories (Banks, FMCG, IT Services).</p>\n\n\n\n<p>To ascertain fair value today, we</p>\n\n\n\n<ul class="wp-block-list">\n<li>Value the BK India business basis broad estimates of Operating Cashflow it could generate in FY28 and discount back to today to ascertain acceptable entry prices. We prefer Operating Cashflow as a valuation metric to PAT as the depreciation in this business is significantly higher than the maintenance capex.  </li>\n\n\n\n<li>For Indonesia, we ascribe a range of Rs 1200-2000 Cr in FY 28. The total investment in Indonesia (acquisition plus primary infusion) by RBA till date is ~Rs 1250 Cr.  Hence, we are not assuming any significant upside for Indonesia yet till the narrative gets translated into numbers (which one can see in India).</li>\n\n\n\n<li>Hence, the primary driver of our hypothesis is performance of BK India with some option value for Indonesia.</li>\n</ul>\n\n\n\n<p>Our expectations are that BK India will generate about Rs 500-600 Cr Operating Cashflow by FY28.<sup class="fn" data-fn="385a9774-a010-4374-82c8-dfdf9cd90d72"><a id="385a9774-a010-4374-82c8-dfdf9cd90d72-link" href="#385a9774-a010-4374-82c8-dfdf9cd90d72">1</a></sup>  The rationale is explained below.</p>\n\n\n\n<p>A successful QSR needs to get the following right:</p>\n\n\n\n<ul class="wp-block-list">\n<li>Menu appealing to local tastes and consistent product innovation.</li>\n\n\n\n<li>Value for money.</li>\n\n\n\n<li>Location.</li>\n\n\n\n<li>Quick service.</li>\n\n\n\n<li>Clean + contemporary look and feel of restaurants.</li>\n</ul>\n\n\n\n<p>While these seem simple, they are difficult to execute. Hence, one does not see many pan-India QSR brands at large scale.</p>\n\n\n\n<p>BK India has executed well on the above parameters. They have scaled from no presence in India to ~400 stores in 9 years with reasonable unit economics. The brand "Burger King" has found consumer acceptance, loyalty of some consumers and is always a part of the consumer consideration set. Of your CIOs two daughters, one is partial to Burger King, and the other to McDonalds.</p>\n\n\n\n<ul class="wp-block-list">\n<li>Scale and increasing brand acceptance start generating a virtuous cycle as growth is accompanied with higher margins and cash flow. Location is very critical for QSRs as it is often an impulse purchase, and you compete with other options. When the company started in 2014, it was difficult to secure good sites at competitive rates as it was an unknown brand in India and lessors were hesitant. This resulted in higher lease rentals vs. established QSRs, and it was tougher to secure long duration lock-ins. However, today BK India is as competitive as any other QSRs, and lessors seek them out as a brand to work with.</li>\n\n\n\n<li>The Company spends 5% of its sales on marketing (minimum spend as per franchise agreement). As sales increase, the absolute spending increases non-linearly and is helpful in creating further pull and increasing throughput and revenue per restaurant.</li>\n</ul>\n\n\n\n<p>Overall, these aspects give us confidence that the BK brand can scale up well over time.</p>\n\n\n\n<p>QSRs have significant fixed costs at both, restaurants, and corporate level. As the no. of restaurants reach a critical scale and the revenue per restaurant increases, a large share of the incremental revenue flows through to profits driving exponential profit growth. The same should play out at BK India.</p>\n\n\n\n<p>Since BK India is sub-scale and still in investment mode, it needs a strong Balance Sheet which can support capex for store additions when profitability is yet to reach steady state. BK India has net cash of ~Rs 160 Cr at end of FY23. This, combined with expected profits (even though below normalised level) and negative working capital gives us comfort that the business will not need additional equity infusion as it scales up over next 5 years.</p>\n\n\n\n<p>The table below is our hypothesis on how Operating profits for BK India should scale as it reaches critical scale. <sup class="fn" data-fn="75395aed-8bd0-439e-b8b5-7620cdaaad7d"><a id="75395aed-8bd0-439e-b8b5-7620cdaaad7d-link" href="#75395aed-8bd0-439e-b8b5-7620cdaaad7d">2</a></sup> As restaurant count increases from 391 at end of FY23 to ~720 by FY28, and revenue per restaurant increases from Rs 3.7 Cr to 5.4 Cr, Operating Cashflow grows exponentially from ~Rs 33 Cr to ~Rs 500 Cr.</p>\n\n\n\n<figure class="wp-block-image is-resized"><img fetchpriority="high" decoding="async" width="903" height="535" class="wp-image-5267" style="width: 702px; height: auto;" src="/wp-content/uploads/2025/05/Picture1-RBA-blog.png" alt="" /></figure>\n\n\n\n<figure class="wp-block-image size-full is-resized"><img decoding="async" width="623" height="114" class="wp-image-5260" style="width: 407px; height: auto;" src="/wp-content/uploads/2023/06/image-1.png" alt="" /></figure>\n\n\n\n<p>The Company\'s outlook mentions that they will have 700 restaurants by FY27. We have built buffers and work with an assumption that they will operate 720 restaurants by end of FY28. But are the restaurant margin expansion assumptions credible? This margin expansion has played out for Westlife Foodworld (McDonald\'s) as it scaled revenue per store.<sup class="fn" data-fn="167d0276-04b8-43dc-a29e-7ecfcf95653c"><a id="167d0276-04b8-43dc-a29e-7ecfcf95653c-link" href="#167d0276-04b8-43dc-a29e-7ecfcf95653c">3</a></sup></p>\n\n\n\n<figure class="wp-block-image size-full is-resized"><img decoding="async" width="621" height="475" class="wp-image-5261" style="width: 463px; height: auto;" src="/wp-content/uploads/2023/06/image-2.png" alt="" /></figure>\n\n\n\n<p><strong>What valuations would we ascribe to the franchise 5 years out?</strong></p>\n\n\n\n<p>For a QSR which is a national brand, has room to grow ~15% for a decade and the potential to add more brands given healthy cash generation, at a Cash ROIC of about 22-25% (with room to expand up to 30% over time), we would be willing to pay 20-25x Operating Cashflows of FY28.</p>\n\n\n\n<p>It may interest partners to note that Westlife trades at 50x Operating Cash Flow and 45x EBITDA basis FY23 numbers (pre-IndAS 116) at present. These are rich valuations and illustrate what the market is willing to pay when there is confidence on execution. Hence, we would not be surprised if the market ascribes even 30x Operating Cash flow to BK India if they execute well.</p>\n\n\n\n<p><strong>Why did we invest in BK India (i.e., RBA) and not McDonalds (i.e., Westlife Foodworld) which seems to be a stronger franchise?</strong></p>\n\n\n\n<p>We always bet on an industry first, and then choose players within an industry. This industry can have multiple winners. Partners are aware we own both ICICI/HDFC in Banking.</p>\n\n\n\n<p>Westlife, which operates McDonalds in South and West India is a very well-run business which we would like to own at a certain price, in addition to RBA. </p>\n\n\n\n<p>There is no doubt that Westlife has superior economics and is a stronger brand vs BK India today. It has higher revenue per restaurant (Rs 6.4 crores vs. Rs 3.7 crores) and profitability (Pre-IND AS 116 EBITDA margin of 13.2% vs. 2.5%). However, both franchises are at different stages of their evolution.</p>\n\n\n\n<ul class="wp-block-list">\n<li>Westlife has been in India for over 25 years while BK India has been in the country for less than 9 years. Hence, BK India\'s brand strength is weaker than McDonald\'s and will take time to build.</li>\n\n\n\n<li>A restaurant typically reaches its steady state revenues and profitability over ~4 years. BK India\'s rapid scale up in last 4 years (187 to 391 restaurants) means many of their restaurants are still not mature. At the end of FY23, ~59% of Burger King\'s restaurants were less than 4 years old compared to ~25% for Westlife.</li>\n\n\n\n<li>Despite this, the margins of both businesses are not very different when one compares the two at same stages of their life cycle - at similar revenue per store.</li>\n</ul>\n\n\n\n<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="682" height="139" class="wp-image-5264" style="width: 388px; height: auto;" src="/wp-content/uploads/2023/06/image-3.png" alt="" /></figure>\n\n\n\n<ul class="wp-block-list">\n<li>Corporate overheads, which need to be built upfront to support a certain pace of growth, at BK India today are similar vs. Westlife at same stage of evolution even though their restaurant addition plan over the next 3 years is more aggressive vs. Westlife\'s plan of restaurant addition in FY15 for next 3 years.</li>\n</ul>\n\n\n\n<p>RBA also has some advantages over Westlife.</p>\n\n\n\n<ol class="wp-block-list" style="list-style-type: lower-alpha;">\n<li>RBA has pan India rights for Burger King vs Westlife which has rights only in South & West India for McDonalds. RBA should be able to set up more restaurants vs Westlife.</li>\n\n\n\n<li>Westlife will need to pay a higher royalty to McDonald\'s over time vs RBA and that should negate some of their margin advantage at present which is driven by higher throughput per store given McDonalds is a stronger brand today.</li>\n</ol>\n\n\n\n<p>However, the valuation differential between the two franchises is extremely high at present (Westlife is ~6X trailing EV/Sales vs. about ~3x trailing EV/Sales for BK India <sup class="fn" data-fn="45a6f658-f2d1-4177-b310-e0d8dc7dc357"><a id="45a6f658-f2d1-4177-b310-e0d8dc7dc357-link" href="#45a6f658-f2d1-4177-b310-e0d8dc7dc357">4</a></sup>, explained by:</p>\n\n\n\n<ol class="wp-block-list" style="list-style-type: lower-alpha;">\n<li>Superior economics of Westlife at present.</li>\n\n\n\n<li>More permanent ownership at Westlife vs RBA (owned by Private Equity).</li>\n\n\n\n<li>Investors not favouring RBA entering Indonesia vs. focusing only on Indian operations.</li>\n</ol>\n\n\n\n<p>Hence, all considered, we would like to own RBA today and will buy Westlife at a lower price.</p>\n\n\n\n<p><strong>Are we aligned with RBA\'s foray into Indonesia by acquiring the Burger King franchise and now bidding for and winning the Popeyes franchise?</strong></p>\n\n\n\n<p>We prefer focus and depth. If we were promoters of BK India, we would have focused on the India opportunity and not taken up the distraction in Indonesia, especially given the size of the prize in India and since Indonesia involved a turnaround of the Burger King franchise.</p>\n\n\n\n<p>However, we need to be aligned on 90% of the decisions of the management team we are betting on as long as the 10% of decisions where we disagree aren\'t such that one is betting the franchise or where we are in vehement disagreement (in which case we would exit). </p>\n\n\n\n<p>This team has a very good execution track record in India and Indonesia has good secular growth tailwinds like in India. We entered post the IPO euphoria, post the equity dilution done to fund the Indonesian acquisition.</p>\n\n\n\n<p>While Burger King Indonesia turnaround has been slower than expectations (weak recovery for the industry post Covid hasn\'t helped), Popeyes Indonesia has some positives:</p>\n\n\n\n<ul class="wp-block-list">\n<li>Indonesia is predominantly a chicken eating country and Popeyes is a strong brand globally catering to this category.</li>\n\n\n\n<li>Unlike BK Indonesia where legacy problems needed to be tackled, this business is a fresh start which allows the team to build it in the right way.</li>\n\n\n\n<li>The initial Popeyes restaurants are clocking very high revenues and profitability. While incremental restaurants may not deliver such high revenues, in general, it seems this brand has the potential to operate at high revenue per store and earn healthy profits.</li>\n\n\n\n<li>If they scale this up well over the next 5-10 years, there is significant option value here.</li>\n\n\n\n<li>The Indonesian operations have a floor valuation at which RBA should be able to exit as QSRs are businesses with strong investor interest. </li>\n</ul>\n\n\n\n<p>We don\'t ascribe a very high value to the overall Indonesia prospects narrative as we wait for the narrative to reflect in numbers. Our investment thesis on RBA is mainly premised on India scale up. We ascribe ~Rs 1200-2000 Cr market cap to Indonesia 5 years down and any exceptional execution will be upside. As mentioned earlier, the total investment in Indonesia (acquisition plus primary infusion) by RBA till date is ~Rs 1250 Cr.</p>\n\n\n\n<p><strong>If RBA is getting sold by PE owners, aren\'t we better off waiting?</strong></p>\n\n\n\n<p>If one is playing the long game, waiting for an even better entry price by risking a significant longer-term upside makes no sense to us. You are then optimizing for short term outcomes.</p>\n\n\n\n<p>It would make sense for us to wait for an event only if the company depended on a primary equity raise to fund this growth.</p>\n\n\n\n<p>We addressed this question in the recent note we wrote - <a href="../the-shadow-of-private-equity-ownership-on-our-buying-decisions/index.html"><strong>The Shadow Of Private Equity Ownership On Our Buying Decisions</strong></a></p>\n\n\n\n<p>Please click <strong><a href="/wp-content/uploads/2023/06/Solidarity-Note-to-Partners-on-RBA-Burger-King-20-June-2023.pdf" target="_blank" rel="noreferrer noopener">here</a></strong> if you would like to download the PDF version of this blog</p>\n\n\n\n<p><strong>Disclaimer</strong></p>\n\n\n\n<p><em>The information or material (including any attachment(s) hereto) (collectively, "Information") contained herein does not constitute an inducement to buy, sell or invest in any securities in any jurisdiction and Solidarity Advisors Private Limited (Solidarity) is not soliciting any action based upon information. Solidarity and/or its directors and employees may have interests/positions, financial or otherwise in securities mentioned here. Solidarity may buy securities in companies owned by its clients. This information is intended to provide general information to Solidarity clients on a particular subject or subjects and is not an exhaustive treatment of such subject(s). This information has been prepared based on information obtained from publicly available, accessible resources and Solidarity is under no obligation to update the information. Accordingly, no representation or warranty, implied or statutory, is made as to the accuracy, completeness or fairness of the contents and opinion contained herein. The information can be no assurance that future results or events will be consistent with this information. Any decision or action taken by the recipient based on this information shall be solely and entirely at the risk of the recipient. The distribution of this information in some jurisdictions may be restricted and/or prohibited by law, and persons into whose possession this information comes should inform themselves about such restriction and/or prohibition and observe any such restrictions and/or prohibition. Unauthorized disclosure, use, dissemination or copying (either whole or partial) of this information, is prohibited. Neither Solidarity nor its directors or employees shall be responsible or liable in any manner, directly or indirectly, for the contents or any errors or discrepancies herein or for any decisions or actions taken in reliance on the information. The person accessing this information specifically agrees to exempt Solidarity or any of directors and employees from, all responsibility/liability arising from such misuse and agrees not to hold Solidarity or any of its directors or employees responsible for any such misuse and free and harmless from all losses, costs, damages, expenses that may be suffered by the person accessing this information due to any errors.  </em></p>\n\n\n<ol class="wp-block-footnotes"><li id="385a9774-a010-4374-82c8-dfdf9cd90d72">Our blog <a href="../the-shadow-of-private-equity-ownership-on-our-buying-decisions/index.html">The Shadow Of Private Equity Ownership On Our Buying Decisions</a> mentions operating cashflow range of 450-500 Cr and 700 restaurants by FY28. This was to illustrate the lower end of our expectations. <a href="#385a9774-a010-4374-82c8-dfdf9cd90d72-link"></a></li><li id="75395aed-8bd0-439e-b8b5-7620cdaaad7d">FY23 break-up of key line items and remarks on various line items are basis Solidarity Analysis and discussions with industry experts on different QSR models. Company doesn\'t report this data separately.<br>In this note, we calculate revenue per restaurant as revenues for the year divided by number of stores at the end of the year.<br>Under the new accounting standard, the reported EBITDA and Operating Cashflow (OCF) is overstated due to certain reclassifications of lease expenses. We adjust these line items to show what the true picture and labelled the same as Pre-IndAS 116 EBITDA and Pre-IndAS 116 OCF. <a href="#75395aed-8bd0-439e-b8b5-7620cdaaad7d-link"></a></li><li id="167d0276-04b8-43dc-a29e-7ecfcf95653c">For FY23, since the annual report is not yet published, we have made assumptions on electricity & gas and rent costs.<br>Starting FY23, Westlife restated its gross margins, but we have used the gross margin comparable with previous periods as provided by the Company. <a href="#167d0276-04b8-43dc-a29e-7ecfcf95653c-link"></a></li><li id="45a6f658-f2d1-4177-b310-e0d8dc7dc357">This is implied valuation for BK India after ascribing a value of Rs 1200 crores to Indonesia business. <a href="#45a6f658-f2d1-4177-b310-e0d8dc7dc357-link"></a></li></ol>',
+            '<p><strong>Summary</strong></p>\n\n<ul class="wp-block-list">\n<li>Leading players in the QSR industry have all the key attributes of a good business we would like to own long term: growth longevity, 18%+ ROIC and low disruption risk.</li>\n\n<li>The sector is currently out of favour due to muted profit growth in recent years (weak consumer sentiment, Delivery Apps margin challenge, increased competitive intensity). But the long-term profitable growth story remains intact. The prevailing pessimism is creating reasonable to attractive entry points in many QSR names, especially in a market where value is hard to find. This is good for long-term investors.</li>\n</ul>\n\n<p>RBA continues to execute well in India. This is despite a tough environment and significant distraction of a promoter exit. There was a Capital allocation error into Indonesia. We believe the management will take a rational call to exit Indonesia if cash losses there continue. It is a very attractively priced Asset, and hence we have continued to add to our position.</p>\n\n<p><strong>A good business has the following attributes:</strong></p>\n\n<ul class="wp-block-list">\n<li>Large and growing opportunity which provides credible hypothesis for 15%+ growth for long periods of time.</li>\n<li>Healthy ROIC (we prefer 18%+), which ensures cash generation to fund this growth internally.</li>\n<li>Minimal disruption risk, so high terminal value.</li>\n</ul>\n\n<p>Well-run, scaled QSR\'s in India have all the above traits and are one of the best proxies to play India\'s long-term discretionary consumption story as they are an affordable luxury. They can continue to grow Operating Profits at 15%+ for long periods, backed by 10-13% store additions, 3%+ SSSG (Same Store Sales Growth), opportunity to expand into adjacencies and some Operating Leverage.</p>\n\n<p>Take Westlife as an example (operates McDonald\'s in West and South India). Over the last decade, the company has grown its Revenue and Operating Profits at 13% and 26%, respectively, despite challenges of Covid, a consumption slowdown and the margin challenge from Delivery Apps.</p>\n\n<p>In the early years, when a brand is sub-scale, ROIC remains subdued. However, once scale is achieved, the steady-state ROIC of these QSR\'s can expand to 25-40% &#8211; range depends on the strength of the brand. Over time, ROIC tends to improve as Maintenance Capex is much lower than Depreciation and store throughput steadily increases with SSSG, leading to expansion in Operating margins.</p>\n\n<figure class="wp-block-table">\n<table class="has-fixed-layout">\n<tbody>\n<tr><td colspan="4"><strong>Illustrative ROIC of a store in Year-3</strong></td></tr>\n<tr><td><strong>Particulars (Rs Cr)</strong></td><td><strong>Challenger Brand RBA (BK India)</strong></td><td><strong>Strong Brand Jubilant (Dominos India)</strong></td><td><strong>Remarks</strong></td></tr>\n<tr><td>Sales per store</td><td>5.0</td><td>3.3</td><td></td></tr>\n<tr><td>Restaurant operating profit margin</td><td>15%</td><td>19%</td><td>Higher throughput leads to higher Op-leverage</td></tr>\n<tr><td>Restaurant operating profit per store</td><td>0.8</td><td>0.6</td><td></td></tr>\n<tr><td>Corp Over Head allocation</td><td>0.2</td><td>0.1</td><td>Steady state overheads are typically 3.5-4% of sales</td></tr>\n<tr><td><strong>Company level EBITDA (a)</strong></td><td><strong>0.6</strong></td><td><strong>0.5</strong></td><td></td></tr>\n<tr><td>Capex per store (b)</td><td>2.7</td><td>1.5</td><td>Depends on store size format- Dine in vs Delivery</td></tr>\n<tr><td>Net working capital per store (NWC) (c)</td><td>-0.4</td><td>-0.3</td><td></td></tr>\n<tr><td>GFA turns per store</td><td>1.8</td><td>2.2</td><td>This is driven by the throughput a brand can generate basis Capex (size of store)</td></tr>\n<tr><td>NWC as % of sales</td><td>-8.0%</td><td>-8.0%</td><td>This is -ve 8-10% of sales</td></tr>\n<tr><td>Capital invested (b+c=d)</td><td>2.3</td><td>1.2</td><td></td></tr>\n<tr><td><strong>Company level pre-tax ROIC (a/d)</strong></td><td><strong>25%</strong></td><td><strong>40%</strong></td><td><strong>Formula: EBITDA/GFA + NWC</strong></td></tr>\n</tbody>\n</table>\n</figure>\n\n<p>Many market participants commenting that QSRs are loss-making or ridiculously valued as they look at PAT or PE ratios. This is misleading. The more relevant metric for a QSR in a rapid store expansion phase is Operating Cash Flow. When a company is adding stores rapidly, a large part of the store base is still immature and has not yet reached peak Revenue. Hence, all the cost including Depreciation, are not fully absorbed, resulting in a reported loss at the PAT level. Operating cash flows in these businesses are higher than the reported PAT, given that:</p>\n\n<ul class="wp-block-list">\n<li>The business is negative working capital.</li>\n<li>Physical life of a QSR store and Assets is often more than 15-20 years, and Maintenance capex remains lower than Depreciation.</li>\n</ul>\n\n<p>Hence, Operating cash flows compound meaningfully over time.</p>\n\n<p>Consider RBA\'s example, where for the India business, over the last two years, reported PAT was negative, but the actual OCF (adjusted for IND AS-116 and one-off in working capital) was much higher.</p>\n\n<figure class="wp-block-table">\n<table class="has-fixed-layout">\n<tbody>\n<tr><td><strong>RBA &#8211; India (Rs Crs)</strong></td><td><strong>FY24</strong></td><td><strong>FY25</strong></td></tr>\n<tr><td>Reported PAT</td><td>-69</td><td>-88</td></tr>\n<tr><td>Reported OCF (Pre-IND-AS 116)</td><td>156</td><td>155</td></tr>\n<tr><td>OCF adjusted for one-off (Pre- Ind AS 116)</td><td>~100</td><td>~100</td></tr>\n</tbody>\n</table>\n</figure>\n\n<p>We believe the QSR sector is currently out of favour. Over the last 5 years, the entire sector\'s stock price returns have been poor. Westlife, which has a long trading history, is trading close to its 10-year low valuations. This is a great set-up for a long-term investor.</p>\n\n<figure class="wp-block-table">\n<table class="has-fixed-layout">\n<tbody>\n<tr><td><strong>Particulars</strong></td><td><strong>5Y stock price CAGR</strong></td></tr>\n<tr><td>Westlife Foodworld</td><td>3%</td></tr>\n<tr><td>Devyani International*</td><td>3%</td></tr>\n<tr><td>Jubilant Foodworks</td><td>-1%</td></tr>\n<tr><td>Sapphire Foods*</td><td>-1%</td></tr>\n<tr><td>Restaurant Brands Asia</td><td>-16%</td></tr>\n</tbody>\n</table>\n</figure>\n\n<p>*CAGR since listing</p>\n\n<p><strong>What explains this pessimism?</strong></p>\n\n<p>The key to QSR economics is Same Store Sales Growth (SSSG), which measures year-on-year sales growth for stores that have been operational for at least 12 months, and Average Daily Sales (ADS). They determine profitability of this business.</p>\n\n<p>When SSSG exceeds cost inflation (rent, wages, utilities, and input costs), operating leverage kicks in, fixed costs are absorbed more efficiently, and margins and ROIC improve. Conversely, when SSSG is below cost inflation, margins come under pressure even if reported revenue grows through store additions.</p>\n\n<p><strong>Over the last 2.5 years, SSSG for most QSR players has slowed or turned negative.</strong></p>\n\n<p>Negative SSSG and rapid addition of new stores over the last 3 years have kept the ADS under pressure as well. As a result, operating margins for most QSR players have declined from their peak in FY23. RBA and Jubilant are exceptions.</p>\n\n<figure class="wp-block-table">\n<table class="has-fixed-layout">\n<tbody>\n<tr><td><strong>Brand / Company (India SSSG)</strong></td><td><strong>FY23</strong></td><td><strong>FY24</strong></td><td><strong>FY25</strong></td><td><strong>Q1FY26</strong></td><td><strong>Q2FY26</strong></td></tr>\n<tr><td>Burger King / RBA</td><td>23.1%</td><td>2.9%</td><td>1.1%</td><td>2.6%</td><td>2.8%</td></tr>\n<tr><td>Dominos / Jubilant</td><td>8.9%</td><td>-1.4%</td><td>7.6%</td><td>11.6%</td><td>9.1%</td></tr>\n<tr><td>McDonald\'s / Westlife</td><td>36.0%</td><td>-1.5%</td><td>-2.9%</td><td>0.5%</td><td>-2.8%</td></tr>\n<tr><td>KFC / Sapphire</td><td>15.0%</td><td>-1.1%</td><td>-4.5%</td><td>0.0%</td><td>-3.0%</td></tr>\n<tr><td>KFC / Devyani</td><td>16.0%</td><td>-4.6%</td><td>-6.4%</td><td>-0.7%</td><td>-4.2%</td></tr>\n</tbody>\n</table>\n</figure>\n\n<p>Note: Jubilant reports Like for Like (LFL) growth and not SSSG but is a reasonable proxy.</p>\n\n<figure class="wp-block-table">\n<table class="has-fixed-layout">\n<tbody>\n<tr><td><strong>Company-level EBITDA Margin</strong></td><td><strong>FY23</strong></td><td><strong>FY24</strong></td><td><strong>FY25</strong></td><td><strong>Q1FY26</strong></td><td><strong>Q2FY26</strong></td></tr>\n<tr><td>Burger King / RBA</td><td>3%</td><td>4%</td><td>5%</td><td>4%</td><td>5%</td></tr>\n<tr><td>Dominos / Jubilant</td><td>15%</td><td>13%</td><td>12%</td><td>12%</td><td>12%</td></tr>\n<tr><td>McDonald\'s / Westlife</td><td>13%</td><td>11%</td><td>8%</td><td>8%</td><td>6%</td></tr>\n<tr><td>KFC / Sapphire</td><td>14%</td><td>14%</td><td>12%</td><td>11%</td><td>9%</td></tr>\n<tr><td>KFC / Devyani</td><td>16%</td><td>15%</td><td>13%</td><td>10%</td><td>9%</td></tr>\n</tbody>\n</table>\n</figure>\n\n<p>Note: Corporate overhead allocation for KFC is a Solidarity estimate.</p>\n\n<p><strong>Consumption sentiment remains weak</strong></p>\n\n<p>With almost two years of negative SSSG, the market expected that government measures such as Tax cuts, GST cuts, and repo rate cuts would lead to an improvement in SSSG. However, on-ground channel checks suggest that consumer sentiment remains weak despite these measures. With growth momentum missing for over 2.5 years, many investors have lost patience, leading to an intensified correction in the sector over the last two months.</p>\n\n<p><strong>Heightened competition</strong></p>\n\n<p>Over the last 4-5 years, QSRs expanded rapidly, increasing competitive intensity, even as demand remained subdued. 60-80% of QSR stores today are in metro and tier-1 cities. Given that much of this oversupply has come within the same catchments, it has led to cannibalisation of sales.</p>\n\n<p>Additionally, unlike the earlier downcycle, many small regional brands and sub-scale cloud kitchens now have easy access to customers because of food aggregators/delivery apps. Therefore, as consumer traffic and spending slowed, dine-in and delivery footfall got spread across many brands and throughput per store came under pressure.</p>\n\n<figure class="wp-block-table">\n<table class="has-fixed-layout">\n<tbody>\n<tr><td><strong>No. of Stores</strong></td><td><strong>FY19</strong></td><td><strong>FY25</strong></td><td><strong>FY19-FY25 CAGR</strong></td></tr>\n<tr><td>KFC / Devyani</td><td>134</td><td>696</td><td>32%</td></tr>\n<tr><td>KFC / Sapphire</td><td>158</td><td>502</td><td>21%</td></tr>\n<tr><td>Burger King / RBA</td><td>187</td><td>513</td><td>18%</td></tr>\n<tr><td>Dominos / Jubilant</td><td>1227</td><td>2179</td><td>10%</td></tr>\n<tr><td>McDonald\'s / Westlife</td><td>296</td><td>438</td><td>7%</td></tr>\n</tbody>\n</table>\n</figure>\n\n<p><strong>Impact of Food delivery apps.</strong></p>\n\n<p>This has created some shift in consumption from "dine-in" to "delivery", which has in turn impacted overall margins of the industry. Dine-in is structurally more profitable than delivery where the apps charge commissions. Hence, while Delivery apps marginally expanded the market, the absolute revenue growth contributed by this segment was at a significantly lower unit margin and hence did not result in a similar addition to profits.</p>\n\n<p><strong>We think with an "ownership mindset" and hence will not rotate in and out of sectors due to short term challenges if our long-term thesis remains intact. We remain constructive on the sector long-term and share our variant perception on some points.</strong></p>\n\n<p><strong>Sector has longevity and is in the early stage of growth life cycle.</strong></p>\n\n<p>China has ~12,000 KFC and ~7,000 McDonald\'s outlets, compared with around 1,200 KFC and ~700 McDonald\'s in India. While India may not reach China\'s store density, the comparison directionally shows the long growth runway ahead.</p>\n\n<p>Eating out should be a structural growth story for India. The number of meals per month consumed out of home increases with GDP growth and rising per capita incomes. Therefore, the sector should grow significantly faster than nominal GDP growth.</p>\n\n<p><strong>Large brands will continue to become stronger and gain market share.</strong></p>\n\n<p>The industry is easy to enter, but it is hard to scale. Hence, the number of players that can scale to 1000+ stores and hence be profitable will be limited.</p>\n\n<ul class="wp-block-list">\n<li>To build brand equity and create pull/differentiation, continuous investment in marketing is required. Despite inheriting some brand equity from their global parents, Western QSRs still spend around 5-6% of sales on marketing. As the revenue base expands, the absolute marketing spend creates a flywheel, making larger brands stronger, which is difficult for sub-scale brands to replicate.</li>\n<li>New QSR brands find it tough to get good retail locations, and it is even tougher to lock in long-term leases at reasonable rates. Except for the top 5-7 QSR\'s, very few QSR\'s can lock in real estate for 15+ years.</li>\n<li>While revenue per store has reduced for listed QSRs, on an overall basis, these QSRs have grown sales significantly ahead of industry growth rates due to store additions. Hence, we expect them to continue to gain share from unorganised players.</li>\n</ul>\n\n<p><strong>More focus on dine-in will aid margin recovery.</strong></p>\n\n<p>Leading QSR\'s have grown their delivery business faster than the total food delivery market. Hence, they have leveraged this distribution channel better and further gained market share from unorganised players.</p>\n\n<figure class="wp-block-table">\n<table class="has-fixed-layout">\n<tbody>\n<tr><td><strong>Food Delivery Business</strong></td><td><strong>FY20-25 CAGR</strong></td></tr>\n<tr><td>Online Food Delivery Market</td><td>24%</td></tr>\n<tr><td>KFC-Devyani</td><td>57%</td></tr>\n<tr><td>KFC-Sapphire</td><td>39%</td></tr>\n<tr><td>BK-RBA</td><td>27%</td></tr>\n</tbody>\n</table>\n</figure>\n\n<p>However, Delivery via aggregators has impacted margins. We see QSRs focusing on growing the \'dine-in\' share of their business mix through menu innovation etc. As the share of dine-in improves, margins should improve.</p>\n\n<p>Additionally, a fair share of incremental QSR growth will come from non-metro markets. Given the lower population density in these regions, delivery economics for food aggregators will be more challenging. Therefore, it remains an open question whether aggregators can take a similar market share from dine-in, comparable to what they have achieved in metros. And therefore, as QSRs grow in non-metro markets, dine-in share as % of total may improve aiding margins.</p>\n\n<p><strong>QSRs will become better businesses over time.</strong></p>\n\n<p>QSRs have continued to expand store count despite the slowdown. Given the aggressive expansion over the last few years, ~25&#8211;40% of the store base for most QSRs is still immature and operates at lower profitability. Over time, the cyclicality of reported profits will reduce as the number of immature stores (not breakeven) keeps reducing as a % of the total.</p>\n\n<p>Profits are linked to SSSG which tends to be cyclical. There is a discretionary consumption slowdown in the economy at present. Over the last 5 years, i.e., FY20-FY25 annual household income for urban affluent, emerging, and mass (which makes ~65% of urban India and are primary consumers of QSR\'s) is low single digit vs low teens over FY10-FY20.</p>\n\n<figure class="wp-block-table">\n<table class="has-fixed-layout">\n<tbody>\n<tr><td><strong>Annual Household Income (in Rs)</strong></td><td><strong>FY10-FY20 CAGR</strong></td><td><strong>FY20-FY25 CAGR</strong></td></tr>\n<tr><td>Urban Affluent</td><td>11.4%</td><td>3.5%</td></tr>\n<tr><td>Urban Emerging</td><td>10.3%</td><td>3.5%</td></tr>\n<tr><td>Urban Mass</td><td>7.7%</td><td>0.3%</td></tr>\n</tbody>\n</table>\n</figure>\n\n<p>However, this is unlikely to be permanent. As the SSSG starts to revive, profits should expand at a faster pace due to operating leverage and the natural maturation of newer stores.</p>\n\n<p>ROIC per store tends to increase over time as stores mature. Given the high-ROIC nature of the business, these companies will generate meaningful free cash flows over time. These cash flows are likely to be reinvested into adjacencies, such as Jubilant (Pizza) entering Popeyes (Chicken) or Devyani (Fried Chicken) entering new formats such as "Vaango" (South Indian) and "Costa Coffee," giving longevity to growth and profits.</p>\n\n<p><strong>RBA continues to execute well.</strong></p>\n\n<p>RBA continues to execute well in India. Despite being a much younger brand compared to other QSR\'s and having a higher mix of non-mature (loss making) stores, they have reported positive SSSG. This positive SSSG momentum has helped them maintain Operating Profit margins and grow absolute profits, even when others have de-grown because of the downcycle.</p>\n\n<figure class="wp-block-table">\n<table class="has-fixed-layout">\n<tbody>\n<tr><td><strong>Company level EBITDA (Pre IND-AS-116)</strong></td><td><strong>FY23</strong></td><td><strong>FY24</strong></td><td><strong>FY25</strong></td></tr>\n<tr><td>Burger King / RBA</td><td>36</td><td>75</td><td>99</td></tr>\n<tr><td>Jubilant/ Standalone</td><td>785</td><td>674</td><td>726</td></tr>\n<tr><td>McDonald\'s / Westlife</td><td>301</td><td>270</td><td>204</td></tr>\n<tr><td>KFC / Sapphire</td><td>199</td><td>247</td><td>234</td></tr>\n<tr><td>KFC / Devyani</td><td>285</td><td>302</td><td>287</td></tr>\n</tbody>\n</table>\n</figure>\n\n<p>Note: Corporate overhead allocation for KFC is a Solidarity estimate.</p>\n\n<p>The India Balance Sheet is healthy, with net Cash of around 270 Crs. This, along with internal accruals are sufficient to fund capex for the next 2-3 years even if the downcycle of SSSG persists.</p>\n\n<p>The Indonesia business remains a drag, with an annual burn of Rs ~45-50 crs funded by the India entity. As a result, the market is ascribing a negative value of ~500-700 crs to Indonesia, and the lack of visibility on specific actions is not helping the stock price. We believe the Indonesia business has significant long-term potential. However, resource constraints need to be at the heart of strategic choices. We believe this management team is rational and will exit this business if cash losses continue (they have alluded to this on their investor calls as well) and not fund losses by diluting their ownership in the more attractive India business indefinitely. When this happens, it should trigger a re-rating from current valuation levels as a Capital allocation error is decisively addressed.</p>\n\n<p>We believe the stock is also under pressure because of fatigue from the constant news flow of the PE investor Everstone wanting to exit. The market is unclear who they are betting on and waits for certainty.</p>\n\n<p>Basis scenarios of the future, we believe RBA could deliver between 375-450 Cr Operating Cash Flow by FY30. If they can execute on this and find a solution for Indonesia, RBA is well-positioned for an Asymmetric upside.</p>\n\n<p><strong>Conviction will be tested. But patience will be rewarded.</strong></p>\n\n<p>The QSR sector provides a very attractive hunting ground with stocks quoting at 4-year lows in a market where opportunity in sectors one would like to own long-term is narrow. Stock prices shape narratives, and the pessimism today reflects a prolonged slowdown or permanent shift in power towards Delivery Apps. This is not our base case scenarios.</p>\n\n<p>Historically, valuation multiples have re-rated dramatically when the cycle shifts as Operating profits revert exponentially when SSSG turns. The stocks then are like compressed springs which may come back strongly when sentiment turns.</p>\n\n<p>Please click <strong><a href="/assets/blogs/Update-on-QSRs-10-Jan-2026.pdf" target="_blank" rel="noreferrer noopener">here</a></strong> if you would like to download the PDF version of this blog</p>',
         }}
       />
     ),
@@ -2684,7 +2749,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-33",
     slug: "is-this-a-good-time-to-add-to-equity-allocations",
     title: "Is this a good time to add to Equity Allocations ?",
-    date: "",
+    date: "May 27, 2019",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -2716,7 +2781,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-23",
     slug: "strategic-implications-of-sbi-yes-bank-bailout-for-banking-sector",
     title: "Strategic implications of SBI- Yes Bank Bailout for Banking sector",
-    date: "",
+    date: "March 8, 2020",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -2742,7 +2807,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-24",
     slug: "need-for-realism-in-return-expectations",
     title: "Need for realism in return expectations",
-    date: "",
+    date: "May 5, 2022",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -2768,7 +2833,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-34",
     slug: "a-perspective-on-churn-2",
     title: "A perspective on churn",
-    date: "",
+    date: "April 6, 2023",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -2804,7 +2869,7 @@ export const ALL_POSTS: PostData[] = [
     id: "aa-05",
     slug: "why-we-are-reluctant-to-take-cash-calls-at-present",
     title: "Why we are reluctant to take cash calls at present",
-    date: "",
+    date: "June 13, 2020",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Asset Allocation"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -2830,7 +2895,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-25",
     slug: "is-value-investing-dead",
     title: "Is Value Investing dead ?",
-    date: "",
+    date: "December 25, 2020",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -2856,7 +2921,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-22",
     slug: "investment-thesis-on-racl-geartech",
     title: "investment thesis on racl geartech",
-    date: "",
+    date: "October 9, 2024",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -2887,7 +2952,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-26",
     slug: "the-impending-value-migration",
     title: "The impending value migration",
-    date: "",
+    date: "November 29, 2016",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -2913,7 +2978,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-23",
     slug: "investment-thesis-on-axtel-industries",
     title: "Investment Thesis on Axtel Industries",
-    date: "",
+    date: "January 8, 2026",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -2944,7 +3009,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-35",
     slug: "our-process-for-exit-decisions-part-2",
     title: "Our Process For Exit Decisions (Part 2)",
-    date: "",
+    date: "October 5, 2021",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -2981,7 +3046,7 @@ export const ALL_POSTS: PostData[] = [
     slug: "moving-forward-with-strategy-not-with-emotion-our-view-on-investing-in-small-and-mid-caps-at-present",
     title:
       "Moving forward with strategy, not with emotion - our view on investing in Small and Mid Caps at present",
-    date: "",
+    date: "February 15, 2025",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management", "Equity"],
     categoryLinks: [
@@ -3013,7 +3078,7 @@ export const ALL_POSTS: PostData[] = [
     id: "macro-07",
     slug: "trump-black-money-and-implications-for-stock-prices",
     title: "Trump, black money and implications for stock prices",
-    date: "",
+    date: "November 12, 2016",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Macro Environment"],
     categoryLinks: [
@@ -3042,7 +3107,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-37",
     slug: "positioning-portfolios-in-context-of-the-corona-virus-3-3",
     title: "Positioning portfolios in context of the Corona Virus (3)",
-    date: "",
+    date: "March 18, 2020",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -3074,7 +3139,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-27",
     slug: "will-technology-firms-take-value-away-from-private-banks",
     title: "Will Technology firms take value away from Private Banks?",
-    date: "",
+    date: "September 12, 2021",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -3100,7 +3165,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-24",
     slug: "investment-thesis-on-yasho-industries-limited",
     title: "INVESTMENT THESIS ON Yasho Industries Limited",
-    date: "",
+    date: "January 15, 2026",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -3131,7 +3196,7 @@ export const ALL_POSTS: PostData[] = [
     id: "aa-06",
     slug: "the-three-questions-clients-should-ask-investment-advisors",
     title: "The three questions clients should ask Investment Advisors",
-    date: "",
+    date: "August 22, 2015",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Asset Allocation"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -3157,7 +3222,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-28",
     slug: "investment-thesis-on-yasho-industries",
     title: "Investment thesis on Yasho Industries",
-    date: "",
+    date: "November 25, 2023",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity", "Company Perspective"],
     categoryLinks: [
@@ -3188,7 +3253,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-29",
     slug: "implications-of-re-pricing-of-credit-risk-in-india",
     title: "Implications of re-pricing of credit risk in India",
-    date: "",
+    date: "February 16, 2019",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -3215,7 +3280,7 @@ export const ALL_POSTS: PostData[] = [
     slug: "is-it-time-for-contrarian-bets-on-select-companies-in-the-power-sector",
     title:
       "Is it time for contrarian bets on select companies in the Power Sector?",
-    date: "",
+    date: "August 16, 2015",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -3241,7 +3306,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-38",
     slug: "developing-a-process-to-shut-out-the-noise-2",
     title: "Developing a process to shut out the noise",
-    date: "",
+    date: "July 23, 2021",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -3277,7 +3342,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-39",
     slug: "signal-vs-noise-what-game-are-we-playing",
     title: "Signal vs noise - what game are we playing?",
-    date: "",
+    date: "November 14, 2021",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -3300,7 +3365,7 @@ export const ALL_POSTS: PostData[] = [
         className="post-content"
         dangerouslySetInnerHTML={{
           __html:
-            '<p>"In life, the challenge is not so much to figure out how best to play the game; the challenge is to figure out what game you\'re playing." (<em>Kwame Anthony Appiah <span style="color: #000080;"><a style="color: #000080;" href="http://appiah.net/" target="_blank" rel="noreferrer noopener">http://appiah.net/</a>)</span></em></p>\n\n\n\n<p>CLSA is a reputed broking house.  It published <a href="https://economictimes.indiatimes.com/news/economy/indicators/time-to-book-profits-in-india-clsa/articleshow/87694120.cms" target="_blank" rel="noreferrer noopener"><span style="color: #000080;">a report</span></a> 2 days ago recommending investors book profit in India.</p>\n\n\n\n<p>We agree with CLSAs that valuations in India, on aggregate, are stretched.  In <span style="color: #000080;"><a style="color: #000080;" href="https://solidarity.sgp1.cdn.digitaloceanspaces.com/dev/quarterly-reports/zDenJgxeRs2TRMCAp7n4p5u2wL2zOLQc4I0mZ6WQ.pdf" target="_blank" rel="noreferrer noopener">our last lette</a>r</span> we mentioned, we were "cautious, but not bearish" and that because we have borrowed returns from the future, we could be in for a period of muted returns.<span id="more-4018"></span></p>\n\n\n\n<p>However, we are not aligned with CLSAs message of "booking profit" because we are playing a different game.   Playing the long and short game simultaneously confuses the mind.  One should make choices.   We choose to exclusively play the long game and don\'t optimize for short-term outcomes.  That means accepting periodic draw-downs with equanimity.</p>\n\n\n\n<p>Summarizing our approach briefly.</p>\n\n\n\n<ul class="wp-block-list"><li>We want to own 15-20 well-run companies where a high probability road map exists to 15-20%+ stock price compounding over the next 5 years, even if they are richly valued at present or their short-term earnings prospects are uncertain.</li><li>Market valuations are only a reference point as we don\'t buy the "Indian market" but individual positions. Valuations of individual positions can stray far from the market, or even from the sectoral average.  <em>Spec Chemical valuation are rich at present but Banking is reasonable.  Navin Fluorine is richly valued at present, but Solara is very attractively priced.</em></li><li>Price corrections can occur from any starting point.  They are not correlated with high valuations.  They are often the result of a variable which markets had not considered (demonetisation, ILFS bankruptcy, Covid ...) and its impact needs to be factored in.</li><li>Hence, the fear of a price correction due to valuations alone will not cause us to cash out if we continue to see good 5-year outcomes ahead in individual names.</li><li>However, we will practice "good churn".   We will sell individual positions when we believe incremental IRRs on positions are lower than what the market can deliver, and we can re-allocate to better opportunities at over a 10% IRR spread.</li></ul>\n\n\n\n<p>What is historical wisdom on booking profits?  Here is Morgan Housel. "The history of the stock market is that it goes up a lot in the long run but falls often in the short run. The falls are painful, but the gains are amazing. Put up with one and you get the other.  Yet a large portion of the investing industry is devoted to avoiding the falls. They forecast when the next 10% or 20% decline will come and sell in anticipation. They\'re <span style="color: #000080;"><a style="color: #000080;" href="https://www.morningstar.com/articles/922123/do-tactical-allocation-funds-deliver" target="_blank" rel="noreferrer noopener">wrong virtually every time</a></span>. But they appeal to investors because asking people to just accept the temporary pain of losing 10% or 20% - maybe more once a decade - is unbearable. The majority of investors I know will tell you that you will perform better over time if you simply endure the pain of declines rather than try to avoid them. Still, they try to avoid them.  The upside when you simply accept and endure the pain from market declines is that future declines don\'t hurt as bad. You realize it\'s just part of the game" <span style="color: #000080;"><a style="color: #000080;" href="https://www.collaborativefund.com/blog/same-as-it-ever-was/" target="_blank" rel="noreferrer noopener">https://www.collaborativefund.com/blog/same-as-it-ever-was/</a></span></p>\n\n\n\n<p>Mathematically too, <span style="color: #000080;"><a style="color: #000080;" href="../the-futility-of-taking-cash-calls/index.html" target="_blank" rel="noreferrer noopener">taking cash calls is futile</a> .</span> Even if one were to sell down 30% of the portfolio, and the markets correct 30% and the seller gets both the sale and the re-entry decision perfectly right, over 5 years, it impacts portfolio IRR by ~ 2.2%.   If it is a 20% cash call and 20% market decline, the IRR differential is 1%.  And we have not met anyone so far with the ability to time the market.   Taking cash calls offers short term emotive relief but will adversely affect outcomes over longer time horizons due to the impact of taxes and inability to time re-entry</p>\n\n\n\n<p>CLSA message is more relevant for someone playing a different game, perhaps with very short time horizons or a strategy aiming for complete downside protection.</p>\n\n\n\n<ol class="wp-block-list"><li>Someone managing money with shorter time horizons (eg  a hedge fund that has to beat an Index over short time frames)</li><li>Someone with a Long/Short mandate a never lose capital at any point</li><li>A global allocator of capital investing from a low tax jurisdiction who takes macro valuation calls on countries</li></ol>\n\n\n\n<p>If a steep market dislocation happens, it will be a source of opportunity for us. </p>',
+            '<p>"In life, the challenge is not so much to figure out how best to play the game; the challenge is to figure out what game you\'re playing." (<em>Kwame Anthony Appiah <span style="color: #000080;"><a style="color: #000080;" href="http://appiah.net/" target="_blank" rel="noreferrer noopener">http://appiah.net/</a>)</span></em></p>\n\n\n\n<p>CLSA is a reputed broking house.  It published <a href="https://economictimes.indiatimes.com/news/economy/indicators/time-to-book-profits-in-india-clsa/articleshow/87694120.cms" target="_blank" rel="noreferrer noopener"><span style="color: #000080;">a report</span></a> 2 days ago recommending investors book profit in India.</p>\n\n\n\n<p>We agree with CLSAs that valuations in India, on aggregate, are stretched.  In <span style="color: #000080;"><a style="color: #000080;" href="https://solidarity.sgp1.cdn.digitaloceanspaces.com/dev/quarterly-reports/zDenJgxeRs2TRMCAp7n4p5u2wL2zOLQc4I0mZ6WQ.pdf" target="_blank" rel="noreferrer noopener">our last lette</a>r</span> we mentioned, we were "cautious, but not bearish" and that because we have borrowed returns from the future, we could be in for a period of muted returns.<span id="more-4018"></span></p>\n\n\n\n<p>However, we are not aligned with CLSAs message of "booking profit" because we are playing a different game.   Playing the long and short game simultaneously confuses the mind.  One should make choices.   We choose to exclusively play the long game and don\'t optimize for short-term outcomes.  That means accepting periodic draw-downs with equanimity.</p>\n\n\n\n<p>Summarizing our approach briefly.</p>\n\n\n\n<ul class="wp-block-list"><li>We want to own 15-20 well-run companies where a high probability road map exists to 15-20%+ stock price compounding over the next 5 years, even if they are richly valued at present or their short-term earnings prospects are uncertain.</li><li>Market valuations are only a reference point as we don\'t buy the "Indian market" but individual positions. Valuations of individual positions can stray far from the market, or even from the sectoral average.  <em>Spec Chemical valuation are rich at present but Banking is reasonable.  Navin Fluorine is richly valued at present, but Solara is very attractively priced.</em></li><li>Price corrections can occur from any starting point.  They are not correlated with high valuations.  They are often the result of a variable which markets had not considered (demonetisation, ILFS bankruptcy, Covid ...) and its impact needs to be factored in.</li><li>Hence, the fear of a price correction due to valuations alone will not cause us to cash out if we continue to see good 5-year outcomes ahead in individual names.</li><li>However, we will practice "good churn".   We will sell individual positions when we believe incremental IRRs on positions are lower than what the market can deliver, and we can re-allocate to better opportunities at over a 10% IRR spread.</li></ul>\n\n\n\n<p>What is historical wisdom on booking profits?  Here is Morgan Housel. "The history of the stock market is that it goes up a lot in the long run but falls often in the short run. The falls are painful, but the gains are amazing. Put up with one and you get the other.  Yet a large portion of the investing industry is devoted to avoiding the falls. They forecast when the next 10% or 20% decline will come and sell in anticipation. They\'re <span style="color: #000080;"><a style="color: #000080;" href="https://www.morningstar.com/articles/922123/do-tactical-allocation-funds-deliver" target="_blank" rel="noreferrer noopener">wrong virtually every time</a></span>. But they appeal to investors because asking people to just accept the temporary pain of losing 10% or 20% - maybe more once a decade - is unbearable. The majority of investors I know will tell you that you will perform better over time if you simply endure the pain of declines rather than try to avoid them. Still, they try to avoid them.  The upside when you simply accept and endure the pain from market declines is that future declines don\'t hurt as bad. You realize it\'s just part of the game" <span style="color: #000080;"><a style="color: #000080;" href="https://www.collaborativefund.com/blog/same-as-it-ever-was/" target="_blank" rel="noreferrer noopener">https://www.collaborativefund.com/blog/same-as-it-ever-was/</a></span></p>\n\n\n\n<p>Mathematically too, <span style="color: #000080;"><a style="color: #000080;" href="/perspectives/post/the-futility-of-taking-cash-calls" target="_blank" rel="noreferrer noopener">taking cash calls is futile</a> .</span> Even if one were to sell down 30% of the portfolio, and the markets correct 30% and the seller gets both the sale and the re-entry decision perfectly right, over 5 years, it impacts portfolio IRR by ~ 2.2%.   If it is a 20% cash call and 20% market decline, the IRR differential is 1%.  And we have not met anyone so far with the ability to time the market.   Taking cash calls offers short term emotive relief but will adversely affect outcomes over longer time horizons due to the impact of taxes and inability to time re-entry</p>\n\n\n\n<p>CLSA message is more relevant for someone playing a different game, perhaps with very short time horizons or a strategy aiming for complete downside protection.</p>\n\n\n\n<ol class="wp-block-list"><li>Someone managing money with shorter time horizons (eg  a hedge fund that has to beat an Index over short time frames)</li><li>Someone with a Long/Short mandate a never lose capital at any point</li><li>A global allocator of capital investing from a low tax jurisdiction who takes macro valuation calls on countries</li></ol>\n\n\n\n<p>If a steep market dislocation happens, it will be a source of opportunity for us. </p>',
         }}
       />
     ),
@@ -3310,7 +3375,7 @@ export const ALL_POSTS: PostData[] = [
     slug: "dear-prime-minister-give-us-a-message-of-hope-courage-and-equanimity",
     title:
       "Dear Prime Minister, give us a message of hope, courage and equanimity",
-    date: "",
+    date: "May 12, 2020",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Macro Environment"],
     categoryLinks: [
@@ -3339,7 +3404,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-31",
     slug: "looking-for-asymmetric-outcomes",
     title: "Looking for Asymmetric outcomes",
-    date: "",
+    date: "August 14, 2023",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -3365,7 +3430,7 @@ export const ALL_POSTS: PostData[] = [
     id: "cp-25",
     slug: "investment-thesis-on-itc-2",
     title: "INVESTMENT THESIS ON ITC",
-    date: "",
+    date: "October 5, 2021",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Company Perspective"],
     categoryLinks: [
@@ -3396,7 +3461,7 @@ export const ALL_POSTS: PostData[] = [
     id: "aa-07",
     slug: "why-are-gold-prices-rising",
     title: "Why are Gold prices rising",
-    date: "",
+    date: "April 6, 2024",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Asset Allocation"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -3422,7 +3487,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-32",
     slug: "update-from-the-front",
     title: "Update from the front",
-    date: "",
+    date: "July 25, 2020",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -3448,7 +3513,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-33",
     slug: "perspective-on-life-insurance-companies",
     title: "Perspective on Life Insurance companies- Updated thesis",
-    date: "",
+    date: "December 18, 2022",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -3475,7 +3540,7 @@ export const ALL_POSTS: PostData[] = [
     slug: "why-not-sell-if-we-are-concerned-that-small-and-microcaps-are-overvalued-2",
     title:
       "Why not sell if we are concerned that Small and Microcaps are overvalued",
-    date: "",
+    date: "April 6, 2023",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -3512,7 +3577,7 @@ export const ALL_POSTS: PostData[] = [
     slug: "the-fallacy-of-growth-now-profits-later-approach-to-building-a-business",
     title:
       "The fallacy of 'Growth now, Profits later' approach to building a business",
-    date: "",
+    date: "November 25, 2015",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Venture Capital"],
     categoryLinks: [
@@ -3538,10 +3603,42 @@ export const ALL_POSTS: PostData[] = [
     ),
   },
   {
+    id: "im-40b",
+    slug: "the-futility-of-taking-cash-calls",
+    title: "The futility of taking Cash Calls",
+    date: "February 28, 2021",
+    author: "Solidarity Investment Managers",
+    categories: ["Blogs", "Investment Management"],
+    categoryLinks: [
+      { label: "Blogs", path: "/perspectives/blogs" },
+      {
+        label: "Investment Management",
+        path: "/perspectives/investment-management",
+      },
+    ],
+    excerpt: (
+      <div
+        dangerouslySetInnerHTML={{
+          __html:
+            '<p>If one gets both legs of market timing—selling and re-entry—perfectly right, the net impact on incremental IRR versus staying invested is not significant, especially considering the probability of perfect timing is practically zero.</p>\n\n<p>We enclose calculations below:</p>\n\n<ul class="wp-block-list">\n<li><strong>Perfect Right Timing:</strong> Cash call of 30% at peak and re-entering at 25% market drawdown &#8211;&gt; incremental IRR over 5 years vis-a-vis staying invested is 1.6%.</li>\n<li><strong>Partially Right Timing:</strong> Cash call of 30% just before peak and re-entering at 20% market drawdown &#8211;&gt; incremental IRR over 5 years vis-a-vis staying invested is 0.8%.</li>\n<li><strong>Wrong Timing:</strong> Cash call of 30% assuming a peak, but the market rallied instead and thus re-entering at 25% higher levels &#8211;&gt; IRR drag over 5 years vis-a-vis staying invested is -1.8%.</li>\n</ul>',
+        }}
+      />
+    ),
+    content: (
+      <div
+        className="post-content"
+        dangerouslySetInnerHTML={{
+          __html:
+            '<p>If one gets both legs of market timing—selling and re-entry—perfectly right, the net impact on incremental IRR versus staying invested is not significant, especially considering the probability of perfect timing is practically zero.</p>\n\n<p>We enclose calculations below:</p>\n\n<ul class="wp-block-list">\n<li><strong>Perfect Right Timing:</strong> Cash call of 30% at peak and re-entering at 25% market drawdown &#8211;&gt; incremental IRR over 5 years vis-a-vis staying invested is 1.6%.</li>\n<li><strong>Partially Right Timing:</strong> Cash call of 30% just before peak and re-entering at 20% market drawdown &#8211;&gt; incremental IRR over 5 years vis-a-vis staying invested is 0.8%.</li>\n<li><strong>Wrong Timing:</strong> Cash call of 30% assuming a peak, but the market rallied instead and thus re-entering at 25% higher levels &#8211;&gt; IRR drag over 5 years vis-a-vis staying invested is -1.8%.</li>\n</ul>\n\n<figure class=\"wp-block-image size-full\"><img decoding=\"async\" width=\"968\" height=\"876\" src=\"/wp-content/uploads/2021/02/image.png\" alt=\"\" class=\"wp-image-5497\"></figure>\n\n<p><strong>Why is it that market timing seldom works?</strong></p>\n\n<ul class="wp-block-list">\n<li>An over-heated market can rise much further before it corrects. No one rings a bell at the top or at the bottom. Hence, typically one sells too early.</li>\n<li>Re-entry is difficult at the bottom. At moments when re-entry should happen, our minds are seized with fear as the drawdown reflects near term stress in the environment.</li>\n<li>The protective instincts of the brains kick in overriding rational judgement ("prices factor in the uncertainty") and one looks to protect remaining capital.</li>\n<li>And if this seems theoretical, we only need to take a minute to reflect how we behaved during Covid-19 fall.</li>\n</ul>\n\n<p><strong>Then why do people continue to be tempted by cash calls?</strong></p>\n\n<ul class="wp-block-list">\n<li>Some people genuinely believe they can over optimize short and long term. Such genius is very rare. But then, overestimating one\'s competence is a human trait.</li>\n<li>The mathematics is not intuitive. These lessons have been learned painfully because yours truly engaged in this futile activity for many years.</li>\n<li>During times of stress, time horizons compress. We forget the game we are playing. And some of this is biological based on how our brains are wired.</li>\n<li>We take advice from people playing a different game with different incentives. Business news channels need your eyeballs. Your broker needs you to churn.</li>\n</ul>\n\n<p><strong>So how to protect against drawdowns?</strong></p>\n\n<ul class="wp-block-list">\n<li>We cannot. The reason historically Equities have been far more rewarding than Bonds is because the "risk premium" is the reward for the pain of enduring market volatility.</li>\n<li>One can only minimize drawdowns by not buying junk. The extent of drawdown and pace of recovery is a good benchmark of the quality of the portfolio.</li>\n<li>The only other protection is to hold some Assets in cash equivalents so one has the comfort of a cushion and not over-invest in Equities beyond tolerance for drawdowns.</li>\n<li>A deeper question though is if one believes one can compound at 15%, why does it matter if there is a drawdown along the way?</li>\n</ul>\n\n<p>At Solidarity, we firmly believe that trading and investing don\'t mix as one has to train the brain to think long term during moments of stress and not freeze.</p>\n\n<ul class="wp-block-list">\n<li>Hence, not only our investment processes but everything we do is designed to think long term.</li>\n<li>Specifically, derivatives trading is banned at our firm so one can still the mind and not confuse oneself at times of maximum opportunity.</li>\n</ul>\n\n<p>Please click <strong><a href="/assets/blogs/The-futility-of-taking-Cash-Calls-16-07-2025.pdf" target="_blank" rel="noreferrer noopener">here</a></strong> if you would like to download the PDF version of this blog</p>\n\n<ol class="wp-block-footnotes"><li id="ddb31929-0515-4c8b-a721-62b59aa15fec">Disclaimer: Originally published on Feb 28, 2021; updated on Jul 16, 2025, for revised LTCG rules. <a href="#ddb31929-0515-4c8b-a721-62b59aa15fec-link" aria-label="Jump to footnote reference 1">&#8617;&#xFE0E;</a></li></ol>',
+        }}
+      />
+    ),
+  },
+  {
     id: "im-41",
     slug: "the-futility-of-taking-cash-calls-2",
     title: "The futility of taking Cash Calls",
-    date: "",
+    date: "February 28, 2021",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -3577,7 +3674,7 @@ export const ALL_POSTS: PostData[] = [
     id: "aa-08",
     slug: "is-this-2008-once-again",
     title: "Is This 2008 Once Again?",
-    date: "",
+    date: "January 12, 2016",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Asset Allocation"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -3603,7 +3700,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-34",
     slug: "should-one-add-to-equity-exposure-at-present",
     title: "Should one add to equity exposure at present?",
-    date: "",
+    date: "November 23, 2017",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -3629,7 +3726,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-42",
     slug: "using-the-impatience-of-others-to-your-advantage",
     title: "Using the impatience of others to your advantage",
-    date: "",
+    date: "June 10, 2015",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -3661,7 +3758,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-35",
     slug: "the-stock-market-is-not-being-irrational",
     title: "The stock market is not being irrational",
-    date: "",
+    date: "May 12, 2022",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -3687,7 +3784,7 @@ export const ALL_POSTS: PostData[] = [
     id: "aa-09",
     slug: "our-perspective-on-the-bharat-bond-etf",
     title: "Our perspective on the Bharat Bond ETF",
-    date: "",
+    date: "December 15, 2019",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Asset Allocation"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -3704,7 +3801,7 @@ export const ALL_POSTS: PostData[] = [
         className="post-content"
         dangerouslySetInnerHTML={{
           __html:
-            '<p>We see two roles for "Debt" in any portfolio</p>\n\n\n\n<ul class="wp-block-list"><li><strong>Yield </strong>- if the regular income is required to fund expenses.</li></ul>\n\n\n\n<ul class="wp-block-list">\n<li><strong>Optionality </strong>- if a debt instrument is liquid, it not only provides you a coupon, but also serves as a free Call Option to deploy additional capital in Equity markets/other Asset Classes if a very attractive opportunity came by.    Most investors rue having no Cash to deploy during a crisis when Equities are available at very attractive valuations.   Having access to Cash (ability to sell the Bond) + courage (ability to redeploy into Equities) are invaluable during a crisis.    </li>\n</ul>\n<p><span id="more-3718"></span></p>\n\n\n\n<p>Our perspective for evaluating Debt Investments are</p>\n\n\n\n<ul class="wp-block-list"><li>Safety fist.  Return of Capital is primary to Return on Capital.  Stay with G Secs or "genuine" AAA as the incremental yield on lower rated instruments is not worth the risk.</li></ul>\n\n\n\n<ul class="wp-block-list"><li>Liquidity is paramount - for the above Optionality benefits to be used.</li></ul>\n\n\n\n<p>The Bharat Bond ETF is investing in AAA rated PSUs.   The Balance sheet quality of some of the constituents (example REC and NHAI) do not make them genuine AAA.  However, these companies have an implicit sovereign guarantee as they are majority Govt. owned.   Hence, one would need to believe that the Govt. would not let any entity in which it is the controlling shareholder default.  That is an assumption I am comfortable with.  </p>\n\n\n\n<p>Given the Indexation benefits and tax rates on Capital Gain, the post-tax yield will be superior to a traditional debt instrument like an FD.</p>\n\n\n\n<figure class="wp-block-image"><img fetchpriority="high" decoding="async" class="aligncenter" src="https://mail.google.com/mail/u/0?ui=2&ik=2197c7bd43&attid=0.0.1&permmsgid=msg-f:1662374848845989501&th=1711f11e0d02467d&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8rGGZjLhF_gbL3NE4vndLEiMbXhQRB66dK_0sMTwTE62ZzCxrek_BWfkrDWxIEBWAliJe0nS8oeAvhxLHi73zfX79Q4RswgdndP0ABgKO-bztMRwC5yOZPYi8&disp=emb" alt="" width="573" height="284" /></figure>\n\n\n\n<p>Which leaves us with the question of Liquidity.  Traditionally, the Corporate Bond Market in India has been very shallow.   Edelweiss, the issuer, is planning to appoint market makers for this instrument to ensure adequate liquidity.    The liquidity hypothesis needs to be tested. </p>\n\n\n\n<p>Hence,</p>\n\n\n\n<p>a)      if you are looking for Yield and intent to hold to maturity, this is worth subscribing. </p>\n\n\n\n<p>b)      If liquidity is important for you, I would wait till the instrument is listed to gauge depth of liquidity before Investment. </p>\n\n\n\n<p>I am enclosing <a href="/wp-content/uploads/2019/12/Bharat-Bond-ETF-Note-by-Sicomoro.pdf" target="_blank" rel="noopener noreferrer"><span style="color: #800000;">a note</span> </a>put together by our friends at Sicomoro which provides more analysis on this instrument. </p>',
+            '<p>We see two roles for "Debt" in any portfolio</p>\n\n\n\n<ul class="wp-block-list"><li><strong>Yield </strong>- if the regular income is required to fund expenses.</li></ul>\n\n\n\n<ul class="wp-block-list">\n<li><strong>Optionality </strong>- if a debt instrument is liquid, it not only provides you a coupon, but also serves as a free Call Option to deploy additional capital in Equity markets/other Asset Classes if a very attractive opportunity came by.    Most investors rue having no Cash to deploy during a crisis when Equities are available at very attractive valuations.   Having access to Cash (ability to sell the Bond) + courage (ability to redeploy into Equities) are invaluable during a crisis.    </li>\n</ul>\n<p><span id="more-3718"></span></p>\n\n\n\n<p>Our perspective for evaluating Debt Investments are</p>\n\n\n\n<ul class="wp-block-list"><li>Safety fist.  Return of Capital is primary to Return on Capital.  Stay with G Secs or "genuine" AAA as the incremental yield on lower rated instruments is not worth the risk.</li></ul>\n\n\n\n<ul class="wp-block-list"><li>Liquidity is paramount - for the above Optionality benefits to be used.</li></ul>\n\n\n\n<p>The Bharat Bond ETF is investing in AAA rated PSUs.   The Balance sheet quality of some of the constituents (example REC and NHAI) do not make them genuine AAA.  However, these companies have an implicit sovereign guarantee as they are majority Govt. owned.   Hence, one would need to believe that the Govt. would not let any entity in which it is the controlling shareholder default.  That is an assumption I am comfortable with.  </p>\n\n\n\n<p>Given the Indexation benefits and tax rates on Capital Gain, the post-tax yield will be superior to a traditional debt instrument like an FD.</p>\n\n\n\n<p>Which leaves us with the question of Liquidity.  Traditionally, the Corporate Bond Market in India has been very shallow.   Edelweiss, the issuer, is planning to appoint market makers for this instrument to ensure adequate liquidity.    The liquidity hypothesis needs to be tested. </p>\n\n\n\n<p>Hence,</p>\n\n\n\n<p>a)      if you are looking for Yield and intent to hold to maturity, this is worth subscribing. </p>\n\n\n\n<p>b)      If liquidity is important for you, I would wait till the instrument is listed to gauge depth of liquidity before Investment. </p>\n\n\n\n<p>I am enclosing <a href="/wp-content/uploads/2019/12/Bharat-Bond-ETF-Note-by-Sicomoro.pdf" target="_blank" rel="noopener noreferrer"><span style="color: #800000;">a note</span> </a>put together by our friends at Sicomoro which provides more analysis on this instrument. </p>',
         }}
       />
     ),
@@ -3713,7 +3810,7 @@ export const ALL_POSTS: PostData[] = [
     id: "aa-10",
     slug: "gold-2",
     title: "Gold",
-    date: "",
+    date: "October 4, 2022",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -3743,7 +3840,7 @@ export const ALL_POSTS: PostData[] = [
     id: "aa-11",
     slug: "observations-on-asset-allocation-2",
     title: "Observations On Asset Allocation",
-    date: "",
+    date: "March 28, 2020",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -3774,7 +3871,7 @@ export const ALL_POSTS: PostData[] = [
     slug: "worsening-macro-situation-in-china-and-high-interest-rates-in-the-us-2",
     title:
       "Worsening macro situation in China and high interest rates in the US",
-    date: "",
+    date: "October 6, 2023",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Macro Environment"],
     categoryLinks: [
@@ -3803,7 +3900,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-36",
     slug: "the-flaws-of-sharpe-ratio",
     title: "The flaws of Sharpe Ratio",
-    date: "",
+    date: "August 14, 2021",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -3829,7 +3926,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-43",
     slug: "interpreting-news-flow",
     title: "Interpreting news flow",
-    date: "",
+    date: "March 20, 2020",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -3861,7 +3958,7 @@ export const ALL_POSTS: PostData[] = [
     id: "macro-10",
     slug: "consequences-of-putins-war-in-ukraine",
     title: "Consequences of Putin's war in Ukraine",
-    date: "",
+    date: "March 5, 2022",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Macro Environment"],
     categoryLinks: [
@@ -3890,7 +3987,7 @@ export const ALL_POSTS: PostData[] = [
     id: "im-44",
     slug: "developing-competitive-advantage-as-an-investor",
     title: "Developing competitive advantage as an investor",
-    date: "",
+    date: "October 9, 2016",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Investment Management"],
     categoryLinks: [
@@ -3923,7 +4020,7 @@ export const ALL_POSTS: PostData[] = [
     slug: "what-explains-our-optimism-when-they-are-lower-roe-vs-consumer-companies-and-hardly-generate-any-free-cash-flow",
     title:
       "What explains our optimism when they are lower ROE vs consumer companies and hardly generate any Free Cash Flow",
-    date: "",
+    date: "July 8, 2023",
     author: "Solidarity Investment Managers",
     categories: [
       "Blogs",
@@ -3956,10 +4053,41 @@ export const ALL_POSTS: PostData[] = [
     ),
   },
   {
+    id: "cp-29",
+    slug: "rationale-for-trimming-position-size-in-life-insurance-to-15",
+    title: "Rationale for trimming position size in Life Insurance to 15%",
+    date: "July 2, 2023",
+    author: "Solidarity Investment Managers",
+    categories: ["Blogs", "Company Perspective"],
+    categoryLinks: [
+      {
+        label: "Select Company Perspectives",
+        path: "/perspectives/company-perspective",
+      },
+    ],
+    excerpt: (
+      <div
+        dangerouslySetInnerHTML={{
+          __html:
+            "<p>We had an overweight position in Life Insurance (upto ~20% allocations in some accounts). We find this to be a very attractive industry and found valuations strongly in favor when it was hard to find value elsewhere. However, the industry has seen two regulatory actions in the last 24 months on tax saving products. There are concerns of some pending regulatory actions in Life Insurance the timing and scale of which are unclear at present, but which could have material impact on stock prices. Considering we take rolling 5 year (and not decadal views), we considered it prudent to reduce our position size.</p>",
+        }}
+      />
+    ),
+    content: (
+      <div
+        className="post-content"
+        dangerouslySetInnerHTML={{
+          __html:
+            '<p>We had an overweight position in Life Insurance (upto ~20% allocations in some accounts).&nbsp; &nbsp;We find this to be a very attractive industry and found valuations strongly in favor when it was hard to find value elsewhere.&nbsp; However, the industry has seen two regulatory actions in the last 24 months on tax saving products.&nbsp; There are concerns of some pending regulatory actions in Life Insurance (discussed below) the timing and scale of which are unclear at present, but which could have material impact on stock prices.&nbsp; Considering we take rolling 5 year (and not decadal views), we considered it prudent to reduce our position size.</p>\n\n<p>The Life Insurance sector is well positioned to grow long term due to under-penetration in Term Insurance and Retirement products.&nbsp; Less than 10% of Indians who file tax returns own Term Insurance.&nbsp; Leading private insurers could grow premiums at 15%+ CAGR for long periods as they enjoy strong moats (brands that can be trusted/distribution through bank branches). Risk of technology disruption risk is low.</p>\n\n<p>Complicated accounting (mismatch between revenue and costs) means true PAT and ROE of the business is hard to gauge.&nbsp; We believe for sector leaders (SBI life/HDFC life), true ROE will be&nbsp;~17-20%.&nbsp;Businesses that require regulatory capital need to raise equity if growth&gt; ROE. SBI Life has not raised equity since 2008 and has grown net-worth by ~18% CAGR and net written premium by ~18% CAGR in the last 15 years respectively, and still maintains high solvency levels despite paying regular dividends over time.&nbsp;&nbsp; This is a very attractive business to own from a permanent ownership mindset.</p>\n\n<p>Some of the pending regulatory concerns are as follows:</p>\n\n<ul class="wp-block-list"><li>Life insurance has low corporate tax rates today (~14.5%) which could normalize over time.</li><li>Some products are mis-sold while also having high surrender penalties.&nbsp; These could attract regulatory scrutiny (the Finance Ministry issued a circular to PSU Banks to curb mis-selling in Dec 2022)</li><li>The regulator is trying to discourage Life Insurers from selling saving products.</li></ul>\n\n<p>Our view on these issues is as follows:</p>\n\n<ul class="wp-block-list"><li>Preferential corporate tax rates for the sector cannot continue indefinitely.&nbsp;&nbsp; However, we believe these may not increase in the short term and are a medium-long term risk. Having recently IPOd LIC, the Govt would send the wrong message to investors by changing tax policy so soon. Normalizing tax rates wouldn\'t be very tax accretive for the Govt as the PBT of the private players (ex LIC) in aggregate is ~6,600crs in FY23 which would imply ~1000 Cr additional tax collections from private players.&nbsp; LIC is ~85% of overall Life Insurance profit pool and any increase in tax rates would impact valuations at which the Govts would further reduce its stake (96.5% at present).&nbsp;</li><li>Some mis-selling does exist and customers suffer from high surrender penalties for some products. One of our colleagues house-help who earns ~2.5 Lacs a year was sold a policy with an annual premium of ~60000. ICICI Bank does not distribute guaranteed return products of ICICI Pru Life for this reason.&nbsp; However, not all sales in guaranteed return products can be attributed to mis-selling as some customers appreciate the ability to lock in interest rates for long periods.&nbsp; However, for leading players, mis-selling has reduced over time (persistency rates have climbed higher).</li><li>Some surrender penalties are justified &#8211; customer acquisition costs are paid upfront.</li><li>We do not believe the regulator is discouraging sale of savings products.&nbsp; Changes in regulations in the Life Insurance sector have been brought about to close tax loops for the super-rich, not to discourage long term savings. (Capital gains tax exemption under Sec 10 (10D) for ULIP &lt; 2.5 lacs p.a. and &lt; 5 lacs p.a. for&nbsp;other savings products still exist).&nbsp;&nbsp;The country needs long term locked in savings to fund long gestation infrastructure projects.&nbsp;&nbsp;</li><li>Insurance is not bought primarily to save tax as the 1.5 Lac limit is already exhausted by other products such as PPF, MF tax saving investments, principal repayment on housing loans etc.</li><li>Finally, Life Insurance companies are already preparing for the new era by focusing on lower ticket size policies and revamping product mix towards product segments&nbsp;with lower surrender charges.&nbsp;</li></ul>\n\n<p>None the less, regulatory risks are binary.&nbsp; Just because something should not happen, does not mean it will not happen. And unlike AMFI, which as an industry promoted the "Mutual Fund Sahi Hai" campaign, the Life Insurance industry as an industry forum is not moving with enough intensity and purpose to promote Term Insurance.&nbsp;&nbsp; Any regulatory action on surrender penalties and taxation together could have a meaningful impact on stock prices.</p>\n\n<p>While we don\'t believe this action is imminent, we&nbsp;believe it is prudent to reduce the sectoral position size to something more palatable today and wait for regulatory head winds to pass before increasing stake.&nbsp;</p>',
+        }}
+      />
+    ),
+  },
+  {
     id: "eq-37",
     slug: "why-have-we-continued-to-buy-star-health",
     title: "Why have we continued to buy Star Health",
-    date: "",
+    date: "March 19, 2023",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
@@ -3985,7 +4113,7 @@ export const ALL_POSTS: PostData[] = [
     id: "eq-38",
     slug: "exit-note-on-team-lease",
     title: "Exit note on Team Lease",
-    date: "",
+    date: "November 19, 2022",
     author: "Solidarity Investment Managers",
     categories: ["Blogs", "Equity"],
     categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],

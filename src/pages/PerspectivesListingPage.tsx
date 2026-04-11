@@ -17,6 +17,7 @@ const BLOGS_SLUG_SEQUENCE = [
   'consequences-of-putins-war-in-ukraine',
   'investing-during-a-crisis',
   'signal-vs-noise-what-game-are-we-playing',
+  'the-futility-of-taking-cash-calls',
   'the-futility-of-taking-cash-calls-2',
   'why-we-are-reluctant-to-take-cash-calls-at-present',
   'dear-prime-minister-give-us-a-message-of-hope-courage-and-equanimity',
@@ -72,7 +73,7 @@ const COMPANY_PERSPECTIVE_SLUG_SEQUENCE = [
   'investment-thesis-on-pix-transmissions-limited',
   'solidarity-partners-meet-interview-with-dr-harin-kanani-mr-prabh-mehar-singh',
   'investment-thesis-of-our-top-15-positions-in-our-prudence-scheme',
-  'investment-in-shivalik-bimetal-controls-ltd-updated',
+  'investment-in-shivalik-bimetal-controls-ltd-2',
   'investment-thesis-on-indiamart',
   // Page 2
   'investment-in-shivalik-bimetal-controls-ltd',
@@ -192,6 +193,7 @@ const INVESTMENT_MANAGEMENT_SLUG_SEQUENCE = [
   'our-process-for-exit-decisions-part-2',
   'developing-a-process-to-shut-out-the-noise-2',
   'our-perspective-to-some-commonly-asked-questions-part-1-2',
+  'the-futility-of-taking-cash-calls',
   'the-futility-of-taking-cash-calls-2',
   'our-perspective-to-some-commonly-asked-questions-part-2-2',
   'our-process-for-exit-decisions',
@@ -265,6 +267,7 @@ const CLIENT_QUESTIONS_SLUG_SEQUENCE = [
   'our-process-for-exit-decisions-part-2',
   'developing-a-process-to-shut-out-the-noise-2',
   'our-perspective-to-some-commonly-asked-questions-part-1-2',
+  'the-futility-of-taking-cash-calls',
   'the-futility-of-taking-cash-calls-2',
   'our-perspective-to-some-commonly-asked-questions-part-2-2',
   'our-process-for-exit-decisions',
@@ -336,7 +339,7 @@ export default function PerspectivesListingPage({ categoryTitle, filterCategory 
       : filteredPosts
 
   const searchedPosts = searchQuery.trim()
-    ? orderedPosts.filter(p =>
+    ? ALL_POSTS.filter(p =>
         p.title.toLowerCase().includes(searchQuery.toLowerCase())
       )
     : orderedPosts
