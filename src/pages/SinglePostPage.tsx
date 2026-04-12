@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react'
 import { Link, Navigate, useParams } from 'react-router-dom'
 import { getPost } from '../data/posts'
 import PerspectivesSidebar from '../components/PerspectivesSidebar'
@@ -6,6 +7,21 @@ import './SinglePostPage.css'
 export default function SinglePostPage() {
   const { slug } = useParams<{ slug: string }>()
   const post = slug ? getPost(slug) : undefined
+  const articleRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    if (!articleRef.current) return
+    articleRef.current.querySelectorAll('table').forEach((table) => {
+      const firstRow = table.querySelector('tr')
+      if (!firstRow) return
+      firstRow.querySelectorAll('td').forEach((td) => {
+        const th = document.createElement('th')
+        th.innerHTML = td.innerHTML
+        Array.from(td.attributes).forEach((attr) => th.setAttribute(attr.name, attr.value))
+        td.replaceWith(th)
+      })
+    })
+  }, [post])
 
   if (!post && slug) {
     // If slug is provided but post not found, redirect to list
@@ -44,7 +60,7 @@ export default function SinglePostPage() {
             <article className="post-content">
               {post ? (
                 <>
-                  <div className="post-article-body">
+                  <div className="post-article-body" ref={articleRef}>
                     {post.content}
                   </div>
                 </>

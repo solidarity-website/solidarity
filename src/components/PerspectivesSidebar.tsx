@@ -14,9 +14,9 @@ const CATEGORIES = [
 ]
 
 const DEFAULT_LATEST_SLUGS = [
-  'interview-with-mr-anurag-surana-a-domain-expert-on-specialty-chemicals-for-his-decadal-views-on-the-industry',
-  'what-explains-our-optimism-when-they-are-lower-roe-vs-consumer-companies-and-hardly-generate-any-free-cash-flow',
-  'how-do-we-decide-composition-of-small-mid-and-large-caps-in-the-portfolio',
+  'investment-thesis-on-synergy-green-industries-ltd',
+  'perspective-on-qsr-sector-and-rba',
+  'investment-thesis-on-axtel-industries',
 ]
 
 interface Props {
@@ -30,9 +30,9 @@ export default function PerspectivesSidebar({ latestPosts, searchQuery, onSearch
   const [localSearch, setLocalSearch] = useState('')
   
   const posts = latestPosts && latestPosts.length > 0
-    ? latestPosts.slice(0, 3)
+    ? (latestPosts.filter(Boolean) as PostData[]).slice(0, 3)
     : DEFAULT_LATEST_SLUGS
-        .map(slug => ALL_POSTS.find(p => p.slug === slug))
+        .map(slug => ALL_POSTS.find(p => p && p.slug === slug))
         .filter(Boolean) as PostData[]
 
   const handleSearch = (q: string) => {

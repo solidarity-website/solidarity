@@ -60,12 +60,14 @@
   margin-bottom: 0;
 }
 
-.post-item__excerpt ul {
+.post-item__excerpt ul,
+.post-item__excerpt ol {
   padding-left: 1.4rem;
   margin: 0.4rem 0 0.7rem;
 }
 
-.post-item__excerpt ul li {
+.post-item__excerpt ul li,
+.post-item__excerpt ol li {
   margin-bottom: 0.5rem;
   line-height: 1.7;
 }

@@ -196,7 +196,6 @@ const INVESTMENT_MANAGEMENT_SLUG_SEQUENCE = [
   'developing-a-process-to-shut-out-the-noise-2',
   'our-perspective-to-some-commonly-asked-questions-part-1-2',
   'the-futility-of-taking-cash-calls',
-  'the-futility-of-taking-cash-calls-2',
   'our-perspective-to-some-commonly-asked-questions-part-2-2',
   'our-process-for-exit-decisions',
   // Page 3
@@ -300,49 +299,49 @@ export default function PerspectivesListingPage({ categoryTitle, filterCategory 
 
   const filteredPosts = filterCategory === 'Company Perspective'
     ? ALL_POSTS.filter(
-        p => p.categories.includes('Company Perspective') || p.categories.includes('Select Company Perspectives')
+        p => p && (p.categories.includes('Company Perspective') || p.categories.includes('Select Company Perspectives'))
       )
     : filterCategory
-      ? ALL_POSTS.filter(p => p.categories.includes(filterCategory))
+      ? ALL_POSTS.filter(p => p && p.categories.includes(filterCategory))
       : ALL_POSTS
 
   const orderedPosts = filterCategory === 'Blogs'
     ? BLOGS_SLUG_SEQUENCE
-        .map(slug => filteredPosts.find(post => post.slug === slug))
+        .map(slug => filteredPosts.find(post => post && post.slug === slug))
         .filter((post): post is (typeof filteredPosts)[number] => Boolean(post))
     : filterCategory === 'Company Perspective'
       ? COMPANY_PERSPECTIVE_SLUG_SEQUENCE
-          .map(slug => ALL_POSTS.find(post => post.slug === slug))
+          .map(slug => ALL_POSTS.find(post => post && post.slug === slug))
           .filter((post): post is PostData => Boolean(post))
       : filterCategory === 'Investment Management'
         ? INVESTMENT_MANAGEMENT_SLUG_SEQUENCE
-            .map(slug => filteredPosts.find(post => post.slug === slug))
+            .map(slug => filteredPosts.find(post => post && post.slug === slug))
             .filter((post): post is (typeof filteredPosts)[number] => Boolean(post))
       : filterCategory === 'Perspective On Questions From Client Partners'
         ? CLIENT_QUESTIONS_SLUG_SEQUENCE
-            .map(slug => filteredPosts.find(post => post.slug === slug))
+            .map(slug => filteredPosts.find(post => post && post.slug === slug))
             .filter((post): post is (typeof filteredPosts)[number] => Boolean(post))
       : filterCategory === 'Asset Allocation'
         ? ASSET_ALLOCATION_SLUG_SEQUENCE
-            .map(slug => filteredPosts.find(post => post.slug === slug))
+            .map(slug => filteredPosts.find(post => post && post.slug === slug))
             .filter((post): post is (typeof filteredPosts)[number] => Boolean(post))
       : filterCategory === 'Equity'
         ? EQUITY_SLUG_SEQUENCE
-            .map(slug => filteredPosts.find(post => post.slug === slug))
+            .map(slug => filteredPosts.find(post => post && post.slug === slug))
             .filter((post): post is (typeof filteredPosts)[number] => Boolean(post))
       : filterCategory === 'Macro Environment'
         ? MACRO_ENVIRONMENT_SLUG_SEQUENCE
-            .map(slug => filteredPosts.find(post => post.slug === slug))
+            .map(slug => filteredPosts.find(post => post && post.slug === slug))
             .filter((post): post is (typeof filteredPosts)[number] => Boolean(post))
       : filterCategory === 'Venture Capital'
         ? VENTURE_CAPITAL_SLUG_SEQUENCE
-            .map(slug => filteredPosts.find(post => post.slug === slug))
+            .map(slug => filteredPosts.find(post => post && post.slug === slug))
             .filter((post): post is (typeof filteredPosts)[number] => Boolean(post))
       : filteredPosts
 
   const searchedPosts = searchQuery.trim()
     ? ALL_POSTS.filter(p =>
-        p.title.toLowerCase().includes(searchQuery.toLowerCase())
+        p && p.title.toLowerCase().includes(searchQuery.toLowerCase())
       )
     : orderedPosts
 
