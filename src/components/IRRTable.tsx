@@ -1,106 +1,115 @@
 export default function IRRTable() {
-  const col = ["Perfect Timing", "Partial Timing", "Wrong Timing"];
-  const s: Record<string, React.CSSProperties> = {
-    wrap: { fontFamily: "sans-serif", fontSize: 13, overflowX: "auto", padding: "1rem 0" },
-    table: { width: "100%", borderCollapse: "collapse", minWidth: 700 },
-    th: { background: "#1a1a1a", color: "#fff", padding: "9px 12px", textAlign: "center", fontWeight: 600, border: "1px solid #333" },
-    thL: { background: "#1a1a1a", color: "#fff", padding: "9px 12px", textAlign: "left", fontWeight: 600, border: "1px solid #333", width: "32%" },
-    td: { padding: "6px 12px", border: "1px solid #ddd", color: "#222", verticalAlign: "middle" },
-    ctr: { textAlign: "center" },
-    red: { color: "#cc0000", fontWeight: 500 },
-    yellow: { background: "#ffff00", color: "#cc0000", fontWeight: 500, textAlign: "center" },
-    remark: { fontSize: 11, color: "#555", fontStyle: "italic" },
-    sectionHead: { background: "#f0f0f0", fontWeight: 700, padding: "8px 12px", border: "1px solid #ddd", borderTop: "2px solid #aaa" },
-    subHead: { fontWeight: 700, padding: "6px 12px", border: "1px solid #ddd", fontSize: 13 },
-    resultBg: { background: "#fdf0e8" },
-    resultVal: { background: "#e0e0e0", textAlign: "center", fontWeight: 700, fontSize: 14, padding: "8px 12px", border: "1px solid #ddd" },
-    resultLabel: { background: "#fdf0e8", fontWeight: 700, padding: "8px 12px", border: "1px solid #ddd" },
-  };
+  const RED = "#B50000";
+  const BLACK = "#000";
+  const YELLOW = "#FFF9C4";
 
-  function R({ label, vals, style, remark }: { label: string; vals: (string | number)[]; style?: string; remark?: string }) {
-    const getCellStyle = (): React.CSSProperties => {
-      if (style === "yellow") return { ...s.td, ...s.yellow };
-      if (style === "red") return { ...s.td, ...s.red, ...s.ctr };
-      return { ...s.td, ...s.ctr };
-    };
-    return (
-      <tr>
-        <td style={s.td}>{label}</td>
-        {vals.map((v, i) => <td key={i} style={getCellStyle()}>{v}</td>)}
-        <td style={{ ...s.td, ...s.remark }}>{remark || ""}</td>
-      </tr>
-    );
-  }
+  // [label, perfect, partial, wrong, remark, perfectBg, partialBg, wrongBg, perfectColor, partialColor, wrongColor, bold, sectionHeader]
+  const rows = [
+    ["Starting Corpus", "100", "100", "100", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["NAV per unit", "10", "10", "10", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["Units", "10", "10", "10", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    [null],
+    ["Corpus NOW", "300", "285", "285", "In partial timing, sold just before peak", null, null, null, RED, RED, RED, false, false],
+    ["NAV per unit", "30", "28.5", "28.5", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["Units", "10", "10", "10", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["Cash call", "30%", "30%", "30%", "", YELLOW, YELLOW, YELLOW, RED, RED, RED, false, false],
+    ["Cash generated", "90", "86", "86", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["Capital gains", "60", "56", "56", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["Units sold", "3", "3", "3", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["Units post cash call", "7", "7", "7", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["LTCG (Including max surcharge and cess)", "14.95%", "14.95%", "14.95%", "", null, null, null, RED, RED, RED, false, false],
+    ["Tax", "9.0", "8.3", "8.3", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["Effective Cash", "81.0", "77.2", "77.2", "Units sold less tax", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["", "84.3", "80.3", "80.3", "Assuming 4% interest earned on cash", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["Net cash available for redeployment", "", "", "", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["Market draw down/rally", "-25%", "-25%", "25%", "", YELLOW, YELLOW, YELLOW, RED, RED, RED, false, false],
+    ["Purchased after what market draw down/rally", "-25%", "-20%", "25%", "", YELLOW, YELLOW, YELLOW, RED, RED, RED, false, false],
+    ["Re entry - NAV", "22.5", "24.0", "35.6", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["Re entry - New Units", "3.7", "3.3", "2.3", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["Total units post re entry", "10.7", "10.3", "9.3", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    [null],
+    ["Status post 5 years from today", "", "", "", "", null, null, null, BLACK, BLACK, BLACK, false, true],
+    ["No cash call", "", "", "", "", null, null, null, BLACK, BLACK, BLACK, false, true],
+    ["NAV at end", "60", "60", "60", "", null, null, null, RED, RED, RED, false, false],
+    ["Units at end", "10", "10", "10", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["Starting Capital", "300", "300", "300", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["Total value of Capital", "603", "603", "603", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["No cash call - total IRR", "15.0%", "15.0%", "15.0%", "", "#fde8d8", "#fde8d8", "#fde8d8", BLACK, BLACK, BLACK, true, false],
+    [null],
+    ["With cash call", "", "", "", "", null, null, null, BLACK, BLACK, BLACK, false, true],
+    ["NAV at end", "60.3", "60.3", "60.3", "", null, null, null, RED, RED, RED, false, false],
+    ["Units at end", "10.7", "10.3", "9.3", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["Starting Capital", "300", "300", "300", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["Total value of Capital", "648", "624", "558", "", null, null, null, BLACK, BLACK, BLACK, false, false],
+    ["With cash call - total IRR", "16.6%", "15.8%", "13.2%", "", "#fde8d8", "#fde8d8", "#fde8d8", BLACK, BLACK, BLACK, true, false],
+  ];
 
-  function SectionRow({ label }: { label: string }) {
-    return <tr><td colSpan={5} style={s.sectionHead}>{label}</td></tr>;
-  }
+  const headerBg = "#1a1a1a";
+  const border = "1px solid #888";
 
-  function SubHeadRow({ label }: { label: string }) {
-    return <tr><td colSpan={5} style={s.subHead}>{label}</td></tr>;
-  }
+  const th = (extra = {}) => ({
+    border,
+    padding: "6px 10px",
+    backgroundColor: headerBg,
+    color: "#fff",
+    fontWeight: "bold",
+    fontSize: 13,
+    textAlign: "left" as const,
+    verticalAlign: "middle" as const,
+    ...extra,
+  });
 
-  function ResultRow({ label, vals, colors }: { label: string; vals: string[]; colors?: string[] }) {
-    return (
-      <tr>
-        <td style={s.resultLabel}>{label}</td>
-        {vals.map((v, i) => (
-          <td key={i} style={{ ...s.resultVal, ...(colors ? { color: colors[i] } : {}) }}>{v}</td>
-        ))}
-        <td style={{ ...s.td, ...s.resultBg }}></td>
-      </tr>
-    );
-  }
+  const tdStyle = (bg: string | null, color: string | null, bold: boolean, align: "left" | "center" = "center") => ({
+    border,
+    padding: "5px 10px",
+    fontSize: 13,
+    backgroundColor: bg || "#fff",
+    color: color || BLACK,
+    fontWeight: bold ? ("bold" as const) : ("normal" as const),
+    textAlign: align,
+    verticalAlign: "middle" as const,
+  });
 
   return (
-    <div style={s.wrap}>
-      <table style={s.table}>
+    <div style={{ padding: "24px 0", fontFamily: "Arial, sans-serif", overflowX: "auto" }}>
+      <table style={{ borderCollapse: "collapse", width: "100%", minWidth: 700 }}>
         <thead>
           <tr>
-            <th style={s.thL}>Particulars</th>
-            {col.map(c => <th key={c} style={s.th}>{c}</th>)}
-            <th style={s.th}>Remarks</th>
+            <th style={th({ width: "35%", textAlign: "left" })}>Particulars</th>
+            <th style={th({ textAlign: "center" })}>Perfect Timing</th>
+            <th style={th({ textAlign: "center" })}>Partial Timing</th>
+            <th style={th({ textAlign: "center" })}>Wrong timing</th>
+            <th style={th({ textAlign: "left" })}>Remarks</th>
           </tr>
         </thead>
         <tbody>
-          <R label="Starting Corpus" vals={[100, 100, 100]} />
-          <R label="NAV per unit" vals={[10, 10, 10]} />
-          <R label="Units" vals={[10, 10, 10]} />
-          <R label="Corpus NOW" vals={[300, 285, 285]} style="red" remark="In partial timing, sold just before peak" />
-          <R label="NAV per unit" vals={[30, 28.5, 28.5]} />
-          <R label="Units" vals={[10, 10, 10]} />
-          <R label="Cash call" vals={["30%", "30%", "30%"]} style="yellow" />
-          <R label="Cash generated" vals={[90, 86, 86]} />
-          <R label="Capital gains" vals={[60, 56, 56]} />
-          <R label="Units sold" vals={[3, 3, 3]} />
-          <R label="Units post cash call" vals={[7, 7, 7]} />
-          <R label="LTCG (Including max surcharge and cess)" vals={["14.95%", "14.95%", "14.95%"]} style="red" />
-          <R label="Tax" vals={[9.0, 8.3, 8.3]} />
-          <R label="Effective Cash" vals={[81.0, 77.2, 77.2]} remark="Units sold less tax" />
-          <R label="Net cash available for redeployment" vals={[84.3, 80.3, 80.3]} remark="Assuming 4% interest earned on cash" />
-          <R label="Market draw down / rally" vals={["-25%", "-25%", "25%"]} style="yellow" />
-          <R label="Purchased after what market draw down / rally" vals={["-25%", "-20%", "25%"]} style="yellow" />
-          <R label="Re entry – NAV" vals={[22.5, 24.0, 35.6]} />
-          <R label="Re entry – New Units" vals={[3.7, 3.3, 2.3]} />
-          <R label="Total units post re entry" vals={[10.7, 10.3, 9.3]} />
-          <SectionRow label="Status post 5 years from today" />
-          <SubHeadRow label="No cash call" />
-          <R label="NAV at end" vals={[60, 60, 60]} style="red" />
-          <R label="Units at end" vals={[10, 10, 10]} />
-          <R label="Starting Capital" vals={[300, 300, 300]} />
-          <R label="Total value of Capital" vals={[603, 603, 603]} />
-          <ResultRow label="No cash call – total IRR" vals={["15.0%", "15.0%", "15.0%"]} />
-          <tr><td colSpan={5} style={{ padding: "4px", border: "none" }}></td></tr>
-          <SubHeadRow label="With cash call" />
-          <R label="NAV at end" vals={[60.3, 60.3, 60.3]} style="red" />
-          <R label="Units at end" vals={[10.7, 10.3, 9.3]} />
-          <R label="Starting Capital" vals={[300, 300, 300]} />
-          <R label="Total value of Capital" vals={[648, 624, 558]} />
-          <ResultRow
-            label="With cash call – total IRR"
-            vals={["16.6%", "15.8%", "13.2%"]}
-            colors={["#1a6e1a", "#8a6000", "#a32d2d"]}
-          />
+          {rows.map((row, i) => {
+            if (!row || row[0] === null) {
+              return <tr key={i}><td colSpan={5} style={{ border, padding: "4px", backgroundColor: "#fff" }} /></tr>;
+            }
+            const [label, pt, pa, wt, remark, ptBg, paBg, wtBg, ptC, paC, wtC, bold, sectionHeader] = row as any[];
+
+            if (sectionHeader) {
+              return (
+                <tr key={i}>
+                  <td colSpan={5} style={{ border, padding: "6px 10px", fontWeight: "bold", fontSize: 13, backgroundColor: "#fff" }}>{label}</td>
+                </tr>
+              );
+            }
+
+            // IRR summary rows have bg on label cell too
+            const isIRR = bold && (label?.includes("IRR"));
+
+            return (
+              <tr key={i}>
+                <td style={{ ...tdStyle(isIRR ? "#fde8d8" : null, BLACK, bold, "left") }}>{label}</td>
+                <td style={tdStyle(ptBg, ptC, bold)}>{pt}</td>
+                <td style={tdStyle(paBg, paC, bold)}>{pa}</td>
+                <td style={tdStyle(wtBg, wtC, bold)}>{wt}</td>
+                <td style={{ ...tdStyle(null, BLACK, false, "left"), fontSize: 12 }}>{remark}</td>
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </div>
