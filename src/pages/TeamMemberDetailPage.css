@@ -1,0 +1,205 @@
+/* ============================================================
+   TEAM MEMBER DETAIL PAGE
+   ============================================================ */
+
+.member-detail-container {
+  padding: 40px 0;
+  background-color: #ffffff;
+}
+
+.member-detail-row {
+  max-width: 100%;
+}
+
+.member-detail-content {
+  color: var(--color-body, #333333);
+  font-family: 'Open Sans', serif;
+  line-height: 1.6;
+}
+
+/* Image float styling so that the text wraps around it elegantly on desktop */
+.member-photo-wrapper {
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.member-detail-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Name */
+.member-detail-name {
+  color: #394872;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 15px 0;
+  text-align: left;
+  line-height: 1.3;
+}
+
+/* Role */
+.member-detail-role-wrap {
+  margin-bottom: 25px;
+  font-family: 'Open Sans', serif;
+  font-size: 18px;
+}
+
+.member-detail-role {
+  font-weight: 700;
+  color: #333333;
+}
+
+/* Bio text wrapping around the image */
+.member-detail-bio {
+  font-family: 'Open Sans', serif;
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 25px;
+  white-space: pre-line;
+}
+
+/* LinkedIn connect */
+.member-linkedin-container {
+  margin-top: 25px;
+  clear: both;
+}
+
+.member-linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #394872;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.member-linkedin-link:hover {
+  opacity: 0.8;
+  transform: translateY(-1px);
+}
+
+.linkedin-icon {
+  fill: #394872;
+}
+
+/* ── Custom Pagination Line ── */
+.custom-pagination-line {
+  padding: 40px 0;
+  border-top: 1px solid #eef0f4;
+  background-color: #ffffff;
+  margin-top: 40px;
+  clear: both;
+}
+
+.custom-pager {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.pager-item {
+  display: flex;
+  align-items: center;
+}
+
+.pager-item.center {
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.pager-item a {
+  display: inline-flex;
+  align-items: center;
+  color: #8c96a3; /* Clean elegant grey text color */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+.pager-item a:hover {
+  color: #394872; /* Solidarity brand dark blue color */
+  opacity: 0.8;
+}
+
+.pager-item.center a {
+  color: #a4abb6;
+}
+
+.pager-item.center a:hover {
+  color: #394872;
+}
+
+.chevron-svg {
+  stroke: currentColor;
+  stroke-width: 2.25px;
+}
+
+.pager-item.previous .chevron-svg {
+  margin-right: 8px;
+}
+
+.pager-item.next .chevron-svg {
+  margin-left: 8px;
+}
+
+.grid-svg {
+  stroke: currentColor;
+  stroke-width: 2px;
+}
+
+.pager-disabled {
+  width: 16px;
+  height: 16px;
+  visibility: hidden;
+}
+
+/* ── Responsive Styling ── */
+@media (max-width: 768px) {
+  .member-photo-wrapper {
+    float: none;
+    margin: 0 auto 25px auto;
+    max-width: 100%;
+    width: 300px;
+  }
+  
+  .member-detail-name {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .member-detail-role-wrap {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .member-detail-bio {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .member-linkedin-container {
+    text-align: center;
+  }
+
+  .custom-pagination-line {
+    padding: 30px 0;
+  }
+
+  .pager-item a {
+    font-size: 14px;
+  }
+}

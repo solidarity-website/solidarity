@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import TeamPage from './pages/TeamPage'
+import TeamMemberDetailPage from './pages/TeamMemberDetailPage'
 import ProductOfferingPage from './pages/ProductOfferingPage'
 import PortfolioPerformancePage from './pages/PortfolioPerformancePage'
 import FeeStructurePage from './pages/FeeStructurePage'
@@ -76,6 +77,7 @@ function AppShell() {
 
         {/* Team */}
         <Route path="/team" element={<TeamPage />} />
+        <Route path="/team/:slug" element={<TeamMemberDetailPage />} />
 
         {/* Product */}
         <Route path="/product-offering"     element={<ProductOfferingPage />} />

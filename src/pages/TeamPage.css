@@ -17,6 +17,13 @@
   position: relative;
 }
 
+.team-card__link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
 .team-card__photo-wrap {
   position: relative;
   width: 100%;
