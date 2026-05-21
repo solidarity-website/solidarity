@@ -14,7 +14,6 @@ const teamMembers: TeamMember[] = [
     role: 'Founder & Chief Investment Officer',
     photo: '/assets/team/Manish_Gupta.png',
     bio: 'Manish is an MBA from IIM Ahmedabad. He wants to build a business which delivers profits with purpose. Through Solidarity, he is attempting to turn aspirations to reality. Prior to founding Solidarity, he worked for 7 years with The Boston Consulting Group and for 8 years with Rakesh Jhunjhunwala. In his free time, he enjoys traveling, reading, meditation, and looking at the world through his daughters’ perspectives.',
-    linkedin: 'https://www.linkedin.com/in/manish-gupta-solidarity/',
   },
   {
     slug: 'don-thadeuse',
