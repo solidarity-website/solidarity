@@ -29,5 +29,5 @@ main:not(.hero-page) {
 
 .coming-soon p {
   color: var(--color-muted);
-  font-size: 16px;
+  font-size: 1rem;
 }

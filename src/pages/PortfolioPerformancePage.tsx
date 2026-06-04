@@ -8,9 +8,9 @@ const performanceData = [
       { label: 'SOLIDARITY- PRUDENCE', values: ['19.4%', '12.2%', '15.6%', '12.3%', '16.6%'] },
       { label: 'BSE500 TRI', values: ['17.3%', '8.1%', '17.7%', '14.8%', '15.0%'] },
     ],
+    caretNote: '^ From 11 MAY 2016 - Start date of scheme',
+    dataDate: 'Data as of 28 Feb 2026',
     notes: [
-      'Data as of 28 Feb 2026',
-      '^ From 11 MAY 2016 - Start date of scheme',
       'Solidarity performance is net of all fees & expenses',
       'Performance data provided in the above table is not verified by SEBI',
     ],
@@ -21,9 +21,9 @@ const performanceData = [
       { label: 'SOLIDARITY- EMERGING LEADERS', values: ['2.8%', '3.7%', 'NA', 'NA', '7.6%'] },
       { label: 'BSE500 TRI', values: ['17.3%', '8.1%', 'NA', 'NA', '17.4%'] },
     ],
+    caretNote: '^ From 26 APR 2023 - Start date of scheme',
+    dataDate: 'Data as of 28 Feb 2026',
     notes: [
-      'Data as of 28 Feb 2026',
-      '^ From 26 APR 2023 - Start date of scheme',
       'Solidarity performance is net of all fees & expenses',
       'Performance data provided in the above table is not verified by SEBI',
     ],
@@ -43,7 +43,12 @@ export default function PortfolioPerformancePage() {
               <h2 id={`perf-section-title-${si}`} className="perf-section-header">
                 {section.title}
               </h2>
-              <table className="perf-table" aria-describedby={`perf-notes-${si}`}>
+              {section.caretNote && (
+                <p id={`perf-caret-note-${si}`} className="perf-caret-note">
+                  {section.caretNote}
+                </p>
+              )}
+              <table className="perf-table" aria-describedby={`perf-caret-note-${si} perf-notes-${si}`}>
                 <caption className="sr-only">{section.title} performance table</caption>
                 <thead>
                   <tr>
@@ -58,7 +63,15 @@ export default function PortfolioPerformancePage() {
                           .filter(Boolean)
                           .join(' ')}
                       >
-                        {col}
+                        {col === 'Since Inception^' ? (
+                          <>
+                            Since Inception
+                            <span aria-hidden="true">^</span>
+                            <span className="sr-only"> (See footnote below for scheme start date)</span>
+                          </>
+                        ) : (
+                          col
+                        )}
                       </th>
                     ))}
                   </tr>
@@ -86,6 +99,7 @@ export default function PortfolioPerformancePage() {
                   ))}
                 </tbody>
               </table>
+              {section.dataDate && <p className="perf-data-date" style={{marginTop: '15px'}}>{section.dataDate}</p>}
               <ul id={`perf-notes-${si}`} className="perf-notes">
                 {section.notes.map((note) => (
                   <li key={note}>{note}</li>
@@ -101,7 +115,7 @@ export default function PortfolioPerformancePage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <strong>link</strong>
+            <strong>performance comparison page</strong>
           </a>{' '}
           for viewing our performance relative to other portfolio managers
         </p>

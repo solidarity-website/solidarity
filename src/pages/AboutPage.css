@@ -36,7 +36,7 @@
 }
 
 .about-guide__list li {
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.7;
   color: var(--color-body);
   margin-bottom: 0.5rem;

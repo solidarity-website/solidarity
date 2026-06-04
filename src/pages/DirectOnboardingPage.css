@@ -2,7 +2,7 @@
    DIRECT ONBOARDING PAGE
    ============================================================ */
 .onboard-content { padding: 0; }
-.onboard-content > p { margin-bottom: var(--space-xl); font-size: 16px; line-height: 1.9; }
+.onboard-content > p { margin-bottom: var(--space-xl); font-size: 1rem; line-height: 1.9; }
 
 .onboard-steps {
   display: flex;
@@ -38,14 +38,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   letter-spacing: 0.03em;
   flex-shrink: 0;
 }
 
 .onboard-step__title {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 700;
   color: var(--color-body);
   margin-bottom: 0.4rem;
@@ -53,7 +53,7 @@
   letter-spacing: 0;
 }
 .onboard-step__desc {
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.7;
   color: #555;
   margin: 0;
@@ -65,7 +65,7 @@
   border-top: 1px solid var(--color-border);
 }
 .onboard-cta p {
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: var(--color-muted);
   margin-bottom: var(--space-md);
 }

@@ -124,8 +124,8 @@ export default function Navbar() {
   }
 
   return (
-    <>
-      <nav className={`navbar${scrolled ? ' navbar--scrolled' : ''}`}>
+    <header>
+      <nav className={`navbar${scrolled ? ' navbar--scrolled' : ''}`} aria-label="Primary">
         <div className="navbar__inner container">
           {/* Logo */}
           <div className="navbar__logo">
@@ -149,18 +149,21 @@ export default function Navbar() {
                   <button
                     className={`navbar__link navbar__link--btn${isActive(item) ? ' navbar__link--active' : ''}`}
                     onClick={() => setOpenDropdown(openDropdown === i ? null : i)}
+                    aria-haspopup="true"
+                    aria-expanded={openDropdown === i}
                   >
                     <span className="navbar__label">{item.label}</span>
-                    {item.dropdown && <span className="navbar__chevron">▾</span>}
+                    {item.dropdown && <span className="navbar__chevron" aria-hidden="true">▾</span>}
                   </button>
                 )}
 
                 {item.dropdown && (
                   <ul
                     className={`navbar__dropdown${openDropdown === i ? ' navbar__dropdown--open' : ''}`}
+                    role="menu"
                   >
                     {item.dropdown.map((sub, j) => (
-                      <li key={j} className="navbar__dropdown-item">
+                      <li key={j} className="navbar__dropdown-item" role="menuitem">
                         {sub.external ? (
                           <a href={sub.href} target="_blank" rel="noopener noreferrer" className="navbar__dropdown-link">
                             {sub.label}
@@ -209,14 +212,15 @@ export default function Navbar() {
                     <button
                       className={`mobile-menu__link mobile-menu__link--parent${openMobileDropdown === i ? ' mobile-menu__link--open' : ''}`}
                       onClick={() => setOpenMobileDropdown(openMobileDropdown === i ? null : i)}
+                      aria-haspopup="true"
                       aria-expanded={openMobileDropdown === i}
                     >
                       {item.label}
                       <span className="mobile-menu__chevron" aria-hidden="true">▾</span>
                     </button>
-                    <ul className={`mobile-menu__sub${openMobileDropdown === i ? ' mobile-menu__sub--open' : ''}`}>
+                    <ul className={`mobile-menu__sub${openMobileDropdown === i ? ' mobile-menu__sub--open' : ''}`} role="menu">
                       {item.dropdown.map((sub, j) => (
-                        <li key={j} className="mobile-menu__sub-item">
+                        <li key={j} className="mobile-menu__sub-item" role="menuitem">
                           {sub.external ? (
                             <a href={sub.href} target="_blank" rel="noopener noreferrer" className="mobile-menu__sub-link" onClick={() => setMobileOpen(false)}>
                               {sub.label}
@@ -251,6 +255,6 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="mobile-menu__backdrop" onClick={() => setMobileOpen(false)} aria-hidden="true" />
       )}
-    </>
+    </header>
   )
 }

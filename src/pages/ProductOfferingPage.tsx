@@ -15,15 +15,14 @@ export default function ProductOfferingPage() {
           <li>High touch – quarterly 1-1 meetings for accounts over 10 Cr</li>
           <li>Customized fee structures</li>
           <li>
-            Please{' '}
+            Please read our latest investor presentation:{' '}
             <a
               href="wp-content/uploads/2026/03/Introduction-to-Solidarity-30-Mar-2026.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <strong>click here</strong>
-            </a>{' '}
-            to read our latest investor presentation
+              <strong>Introduction to Solidarity Investor Presentation (PDF)</strong>
+            </a>
           </li>
         </ul>
       </div>
