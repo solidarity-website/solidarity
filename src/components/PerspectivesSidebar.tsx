@@ -56,20 +56,21 @@ export default function PerspectivesSidebar({ latestPosts, searchQuery, onSearch
       {/* Search Widget - ABOVE CATEGORIES */}
       <section className="sidebar-widget">
         <form onSubmit={handleSearchSubmit} className="sidebar-search-form">
+          <label htmlFor="sidebar-search-input" className="sr-only">Search</label>
           <input
+            id="sidebar-search-input"
             type="text"
             className="sidebar-search__input"
             placeholder="Search..."
             value={searchQuery ?? localSearch}
             onChange={e => handleSearch(e.target.value)}
-           
           />
         </form>
       </section>
 
       {/* Categories Widget */}
       <section className="sidebar-widget">
-        <h4 className="sidebar-widget__title">Categories</h4>
+        <h2 className="sidebar-widget__title">Categories</h2>
         <ul>
           {CATEGORIES.map(cat => (
             <li key={cat.label}>
@@ -81,7 +82,7 @@ export default function PerspectivesSidebar({ latestPosts, searchQuery, onSearch
 
       {/* Latest Posts Section - BELOW CATEGORIES */}
       <section className="sidebar-widget">
-        <h4 className="sidebar-widget__title">Latest Post</h4>
+        <h2 className="sidebar-widget__title">Latest Post</h2>
         <ul className="sidebar-latest-list">
           {posts.map(post => (
             <li key={post.id} className="sidebar-latest-item">

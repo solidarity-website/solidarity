@@ -25,7 +25,7 @@
 .perf-section-header {
   background: #f5e97a;
   padding: 10px 14px;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   color: #5a4a00;
   margin: 0;
@@ -39,7 +39,7 @@
 .perf-th,
 .perf-td {
   padding: 9px 14px;
-  font-size: 13px;
+  font-size: 0.8125rem;
   text-align: center;
 }
 
@@ -72,7 +72,7 @@
 
 .perf-notes {
   padding: 10px 14px;
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #666;
   border-top: 1px solid #e5e5e5;
   line-height: 1.7;
@@ -93,7 +93,7 @@
 }
 
 .perf-content p {
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.8;
   text-align: center;
 }

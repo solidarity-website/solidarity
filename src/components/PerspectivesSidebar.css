@@ -11,7 +11,7 @@
 }
 
 .sidebar-widget__title {
-  font-size: 14.5px;
+  font-size: 0.9063rem;
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
@@ -35,7 +35,7 @@
 /* Specific styling for Latest Post links to match image */
 .sidebar-latest-item a {
   color: #666;
-  font-size: 14.5px;
+  font-size: 0.9063rem;
   line-height: 1.6;
   font-weight: 400;
   display: block;
@@ -46,19 +46,25 @@
 }
 
 .sidebar-widget li a:hover {
-  color: #3c5678;
+  color: #000000;
+  opacity: 1;
 }
 
 /* Search input styling */
 .sidebar-search__input {
   width: 100%;
   padding: 8px 12px;
-  font-size: 14px;
-  border: 1px solid #ccc;
+  font-size: 0.875rem;
+  border: 1px solid #000 !important;
   border-radius: 0;
-  color: #666;
+  color: #000;
   outline: none;
   background-color: #fff;
+}
+
+.sidebar-search__input::placeholder {
+  color: #000;
+  opacity: 1;
 }
 
 .sidebar-search__input:focus {

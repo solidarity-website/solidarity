@@ -389,7 +389,7 @@ export default function PerspectivesListingPage({
     >
       <div className="perspectives-container">
         {/* ── Posts column ── */}
-        <div className="posts-column">
+        <div className="posts-column" aria-live="polite">
           {searchQuery.trim() && searchedPosts.length === 0 && (
             <p className="posts-no-results">
               No results found for "{searchQuery}".
@@ -433,7 +433,7 @@ export default function PerspectivesListingPage({
       </div>
 
       {totalPages > 1 && (
-        <nav className="pagination">
+        <nav className="pagination" aria-label="Pagination">
           {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
             <button
               key={page}
@@ -446,6 +446,7 @@ export default function PerspectivesListingPage({
                 window.scrollTo(0, 0);
               }}
               aria-current={page === currentPage ? "page" : undefined}
+              aria-label={page === currentPage ? `Page ${page}` : `Go to page ${page}`}
             >
               {page}
             </button>

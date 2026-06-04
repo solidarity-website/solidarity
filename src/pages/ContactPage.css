@@ -19,7 +19,7 @@
 }
 
 .contact-heading {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--color-h4, #394872);
   letter-spacing: 1px;
@@ -28,53 +28,52 @@
   line-height: normal;
 }
 
-/* ── Table ── */
-.contact-table {
+/* ── List Layout ── */
+.contact-list {
   width: 100%;
-  border-collapse: collapse;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.contact-table tr {
+.contact-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   border-bottom: 1px solid #e0e4ef;
+  padding: 0.85rem 1rem;
 }
 
-.contact-table tr:first-child {
+.contact-list__item:first-child {
   border-top: 1px solid #e0e4ef;
 }
 
-.contact-table td {
-  padding: 0.85rem 1rem;
-  vertical-align: middle;
-  font-size: 14px;
-  color: #394872;
-}
-
-.contact-table__person {
+.contact-list__person {
   display: flex;
   flex-direction: column;
   gap: 2px;
   min-width: 180px;
 }
 
-.contact-table__name {
+.contact-list__name {
   font-weight: 700;
   color: #394872;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
-.contact-table__role {
-  font-size: 12.5px;
-  color: #6b7a9e;
+.contact-list__role {
+  font-size: 0.7813rem;
+  color: #000000;
 }
 
-.contact-table__email a {
+.contact-list__email a {
   color: #394872;
   text-decoration: underline;
-  font-size: 13.5px;
+  font-size: 0.8438rem;
   white-space: nowrap;
 }
 
-.contact-table__email a:hover {
+.contact-list__email a:hover {
   text-decoration: underline;
   color: var(--color-h4, #394872);
 }
@@ -89,7 +88,7 @@
 /* ── Address ── */
 .contact-address {
   font-style: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.9;
   color: #394872;
 }

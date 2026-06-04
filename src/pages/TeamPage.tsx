@@ -15,7 +15,7 @@ export default function TeamPage() {
               aria-label={`View profile of ${member.name}`}
             >
               <div className="team-card__photo-wrap">
-                <img src={member.photo} alt={member.name} className="team-card__photo" />
+                <img src={member.photo} alt="" className="team-card__photo" />
                 <div className="team-card__overlay" aria-hidden="true">
                   <p className="team-card__name">{member.name}</p>
                   <div className="team-card__sep" aria-hidden="true" />

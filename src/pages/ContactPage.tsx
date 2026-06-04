@@ -17,23 +17,19 @@ export default function ContactPage() {
         <div className="contact-left">
           <h2 className="contact-heading">REACH OUT TO US!</h2>
 
-          <table className="contact-table">
-            <tbody>
-              {contacts.map(({ name, role, email }) => (
-                <tr key={email}>
-                  <td className="contact-table__person">
-                    <span className="contact-table__name">{name}</span>
-                    <span className="contact-table__role">{role}</span>
-                  </td>
-                  <td className="contact-table__email">
-                    <a href={`mailto:${email}`}>{email}</a>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-
-          <hr className="contact-divider" />
+          <ul className="contact-list">
+            {contacts.map(({ name, role, email }) => (
+              <li key={email} className="contact-list__item">
+                <div className="contact-list__person">
+                  <span className="contact-list__name">{name}</span>
+                  <span className="contact-list__role">{role}</span>
+                </div>
+                <div className="contact-list__email">
+                  <a href={`mailto:${email}`}>{email}</a>
+                </div>
+              </li>
+            ))}
+          </ul>
 
           <address className="contact-address">
             <strong>Solidarity Advisors Pvt Ltd,</strong><br />

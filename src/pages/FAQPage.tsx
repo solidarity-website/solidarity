@@ -582,28 +582,34 @@ export default function FAQPage() {
   return (
     <InnerPageLayout title="FAQs">
       <div className="faq-body">
-        {sections.map((section) => (
+        {sections.map((section, sIdx) => (
           <div key={section.heading} className="faq-section">
             <h2 className="faq-section__heading">{section.heading}</h2>
             <div className="faq-list">
               {section.items.map((item, idx) => {
                 const key = `${section.heading}-${idx}`;
                 const isOpen = openKey === key;
+                const toggleId = `faq-toggle-${sIdx}-${idx}`;
+                const panelId = `faq-panel-${sIdx}-${idx}`;
                 return (
                   <div
                     key={key}
                     className={`faq-toggle${isOpen ? " faq-toggle--open" : ""}`}
+                    role="region"
+                    aria-labelledby={toggleId}
                   >
                     <button
+                      id={toggleId}
                       className="faq-toggle__title"
                       onClick={() => setOpenKey(isOpen ? null : key)}
                       aria-expanded={isOpen}
+                      aria-controls={panelId}
                     >
                       <h3>{item.q}</h3>
                       <span className="faq-toggle__icon" aria-hidden="true" />
                     </button>
                     {isOpen && (
-                      <div className="faq-toggle__content">{item.a}</div>
+                      <div id={panelId} className="faq-toggle__content">{item.a}</div>
                     )}
                   </div>
                 );

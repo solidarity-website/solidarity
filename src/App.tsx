@@ -28,10 +28,47 @@ import InvestmentApproachPage from './pages/InvestmentApproachPage'
 
 import './App.css'
 
-// ── Scroll-to-top on route change ──────────────────────────────
-function ScrollToTop() {
+// ── Route Change Handler (Scroll to top & set title) ───────────
+function getTitleForPath(pathname: string): string {
+  const base = "Solidarity Investment Managers"
+  let title = "Home"
+
+  if (pathname === '/') return base
+  else if (pathname === '/about-us') title = "About Us"
+  else if (pathname === '/about-us/regulatory-details') title = "Regulatory Details"
+  else if (pathname.startsWith('/team')) title = "Team"
+  else if (pathname === '/product-offering') title = "Product Offering"
+  else if (pathname === '/portfolio-performance') title = "Portfolio Performance"
+  else if (pathname === '/fee-structure') title = "Fee Structure"
+  else if (pathname === '/fee-calculation-tool') title = "Fee Calculation Tool"
+  else if (pathname === '/direct-onboarding') title = "Direct Onboarding"
+  else if (pathname === '/faqs') title = "FAQs"
+  else if (pathname === '/investment-approach') title = "Investment Approach"
+  else if (pathname === '/perspectives/blogs') title = "Blogs"
+  else if (pathname === '/perspectives/company-perspective') title = "Select Company Perspectives"
+  else if (pathname === '/perspectives/client-questions') title = "Client Questions"
+  else if (pathname === '/perspectives/asset-allocation') title = "Asset Allocation"
+  else if (pathname === '/perspectives/equity') title = "Equity"
+  else if (pathname === '/perspectives/investment-management') title = "Investment Management"
+  else if (pathname === '/perspectives/macro-environment') title = "Macro Environment"
+  else if (pathname === '/perspectives/venture-capital') title = "Venture Capital"
+  else if (pathname === '/perspectives/quarterly-letters') title = "Quarterly Letters"
+  else if (pathname.startsWith('/perspectives/post')) title = "Perspective"
+  else if (pathname === '/contact-us') title = "Contact Us"
+  else if (pathname === '/terms-conditions') title = "Terms and Conditions"
+  else if (pathname === '/privacy-policy') title = "Privacy Policy"
+  else if (pathname === '/disclaimer') title = "Disclaimer"
+  else if (pathname === '/upi-payment-details') title = "UPI Payment Details"
+
+  return `${title} – ${base}`
+}
+
+function RouteChangeHandler() {
   const { pathname } = useLocation()
-  useEffect(() => { window.scrollTo({ top: 0, behavior: 'instant' as ScrollBehavior }) }, [pathname])
+  useEffect(() => { 
+    window.scrollTo({ top: 0, behavior: 'instant' as ScrollBehavior })
+    document.title = getTitleForPath(pathname)
+  }, [pathname])
   return null
 }
 
@@ -64,10 +101,11 @@ function AppShell() {
         </div>
       </div>
 
-      <ScrollToTop />
+      <RouteChangeHandler />
       <Navbar />
 
-      <Routes>
+      <main id="main-content">
+        <Routes>
         {/* Home */}
         <Route path="/" element={<HomePage />} />
 
@@ -108,7 +146,8 @@ function AppShell() {
         <Route path="/privacy-policy"    element={<PrivacyPolicyPage />} />
         <Route path="/disclaimer"        element={<DisclaimerPage />} />
         <Route path="/upi-payment-details" element={<UPIPaymentDetailsPage />} />
-      </Routes>
+        </Routes>
+      </main>
 
       <Footer />
 

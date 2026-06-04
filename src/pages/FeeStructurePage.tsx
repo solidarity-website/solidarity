@@ -81,17 +81,16 @@ export default function FeeStructurePage() {
                         {row.subRows.map((subRow, si) => (
                           <tr key={`${row.category}-${subRow.label}`}>
                             {si === 0 && (
-                              <th
+                              <td
                                 rowSpan={row.subRows.length}
                                 className="fee-table__category-cell"
-                                scope="rowgroup"
                               >
                                 {row.category}
-                              </th>
+                              </td>
                             )}
-                            <th className="fee-table__label-cell" scope="row">
+                            <td className="fee-table__label-cell">
                               {subRow.label}
-                            </th>
+                            </td>
                             {subRow.values.map((value, vi) => (
                               <td key={`${subRow.label}-${vi}`} className="fee-table__value-cell">
                                 {value}
@@ -109,11 +108,11 @@ export default function FeeStructurePage() {
                   </tbody>
                 </table>
               </div>
-              <ul id={`fee-footnotes-${sectionIndex}`} className="fee-footnotes">
+              <div id={`fee-footnotes-${sectionIndex}`} className="fee-footnotes">
                 {feeData.footnotes.map((note) => (
-                  <li key={note}>{note}</li>
+                  <p key={note}>{note}</p>
                 ))}
-              </ul>
+              </div>
             </div>
           </section>
         ))}

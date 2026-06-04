@@ -25,12 +25,12 @@ export default function TeamMemberDetailPage() {
             <div className="member-photo-wrapper">
               <img
                 src={member.photo}
-                alt={member.name}
+                alt=""
                 className="member-detail-photo"
               />
             </div>
 
-            <h1 className="member-detail-name">{member.name}</h1>
+            <h2 className="member-detail-name">{member.name}</h2>
             
             <p className="member-detail-role-wrap">
               <b className="member-detail-role">{member.role}</b>
@@ -98,7 +98,7 @@ export default function TeamMemberDetailPage() {
           </div>
 
           <div className="pager-item center">
-            <Link to="/team" title="All Team Members">
+            <Link to="/team" title="All Team Members" aria-label="All Team Members">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="22"
@@ -119,6 +119,7 @@ export default function TeamMemberDetailPage() {
                 <circle cx="12" cy="19" r="1.5" />
                 <circle cx="19" cy="19" r="1.5" />
               </svg>
+              <span className="sr-only">All Team Members</span>
             </Link>
           </div>
 

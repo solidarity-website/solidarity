@@ -4,14 +4,14 @@
 .ql-intro {
   margin-bottom: var(--space-2xl);
 }
-.ql-intro p { font-size: 16px; line-height: 1.9; }
+.ql-intro p { font-size: 1rem; line-height: 1.9; }
 
 .ql-year-group {
   margin-bottom: var(--space-xl);
 }
 
 .ql-year-heading {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 700;
   color: var(--color-h4);
   text-transform: uppercase;
@@ -51,7 +51,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 800;
   color: var(--color-h4);
   letter-spacing: 0.05em;
@@ -61,7 +61,7 @@
 .ql-item__body { flex: 1; }
 
 .ql-item__title {
-  font-size: 14.5px;
+  font-size: 0.9063rem;
   font-weight: 600;
   color: var(--color-body);
   text-transform: none;
@@ -70,7 +70,7 @@
 }
 
 .ql-item__date {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--color-muted);
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -78,7 +78,7 @@
 }
 
 .ql-badge {
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: 700;
   color: var(--color-h4);
   background: rgba(57,72,114,0.08);

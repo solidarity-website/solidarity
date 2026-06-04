@@ -10,7 +10,7 @@
 }
 
 .ia-list li {
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.9;
   color: var(--color-body);
   margin-bottom: 1rem;

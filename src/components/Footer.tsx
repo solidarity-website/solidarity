@@ -10,13 +10,13 @@ export default function Footer() {
           Solidarity Advisors Pvt Ltd. All rights reserved.
         </p>
 
-        <div className="footer__links">
-          <Link to="/terms-conditions">Terms and Conditions</Link>
-          <span className="footer__sep" aria-hidden="true">|</span>
-          <Link to="/privacy-policy">Privacy Policy</Link>
-          <span className="footer__sep" aria-hidden="true">|</span>
-          <Link to="/disclaimer">Disclaimer</Link>
-        </div>
+        <ul className="footer__links">
+          <li><Link to="/terms-conditions">Terms and Conditions</Link></li>
+          <li className="footer__sep" aria-hidden="true">|</li>
+          <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+          <li className="footer__sep" aria-hidden="true">|</li>
+          <li><Link to="/disclaimer">Disclaimer</Link></li>
+        </ul>
 
         <p className="footer__legal">
           CIN: U67190MH2011PTC224651&nbsp;|&nbsp;
