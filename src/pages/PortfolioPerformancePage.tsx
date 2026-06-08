@@ -4,12 +4,30 @@ import './PortfolioPerformancePage.css'
 const performanceData = [
   {
     title: 'Aggregate across all partner accounts',
+    columns: [
+      'Performance (in TWRR)',
+      '1 Year',
+      '2 Year',
+      '3 Year',
+      '4 Year',
+      '5 Year',
+      '7 Year',
+      '10 Year',
+      'Since Inception^',
+    ],
+    highlightCols: [5, 6, 7, 8],
     rows: [
-      { label: 'SOLIDARITY- PRUDENCE', values: ['19.4%', '12.2%', '15.6%', '12.3%', '16.6%'] },
-      { label: 'BSE500 TRI', values: ['17.3%', '8.1%', '17.7%', '14.8%', '15.0%'] },
+      {
+        label: 'SOLIDARITY- PRUDENCE',
+        values: ['12.1%', '16.8%', '15.5%', '13.2%', '11.8%', '17.4%', '16.9%', '17.1%'],
+      },
+      {
+        label: 'BSE500 TRI',
+        values: ['-0.1%', '4.1%', '13.5%', '13.3%', '12.3%', '13.9%', '14.0%', '14.3%'],
+      },
     ],
     caretNote: '^ From 11 MAY 2016 - Start date of scheme',
-    dataDate: 'Data as of 28 Feb 2026',
+    dataDate: 'Data as of 31 May 2026',
     notes: [
       'Solidarity performance is net of all fees & expenses',
       'Performance data provided in the above table is not verified by SEBI',
@@ -17,12 +35,26 @@ const performanceData = [
   },
   {
     title: 'Aggregate across all partner accounts',
+    columns: [
+      'Performance (in TWRR)',
+      '1 Year',
+      '2 Year',
+      '3 Year',
+      'Since Inception^',
+    ],
+    highlightCols: [4],
     rows: [
-      { label: 'SOLIDARITY- EMERGING LEADERS', values: ['2.8%', '3.7%', 'NA', 'NA', '7.6%'] },
-      { label: 'BSE500 TRI', values: ['17.3%', '8.1%', 'NA', 'NA', '17.4%'] },
+      {
+        label: 'SOLIDARITY- EMERGING LEADERS',
+        values: ['5.4%', '12.4%', '11.4%', '11.9%'],
+      },
+      {
+        label: 'BSE500 TRI',
+        values: ['-0.1%', '4.1%', '13.5%', '15.0%'],
+      },
     ],
     caretNote: '^ From 26 APR 2023 - Start date of scheme',
-    dataDate: 'Data as of 28 Feb 2026',
+    dataDate: 'Data as of 31 May 2026',
     notes: [
       'Solidarity performance is net of all fees & expenses',
       'Performance data provided in the above table is not verified by SEBI',
@@ -30,35 +62,43 @@ const performanceData = [
   },
 ]
 
-const columns = ['Performance (in TWRR)', '1 Year', '2 Year', '3 Year', '5 Year', 'Since Inception^']
-const highlightCols = [4, 5]
-
 export default function PortfolioPerformancePage() {
   return (
     <InnerPageLayout title="Portfolio Performance">
       <div className="perf-content">
         <div className="perf-table-wrapper">
           {performanceData.map((section, si) => (
-            <section key={si} className="perf-section" aria-labelledby={`perf-section-title-${si}`}>
-              <h2 id={`perf-section-title-${si}`} className="perf-section-header">
+            <section
+              key={si}
+              className="perf-section"
+              aria-labelledby={`perf-section-title-${si}`}
+            >
+              <h2
+                id={`perf-section-title-${si}`}
+                className="perf-section-header"
+              >
                 {section.title}
               </h2>
-              {section.caretNote && (
-                <p id={`perf-caret-note-${si}`} className="perf-caret-note">
-                  {section.caretNote}
-                </p>
-              )}
-              <table className="perf-table" aria-describedby={`perf-caret-note-${si} perf-notes-${si}`}>
-                <caption className="sr-only">{section.title} performance table</caption>
+
+              <table
+                className="perf-table"
+                aria-describedby={`perf-caret-note-${si} perf-notes-${si}`}
+              >
+                <caption className="sr-only">
+                  {section.title} performance table
+                </caption>
+
                 <thead>
                   <tr>
-                    {columns.map((col, ci) => (
+                    {section.columns.map((col, ci) => (
                       <th
                         key={col}
                         scope="col"
                         className={[
                           ci === 0 ? 'perf-th perf-th--first' : 'perf-th',
-                          highlightCols.includes(ci) ? 'perf-col--highlight' : '',
+                          section.highlightCols.includes(ci)
+                            ? 'perf-col--highlight'
+                            : '',
                         ]
                           .filter(Boolean)
                           .join(' ')}
@@ -67,7 +107,10 @@ export default function PortfolioPerformancePage() {
                           <>
                             Since Inception
                             <span aria-hidden="true">^</span>
-                            <span className="sr-only"> (See footnote below for scheme start date)</span>
+                            <span className="sr-only">
+                              {' '}
+                              (See footnote below for scheme start date)
+                            </span>
                           </>
                         ) : (
                           col
@@ -76,18 +119,22 @@ export default function PortfolioPerformancePage() {
                     ))}
                   </tr>
                 </thead>
+
                 <tbody>
                   {section.rows.map((row) => (
                     <tr key={row.label}>
                       <th scope="row" className="perf-td perf-td--first">
                         {row.label}
                       </th>
+
                       {row.values.map((val, vi) => (
                         <td
                           key={`${row.label}-${vi}`}
                           className={[
                             'perf-td',
-                            highlightCols.includes(vi + 1) ? 'perf-col--highlight' : '',
+                            section.highlightCols.includes(vi + 1)
+                              ? 'perf-col--highlight'
+                              : '',
                           ]
                             .filter(Boolean)
                             .join(' ')}
@@ -99,7 +146,20 @@ export default function PortfolioPerformancePage() {
                   ))}
                 </tbody>
               </table>
-              {section.dataDate && <p className="perf-data-date" style={{marginTop: '15px'}}>{section.dataDate}</p>}
+
+              {section.dataDate && (
+                <p className="perf-data-date" style={{ marginTop: '15px' }}>
+                  {section.dataDate}
+                </p>
+              )}
+
+              <p
+                id={`perf-caret-note-${si}`}
+                className="perf-caret-note"
+              >
+                {section.caretNote}
+              </p>
+
               <ul id={`perf-notes-${si}`} className="perf-notes">
                 {section.notes.map((note) => (
                   <li key={note}>{note}</li>
@@ -108,6 +168,7 @@ export default function PortfolioPerformancePage() {
             </section>
           ))}
         </div>
+
         <p>
           Please click on this{' '}
           <a
