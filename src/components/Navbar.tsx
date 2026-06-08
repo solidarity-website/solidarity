@@ -51,13 +51,15 @@ const navItems: NavItem[] = [
   {
     label: 'Disclosures',
     dropdown: [
-      { label: 'Investor Charter', href: '/wp-content/uploads/2022/01/Annexure-A-Dec-21.pdf', external: true },
-      { label: 'Disclosure Document', href: '/wp-content/uploads/2026/01/Disclosure_document_SAPL_22_Jan_2026.pdf', external: true },
-      { label: 'Fee Calculation Tool', href: '/fee-calculation-tool' },
-      { label: 'Investor Complaints', href: '/wp-content/uploads/2026/03/Annexure-B-FEB-26-NEW-FORMAT.pdf', external: true },
-      { label: 'Regulatory Details', href: '/about-us/regulatory-details' },
-      { label: 'UPI Payment Details', href: '/upi-payment-details' },
-      { label: 'Stewardship Code', href: '/wp-content/uploads/2026/01/Stewarship-Code_NP-7Jan26.pdf', external: true },
+      { label: 'Investor Charter – PMS', href: '/wp-content/uploads/2026/05/Investor-Charter-PMS-v1.pdf', external: true },
+{ label: 'Investor Charter – AIF', href: '/wp-content/uploads/2026/05/Investor-charter-for-AIF-16-Apr-26_V2.pdf', external: true },
+      { label: 'DISCLOSURE DOCUMENT', href: '/wp-content/uploads/2026/01/Disclosure_document_SAPL_22_Jan_2026.pdf', external: true },
+      { label: 'FEE CALCULATION TOOL', href: '/fee-calculation-tool' },
+      { label: 'INVESTOR COMPLAINTS', href: '/wp-content/uploads/2026/03/Annexure-B-FEB-26-NEW-FORMAT.pdf', external: true },
+      { label: 'REGULATORY DETAILS', href: '/about-us/regulatory-details' },
+      { label: 'UPI PAYMENT DETAILS', href: '/upi-payment-details' },
+      { label: 'STEWARDSHIP CODE – AIF', href: '/wp-content/uploads/2026/01/Stewarship-Code_NP-7Jan26.pdf', external: true },
+      { label: 'CSR POLICY', href: '/' },
     ],
   },
   {

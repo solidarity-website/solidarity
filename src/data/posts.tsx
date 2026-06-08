@@ -91,11 +91,11 @@ export const ALL_POSTS: PostData[] = [
 
 <p>Vasa is already the dominant player at present by a long mile. While it started primarily as a marketplace model (low inventory days), it is now pivoting to an inventory model to improve product availability and reduce stock-outs and investing in warehouses closer to key demand centres to reduce delivery timelines.&nbsp;</p>
 
+
+<div style="overflow-x:auto;margin:1rem 0"><table style="width:100%;border-collapse:collapse;font-family:Arial,sans-serif"><thead><tr><th style="background:#c9e0eb;font-weight:700;padding:12px;border:1px solid #333;text-align:left">Key financial metrics (Rs Cr)</th><th style="background:#c9e0eb;font-weight:700;padding:12px;border:1px solid #333;text-align:center">FY20</th><th style="background:#c9e0eb;font-weight:700;padding:12px;border:1px solid #333;text-align:center">FY23</th><th style="background:#c9e0eb;font-weight:700;padding:12px;border:1px solid #333;text-align:center">FY25</th></tr></thead><tbody><tr><td style="padding:12px;border:1px solid #333;width:50%">Sales</td><td style="padding:12px;border:1px solid #333;text-align:center">30</td><td style="padding:12px;border:1px solid #333;text-align:center">123</td><td style="padding:12px;border:1px solid #333;text-align:center">249</td></tr><tr><td style="padding:12px;border:1px solid #333">Gross margin (%)</td><td style="padding:12px;border:1px solid #333;text-align:center">20%</td><td style="padding:12px;border:1px solid #333;text-align:center">25%</td><td style="padding:12px;border:1px solid #333;text-align:center">30%</td></tr><tr><td style="padding:12px;border:1px solid #333">EBITDA margin (%)</td><td style="padding:12px;border:1px solid #333;text-align:center">1%</td><td style="padding:12px;border:1px solid #333;text-align:center">8%</td><td style="padding:12px;border:1px solid #333;text-align:center">10%</td></tr><tr><td style="padding:12px;border:1px solid #333">Net profit margin (%)</td><td style="padding:12px;border:1px solid #333;text-align:center">0%</td><td style="padding:12px;border:1px solid #333;text-align:center">6%</td><td style="padding:12px;border:1px solid #333;text-align:center">7%</td></tr><tr><td style="padding:12px;border:1px solid #333">ROIC – pre-tax (%)</td><td style="padding:12px;border:1px solid #333;text-align:center">35%</td><td style="padding:12px;border:1px solid #333;text-align:center">64%</td><td style="padding:12px;border:1px solid #333;text-align:center">29%</td></tr><tr><td style="padding:12px;border:1px solid #333">ROE – post-tax (%)</td><td style="padding:12px;border:1px solid #333;text-align:center">34%</td><td style="padding:12px;border:1px solid #333;text-align:center">48%</td><td style="padding:12px;border:1px solid #333;text-align:center">13%</td></tr><tr><td style="padding:12px;border:1px solid #333">Inventory days</td><td style="padding:12px;border:1px solid #333;text-align:center">27</td><td style="padding:12px;border:1px solid #333;text-align:center">53</td><td style="padding:12px;border:1px solid #333;text-align:center">79</td></tr><tr><td style="padding:12px;border:1px solid #333">Debtor days</td><td style="padding:12px;border:1px solid #333;text-align:center">10</td><td style="padding:12px;border:1px solid #333;text-align:center">3</td><td style="padding:12px;border:1px solid #333;text-align:center">20</td></tr><tr><td style="padding:12px;border:1px solid #333">Creditor days</td><td style="padding:12px;border:1px solid #333;text-align:center">35</td><td style="padding:12px;border:1px solid #333;text-align:center">21</td><td style="padding:12px;border:1px solid #333;text-align:center">16</td></tr><tr><td style="padding:12px;border:1px solid #333">Other days</td><td style="padding:12px;border:1px solid #333;text-align:center">1</td><td style="padding:12px;border:1px solid #333;text-align:center">4</td><td style="padding:12px;border:1px solid #333;text-align:center">10</td></tr><tr><td style="padding:12px;border:1px solid #333">Working capital days</td><td style="padding:12px;border:1px solid #333;text-align:center">3</td><td style="padding:12px;border:1px solid #333;text-align:center">39</td><td style="padding:12px;border:1px solid #333;text-align:center">93</td></tr><tr><td style="padding:12px;border:1px solid #333">Net Debt / EBITDA (x)</td><td style="padding:12px;border:1px solid #333;text-align:center">0.7</td><td colspan="2" style="padding:12px;border:1px solid #333;text-align:center">Net cash</td></tr><tr><td style="padding:12px;border:1px solid #333">GFA turns</td><td style="padding:12px;border:1px solid #333;text-align:center">67.4</td><td style="padding:12px;border:1px solid #333;text-align:center">40.6</td><td style="padding:12px;border:1px solid #333;text-align:center">13.5</td></tr><tr><td style="padding:12px;border:1px solid #333">NFA turns</td><td style="padding:12px;border:1px solid #333;text-align:center">83.8</td><td style="padding:12px;border:1px solid #333;text-align:center">61.1</td><td style="padding:12px;border:1px solid #333;text-align:center">16.7</td></tr></tbody></table><p style="margin-top:10px;font-size:14px;color:#444">Source: Ace Equity</p></div>
 <p><strong>Reported Financials</strong></p>
 
-<figure class="wp-block-image size-full is-resized"><img decoding="async" width="883" height="627" class="wp-image-5819" style="width:588px;height:auto" src="/wp-content/uploads/2026/04/image-9.png" alt="" /></figure>
-
-<figure class="wp-block-image size-full is-resized"><img decoding="async" width="876" height="241" class="wp-image-5821" style="width:623px;height:auto" src="/wp-content/uploads/2026/04/image-11.png" alt="" /></figure>
+<div style="overflow-x:auto;margin:1rem 0"><table style="width:100%;border-collapse:collapse;font-family:Arial,sans-serif"><thead><tr><th style="background:#c9e0eb;font-weight:700;padding:12px;border:1px solid #333;text-align:left">Key Operating parameters</th><th style="background:#c9e0eb;font-weight:700;padding:12px;border:1px solid #333;text-align:center">FY20</th><th style="background:#c9e0eb;font-weight:700;padding:12px;border:1px solid #333;text-align:center">FY23</th><th style="background:#c9e0eb;font-weight:700;padding:12px;border:1px solid #333;text-align:center">FY25</th></tr></thead><tbody><tr><td style="padding:12px;border:1px solid #333;width:50%">SKUs</td><td style="padding:12px;border:1px solid #333;text-align:center">~12,000</td><td style="padding:12px;border:1px solid #333;text-align:center">~18,000</td><td style="padding:12px;border:1px solid #333;text-align:center">~22,000</td></tr><tr><td style="padding:12px;border:1px solid #333">Warehouses</td><td style="padding:12px;border:1px solid #333;text-align:center">2</td><td style="padding:12px;border:1px solid #333;text-align:center">6</td><td style="padding:12px;border:1px solid #333;text-align:center">7</td></tr><tr><td style="padding:12px;border:1px solid #333">Avg delivery time</td><td style="padding:12px;border:1px solid #333;text-align:center">6.2 days</td><td style="padding:12px;border:1px solid #333;text-align:center">4.5 days</td><td style="padding:12px;border:1px solid #333;text-align:center">3.8 days</td></tr><tr><td style="padding:12px;border:1px solid #333">Active buyers</td><td style="padding:12px;border:1px solid #333;text-align:center">1.2 Lakhs</td><td style="padding:12px;border:1px solid #333;text-align:center">1.68 Lakhs</td><td style="padding:12px;border:1px solid #333;text-align:center">2.5 Lakhs</td></tr></tbody></table><p style="margin-top:10px;font-size:14px;color:#444">Source: Company presentations</p></div>
 
 <p>Key observations<em>:</em>&nbsp;</p>
 
@@ -550,6 +550,35 @@ export const ALL_POSTS: PostData[] = [
     ),
   },
   {
+    id: "aa-02",
+    slug: "is-this-2008-once-again",
+    title: "Is This 2008 Once Again?",
+    date: "January 12, 2016",
+    author: "Solidarity Investment Managers",
+    categories: ["Blogs", "Asset Allocation"],
+    categoryLinks: [
+      { label: "Blogs", path: "/perspectives/blogs" },
+      { label: "Asset Allocation", path: "/perspectives/asset-allocation" },
+    ],
+    excerpt: (
+      <div
+        dangerouslySetInnerHTML={{
+          __html:
+            "<p>Global markets have started the year with perhaps the worst performance in over two decades.\u00a0 The sell-off has prompted commentary in the media \u201chinting of parallels with the 2008 like crisis\u201d</p>\n\n\n\n<p>Is this 2008 once again? Should one exit the markets, or grit our teeth and stay invested because we should have a \u201ccorrection\u201d rather than a deep \u201csell off\u201d?</p>\n\n\n\n<p>Our analysis suggests that there is a strong case for Indian investors to remain invested as the data does not suggest we face a 2008 like situation</p>",
+        }}
+      />
+    ),
+    content: (
+      <div
+        className="post-content"
+        dangerouslySetInnerHTML={{
+          __html:
+            "<p>Global markets have started the year with perhaps the worst performance in over two decades.\u00a0 The sell-off has prompted commentary in the media \u201chinting of parallels with the 2008 like crisis\u201d</p>\n\n\n\n<p>Is this 2008 once again? Should one exit the markets, or grit our teeth and stay invested because we should have a \u201ccorrection\u201d rather than a deep \u201csell off\u201d?</p>\n\n\n\n<p>Our analysis suggests that there is a strong case for Indian investors to remain invested as the data does not suggest we face a 2008 like situation\u00a0</p>\n\n\n\n<p>\u2022 Entry valuations are by far the dominant variable in influencing market returns.   Even when the macro has been unfavourable, but entry valuations reasonable, Indian markets have delivered strong returns over a rolling 3 year horizon.</p>\n\n\n\n<p>\u2022 The years of significant poor returns (&gt;15% annual decline in equity markets) in the last 16 years have both been associated with an external shock AND unfavourable valuations when the shock hit. </p>\n\n\n\n<p>\u2022 Entry valuations in India are not unfavourable at present, especially keeping in mind that corporate profit margins are at a 15 year low. With the boost to margins from collapsing commodity prices, margin expansion is on the cards.  This should support earnings even if volume growth is illusive</p>\n\n\n\n<table class=\"wp-block-table\"><tbody><tr><td><strong>India: Valuation parameter</strong></td><td><strong>Jan 2008</strong></td><td><strong>Jan 2016</strong></td></tr><tr><td>Market Cap to GDP</td><td>~125%</td><td>~72%</td></tr><tr><td>Trailing PE (NSE Website)</td><td>27.9x</td><td>20.5x</td></tr><tr><td>Corporate Profit to GDP</td><td>~7.8%</td><td>~3.9%</td></tr><tr><td>Yield Gap (10 Year GOI Bond Yield \u00a0\u2013 1 Yr Forward Earnings Yield)</td><td>3.2%</td><td>1.8%</td></tr></tbody></table>\n\n\n\n<p>One however, needs to be prepared for a correction</p>\n\n\n\n<p>\u2022 India never remains immune to Global sell offs.  </p>\n\n\n\n<p>\u2022 Valuations in other markets example the US are well above fair zone and offer no margin of safety at present.  In fact, the fall in prices being witnessed at present can also be attributed to concerns on earnings growth in the US with margins at peak levels; bankruptcy concerns of highly leveraged Shale Gas explorers; these concerns have got heightened by fears of a deeper slowdown in China and the perceived incompetence of Chinese authorities</p>\n\n\n\n<table class=\"wp-block-table\"><tbody><tr><td><strong>US: Valuation parameter</strong></td><td><strong>January 2008</strong></td><td><strong>January 2016</strong></td></tr><tr><td>Market Cap to GDP</td><td>~ 110%</td><td>~125%</td></tr><tr><td>Trailing PE</td><td>~25x</td><td>~21.5x</td></tr><tr><td>Corporate Profit to GDP</td><td>~8.2%</td><td>~9.9%</td></tr></tbody></table>\n\n\n\n<p>\u2022 Paradoxically, events that should benefit India, example a selloff in Commodities/Crude Oil, actually hurt Indian markets in the short term as they commence a Global \u201cRisk Off\u201d trade and result in FII Selling.  </p>\n\n\n\n<p>\u2022 Commodity exporting countries are facing significant pressure to balance their budgets and deliver growth.   Sovereign Wealth Funds will therefore sell stocks to help fund national budgets.  In times of crisis, you sell what you can sell, not what you would like to sell.   Indian stocks owned by SWF will therefore face selling pressures. </p>\n\n\n\n<p>Our assessment that one remains invested in Indian Markets is further supported by the following arguments</p>\n\n\n\n<ul class=\"wp-block-list\"><li>India Growth is clearly weak vs expectations.\u00a0 However, one must look at growth in the context of a very challenged export environment and Govt. crackdown on corruption.\u00a0 Credit growth is partially depressed due to collapse in Commodity prices and especially Oil, as that has reduced need for Working Capital loans; two back to back poor monsoons, and cut in Minimum Support prices for crops have impacted demand from Rural India.\u00a0\u00a0 However, none of the above is a structural slowdown.\u00a0\u00a0</li></ul>\n\n\n\n<ul class=\"wp-block-list\"><li>Inflation, and Current A/C deficit &#8211; are all in comfort zone.\u00a0</li></ul>\n\n\n\n<p>Government has room to pump prime the economy from savings from Crude Oil to the extent of USD 30-45 Billion.\u00a0 Every USD 1/barrel drop in Oil saves the economy USD 1 Billion. \u00a0Some action is already visible, specifically on Roads.\u00a0</p>\n\n\n\n<ul class=\"wp-block-list\"><li>Despite delivering about 7% GDP (per perhaps 5-6% if we believe the doomsayers), India is a growth haven at present.\u00a0 Typically, Capital chases growth.\u00a0 At some point in time, FIIs will start differentiating between markets.</li></ul>\n\n\n\n<p>\u00a0Global risks \u2013 geopolitical, economic, etc. &#8211; are openly being discussed and hence a lot of the negatives should start getting priced in, unlike in 2008, where very few people saw the impending crisis.</p>\n\n\n\n<p>\u2022 80% of stock price movement happens on 20% of the best trading days. If one misses the large positive moves, overall returns will be significantly affected. </p>\n\n\n\n<p>\u2022  Domestic investors continue to be robust investors in Indian equities having infused more money in the market in the last 18 months than cumulatively in last 10 years</p>\n\n\n\n<p>\u2022 Central Banks are very deeply invested in their strategy to boost Asset prices.  The Chinese and Japanese Central Bank are even supporting their equity markets by direct purchase of shares.  There is no reason to believe at present that this strategy would not continue to be supported even more strongly if markets were to slide.</p>\n\n\n\n<p>Readers are however warned a tail risk event will certainly impact India.\u00a0\u00a0</p>\n\n\n\n<p>\u2022 Between April 2008 and March 2009, our FX reserves fell by USD 58 Bn (from 14.5 to 9 months of import cover), despite a favourable macro-economic environment at the start; the markets returned -35% that FY. </p>\n\n\n\n<p>\u2022 When tail risk events hit, all bets are off because there is panic selling for the exit.  </p>\n\n\n\n<p>\u2022 However, the timing of Tail risk events cannot be predicted; they only need to be planned for via Asset Allocation</p>\n\n\n\n<p>How should one position portfolios?</p>\n\n\n\n<p>\u2022\u00a0\u00a0Remember CY 16/FY 17 promises to be a volatile year; and that markets can be irrational for a long time.\u00a0</p>\n\n\n\n<p>\u2022\u00a0\u00a0Also remember, the principal factor determining returns is investor behaviour (not the choice of fund manager)</p>\n\n\n\n<p>\u2022\u00a0\u00a0Asset Allocation is key.\u00a0\u00a0\u00a0 One should be mentally prepared not to sell out of panic.\u00a0 It is better to sell some equities now and wait on the side lines if you cannot handle volatility.\u00a0 Any cash requirements for the next 24 months should not be in Risk Assets but held either in Liquid Funds or FDs.</p>\n\n\n\n<p>\u2022\u00a0\u00a0Active investing may be better than buying the Index.\u00a0\u00a0 Stock prices are slaves to earnings so Investors should look for business models that will be resilient in a challenging environment, and are fairly priced at present.\u00a0 Every market correction makes long term valuations more favourable for Equity investors.</p>\n\n\n\n<p>\u2022 Long term investing does not need to be about investing in Equities alone. Long term bonds, especially tax free, continue to offer a very attractive risk reward.  These must be an integral part of one\u2019s portfolio both for the return as well as Option value (redeem and buy equities in the event of deep market sell off).</p>",
+        }}
+      />
+    ),
+  },
+  {
     id: "aa-01",
     slug: "the-strategic-importance-of-holding-cash-and-equivalents",
     title: "The strategic importance of holding cash and equivalents",
@@ -642,6 +671,35 @@ export const ALL_POSTS: PostData[] = [
         dangerouslySetInnerHTML={{
           __html:
             '<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow" style="text-align: center;">\n<p>The first principle is that you should not fool yourself, and you are the easiest person to fool</p>\n<cite>- Richard Feynmann </cite></blockquote>\n<p><span id="more-3268"></span></p>\n\n\n\n<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"><p>When faced with a difficult decision, we often answer an easier one instead, usually without noticing the substitution</p><cite>- Daniel Kahneman</cite></blockquote>\n\n\n\n<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"><p>Knowledge can be communicated but wisdom needs to be discovered</p><cite>- Herman Hesse</cite></blockquote>\n\n\n\n<p>Financial markets have short memories and constantly shifting narratives.   The US stock market valuations were trading close to all time high, despite poor growth even before their Presidential election.  The explanation offered was that as interest rates were very low, high PE ratios were justified.  A Trump Presidency threatened to crater the markets and boost Gold due to the economic uncertainty that would result. 45 days after the election, 10 year Bond yields in the US have increased from 1.8 to 2.6%, stock markets rebounded within 24 hours and are 6% higher than the polling day, and Gold is 12% lower. Capital is fleeing Emerging markets and headed for the US because of a new found euphoria for Trump. </p>\n\n\n\n<p>The new narrative is that President Trump will boost fiscal spending and cut corporate taxes.  Animal spirits have conveniently forgotten that 50% of US S&P earnings come from outside the US, that the much stronger US Dollar will impact export growth, that a tight labour market in the US will result in higher employee costs which will affect margins, that trade barriers erected by the US will be reciprocated by other countries which will impact growth, that US Corporate taxes are already amongst the lowest in the world and that new sources of revenue need to be found by the US Govt. to pay for all the grand fiscal stimulus plans</p>\n\n\n\n<p>We are witnessing something similar in India at present.  The common narrative is that demonetisation has cratered the economy. Job losses, long queues, the common man\'s suffering are stories reported day in and day out. Suddenly the markets entire focus is on decline of short term earnings.   No one seems interested in discussing corruption and crony capitalism under the previous regime or the longer term benefits to the economy of a greater compliant tax base, or market share gains for organized players, or that the short term results don\'t matter in valuation of companies.</p>\n\n\n\n<p>Data and narratives can always be found to support a bearish or bullish argument and get people to trade in and out of markets. Investors need to define their beliefs and an approach - a North Star - that will help create wealth over the long term. Surely these will evolve over time with experiences, but if they are well thought out, they should not change frequently.  </p>\n\n\n\n<p>Our investment beliefs have been developed over a decade of experiences.  We believe </p>\n\n\n\n<ul class="wp-block-list"><li>In the power of long term earnings growth, and betting on themes with large opportunity and good management teams is the best way to generate superior returns.    </li><li>One very seldom gets a good economic environment and low stock price multiples simultaneously</li><li>That no one can predict short term market movements or when prices will turn.  Corrections are intrinsic part of the long term wealth creation process.</li><li>In staying invested through market corrections as 80% of price moves happen on 20% of days and missing the large moves results in a significant drag on returns.</li><li>That investors would be better served sacrificing trading and focusing exclusively on long term investing as the lure of the quick buck impedes long term thinking.</li><li>We need to be mindful of the brain\'s natural instincts - protective during falling markets, and exuberant during rising ones - and hence guard against being excessively fearful while making buying decisions during falling markets and acting on greed of missing out during rising ones. </li></ul>\n\n\n\n<p>The above beliefs help us stay the course and keep out the noise of a continuously shifting narrative</p>\n\n\n\n<p>So, we would recommend developing a set of beliefs that will govern the approach you take to protect and grow your wealth. These are too important decisions to be solely entrusted to advisors.   And the next time anyone spins a narrative and makes an Investment recommendation based on recent market events, don\'t act on the advice without questioning their underlying belief and reconciling it with yours.  They may be playing a different version of cricket compare.</p>',
+        }}
+      />
+    ),
+  },
+  {
+    id: "me-09",
+    slug: "trump-black-money-and-implications-for-stock-prices",
+    title: "Trump, black money and implications for stock prices",
+    date: "November 12, 2016",
+    author: "Solidarity Investment Managers",
+    categories: ["Blogs", "Macro Environment"],
+    categoryLinks: [
+      { label: "Blogs", path: "/perspectives/blogs" },
+      { label: "Macro Environment", path: "/perspectives/macro-environment" },
+    ],
+    excerpt: (
+      <div
+        dangerouslySetInnerHTML={{
+          __html:
+            "<p>Smart money threatened a 10-15% single-day drop in the US Market if Trump was elected and a one day 100 USD/oz. upward movement in the price of Gold.  Well, Trump is king, the US markets have rallied and Gold has declined. And new reasons are being offered why markets should trade higher.</p>",
+        }}
+      />
+    ),
+    content: (
+      <div
+        className="post-content"
+        dangerouslySetInnerHTML={{
+          __html:
+            "<p>Smart money threatened a 10-15% single-day drop in the US Market if Trump was elected and a one day 100 USD/oz. upward movement in the price of Gold.\u00a0\u00a0 Well, Trump is king, the US markets have rallied and Gold has declined. And new reasons are being offered why markets should trade higher.</p>\n\n\n\n<p>Consider another anomaly.\u00a0 High valuations in the US market \u2013 almost close to highest levels in history despite significantly lower growth \u2013 were justified by the very low bond yields.\u00a0\u00a0\u00a0 Even as the 10 year US bond yields have moved up from 1.83% to 2.13% in a week, the Dow has broken through its all-time high.</p>\n\n\n\n<p>Perhaps behaviour akin to this is what lead Sir Isaac Newton to say \u201cI can calculate the movement of heavenly bodies but not the madness of people\u201d</p>\n\n\n\n<p>What does Trump\u2019s election or the crackdown on black- money mean for Indian markets in the short term?\u00a0\u00a0 The honest answer is I don\u2019t know.\u00a0\u00a0 The battle between \u201cGreed and Fear\u201d rather than rationality drive short term prices.\u00a0\u00a0 As you can see with the examples above, you may as well toss a coin.</p>\n\n\n\n<p>The long term investor has no reason to be worried but should see this as a buying opportunity.\u00a0\u00a0 Greed and fear drive first order thinking; however, if we slow down our decision making process, we can consider second/third order effects.</p>\n\n\n\n<p>Trump and the developed world in general threatens to be protectionist as globalization has resulted in rampant inequality and a rant against it helps win elections.\u00a0 However, it is not easy to wind down global supply chains overnight.\u00a0 For example, India supplies over 40% of generic pharma supplies to the US market and Indian players have a significantly lower cost structure.\u00a0\u00a0 Reversing globalization will also mean higher costs for consumers.\u00a0 And the electorate cannot have both.</p>\n\n\n\n<p>Similarly, the crackdown on black money should dent demand for discretionary consumption in the short term as people grapple with the loss of their ill-gotten gains.\u00a0 However, this should also result in lower inflation.\u00a0 Any currency not deposited with banks reduces Govt\u2019s debt to the RBI.\u00a0\u00a0 Everything else remaining the same, this means lower borrowing by the Govt.- both the above should mean more head room for lower interest rates.\u00a0 Which means higher PE ratios.</p>\n\n\n\n<p>In conclusion, I would like to remind you that fear during market declines is very natural.\u00a0 Our brains are wired for protection, not to take investment decisions based on risk and reward.\u00a0\u00a0\u00a0 It is very tough emotionally to buy when markets are falling precipitously.\u00a0 But history tells us that\u2019s what winning this game is about.</p>",
         }}
       />
     ),
@@ -836,6 +894,355 @@ export const ALL_POSTS: PostData[] = [
         dangerouslySetInnerHTML={{
           __html:
             '<p>Our call on JSW Energy is a non-consensus call. What do we see that others do not?</p>\n\n\n\n<ul class="wp-block-list">\n<li>JSW Energy has ~ 80% of its capacity tied up under PPA.   With limited manufacturing capacity coming on stream, the Power demand/supply gap will shrink over the next few years benefitting players like JSW Energy who have spare capacity to sell in the Merchant market.</li>\n\n\n\n<li>Moreover, with a Debt/Equity &lt;0.9, ~2000 Cr Free Cash Flow Generation (post interest expenses) and well placed to invest for future growth (among the favourably placed to win troubled Power Assets at the NCLT). </li>\n\n\n\n<li>JSW Energy has a great management team, has displayed significant discipline in the past, and the cash generation means that the Market Cap/Enterprise Value ratio only keeps increasing over time, even if additional power generation capacity is not being added.  And at current market price it is trading below replacement cost and at 5X Free Cash Flow. </li>\n</ul>\n<p><span id="more-4587"></span></p>\n\n\n\n<p>Perhaps the market is unconvinced about how JSW Energy will utilize its Free Cash (does not trust Capital Allocation discipline post its announced intent to launch Electric Vehicles, now officially rescinded).   <em>However, JSW Energy has been very prudent on Capital Allocation in the past.</em></p>\n\n\n\n<p>Alternatively, the market is worried about terminal value of Thermal power players given the thrust on renewables.  <em>However, India needs Coal for base load, PPAs are long term, and almost 40% of JSW Energy EBITDA is from renewables</em></p>\n\n\n\n<p>It\'s a truism that markets chase momentum.   <em>The market may just be waiting for clear visibility of growth. </em></p>\n\n\n\n<p>Finally, the market tends to use P/E ratio for valuation and on P/E terms (~15X trailing).   JSW Energy does not look cheap.  <em>However, P/E is a short cut for valuation - ultimately what matters is cash flow and not accounting profits</em>. </p>\n\n\n\n<p>Please click <strong><a href="/wp-content/uploads/2024/02/INVESTMENT-THESIS-ON-JSW-ENERGY_V1.pdf" target="_blank" rel="noreferrer noopener">here </a></strong>if you would like to download the PDF version of this blog</p>',
+        }}
+      />
+    ),
+  },
+  {
+    id: "cp-05",
+    slug: "investment-thesis-on-axtel-industries",
+    title: "Investment Thesis on Axtel Industries",
+    date: "January 8, 2026",
+    author: "Solidarity Investment Managers",
+    categories: ["Blogs", "Company Perspective"],
+    categoryLinks: [
+      {
+        label: "Select Company Perspectives",
+        path: "/perspectives/company-perspective",
+      },
+    ],
+    excerpt: (
+      <div
+        dangerouslySetInnerHTML={{
+          __html:
+            '<p><strong>Summary views</strong></p><ul class="wp-block-list"><li>We believe Axtel can grow bottom-line at ~13-20% over long periods of time (serving the food industry which is early in growth life cycle, from market share gains, Exports and Operating leverage), while converting 75% of PAT to FCF.</li><li>Axtel is a high-quality business as it can grow at healthy rates while generating strong FCF (ROCE is ~60%+) given unique engineering edge, strong competitive position, and an Asset light business model.</li><li>Current valuations basis our entry price are reasonable (~25x core FCF implies ~4% FCF yield) which offers a roadmap to ~15-20%+ IRR with reasonable growth assumptions.</li></ul>',
+        }}
+      />
+    ),
+    content: (
+      <div
+        className="post-content"
+        dangerouslySetInnerHTML={{
+          __html: `<p><strong>Summary views</strong></p>
+
+<ul class="wp-block-list">
+<li>We believe Axtel can grow bottom-line at ~13-20% over long periods of time (serving the food industry which is early in growth life cycle, from market share gains, Exports and Operating leverage), while converting 75% of PAT to FCF.</li>
+<li>Axtel is a high-quality business as it can grow at healthy rates while generating strong FCF (ROCE is ~60%+) given unique engineering edge, strong competitive position, and an Asset light business model.</li>
+<li>Current valuations basis our entry price<sup class="fn" data-fn="ab1e35f5-ffd1-4584-99bc-333be4c52a83"><a id="ab1e35f5-ffd1-4584-99bc-333be4c52a83-link" href="#ab1e35f5-ffd1-4584-99bc-333be4c52a83">1</a></sup> are reasonable (~25x core FCF implies ~4% FCF yield) which offers a roadmap to ~15-20%+ IRR with reasonable growth assumptions.
+<ul>
+<li>15% IRR hypothesis assumes ~13% FCF growth, 4% yield and some de rating to ~22x FCF if Earnings cyclicality isn't fixed.</li>
+<li>20%+ IRR assumes ~15% FCF growth, 4% yield and valuation re rating to 28-30x FCF if cyclicality is reduced through further diversification. There is additional upside if the excess cash is used for any strategic investment or extension into adjacencies.</li>
+</ul>
+</li>
+<li>Axtel remains an undiscovered Microcap story with no institutional shareholders or research coverage. If the Axtel management team communicates with the market and more players understand the story, we expect interest in the stock and valuation multiples to increase.</li>
+</ul>
+
+<p>We have initiated a ~3% position weight and may use further price or time corrections to increase our position size.</p>
+
+<p><strong>What do they do?</strong></p>
+
+<p>Axtel is a leading Indian supplier of customised food processing systems for leading brands in the Confectionary, Snacks and Spices segment. At present they primarily cater to the domestic market but have a growing footprint in the global market (Exports is ~15% of Sales FY25).</p>
+
+<p>Axtel designs, manufactures and assembles complete food processing systems which are highly customised and must meet stringent hygiene, safety and precision engineering norms. System design is critical as a complete system can involve anywhere between 10-50 individual pieces of equipment and there must be seamless flow within it.</p>
+
+<p>In a later section, we explain why these products are complex to do and have high entry barriers.</p>
+
+<p><strong>Axtel Industries makes the following food processing systems.</strong></p>
+
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr><td><strong>System category</strong></td><td><strong>What do they do?</strong></td></tr>
+<tr><td><strong>Chocolates &amp; Confectionary solutions</strong></td><td>Integrated lines for entire stage from raw ingredient handling to final chocolate moulding.</td></tr>
+<tr><td><strong>Ingredients management systems</strong></td><td>Bulk storage, pneumatic conveying, and precise dosing of solids and liquid fats.</td></tr>
+<tr><td><strong>Size reduction systems</strong></td><td>Crush or grind raw materials into specific particle sizes required for food processing.</td></tr>
+<tr><td><strong>Sieving systems</strong></td><td>Remove contaminants &amp; ensure uniform particle size in powders or liquids.</td></tr>
+<tr><td><strong>Mixing systems</strong></td><td>Blend diverse ingredients into uniform pastes or liquids with controlled shear and temperature.</td></tr>
+<tr><td><strong>Spices processing systems</strong></td><td>Cleaning, grinding, and blending of various spices.</td></tr>
+</tbody>
+</table>
+</figure>
+
+<p><strong>Understanding what Axtel makes using Chocolate systems as an example.</strong></p>
+
+<figure class="wp-block-image size-full is-resized"><img fetchpriority="high" decoding="async" width="861" height="492" class="wp-image-5701" style="width:655px;height:auto" src="/wp-content/uploads/2026/01/image.png" alt="Axtel chocolate processing system diagram" /></figure>
+
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr><td><strong>Phase</strong></td><td><strong>Equipment</strong></td><td><strong>Function description</strong></td></tr>
+<tr><td rowspan="4"><strong>Phase 1: Raw material intake &amp; storage</strong></td><td><strong>Tipping station (solids)</strong></td><td>Entry point where bulk dry ingredients like sugar or cocoa powder are fed into the system.</td></tr>
+<tr><td><strong>Storage silos (solids)</strong></td><td>Dry ingredients are pneumatically conveyed for large-scale, hygienic storage before processing.</td></tr>
+<tr><td><strong>Fat melters</strong></td><td>Large blocks of cocoa butter or vegetable fats are melted into a liquid state using controlled heat.</td></tr>
+<tr><td><strong>Storage tanks (fats)</strong></td><td>Hold liquid fats at precise temperatures to keep them ready for pumping.</td></tr>
+<tr><td rowspan="3"><strong>Phase 2: Preparation &amp; mixing</strong></td><td><strong>Liquifiers</strong></td><td>High-speed mixers that quickly blend melted fats and dry solids into a uniform liquid form.</td></tr>
+<tr><td><strong>Paste mixer</strong></td><td>Combines dry and liquid ingredients to create a thick, consistent chocolate paste.</td></tr>
+<tr><td><strong>Refiners</strong></td><td>The paste is passed through rollers to crush particles down to a microscopic size for a smooth finish.</td></tr>
+<tr><td rowspan="3"><strong>Phase 3: Flavor development &amp; conditioning</strong></td><td><strong>Conches</strong></td><td>Intense mixing &amp; heating occur here to develop final flavor and aroma while removing unwanted moisture.</td></tr>
+<tr><td><strong>Service &amp; storage tanks</strong></td><td>Finished chocolate is held at a steady temperature to ensure it remains liquid, stable, and ready for forming.</td></tr>
+<tr><td><strong>Temperers</strong></td><td>Chocolate undergoes precise heating &amp; cooling cycle ensuring correct crystallization for glossy shine &amp; firm &#8220;snap&#8221;</td></tr>
+<tr><td rowspan="3"><strong>Phase 4: Forming &amp; cooling</strong></td><td><strong>Steel belt conveyor</strong></td><td>Transports conditioned chocolate from processing area to the final production.</td></tr>
+<tr><td><strong>Chocolate moulding line</strong></td><td>The tempered chocolate is precisely &#8220;deposited&#8221; into moulds via automated depositors to create final shapes.</td></tr>
+<tr><td><strong>Cooling tunnels</strong></td><td>Filled moulds travel through these temperature-controlled tunnels to solidify the chocolate before packaging.</td></tr>
+</tbody>
+</table>
+</figure>
+
+<p><strong>Brief history of Axtel</strong></p>
+
+<ul class="wp-block-list">
+<li>Axtel Industries was founded 1991 by two friends, Mr. Ajay Parikh and Mr. Ajay Desai who were both engineers studying at MSU Baroda.</li>
+<li>The promoters got their early break from Amul Dairy who was looking to import substitute a sieving system which prompted Axtel to shift from trading to manufacturing.</li>
+<li>Subsequent years were spent establishing quality versus European competitors by targeting import substitution opportunities.</li>
+<li>They were able to establish credibility with some marquee names early in their journey (onboarded Nestle in the mid-90s, Mondelez in early 2000s).</li>
+<li>In mid 90s, Axtel expanded forayed into Spices industry by securing Pathak spices UK as a customer.</li>
+<li>Axtel has built strong tech competencies in house and over the years introduced multiple new technologies (high precision chocolate moulding lines, Cryogenic Grinding capabilities for aroma retention in spices, only domestic player in Steam Sterilization Systems for spices etc).</li>
+<li>They subsequently entered the Packaged Snacking segment in early 2000s.</li>
+<li>Over time Axtel added marquee customers across verticals (Hershey's, ITC, Haldiram, Barry Callebaut etc).</li>
+<li>Backed by customer trust and tech capabilities, Axtel has shown confidence to expand capacities (2014 invested in a modern Vadodara plant, 2024 – incurred additional Capex to expand factory footprint).</li>
+<li>While Axtel today is primarily a domestic story (~85% of Sales), they have leveraged MNC trust to enter new geographies (USA, APAC, Middle East etc).</li>
+</ul>
+
+<p><strong>Axtel has demonstrated healthy growth over long periods of time.</strong></p>
+
+<figure class="wp-block-image size-full is-resized"><img decoding="async" width="809" height="422" class="wp-image-5702" style="width:583px;height:auto" src="/wp-content/uploads/2026/01/image-1.png" alt="Axtel revenue growth chart" /></figure>
+
+<p>Source: Ace Equity</p>
+
+<p><strong>Healthy growth has been accompanied by improvement in earnings quality, resilience in business model.</strong></p>
+
+<ul class="wp-block-list">
+<li>Axtel has diversified across end industries (Confectionary, Spices, Packaged snacks, others<sup class="fn" data-fn="d9728997-d8d1-4733-b37e-49bcc2c55a2b"><a id="d9728997-d8d1-4733-b37e-49bcc2c55a2b-link" href="#d9728997-d8d1-4733-b37e-49bcc2c55a2b">2</a></sup>), end customers and to some extent geographically.</li>
+<li>Customer concentration has meaningfully reduced from high dependence on few customers a decade back. Axtel has added new customers over time and have now sold their products to ~80 customers.<sup class="fn" data-fn="b08294dc-1d67-474d-85ad-0783229788af"><a id="b08294dc-1d67-474d-85ad-0783229788af-link" href="#b08294dc-1d67-474d-85ad-0783229788af">3</a></sup></li>
+<li>While there is year on year Earnings lumpiness (Axtel is a Capital good supplier and customers can delay offtake due to project delays at their site while revenue recognition is only done when orders are shipped), Axtel is an FMCG proxy which lends to sustainable growth over long periods of time.</li>
+<li>Even in the current Earnings down cycle Axtel remains profitable with very high ROIC and continues to enjoy strong debt free balance sheet (it is a net cash company). Over time as Exports increases as share of Sales and Axtel enters new segments, cyclicality in profit growth can reduce as a slowdown in one market can be compensated with growth elsewhere.</li>
+</ul>
+
+<p><strong>Business evolution over time</strong></p>
+
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr><td><strong>Particulars</strong></td><td><strong>Decade back</strong></td><td><strong>2025</strong></td></tr>
+<tr><td>End industries</td><td>Largely Confectionary</td><td>Confectionary + Spices + Packaged snacks</td></tr>
+<tr><td>Equipment range (Within Systems)</td><td>Smaller systems — Fewer equipment</td><td>Large and comprehensive systems</td></tr>
+<tr><td>New competencies Developed</td><td>Import substitution (Milk powder sieving systems, Sugar grinders etc); Complex Chocolate moulding Lines; Steam sterilization systems; Material handling (Pneumatic conveying and silo systems)</td><td>Strong in-house end to end design capabilities; Complex Chocolate making systems (Inclusions, precision tempering/cooling); Cryogenic grinding (high quality spice blends); Precision fabrication (CNC laser cutting, water jet cutting)</td></tr>
+<tr><td>Key customers logos</td><td>Amul, Mondelez, Nestle, Pathak Spices</td><td>+ Barry Callebaut, MDH Spices, Haldiram, Bikaji, Puratos, Hershey</td></tr>
+<tr><td>Customer concentration</td><td>High customer concentration</td><td>Well diversified customer base</td></tr>
+<tr><td>Geography Mix</td><td>Largely domestic Sales</td><td>~15% of Sales from Exports — Geographies: USA, APAC, Middle East, Europe, Australia etc.</td></tr>
+</tbody>
+</table>
+</figure>
+
+<p><strong>Healthy growth prospects backed by healthy industry growth, market share gains (Import substitution, more Exports)</strong></p>
+
+<p>Axtel can grow aggregate Revenues at low to mid-teens and Profits/FCF at mid to high teens for long periods of time as:</p>
+
+<ul class="wp-block-list">
+<li>End industries (Confectionary, Spices, Packaged snacks) are early in their growth curve in India and are growing at high single digits to low double-digit rates.</li>
+<li>Domestic demand for Axtel can be stronger as their large, organized customers gain market share from unorganized players, increase automation at factories and as Axtel benefits from import substitution vs peers.</li>
+<li>Axtel can gain global market share as they enjoy MNC customer trust and have been increasing sales/marketing spends.</li>
+</ul>
+
+<p><strong>Domestic Sales (~85% of mix) can grow at low to mid double digits for long periods.</strong></p>
+
+<p><strong>Confectionary segment</strong></p>
+
+<p>Chocolate consumption is growing at high single digits/low double digits<sup class="fn" data-fn="3acf2e69-4f19-4cf9-8a7a-6d3e3abb8158"><a id="3acf2e69-4f19-4cf9-8a7a-6d3e3abb8158-link" href="#3acf2e69-4f19-4cf9-8a7a-6d3e3abb8158">4</a></sup> as it's a discretionary purchase that will benefit from rising per capita incomes in India and share gains from traditional Indian sweets. Axtel works with key major players (Mondelez, Hershey, MARs etc) and will be a key beneficiary of this trend.</p>
+
+<p><strong>Spices segment</strong></p>
+
+<p>The organized Spice industry is growing at low double digit growth rates.<sup class="fn" data-fn="c42dd987-9cd8-4dc6-9fc5-5262427841e9"><a id="c42dd987-9cd8-4dc6-9fc5-5262427841e9-link" href="#c42dd987-9cd8-4dc6-9fc5-5262427841e9">5</a></sup> This will be driven by market share gains from the large unorganized industry who have ~60% of the market and are losing share due to hygiene/adulteration concerns. Market leaders are also using premiumisation to differentiate (blended spices, growing share of exports).</p>
+
+<p>Within the Spice industry there exists scope for automation (better hygiene versus manual processing). Axtel can be a leading beneficiary given strong customer base (Everest, ITC), and its focus on the food processing space unlike peers.</p>
+
+<p><strong>Packaged snacks segment</strong></p>
+
+<p>Packaged snacks industry in India saw a growth inflection point post Covid and is still growing at healthy double digit growth rates,<sup class="fn" data-fn="a3c2f8b1-45cf-4c55-9481-3772c28ef038"><a id="a3c2f8b1-45cf-4c55-9481-3772c28ef038-link" href="#a3c2f8b1-45cf-4c55-9481-3772c28ef038">6</a></sup> driven by sustainable tailwinds (Quick commerce, customer preference for ready to eat snacks/meals due to lifestyle changes driven by nuclear families, greater women participation in workforce etc).</p>
+
+<p>Scope for replacement of manual operations exists and Axtel is well positioned as a vendor to leading packaged snack companies like Bikaji, Haldiram, Pepsico, Nestle etc.</p>
+
+<p><strong>Opportunity: industry has strong Capex plans</strong></p>
+
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr><td rowspan="2"><strong>Segment</strong></td><td rowspan="2"><strong>Customer</strong></td><td colspan="2"><strong>Gross Fixed Asset Rs Cr</strong></td><td rowspan="2"><strong>Future Capex plans</strong></td></tr>
+<tr><td><strong>FY19</strong></td><td><strong>FY24/25</strong></td></tr>
+<tr><td rowspan="4">Confectionary</td><td rowspan="2">Nestle</td><td rowspan="2">4,000</td><td rowspan="2">11,140</td><td>~5000 Cr multiyear Capex plan.</td></tr>
+<tr><td>Including 10th Factory in Odisha.</td></tr>
+<tr><td>Mondelez India</td><td>3,930</td><td>7,200</td><td>Invest 4,000 Crs over 2023-2026.</td></tr>
+<tr><td>Hersheys India</td><td>165</td><td>365</td><td>&nbsp;</td></tr>
+<tr><td>Spice</td><td>Orkla (MTR + RTE)</td><td>405</td><td>1,225</td><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td><td>MDH</td><td>135</td><td>675</td><td>&nbsp;</td></tr>
+<tr><td rowspan="2">Packaged snacks</td><td>Bikaji</td><td>485</td><td>1,280</td><td>&nbsp;</td></tr>
+<tr><td>Haldiram Snacks</td><td>1,590</td><td>2,720 (FY23)</td><td>Plan to expand manufacturing globally.</td></tr>
+</tbody>
+</table>
+</figure>
+
+<p><strong>Axtel Industries is competitively well positioned to gain domestic share via import substitution.</strong></p>
+
+<p>While Axtel's domestic market opportunity is hard to quantify given lack of market research, there exists a sizeable share of imports into India as reconfirmed with our customer checks.</p>
+
+<p>Axtel is very competitively positioned in India given limited credible Indian vendors, lack of Chinese vendors and edge over imports (mainly European vendors like Buhler, Gea, Azo, Gericke etc) due to comparable quality, while offering a meaningful cost advantage with strong support service.</p>
+
+<p>Axtel has made significant investments over the years to bridge the gap versus imports.</p>
+
+<ul class="wp-block-list">
+<li>Axtel has meaningfully expanded its design and engineering team (100+ engineers) and now offers end to end capabilities.</li>
+<li>Investments in technical competencies means Axtel can now offer entire systems in their niche to customers which offer performance comparable to global standards.</li>
+<li>For customers who can't even afford 1 hour of downtime, Axtel's ability to offer 24×7 local support through large after sales service team is a strong edge.</li>
+</ul>
+
+<p><strong>We believe Axtel is best positioned to capitalize on this import substitution opportunity amongst Indian vendors.</strong></p>
+
+<p>There aren't many large credible Indian vendors at present in Axtel's core segments. While there exist smaller domestic vendors, they mainly play in the low margin commodity spaces (simple mixing, storage tanks etc) and lack capabilities to break into the large ticket size, critical systems for grade A customers.</p>
+
+<p>Axtel is perhaps the only focussed pureplay food processing present across all these 3 verticals, whereas Rieco Industries which is a subsidiary of Sudarshan Chemicals (a chemical manufacturer) is spread across Chemicals, pharma, cement, power, oil and gas etc.</p>
+
+<p><strong>This focussed approach on profitable niches has helped Axtel achieve comparable growth and superior economics versus competition.</strong></p>
+
+<figure class="wp-block-image size-full is-resized"><img decoding="async" width="765" height="358" class="wp-image-5705" style="width:718px;height:auto" src="/wp-content/uploads/2026/01/image-2.png" alt="Axtel vs competition comparison" /></figure>
+
+<p><strong>Axtel can incrementally gain further share in Export markets</strong></p>
+
+<p>While market data is unavailable, we believe the global market opportunity can be quite large for Axtel given its current penetration. Anecdotally, Nestle has ~10 plants in India<sup class="fn" data-fn="5e4c7027-4858-4ee6-ab27-4355bbf276d7"><a id="5e4c7027-4858-4ee6-ab27-4355bbf276d7-link" href="#5e4c7027-4858-4ee6-ab27-4355bbf276d7">7</a></sup> and 300+ globally.</p>
+
+<p>Majority of competition is Europe based which is cost disadvantaged (employee cost, energy cost etc) and current challenging environment is resulting in small shops shutting down with larger players struggling for growth while making lower Profit margins.</p>
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="940" height="126" class="wp-image-5706" src="/wp-content/uploads/2026/01/image-3.png" alt="Axtel export market chart" /></figure>
+
+<p>We believe Axtel is still in its early phase of evolution in its Global growth story. It has demonstrated some success in leveraging deep relationships with Indian subsidiaries of global giants to win projects across their global locations (example: Mondelez, Hershey's, Puratos).</p>
+
+<p>Now backed by confidence in their capabilities, Axtel has ramped up investments behind Sales/marketing (participation in trade exhibitions, expanded technical sales team, hired agents for some new geographies), and can sell individual equipment for which there is good demand.</p>
+
+<p>As this translates to business wins, that could drive management confidence to further invest in building new products for global requirements (mega scale projects), local service support closer to the customer etc. However, our base case view is that Exports will gradually increase as % of Sales over time and is unlikely to grow non linearly given some constraints (slow global consumption demand, global peers enjoy strong goodwill and since global MNC procurement is centrally controlled risk aversion attitude/perception issues might take time to change etc).</p>
+
+<p><strong>We think Profit growth can be higher at mid-teens to high teens with Operating leverage.</strong></p>
+
+<p>There exists scope for Operating leverage on Fixed costs (we estimate ~20-22% of normalized Sales) as post recent expansion Axtel has sufficient capacities to sustain next few years growth.</p>
+
+<p><strong>Axtel business enjoys high ROCE as backed by favourable industry structure and technology edge.</strong></p>
+
+<p><strong>Axtel operates in an industry which enjoys high entry barriers.</strong></p>
+
+<p>Industry has very high hygiene &amp; sterilization standards as its linked to food. This means high stringency around technical parameters (highly automated systems for consistency, 100% traceability and high precision Mirror finish requirement with no bends, crevices, or projections as even a microscopic scratch can allow bacteria or foreign contaminants to accumulate).</p>
+
+<p>Customer willingness to experiment with a new unproven vendor is low given any quality issues can risk damage to their strong brand name, systems are expected to last for very long periods (upto 20 years) and given malfunction risk is very severe as cost of downtime can end up being costlier than the equipment cost itself.</p>
+
+<p><strong>Domain knowledge which takes many years to accumulate is key to building a high-quality product.</strong></p>
+
+<ul class="wp-block-list">
+<li>Axtel has ~30+ years of experience in this field resulting in mastery over the engineering.</li>
+<li>Premium Confectionary products have more complex recipes and require highly customised systems (inclusions of nuts, liquid fillings require machinery to evenly mix/distribute without crushing the nut, grinding/mixing generates heat which could impact chocolate aroma etc)</li>
+<li>Axtel specialises in solids with each food item (powder, spice, cocoa etc) behaving uniquely so design must consider ingredient flow to reduce friction/blockage risk in pipes and the varying viscosity/textures of different materials etc.</li>
+<li>Handling of certain fine powders (Ex: sugar, starch) carries dust explosion risk and requires safety certifications to be met.</li>
+</ul>
+
+<p><strong>High technical stringencies translate to favourable industry structure in India and globally.</strong></p>
+
+<p>Global competition is largely restricted to European vendors. Chinese players have limited presence in this industry given its boutique, customised nature and high hygiene factors involved as well as challenges in servicing (language barriers, lack of local support).</p>
+
+<p>While local domestic players can fabricate individual equipments, they lack ability to build an integrated system which makes Axtel a preferred vendor. In certain sub segments Axtel has very strong positioning:</p>
+
+<ul class="wp-block-list">
+<li>Only domestic player that manufactures complex Chocolate moulding Lines</li>
+<li>Sole India player in Steam sterilization systems (eliminates pathogens from spices without using chemicals) for exporters to meet global sterilisation norms.</li>
+</ul>
+
+<p>To ensure its domestic competitive positioning remains intact and new entrants do not get a foot in the door, Axtel is broadening its product basket and working with fast growing emerging brands (Ex: Too Yumm!).</p>
+
+<p><strong>Axtel today enjoys sticky relationships with marquee global/India brands resulting in expanded wallet share through larger repeat orders.</strong></p>
+
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="441" height="297" class="wp-image-5707" style="width:369px;height:auto" src="/wp-content/uploads/2026/01/image-4.png" alt="Axtel customer logos" /></figure>
+
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="497" height="288" class="wp-image-5708" style="width:373px;height:auto" src="/wp-content/uploads/2026/01/image-5.png" alt="Axtel repeat order data" /></figure>
+
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="707" height="265" class="wp-image-5709" style="width:618px;height:auto" src="/wp-content/uploads/2026/01/image-6.png" alt="Axtel wallet share expansion" /></figure>
+
+<p><strong>Axtel's moat translates to very healthy ROCE/FCF generation.</strong></p>
+
+<ul class="wp-block-list">
+<li>Axtel generates high pre-tax ROCE (60%+ 5-year avg.) which is quite unique for a B2B business. Drivers for high ROCE are:
+<ul>
+<li>Healthy profitability (50%+ Gross Profit margins translating to avg. ~15% EBITDAM) given highly customised/critical nature of products.</li>
+<li>Business is Asset light which drives high asset turns (avg. 3x GFA and ~10x NFA turns) as Axtel primarily does strategic value add activities in house (design, assembly, and some high value fabrication/machining) and standard components are bought out from vendors.</li>
+<li>Avg. NWC days has been tight at ~50 days (Axtel receives significant money as customer advances which is partially offset by higher inventory days as customers sometimes delays offtake and Revenue is recognized on dispatch and not using % of completion method).</li>
+</ul>
+</li>
+<li>We expect steady state PATM to be ~15% which will translate to healthy Free cash flow generation (~75% of PAT converts into Free cash flow) which will allow Axtel to grow at a healthy pace while maintaining a pristine balance sheet (Net cash company).</li>
+</ul>
+
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr><td><strong>Steady state ROCE Tree</strong></td><td><strong>Current 5 Yrs Avg</strong></td><td><strong>FY30e Scenario 1</strong></td><td><strong>FY30e Scenario 2</strong></td><td><strong>Comments</strong></td></tr>
+<tr><td><strong>Sales</strong></td><td>100</td><td>100</td><td>100</td><td>&nbsp;</td></tr>
+<tr><td><strong>EBITDAM %</strong></td><td>~15%</td><td>~18%</td><td>~20%</td><td>EBITDAM expansion from more Exports, Operating leverage</td></tr>
+<tr><td><strong>Depreciation % of Sales</strong></td><td>~1.5%</td><td>~1%</td><td>~1%</td><td>&nbsp;</td></tr>
+<tr><td><strong>EBITM</strong></td><td>~13.5%</td><td>17%</td><td>19%</td><td>&nbsp;</td></tr>
+<tr><td><strong>Finance Cost % Sales</strong></td><td>0.5%</td><td>~0.2%</td><td>~0.2%</td><td>Minimal debt as asset light business</td></tr>
+<tr><td><strong>Other Income % Sales</strong></td><td>~2%</td><td>~2.2%</td><td>~2.2%</td><td>Treasury income</td></tr>
+<tr><td><strong>PATM</strong></td><td>~11%</td><td>~14%</td><td>~16%</td><td>&nbsp;</td></tr>
+<tr><td><strong>GFA Turns</strong></td><td>3.0x</td><td>~4.0x</td><td>~4.0x</td><td rowspan="2">Better capacity utilization at plant</td></tr>
+<tr><td><strong>NFA Turns</strong></td><td>9.8x</td><td>~11.0x</td><td>~11.0x</td></tr>
+<tr><td><strong>Debtor days</strong></td><td>87</td><td>90</td><td>90</td><td>&nbsp;</td></tr>
+<tr><td><strong>Customer advance days</strong></td><td>44</td><td>45</td><td>45</td><td>&nbsp;</td></tr>
+<tr><td><strong>Inventory days</strong></td><td>80</td><td>80</td><td>85</td><td>&nbsp;</td></tr>
+<tr><td><strong>Payable days</strong></td><td>62</td><td>60</td><td>60</td><td>&nbsp;</td></tr>
+<tr><td><strong>Other liabilities days</strong></td><td>9</td><td>10</td><td>10</td><td>&nbsp;</td></tr>
+<tr><td><strong>NWC Days</strong></td><td>52</td><td>~55</td><td>~60</td><td>Assume higher NWC days as Exports % share increases</td></tr>
+<tr><td><strong>Net Debt/EBITDA</strong></td><td colspan="3">Net cash</td><td>&nbsp;</td></tr>
+<tr><td><strong>Pre-Tax ROCE (%)</strong></td><td>~60%</td><td>70%+</td><td>70%+</td><td>&nbsp;</td></tr>
+</tbody>
+</table>
+</figure>
+
+<p><strong>We believe our buying price offers reasonable valuations for an initial position.</strong></p>
+
+<p>Axtel Industries is an attractive asset to own as it enjoys healthy growth prospects, high ROCE backed by unique engineering edge and is run by technocrat promoters who inspire deep customer trust with their ethics, execution track record and competencies.</p>
+
+<p>Axtel stock price has corrected nearly ~40% from its peak. Markets chase Earnings momentum and weak short-term Earnings performance along with a broader Microcap sell off has resulted in stock going out of favour.</p>
+
+<ul class="wp-block-list">
+<li>The Earnings challenge can be explained by weak consumption environment in India, slowdown in Confectionary segment due to significant rise in cocoa prices (~4-5x between 2022-24).</li>
+<li>These challenges are cyclical with some green shoots visible (Cocoa prices have fallen ~50% from peak, consumer companies are indicating higher Capex post govt stimulus) and our confidence in their long term Earnings trajectory remains intact as end industries are underpenetrated and Axtel has scope to gain market share.</li>
+</ul>
+
+<p>We find valuations basis our entry price quite attractive (~25x core FCF multiple implies ~4% FCF yield)<sup class="fn" data-fn="d1e43fed-718d-4dbb-a2d1-cfad3d5fda0e"><a id="d1e43fed-718d-4dbb-a2d1-cfad3d5fda0e-link" href="#d1e43fed-718d-4dbb-a2d1-cfad3d5fda0e">8</a></sup> and see a strong roadmap for 15-20% IRR even if Axtel grows FCF at ~13-15% CAGR.</p>
+
+<p>There can be upside to these estimates if Axtel is able to show strong Export growth and grow FCF at &gt;15% CAGR, option value from excess cash being utilised to acquire new technologies or foray into new adjacencies. This is attractive especially given we expect a low return decade for Indian Equities from current valuation levels.</p>
+
+<p><strong>Over time as Axtel evolves and derisks further, fair valuation can be higher.</strong></p>
+
+<p>Businesses with High ROCE (such as Axtel) can command a higher valuation multiple<sup class="fn" data-fn="23ee53bc-4ebd-44cd-8a44-aa72a2a2cd66"><a id="23ee53bc-4ebd-44cd-8a44-aa72a2a2cd66-link" href="#23ee53bc-4ebd-44cd-8a44-aa72a2a2cd66">9</a></sup> as markets understand their story better and build confidence in their long-term growth prospects, Earnings predictability, and Terminal value.</p>
+
+<p>We believe Axtel will be a better business over time.</p>
+
+<ul class="wp-block-list">
+<li>Earnings cyclicality will reduce as share of Exports increases and Axtel enters new segments</li>
+<li>Key-man risk should reduce over time as professionals (CEO/COO etc hired or promoted from within etc) become the face of the company. While the promoters are highly passionate and fully involved in the business, both promoters are in their mid-60s with next generation not involved in the business.</li>
+<li>As a Microcap company, the Axtel story is not well understood by the broader investor community. This could change over time through more investor communications and disclosures.</li>
+</ul>
+
+<p>We remain optimistic on their long-term prospects and have initiated a ~3% position weight and may use further price or time corrections to increase our position size.</p>
+
+<p>Please click <a href="/wp-content/uploads/2026/01/Axtel-Industries-Investment-Thesis-8-January-2026.pdf" target="_blank" rel="noreferrer noopener"><strong>here</strong></a> if you would like to download the PDF version of this blog</p>
+
+<p>&nbsp;</p>
+
+<ol class="wp-block-footnotes">
+<li id="ab1e35f5-ffd1-4584-99bc-333be4c52a83">Mcap of ~740 Cr (455/- share price) less cash of ~100 Cr means Core Mcap of ~640 Cr, whereas normalized 3-year avg FCF is ~26 Cr. <a href="#ab1e35f5-ffd1-4584-99bc-333be4c52a83-link" aria-label="Jump to footnote reference 1">↩︎</a></li>
+<li id="d9728997-d8d1-4733-b37e-49bcc2c55a2b">Some portion of Sales comes from other industries like Bakery, Flavours etc. <a href="#d9728997-d8d1-4733-b37e-49bcc2c55a2b-link" aria-label="Jump to footnote reference 2">↩︎</a></li>
+<li id="b08294dc-1d67-474d-85ad-0783229788af">Axtel company page. <a href="#b08294dc-1d67-474d-85ad-0783229788af-link" aria-label="Jump to footnote reference 3">↩︎</a></li>
+<li id="3acf2e69-4f19-4cf9-8a7a-6d3e3abb8158">Source: Nestle, market research reports. <a href="#3acf2e69-4f19-4cf9-8a7a-6d3e3abb8158-link" aria-label="Jump to footnote reference 4">↩︎</a></li>
+<li id="c42dd987-9cd8-4dc6-9fc5-5262427841e9">Source: Orkla, ICICI Sec report. <a href="#c42dd987-9cd8-4dc6-9fc5-5262427841e9-link" aria-label="Jump to footnote reference 5">↩︎</a></li>
+<li id="a3c2f8b1-45cf-4c55-9481-3772c28ef038">Source: Bikaji, Hindustan foods. <a href="#a3c2f8b1-45cf-4c55-9481-3772c28ef038-link" aria-label="Jump to footnote reference 6">↩︎</a></li>
+<li id="5e4c7027-4858-4ee6-ab27-4355bbf276d7">Including the Odisha facility which is currently under construction. <a href="#5e4c7027-4858-4ee6-ab27-4355bbf276d7-link" aria-label="Jump to footnote reference 7">↩︎</a></li>
+<li id="d1e43fed-718d-4dbb-a2d1-cfad3d5fda0e">Mcap of ~740 Cr (455/- share price) less cash of ~100 Cr means Core Mcap of ~640 Cr, whereas normalized 3-year avg FCF is ~26 Cr. <a href="#d1e43fed-718d-4dbb-a2d1-cfad3d5fda0e-link" aria-label="Jump to footnote reference 8">↩︎</a></li>
+<li id="23ee53bc-4ebd-44cd-8a44-aa72a2a2cd66">Fair value on First principles DCF for a 50% ROE business increases from 25x to 35x PE 1 year forward if growth rates increase from 15% CAGR to 20% CAGR. <a href="#23ee53bc-4ebd-44cd-8a44-aa72a2a2cd66-link" aria-label="Jump to footnote reference 9">↩︎</a></li>
+</ol>`,
         }}
       />
     ),
@@ -1277,6 +1684,37 @@ export const ALL_POSTS: PostData[] = [
     ),
   },
   {
+    id: "cp-09",
+    slug: "investment-thesis-on-itc-2",
+    title: "INVESTMENT THESIS ON ITC",
+    date: "October 5, 2021",
+    author: "Solidarity Investment Managers",
+    categories: ["Blogs", "Company Perspective"],
+    categoryLinks: [
+      {
+        label: "Select Company Perspectives",
+        path: "/perspectives/company-perspective",
+      },
+    ],
+    excerpt: (
+      <div
+        dangerouslySetInnerHTML={{
+          __html:
+            '<p>While our core approach to investing is to buy &#8220;disciplined compounding stories at a fair price&#8221;, it is equally true that &#8220;at the right price, all assets are AAA&#8221; (except where one suspects governance issues). We will buy companies in &#8220;Special Situations&#8221; when they trade at a meaningful discount to fair value. ITC meets our Special Situations criteria.</p>',
+        }}
+      />
+    ),
+    content: (
+      <div
+        className="post-content"
+        dangerouslySetInnerHTML={{
+          __html:
+            '<p>While our core approach to investing is to buy &#8220;disciplined compounding stories at a fair price&#8221;, it is equally true that &#8220;at the right price, all assets are AAA&#8221; (except where one suspects governance issues). We will buy companies in &#8220;Special Situations&#8221; when they trade at a meaningful discount to fair value. ITC meets our Special Situations criteria.</p>\n\n\n\n<p>ITC has multiple business lines. <span id="more-4584"></span></p>\n\n\n\n<ul class="wp-block-list">\n<li>A low earnings growth tobacco business where it is the undisputed leader (75% market share) and which throws out ~ 9500 Cr of Free Cash flow a year.</li>\n<li>A ~ 15000 Cr FMCG business with many marquee brands, that is seeding new categories and therefore is still not at peak margins. However, at 8% margins, it is self-sustaining.</li>\n<li>An agricultural supply chain which it has been building over 20 years and provides strong cost benefits to the FMCG business.</li>\n<li>A packaging business which lends support to the FMCG business.</li>\n<li>And multiple other non-core businesses (e.g. Hotels) which are not core or synergistic, and are not contributing much to value, but have consumed significant Capital.</li>\n</ul>\n\n\n\n<p>ITC is a business with significant moats. Its ~30000 Cr cash pile, free cash flow generation and entrenched competencies in the agricultural supply chain and retail distribution provide a great platform for growth longevity in FMCG and related categories.</p>\n\n\n\n<p>We have not owned ITC in the past for the following reasons.</p>\n\n\n\n<ul class="wp-block-list">\n<li>We dislike conglomerates because it is very difficult to be a leader in multiple business lines. However, human psychology never lets you admit this and as a result there is sub optimal Capital allocation discipline. Hotels has 25% of Capital Employed and has contributed less than 1% of aggregate EBIT over last 5 years. There has been excessive adventurism in tough categories where ITC has no right to win, for example Fashion.</li>\n<li>Very poor equity ownership amongst the senior management team. Its therefore unclear how much their thinking is driven by need to grow vs grow in a manner that creates value for shareholders (leadership, ROE, Capital allocation discipline). The two need not be correlated.</li>\n<li>We had owned United Spirits for a long time and did not want to own 2 sin businesses from a ESG risk in the portfolio, despite ITC having amongst the highest ratings on ESG.</li>\n</ul>\n\n\n\n<p><strong>ITC enters our portfolios as part of our &#8220;Special Situations&#8221; category.</strong></p>\n\n\n\n<p>While our core approach to investing is to buy &#8220;disciplined compounding stories at a fair price&#8221;, it is equally true that &#8220;at the right price, all assets are AAA&#8221; (except where one suspects governance issues). We buy companies in &#8220;Special Situations&#8221; when we are not convinced to own them under our leadership compounding buckets, however, they trade at a meaningful discount to fair value.</p>\n\n\n\n<ul class="wp-block-list">\n<li>ITC has underperformed the market for the last 5 years and at our entry price offers ~5% dividend yield. Hence it is like a Bond with an upside kicker. It provides strong downside protection and significant opportunity to boost growth from its FCF generation and ~30000 Cr cash pile.</li>\n<li>Its cigarette franchise has implied valuations lower than peers in the developed world despite potential for ITC to gain share from the illicit market.</li>\n</ul>\n\n\n\n<figure class="wp-block-image size-full is-resized"><img fetchpriority="high" decoding="async" width="755" height="524" class="wp-image-5294" style="width:581px;height:auto" src="/wp-content/uploads/2021/10/image.png" alt="ITC valuation comparison chart" /></figure>\n\n\n\n<p>The starting point for great returns is often deep cynicism/pessimism which then meets a trigger that causes value to unlock.</p>\n\n\n\n<p>There are triggers that have led us to reconsider our stance.</p>\n\n\n\n<ul class="wp-block-list">\n<li>ITC management has guided to pay out 80-85% of PAT as dividends and conceded in recent communication the openness to re-examine its Corporate structure.<sup class="fn" data-fn="65427150-6384-4a80-852f-39923c93e600"><a id="65427150-6384-4a80-852f-39923c93e600-link" href="#65427150-6384-4a80-852f-39923c93e600">1</a></sup> Further, they have guided that incremental growth in the Hotel business will be under a Capital light model.</li>\n<li>Recent incidences of minority shareholder activism which resulted in a surge in stock prices.</li>\n<li>ITC management is engaging with analysts to hear counter view-points.</li>\n</ul>\n\n\n\n<p>These create a credible hypothesis that one can expect more disciplined Capital allocation in future. One should also be open to a view that the future could be different from the recent past &#8211; &#8220;see what everyone is seeing, but imagine what no one else is thinking&#8221;.</p>\n\n\n\n<p>One can outline 3 scenarios of the future over the next 5 years.</p>\n\n\n\n<p><span style="text-decoration:underline">Pessimistic scenario</span> where we see a credible path to 9-11% IRRs</p>\n\n\n\n<ul class="wp-block-list">\n<li>Management\'s historical approach to building the company does not change.</li>\n<li>ESG concerns on tobacco result in no re-rating.</li>\n<li>The company pays out 80-85% of PAT that provides 4-6% dividend yield and about 5-7% Earnings growth.</li>\n</ul>\n\n\n\n<p><span style="text-decoration:underline">Base case scenario</span> where one could potentially earn 15-18% IRRs as the valuation multiples re-rate as there is more credibility on Capital allocation discipline.</p>\n\n\n\n<ul class="wp-block-list">\n<li>Cigarette business earnings growth picks up to high single digit over next 5 years and valuations of the cigarette business expand to trade in line with global peers.</li>\n<li>The Hotel business is sold or demerged some-time over the next 5 years and overall multiple re-rates as the market sees management delivering on better Capital allocation.</li>\n</ul>\n\n\n\n<p><span style="text-decoration:underline">Optimistic scenario:</span> This scenario requires more imagination of possibilities and a belief that good management teams learn from peers and wherein one can imagine an IRR road map in excess of 20%</p>\n\n\n\n<ul class="wp-block-list">\n<li>Some volume growth in cigarettes as ITC gains share from unorganized sector.</li>\n<li>There is more focus on select categories where it has &#8220;right to win&#8221;, larger categories become more profitable with scale and there is more disciplined experimentation in new categories. ITC\'s cash pile is used to do meaningful M&amp;A in FMCG where it buys regional brands and uses its distribution muscle to scale them. Hence, the FMCG business grows ~15%+ and increases EBITDA margins to ~16-18% from ~9% today in the next 5 years.</li>\n<li>Partners may note that Britannia\'s FY 22 operating margins are expected to be ~17% and this translates into ~6% margin increase over 7 years and its revenues are ~25% higher than ITC\'s food categories which form 80-85% of ITC\'s overall FMCG business.</li>\n<li>The conglomerate is re-structured and non-core businesses are spun off.</li>\n</ul>\n\n\n\n<p>Risks that will cause us to change our stance.</p>\n\n\n\n<ul class="wp-block-list">\n<li>Aggressive regulations by Govt in tobacco that can cause material volume declines.</li>\n<li>Additional material non-related diversifications.</li>\n<li>No margin expansion witnessed in FMCG.</li>\n</ul>\n\n\n\n<p>In summary, ITC offers base case prospects of 15-18% IRR and a chance of significantly higher returns under certain conditions. This is very attractive in context of where aggregate valuations in the market are at present.</p>\n\n\n\n<p><strong><a href="/wp-content/uploads/2024/02/INVESTMENT-THESIS-ON-ITC_V1.pdf" target="_blank" rel="noreferrer noopener">Enclosed</a></strong> is a brief note to explain our thought process underlying this investment.</p>\n\n\n\n<ol class="wp-block-footnotes"><li id="65427150-6384-4a80-852f-39923c93e600"><a href="https://timesofindia.indiatimes.com/business/india-business/itc-open-to-demerge-hotels-business-list-it-arm-sanjiv-puri/articleshow/85260855.cms" target="_blank" rel="noreferrer noopener">Times of India: ITC open to demerge hotels business</a> <a href="#65427150-6384-4a80-852f-39923c93e600-link" aria-label="Jump to footnote reference 1">↩︎</a></li></ol>',
+        }}
+      />
+    ),
+  },
+  {
     id: "cp-08",
     slug: "investment-thesis-on-axis-bank",
     title: "INVESTMENT THESIS ON AXIS BANK",
@@ -1687,6 +2125,35 @@ export const ALL_POSTS: PostData[] = [
     ),
   },
   {
+    id: "aa-02",
+    slug: "the-three-questions-clients-should-ask-investment-advisors",
+    title: "The three questions clients should ask Investment Advisors",
+    date: "August 22, 2015",
+    author: "Solidarity Investment Managers",
+    categories: ["Blogs", "Asset Allocation"],
+    categoryLinks: [
+      { label: "Blogs", path: "/perspectives/blogs" },
+      { label: "Asset Allocation", path: "/perspectives/asset-allocation" },
+    ],
+    excerpt: (
+      <div
+        dangerouslySetInnerHTML={{
+          __html:
+            "<p>Appropriate Asset Allocation is the principal determinant of long term investment returns. We hence inquire about the client\u2019s existing Asset Allocation as a first step in our engagement process.</p>\n\n\n\n<p>We are repeatedly surprised by the quantum of money allocated to Assets which have the same underlying risk as Equities but where long term Capital Gains are taxable.</p>",
+        }}
+      />
+    ),
+    content: (
+      <div
+        className="post-content"
+        dangerouslySetInnerHTML={{
+          __html:
+            '<p>Appropriate Asset Allocation is the principal determinant of long term investment returns. We hence inquire about the client\u2019s existing Asset Allocation as a first step in our engagement process.<span id="more-3363"></span></p>\n\n\n\n<p>We are repeatedly surprised by the quantum of money allocated to Assets which have the same underlying risk as Equities but where long term Capital Gains are taxable.\u00a0 Take 2 examples.</p>\n\n\n\n<ol class="wp-block-list"><li><strong>Private Equity funds</strong> are essentially a play on unlisted mid-cap equities, but with higher illiquidity and promoter governance risks.\u00a0 They are not a separate Asset class because they offer no risk diversification from variables that affect the performance of listed Equities.</li><li><strong>Structured products</strong> are synthetic instruments whose return can be replicated by a combination of Equity and debt allocation. \u00a0Further, if one was to model the payoffs on these products, the tail risk of capital loss is seldom displayed to and hence understood by clients.\u00a0 There is essentially no risk diversification here from listed equities\u2026rather, the risk may have been increased.</li></ol>\n\n\n\n<p>What perplexes us, that as both the above products attract Long Term Capital Gains tax, they need to significantly outperform listed equities to deliver the same post tax returns.\u00a0\u00a0<strong>If this was understood, why would any rational investor allocate capital to these products?</strong></p>\n\n\n\n<p>\u201cAlternative Investments\u201d make complete sense, even if they have unfavourable tax implications, if they result in \u201crisk diversification\u201d, i.e. their returns have low correlation with returns from\u00a0listed equities. \u00a0\u00a0Examples of such instruments could be Venture Capital funds, funds invested in distressed debt, overseas equities or REITs.</p>\n\n\n\n<p>The reality is that such funds earn distributors much higher commissions. \u00a0As they are illiquid, the fund houses earn an assured fee income for longer time periods and hence don\u2019t mind paying a multi-year upfront commission \u2013 an arrangement that suits both parties.</p>\n\n\n\n<p>The next time you are offered a risk instrument other than vanilla equities, we recommend you ask your Advisor three questions</p>\n\n\n\n<ol class="wp-block-list"><li><strong>How does this product help diversify portfolio risk?</strong></li><li><strong>What are the tax implications of these products?</strong></li><li><strong>What are commissions that fund houses pay on these products?</strong></li></ol>\n\n\n\n<p>Globally, the Financial Services industry is undergoing a crisis of trust.\u00a0 The best way to protect yourself is to educate yourself on basics so you can ask the right questions of your Advisors.</p>',
+        }}
+      />
+    ),
+  },
+  {
     id: "macro-04",
     slug: "will-the-fed-raise-rates-and-the-implications-for-indian-markets",
     title: "Will the Fed raise rates and the implications for Indian Markets?",
@@ -1958,6 +2425,210 @@ export const ALL_POSTS: PostData[] = [
     ),
   },
   {
+    id: "cp-29",
+    slug: "investment-thesis-on-racl-geartech",
+    title: "investment thesis on racl geartech",
+    date: "October 9, 2024",
+    author: "Solidarity Investment Managers",
+    categories: ["Blogs", "Company Perspective"],
+    categoryLinks: [
+      {
+        label: "Select Company Perspectives",
+        path: "/perspectives/company-perspective",
+      },
+    ],
+    excerpt: (
+      <div
+        dangerouslySetInnerHTML={{
+          __html:
+            '<p>Manufacturing from India for the world promises to be a decadal theme. We favour categories that are strategic to customers supply chains and which are more immune to dumping from China.</p><ul class="wp-block-list"><li>Rising geopolitical tensions between the West and China have prompted MNCs to strategically reevaluate their high dependence on China and seek alternative supply chains for derisking.</li><li>European manufacturing faces structural challenges (low-cost competitiveness, long lead times for environmental clearances). Current macro challenges are driving higher outsourcing to players in low-cost destinations like India.</li></ul>',
+        }}
+      />
+    ),
+    content: (
+      <div
+        className="post-content"
+        dangerouslySetInnerHTML={{
+          __html: `<p>Manufacturing from India for the world promises to be a decadal theme. We favour categories that are strategic to customers supply chains and which are more immune to dumping from China.</p>
+
+<ul class="wp-block-list">
+<li>Rising geopolitical tensions between the West and China have prompted MNCs to strategically reevaluate their high dependence on China and seek alternative supply chains for derisking.</li>
+<li>European manufacturing faces structural challenges (low-cost competitiveness, long lead times for environmental clearances). Current macro challenges are driving higher outsourcing to players in low-cost destinations like India.</li>
+<li>Manufacturing may not offer as high ROCEs as IT Services/Consumer. However, they offer 15-20% growth with longevity at 18-20% ROCE. When growth slows down, their ROCEs could further expand as useful life of plants is greater than life over which they are depreciated.</li>
+</ul>
+
+<p>China's dumping in certain categories alongside current inventory de-stocking challenges has created short term earnings growth challenges. This is leading to cynicism around whether theme has legs. Price volatility could provide attractive entry points.</p>
+
+<p>We are participating in this theme via many names<sup class="fn" data-fn="718a6bf3-90f4-4100-8c12-f13a98b39352"><a id="718a6bf3-90f4-4100-8c12-f13a98b39352-link" href="#718a6bf3-90f4-4100-8c12-f13a98b39352">1</a></sup></p>
+
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr><td><strong>Portfolio company</strong></td><td><strong>Key end-user industries</strong></td></tr>
+<tr><td>RACL Geartech</td><td>Auto Components</td></tr>
+<tr><td>Neogen Chemicals</td><td>Pharma, Agri, Battery Chemicals, Semi-Conductors</td></tr>
+<tr><td>Yasho Industries</td><td>Lubricant Additives, Rubber Chemicals, Consumer</td></tr>
+<tr><td>SRF (Kama Holdings)</td><td>Agri, Refrigeration, Consumer, Pharma</td></tr>
+<tr><td>Shaily Engineering Plastics</td><td>Healthcare, Consumer</td></tr>
+<tr><td>Garware Technical Fibres</td><td>Fishing, Aquaculture, Sports, Infrastructure</td></tr>
+<tr><td>Shivalik Bimetal Controls</td><td>Auto, Real Estate, Infrastructure</td></tr>
+</tbody>
+</table>
+</figure>
+
+<p>We have been investors in RACL Geartech since Oct 2021. The indifferent results in Q1FY25 due to inventory corrections at European clients and a poorer product mix affected EBITDA margins. This caused a steep stock price correction (~30% decline from peak). We used the opportunity to add to our positions.</p>
+
+<p><strong>Summary thesis</strong></p>
+
+<ul class="wp-block-list">
+<li>RACL Geartech offers growth longevity. There is a large and growing market opportunity. RACL can extend its competencies (precision engineering) into new products and segments (Automotive and non-Automotive) even as it enhances wallet share with existing clients.</li>
+<li>RACL is a well-run Auto Comp company which we believe can generate 18-20% steady state ROCE, translating to 18%+ ROE with moderate debt.</li>
+<li>At ~22x FY25e PE basis normalized earnings<sup class="fn" data-fn="57296f70-ff05-4d9f-9dd3-b49803f0b17a"><a id="57296f70-ff05-4d9f-9dd3-b49803f0b17a-link" href="#57296f70-ff05-4d9f-9dd3-b49803f0b17a">2</a></sup>, we find valuation comfort as we believe in possibilities of profits compounding at ~15-20% CAGR over a decade, which should result in broadly similar share price compounding. The human mind struggles to process duration and therefore longevity of growth is undervalued. Companies that demonstrate longevity get a valuation premium by markets when credibility is established.</li>
+<li>We believe this is an attractive investment story in an environment where the index is likely to deliver ~10% returns this decade.</li>
+</ul>
+
+<figure class="wp-block-image is-resized"><img fetchpriority="high" decoding="async" width="925" height="649" class="wp-image-5120" style="width:621px;height:auto" src="/wp-content/uploads/2025/05/Picture1-RACL-blog.png" alt="RACL Geartech summary chart" /></figure>
+
+<p><strong>Brief background of company and history</strong></p>
+
+<ul class="wp-block-list">
+<li>RACL Geartech is an Auto Components supplier that specializes in manufacturing high precision products like transmission gears,<sup class="fn" data-fn="6a4b3c97-a735-4df2-9aef-1bd89ab64d48"><a id="6a4b3c97-a735-4df2-9aef-1bd89ab64d48-link" href="#6a4b3c97-a735-4df2-9aef-1bd89ab64d48">3</a></sup> shafts etc. RACL is primarily an export driven company (~73% of sales FY24) largely catering today to the auto industry predominantly as a tier 1 supplier (mainly premium 2W bikes, recreational vehicles, tractors etc).</li>
+<li>RACL is led by promoter Mr Gursharan Singh and his son Mr Prabh Mehar Singh. Mr. Gursharan Singh joined the company as a plant head in 1983. The company (formerly known as Raunaq Auto) went bankrupt and was referred to the erstwhile BIFR in 2001. Mr Gursharan Singh orchestrated a management buy-out and successfully took RACL out of the BIFR purview in November 2007. The turnaround was accomplished by a strong dedication to quality, focusing on niche, low volume products, and exiting low margin categories.</li>
+<li>RACL has pursued a strategy that focuses on difficult to manufacture niche luxury products (like export premium 2W vehicles). This has resulted in a higher margin profile than most Auto Component players while also protecting the business from recessionary pull back in demand.</li>
+<li>Its first big export break came from Kubota Japan for tractors in 2004. The Kubota relationship was used to develop technical competencies and build a reputation for quality and reliability before attempting rapid growth.</li>
+<li>Since then, their reputation for quality has added other marquee customers over time like KTM, BMW, BRP Rotax, ZF, MAN trucks.</li>
+<li>At 430 Cr Sales FY24, RACL is quite derisked (no customer &gt;25% of Revenues, presence across multiple end segments and geographies).</li>
+</ul>
+
+<p><strong>Large and expanding market opportunity</strong></p>
+
+<p>RACL primarily manufactures transmission gears. However, we see it as a precision engineering company with competencies that can extend to new product categories. Over the years, RACL has built strong technical competencies (8 core competencies such as precision machining, forging, heat treatment, design engineering, gear assembly etc) that have been used to expand its product portfolio. RACL has expanded from primarily making transmission gears/shafts to a basket of 11+ products and 900+ SKUs such as chassis, suspension, steering, part lock wheels etc.</p>
+
+<p><strong>Well positioned to capture +1 market share gains</strong></p>
+
+<p>Auto Comp manufacturing in Europe is facing a very challenging period at present (slowing customer demand, higher inflation &amp; interest rates, shift to Electric vehicles, greater Chinese competition, higher energy costs). A loss in competitiveness is resulting in many Auto companies downsizing, vendors shutting down and OEMs aggressively looking for skilled vendors in lower-cost geographies.</p>
+
+<ul class="wp-block-list">
+<li>Volkswagen for the first time in history will be considering closing German factories, having flagged 1 car and 1 component plant as obsolete.<sup class="fn" data-fn="7d4df6cc-4c9c-4d79-950d-798dbe0cb01c"><a id="7d4df6cc-4c9c-4d79-950d-798dbe0cb01c-link" href="#7d4df6cc-4c9c-4d79-950d-798dbe0cb01c">4</a></sup></li>
+<li>Continental (Germany&#8217;s third largest supplier) has decided to exit its car parts business.<sup class="fn" data-fn="6c727144-b07b-4734-be5d-e08f7b47d263"><a id="6c727144-b07b-4734-be5d-e08f7b47d263-link" href="#6c727144-b07b-4734-be5d-e08f7b47d263">5</a></sup></li>
+</ul>
+
+<p>As the European vendor base shrinks, it opens a window of opportunity for well-run Indian Auto Component suppliers to gain market share in the global landscape. Consider a few examples:</p>
+
+<ul class="wp-block-list">
+<li>Germany&#8217;s ZF Group to expand India sourcing to 2 billion euros a year by FY30<sup class="fn" data-fn="7cce0923-4233-42fa-ba77-f7f181f009bf"><a id="7cce0923-4233-42fa-ba77-f7f181f009bf-link" href="#7cce0923-4233-42fa-ba77-f7f181f009bf">6</a></sup></li>
+<li>Stellantis plans to use India as an export hub to manufacture Electric vehicles.<sup class="fn" data-fn="1a132a6a-9f89-46b3-b55d-ff7449376459"><a id="1a132a6a-9f89-46b3-b55d-ff7449376459-link" href="#1a132a6a-9f89-46b3-b55d-ff7449376459">7</a></sup></li>
+</ul>
+
+<p>There are also some opportunities to gain share from China as global MNCs look to derisk for geo-political reasons. India has an existing Auto Component ecosystem and can benefit from friend shoring. The way global customers look at India is fundamentally changing. Perception takes time to change, but once trust is established in B2B businesses, pace of scale up can be rapid. RACL and other Indian Auto Comp suppliers are seeing a jump in RFQs for both new models as well as existing models. <em>"Maybe not 10, maybe 15 years back. Nobody could imagine that the European customer will buy gears from India. 20 years back no European customer would have even thought to buy even the plastic component from India. So gradually, India is also gaining much respect and command into a global market and if India is gaining interest in the only global market" &#8211; RACL Geartech management (Q1FY24 concall)</em></p>
+
+<p>RACL is competitively well positioned to capture market share as it has a strong track record on quality/delivery with marquee global customers (no product failures, very low rejections), strong willingness to invest in Capex, high ESG standards, 30+ years domain expertise (gears, precision engineering) and offers one stop shop technology solutions. RACL enjoys strong customer trust which reflects in sticky long-term customers and wallet share gains.</p>
+
+<p><strong>RACL Geartech has a good track record on execution</strong></p>
+
+<figure class="wp-block-image is-resized"><img decoding="async" width="1660" height="1000" class="wp-image-5122" style="width:573px;height:auto" src="/wp-content/uploads/2025/05/Picture2-RACL-blog.png" alt="RACL Geartech execution track record" /></figure>
+
+<p>RACL Geartech has demonstrated good growth accompanied by business model de-risking.</p>
+
+<figure class="wp-block-image is-resized"><img decoding="async" width="909" height="501" class="wp-image-5123" style="width:652px;height:auto" src="/wp-content/uploads/2025/05/Picture3-RACL-blog.png" alt="RACL Geartech business derisking chart" /></figure>
+
+<p>Over the last decade, quality of earnings has improved:</p>
+
+<ul class="wp-block-list">
+<li>Superior mix (increase share in higher margin exports, reducing share of lower margin segments like 3W vehicles).</li>
+<li>More value products (increase in share of complex parts, forward integration from loose parts to gear assembly, higher share of concurrent engineering<sup class="fn" data-fn="b93db041-40fa-4354-8133-eeaa9f1d63c0"><a id="b93db041-40fa-4354-8133-eeaa9f1d63c0-link" href="#b93db041-40fa-4354-8133-eeaa9f1d63c0">8</a></sup>) which has resulted in improvement in numbers.</li>
+<li>De-risking across products/customers.<sup class="fn" data-fn="b5a9d9e1-0540-4dd4-b5a6-874f17a6e840"><a id="b5a9d9e1-0540-4dd4-b5a6-874f17a6e840-link" href="#b5a9d9e1-0540-4dd4-b5a6-874f17a6e840">9</a></sup></li>
+</ul>
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="907" height="274" class="wp-image-5126" src="/wp-content/uploads/2025/05/Picture4-RACL-blog.png" alt="RACL Geartech product derisking" /></figure>
+
+<p><strong>Despite differentiated product, this is not a wide moat business.</strong></p>
+
+<p>RACL core products are differentiated (transmission related parts have more stringent vibration/noise parameters so need high-precision engineering) and should command healthy economics over time.</p>
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="602" height="399" class="wp-image-5127" src="/wp-content/uploads/2025/05/Picture5-RACL-blog.png" alt="RACL competitive positioning" /></figure>
+
+<p>However, while competition is not intense, there is no unique technology edge that others cannot replicate. Rather, the moats are soft, i.e. customer trust &#8211; that goods will be delivered as per agreed specifications and on time. And the incentives are for customers to give higher wallet share to trusted vendors to reduce complexity in their own supply chain and get better pricing in return for scale. Auto is a Just in time business. The fact that marquee global brands will trust RACL, a relatively small Auto Comp vendor located thousands of Kms away, to be a sole supplier speaks highly of the trust RACL has established.</p>
+
+<p><strong>We believe RACL can be a 18-20% ROCE business that could deliver ~18% ROE with some debt</strong></p>
+
+<p>In an industry where product price transparency is high, vendors cannot make super normal profits. Hence, vendors with some technical differentiation should be able to earn 18-20% ROCE, which would translate to ROE of ~18%+.</p>
+
+<p>In the short term, &#8220;reported&#8221; ROCE can be misleading. RACL promoters are focused on long-term outcomes and hence have been investing ahead of the curve in new technologies. Hence, plants are not operating at optimal capacity utilization today (Gross block has expanded by ~26% CAGR over last 3 years) which we believe they will be able to sweat for higher turns over time.</p>
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="906" height="541" class="wp-image-5128" src="/wp-content/uploads/2025/05/Picture6-RACL-blog.png" alt="RACL ROCE analysis" /></figure>
+
+<p><strong>Promoter an &#8220;Intelligent fanatic<sup class="fn" data-fn="38d06c4d-6434-4a68-a8ef-c6510f6f19c7"><a id="38d06c4d-6434-4a68-a8ef-c6510f6f19c7-link" href="#38d06c4d-6434-4a68-a8ef-c6510f6f19c7">10</a></sup>&#8221; we can trust</strong></p>
+
+<p>In long term investing, the principal bet is always on people. At RACL we are backing a technocrat promoter, with an exceptional track record, who inspires a lot of confidence and trust. A technocrat promoter who leads sales efforts gives immense comfort to customers. The passion for quality and ambition to create a large organization is palpable from consistency of messaging on conference calls. Promoter has shown strong alignment with minority shareholders by keeping managerial salaries low. Transparency with investors is high and management calls out challenges with candour.</p>
+
+<p><strong>RACL Geartech trades at broadly reasonable valuations post correction.</strong></p>
+
+<p>RACL has zero institutional ownership and negligible sell side coverage. So, we cannot point to a specific variance perception we have vs other investors. RACL grew Revenue at 17% CAGR and EBITDA at 26% CAGR in the period FY19-FY24. In the last 2 years (FY24-25e), company has faced temporary growth headwinds (inventory reductions by customers due to weak end demand, slowing EV sales, longer lead time for critical equipment etc). These challenges have led management to lower their growth guidance.</p>
+
+<p>Long term compounding is seldom linear and even high growth companies face short term cyclical challenges. We remain confident on RACL&#8217;s long term prospects: the +1 opportunity exists, RACL enjoy strong customer credibility and continues to win new projects even in a challenging environment. Even if the end industry goes into a recession, as there are market share gains at play, company is well positioned to grow.</p>
+
+<p>Basis normalized profit margins and the mid-point of their revised FY25 guidance of 460-490 Cr Revenue, RACL trades at ~22x normalized PE. We find this attractive in the context of ~18% ROE and longevity of growth of a small base.</p>
+
+<p><strong>Why do we believe in longevity of growth?</strong></p>
+
+<p>Trust scales exponentially over time once a reputation for quality is developed. No customer will risk integrating an untested supplier strategically into a supply chain as the cost of a failed product/stalled manufacturing line is significantly higher than any cost savings. However, it is not worthwhile to have a supplier irrelevant in your larger scheme of things. Hence, while trust is established slowly, it scales exponentially via larger share of business from existing customers and the credibility extends to new customers.</p>
+
+<p>Consider RACL history.</p>
+
+<ul class="wp-block-list">
+<li>Kubota initially started in 2004 with 2 SKUs and 1 location. This grew to 110 SKUs across 110 locations by 2019.<sup class="fn" data-fn="0f42f360-3b27-4eb0-8113-85f2b8ff4674"><a id="0f42f360-3b27-4eb0-8113-85f2b8ff4674-link" href="#0f42f360-3b27-4eb0-8113-85f2b8ff4674">11</a></sup></li>
+<li>Historically RACL has added a large customer every few years, with whom they have expanded wallet share over time.</li>
+<li>RACL has recently won its maiden order as a tier 1 supplier for passenger cars (German OEM customer), which bodes well for long term scalability of this segment (Passenger cars is ~10% of Sales) as new business can be won on referrals once credibility is established.</li>
+</ul>
+
+<p><strong>Are debt levels at present too high?</strong></p>
+
+<p>RACL investor calls always have minority shareholders urging the management to raise some Equity to reduce debt. We prefer companies that have low debt. We seek resilience and debt amplifies fragility.</p>
+
+<p>However, we are willing to make exceptions in specific situations and manage the risk of higher debt by position sizing. If we want to hold companies for long periods of time, we need to think like business owners. An analyst worries about volatility of short-term earnings which are amplified by debt. An owner wants to optimize ownership if debt can be serviced in the event of a shock.</p>
+
+<p>Taking an owner&#8217;s perspective, RACL&#8217;s current debt levels (~282 Cr vs FY24 EBITDA of ~100 Cr) are not a significant concern.</p>
+
+<ul class="wp-block-list">
+<li>B2B businesses with strong growth runway but moderate ROCE require debt to fund Capex. The only option for promoters is to either reduce growth rates or dilute Equity. If we think as business owners, neither of these options is in our interest.</li>
+<li>Auto Components is not a business with high tail risks where profits can implode (US FDA ban, or steep price fall as in generic Agri Chemicals).</li>
+<li>In the last decade, RACL has rarely seen a sharp fall in earnings and was able to grow profits even during Covid without availing any loan moratoriums.</li>
+<li>They work with very marquee global OEMs, some business lines are recession proof, and the business is well diversified (customers/geographies).</li>
+</ul>
+
+<p><strong>We don&#8217;t see rapid adoption of EVs as a threat</strong></p>
+
+<ul class="wp-block-list">
+<li>RACL primary product at present is transmission gears. EVs also need transmission gears which are almost the same value per vehicle as ICE (fewer parts but higher value per gear). RACL is present in categories such as high CC bikes, recreational vehicles and tractors where scope for EV is still a distant possibility. Finally, RACL is not limited to gears and will continue to leverage skillsets to expand into newer products which will further diversify business mix.</li>
+</ul>
+
+<p><strong>Is there key man risk?</strong></p>
+
+<ul class="wp-block-list">
+<li>One cannot avoid key man risk in Small Caps. They are the nucleus around which the company is built. RACL story has been no different. The differentiated products that RACL has cannot be designed by one person alone, clearly there is professional depth which is not visible to outsiders. We believe with larger scale there is greater ability to expand management depth. We are already seeing progress (current CFO who joined recently is ex Citi). These tail risks cannot be wished away but need to be managed by position sizing.</li>
+</ul>
+
+<p>Please click <strong><a href="/wp-content/uploads/2024/10/RACL-Geartech-Investment-thesis-9-Oct-24.pdf" target="_blank" rel="noreferrer noopener">here</a></strong> if you would like to download the PDF version of this blog</p>
+
+<ol class="wp-block-footnotes">
+<li id="718a6bf3-90f4-4100-8c12-f13a98b39352">Positions which are &gt;2% of Solidarity AUM <a href="#718a6bf3-90f4-4100-8c12-f13a98b39352-link" aria-label="Jump to footnote reference 1">↩︎</a></li>
+<li id="57296f70-ff05-4d9f-9dd3-b49803f0b17a">Normalized means steady state annual margins adjusted for quarterly fluctuations. We think RACL is a 22% EBITDAM and ~10% PAT margin business. <a href="#57296f70-ff05-4d9f-9dd3-b49803f0b17a-link" aria-label="Jump to footnote reference 2">↩︎</a></li>
+<li id="6a4b3c97-a735-4df2-9aef-1bd89ab64d48">The transmission or gearbox adapts the engine output to suitable speed and torque to be transferred to the wheels. <a href="#6a4b3c97-a735-4df2-9aef-1bd89ab64d48-link" aria-label="Jump to footnote reference 3">↩︎</a></li>
+<li id="7d4df6cc-4c9c-4d79-950d-798dbe0cb01c">Reference Reuters, <a href="https://www.reuters.com/business/autos-transportation/volkswagen-warns-possible-plant-closures-germany-2024-09-02/" target="_blank" rel="noreferrer noopener">here</a> <a href="#7d4df6cc-4c9c-4d79-950d-798dbe0cb01c-link" aria-label="Jump to footnote reference 4">↩︎</a></li>
+<li id="6c727144-b07b-4734-be5d-e08f7b47d263">Reference FT, <a href="https://www.ft.com/content/b8dd41dc-4fd9-4673-8b07-6af70e7f4213" target="_blank" rel="noreferrer noopener">here</a> <a href="#6c727144-b07b-4734-be5d-e08f7b47d263-link" aria-label="Jump to footnote reference 5">↩︎</a></li>
+<li id="7cce0923-4233-42fa-ba77-f7f181f009bf">Reference ET, <a href="https://economictimes.indiatimes.com/news/company/corporate-trends/germanys-zf-group-to-expand-india-sourcing-to-2-billion-euros-a-year/articleshow/112846005.cms" target="_blank" rel="noreferrer noopener">here</a> <a href="#7cce0923-4233-42fa-ba77-f7f181f009bf-link" aria-label="Jump to footnote reference 6">↩︎</a></li>
+<li id="1a132a6a-9f89-46b3-b55d-ff7449376459">Reference India Today, <a href="https://www.indiatoday.in/business/story/top-carmaker-stellantis-plans-to-manufacture-evs-in-india-2539481-2024-05-15" target="_blank" rel="noreferrer noopener">here</a> <a href="#1a132a6a-9f89-46b3-b55d-ff7449376459-link" aria-label="Jump to footnote reference 7">↩︎</a></li>
+<li id="b93db041-40fa-4354-8133-eeaa9f1d63c0">Work with customer from design stage where RACL gives value add inputs on best practises for commercial manufacturing. <a href="#b93db041-40fa-4354-8133-eeaa9f1d63c0-link" aria-label="Jump to footnote reference 8">↩︎</a></li>
+<li id="b5a9d9e1-0540-4dd4-b5a6-874f17a6e840">Higher share of exports translates to longer NWC cycle due to larger inventory in transit. <a href="#b5a9d9e1-0540-4dd4-b5a6-874f17a6e840-link" aria-label="Jump to footnote reference 9">↩︎</a></li>
+<li id="38d06c4d-6434-4a68-a8ef-c6510f6f19c7">Intelligent Fanatics are the world&#8217;s greatest business builders. They create companies and organizations that dominate and stand the test of time. Charlie Munger was the first person to use the term Intelligent Fanatic. <a href="#38d06c4d-6434-4a68-a8ef-c6510f6f19c7-link" aria-label="Jump to footnote reference 10">↩︎</a></li>
+<li id="0f42f360-3b27-4eb0-8113-85f2b8ff4674">Company con calls <a href="#0f42f360-3b27-4eb0-8113-85f2b8ff4674-link" aria-label="Jump to footnote reference 11">↩︎</a></li>
+</ol>`,
+        }}
+      />
+    ),
+  },
+  {
     id: "cp-28",
     slug: "investment-in-shivalik-bimetal-controls-ltd",
     title: "investment in shivalik bimetal controls ltd",
@@ -2195,7 +2866,7 @@ export const ALL_POSTS: PostData[] = [
       <div
         dangerouslySetInnerHTML={{
           __html:
-            '<p>The starting point for Investors must always be Asset Allocation.   In some earlier letters, we have written to you recommending you should hold some Gold/Gold Equivalents in one\'s portfolio - as Insurance to guard against the "unknown unknowns" of excessive money printing and even as diversification into another Asset Class that is not correlated with Equities.<span id="more-3636"></span></p>\n\n\n\n<p>The argument against holding Gold is that it offers no yield unlike Bonds.  However, with now over USD 13 Trillion of Bonds trading at negative interest rates, Gold, that yields nothing, could be abetter investment for developed world investors than Bonds being subscribed at negative interest rates that are sure to lose Capital on maturity.   </p>\n\n\n\n<p>That seems to be playing out with the chart below showing strong correlation between the price of Gold and the cumulative amount of Bonds trading at negative yield. </p>',
+            '<p>The starting point for Investors must always be Asset Allocation.\u00a0 \u00a0In some earlier letters, we have written to you recommending you should hold some Gold/Gold Equivalents in one\u2019s portfolio \u2013 as Insurance to guard against the \u201cunknown unknowns\u201d of excessive money printing and even as diversification into another Asset Class that is not correlated with Equities.</p>\n\n\n\n<p>The argument against holding Gold is that it offers no yield unlike Bonds.\u00a0 However, with now over USD 13 Trillion of Bonds trading at negative interest rates, Gold, that yields nothing, could be\u00a0a better investment for developed world investors than Bonds being subscribed at negative interest rates that are sure to lose Capital on maturity.</p>',
         }}
       />
     ),
@@ -2204,7 +2875,7 @@ export const ALL_POSTS: PostData[] = [
         className="post-content"
         dangerouslySetInnerHTML={{
           __html:
-            '<p>The starting point for Investors must always be Asset Allocation.   In some earlier letters, we have written to you recommending you should hold some Gold/Gold Equivalents in one\'s portfolio - as Insurance to guard against the "unknown unknowns" of excessive money printing and even as diversification into another Asset Class that is not correlated with Equities.<span id="more-3636"></span></p>\n\n\n\n<p>The argument against holding Gold is that it offers no yield unlike Bonds.  However, with now over USD 13 Trillion of Bonds trading at negative interest rates, Gold, that yields nothing, could be abetter investment for developed world investors than Bonds being subscribed at negative interest rates that are sure to lose Capital on maturity.   </p>\n\n\n\n<p>That seems to be playing out with the chart below showing strong correlation between the price of Gold and the cumulative amount of Bonds trading at negative yield. </p>\n\n\n\n<p>And all signs at present suggest more monetary easing to take place in the developed world.  If the correlation holds, Gold prices should move higher.</p>\n\n\n\n<div class="wp-block-image">\n<figure class="aligncenter"><img decoding="async" src="https://mail.google.com/mail/u/0?ui=2&ik=2197c7bd43&attid=0.1&permmsgid=msg-f:1639661149673923076&th=16c13f20da52a204&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_n5-fDUYU17Pk5NnTpLzisu9YXzd01T5VwOcjDGK9IjxzZL5a30CMgvgGouqoQI09UB1LBLNtByBwMJPYdFvFF5OQ_ENTvFhKueR-MU__pz36bTv8FW5i_mg0&disp=emb" alt="Invest in some Gold in your portfolios illustration 1" /></figure>Solidarity constructs Long only Equity portfolios.  We, therefore, do not hold Gold in partner portfolios. However, from an aggregate Asset Allocation perspective and to protect from tail risk, we would recommend considering some exposure to Gold or Gold Equivalents of 3-5% of your aggregate portfolio.',
+            '<p>The starting point for Investors must always be Asset Allocation.\u00a0 \u00a0In some earlier letters, we have written to you recommending you should hold some Gold/Gold Equivalents in one\u2019s portfolio \u2013 as Insurance to guard against the \u201cunknown unknowns\u201d of excessive money printing and even as diversification into another Asset Class that is not correlated with Equities.<span id="more-3636"></span></p>\n\n\n\n<p>The argument against holding Gold is that it offers no yield unlike Bonds.\u00a0 However, with now over USD 13 Trillion of Bonds trading at negative interest rates, Gold, that yields nothing, could be\u00a0a better investment for developed world investors than Bonds being subscribed at negative interest rates that are sure to lose Capital on maturity. \u00a0\u00a0</p>\n\n\n\n<p>That seems to be playing out with the chart below showing strong correlation between the price of Gold and the cumulative amount of Bonds trading at negative yield.\u00a0</p>\n\n\n\n<p>And all signs at present suggest more monetary easing to take place in the developed world.\u00a0 If the correlation holds, Gold prices should move higher.</p>\n\n\n\n<p>Solidarity constructs Long only Equity portfolios.\u00a0 We, therefore, do not hold Gold in partner portfolios</p>\n\n\n\n<p>However, from an aggregate Asset Allocation perspective and to protect from tail risk, we would recommend considering some exposure to Gold or Gold Equivalents of 3-5% of your aggregate portfolio.</p>',
         }}
       />
     ),
@@ -2234,6 +2905,36 @@ export const ALL_POSTS: PostData[] = [
         dangerouslySetInnerHTML={{
           __html:
             '<p>As the Chief Investment Officer of a Family Investment Office, I get the privilege to interact with many entrepreneurs seeking funding from our clients</p>\n\n\n\n<p>I have met at least 40 teams over the last one year and our clients are lead investors in 5 very exciting companies.  <span id="more-3345"></span>(<a href="http://www.bibox.in/">www.bibox.in</a>, <a href="http://www.primaseller.com/">www.primaseller.com</a>, <a href="http://www.allizhealth.com/">www.allizhealth.com</a>, <a href="http://www.brunhealth.com/">www.brunhealth.com</a> and <a href="http://www.urjas.com/">www.urjas.com</a>)</p>\n\n\n\n<p>As a cultural trait, Indians find it hard to be direct.  So you may not realize the real reason why you have been denied funding.   Here are the 5 key reasons why we have declined to participate.  Of course this list is not exhaustive, but hopefully you may find some use for it. </p>\n\n\n\n<ul class="wp-block-list"><li><strong>Marginal product/service idea:</strong>   The idea is marginal and is basically replicating an existing business model. Most commonly heard these days is "Creating an Uber for XYZ".    Communicating an idea simply is key.  If one cannot understand in a minute what you are trying to do, very unlikely they will back you.  Use of jargon, example "platform strategy", implies lack of preciseness in your thinking.  One also needs to be clear of what consumer segment your idea is directed at, and broadly estimate how large the market for your product/service offering could be.   A great idea with a narrow market or very dispersed users is unlikely to be able to scale into a viable business.</li></ul>\n\n\n\n<ul class="wp-block-list"><li><strong>Poor understanding of basic economics:</strong> You must understand basic financial terms such as Gross Margin, Variable cost, Fixed costs, Break Even point, Working Capital.  As an investor, I need to be on common page with you on basic economics and if we don\'t speak a common language, I would prefer out.  The risk to the investor is that he is supporting a cool concept, but which is financially unviable, or one that will run out of cash far quicker than the entrepreneur thinks.  Many entrepreneurs underestimate importance of Working Capital - a profitable business could run out of cash because customers don\'t pay when invoiced.  The challenge for B2C start-ups (FMCG, Packaged food etc.) is most acute as they need a very long runway to break even and the investments required to build brands and create distribution are often significantly underestimated. </li></ul>\n\n\n\n<ul class="wp-block-list"><li><strong>Too high initial ask</strong>:  You will be lucky if your first or second cheque exceeds 2 Cr. Your first investors should ideally be prepared to write a second cheque if things are broadly according to plan (Note: our clients have advanced/offered second round investments to 3 of the 5 start ups above) .If you are asking for 5 Cr, very unlikely you will raise the money unless your model is already fairly developed and accepted by the customer.   You need to be more realistic by looking at the problem from the investor\'s perspective. The first round money should be to advance your progress, not to seek financial security.   At the time you are raising your first round, every idea is an unproven concept with high risk of mortality. Every start up team needs to prove they can work together, many people realize that the pace of entrepreneurship is not for them.</li></ul>\n\n\n\n<ul class="wp-block-list"><li><strong>Too little skin in the game:</strong> You need to have made "some progress" on your own dime.  A part time co-founder is bad news.  Saying you will quit your job once you get funding also raises red flags.  Entrepreneurship requires significant self-belief - you cannot be seen hedging your bets. The salary you propose for yourself is a defining moment in the Yes/No decision.  Entrepreneurship also requires postponing gratification.  You are not doing the investor a favour by taking a cut in your salary, rather, you are minimizing dilution for yourself and stretching resources to the maximum before you raise your next round (at a higher valuation than the first).  Comparing what salary you will draw now with what you did earlier as a salaried employee is missing the point that you are now an owner and not an employee.   </li></ul>\n\n\n\n<ul class="wp-block-list"><li><strong>Not radiating trust</strong>: The essential bet is on people.  Very few plans are implemented as originally thought out.  Can you be trusted to spend our money judiciously? How you conduct yourself gives an inkling on what we can expect: Are you too casually dressed for the meeting? Did you come on time? What are your personal motivations to be an entrepreneur? What role do you see for investors? Do you listen to contrary points of view with an open mind? Do you talk about challenges as openly as what is going well? Do you give space to your other co-founders?  What ESOP pool do you propose for your team? Do you get irritable with repeated queries? Are you so much in love with your idea that you refuse to see the risks?</li></ul>\n\n\n\n<p>Never before has so much money been available to entrepreneurs in India.   For those with good ideas, humility and self-belief, an angel investor is waiting somewhere for you to find him/her.  If you find the right investor, whether your business is a success or not, you will find the entrepreneurship experience enriching.  Don\'t give up the pursuit of your dream</p>',
+        }}
+      />
+    ),
+  },
+  {
+    id: "vc-02",
+    slug: "the-fallacy-of-growth-now-profits-later-approach-to-building-a-business",
+    title:
+      'The fallacy of "Growth now, Profits later" approach to building a business',
+    date: "November 25, 2015",
+    author: "Solidarity Investment Managers",
+    categories: ["Blogs", "Venture Capital"],
+    categoryLinks: [
+      { label: "Blogs", path: "/perspectives/blogs" },
+      { label: "Venture Capital", path: "/perspectives/venture-capital" },
+    ],
+    excerpt: (
+      <div
+        dangerouslySetInnerHTML={{
+          __html:
+            '<p>Many venture founders are taking the \u201cgrowth now and profits later\u201d approach to building their business.\u00a0 \u00a0I believe many of such ventures will fail as at some point the cash required from investors to fund such growth will not be available.</p>',
+        }}
+      />
+    ),
+    content: (
+      <div
+        className="post-content"
+        dangerouslySetInnerHTML={{
+          __html:
+            '<p>Many venture founders are taking the \u201cgrowth now and profits later\u201d approach to building their business.\u00a0 \u00a0I believe many of such ventures will fail as at some point the cash required from investors to fund such growth will not be available. <span id="more-3343"></span></p>\n\n\n\n<p>A business starts making money when its total Contribution is greater than fixed costs. (Revenue less the Variable costs is \u201cContribution\u201d).\u00a0\u00a0 The first challenge for any business is to reach break-even point.\u00a0 Once a business reaches break- even, it can grow into a profitable business over time as typically, increase in Revenue (and hence Contribution) is always faster than increase in Fixed Costs \u2013 in investment jargon, what analysts call \u201cOperating Leverage\u201d.\u00a0</p>\n\n\n\n<p>\u201cGrowth now profits later\u201d is prudent if a business has a predictable variable contribution per unit of sales and needs investment to grow Sales to reach the break-even point quickly before competitors emerge with a copy-cat model.</p>\n\n\n\n<p>The challenge is that many ventures are being grown while Operating at negative or very low unit Contribution, primarily because of customer acquisition expenses \u2013 discounted cab rides, cash back, free coupons on purchases, or sales below purchase costs.\u00a0 \u00a0The true unit contribution economics and hence break-even point are unknowns at present.\u00a0 The \u201cbelief\u201d is that once a customer has transacted for a while, they will become loyal\u2026 and\u00a0\u201cprofits\u201d will result as unit Contribution will exponentially increase when the discounts are turned off.\u00a0</p>\n\n\n\n<p><strong>The implicit assumption in the above argument is that after increasing prices, customer behaviour &#8211; in terms of purchase volumes, frequency, and loyalty will remain the same</strong> &#8211; and that new competitors will not emerge with a similar philosophy to customer acquisition.\u00a0 This is a significant assumption, especially in a value for money market like India. \u00a0</p>\n\n\n\n<p>The risk then of a \u201cGrowth now, profits later\u201d approach is that break- even points will continuously get pushed back requiring far higher investment than initially estimated. \u00a0At some point investors will throw in the towel (as perhaps we are seeing with many ventures at present), or there will be a significant drop in valuations at which subsequent rounds of monies are raised.\u00a0 The public markets in India offer examples of many such companies whose valuations have crashed over 95% from their peak levels. Founders would do well to study economic history \u2013 the most successful companies have not been built on the support of investor\u2019s money but on the support of their Cash flow generation.\u00a0 Rather than buying customers, founders may be better served identifying core consumers organically, the time tested way. \u00a0\u00a0Progress, the latter way may be slow, but it will be sure; and data on credible unit economics will enhance chances of securing subsequent rounds of funding to reach break-even point</p>',
         }}
       />
     ),
@@ -3382,7 +4083,92 @@ export const ALL_POSTS: PostData[] = [
     ),
   },
   {
-    id: "macro-09",
+    id: "aa-reluctant-cash-calls",
+    slug: "why-we-are-reluctant-to-take-cash-calls-at-present",
+    title: "Why we are reluctant to take cash calls at present",
+    date: "June 13, 2020",
+    author: "Solidarity Investment Managers",
+    categories: ["Blogs", "Asset Allocation"],
+    categoryLinks: [
+      { label: "Blogs", path: "/perspectives/blogs" },
+      { label: "Asset Allocation", path: "/perspectives/asset-allocation" },
+    ],
+    excerpt: (
+      <div
+        dangerouslySetInnerHTML={{
+          __html: '<p>We have had a few conversations with partners on why we are reluctant to take a 20% cash call at present despite the current uncertainty to re-enter when prices are more favourable.&nbsp; I thought it may be appropriate to share our thought process with all our partners.</p>',
+        }}
+      />
+    ),
+    content: (
+      <div
+        className="post-content"
+        dangerouslySetInnerHTML={{
+          __html: `
+<p>We have had a few conversations with partners on why we are reluctant to take a 20% cash call at present despite the current uncertainty to re-enter when prices are more favourable.&nbsp; I thought it may be appropriate to share our thought process with all our partners.</p>
+
+<p>I want to separate the question into 2 parts</p>
+
+<p>a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The cash call &nbsp;on “Asset Allocation” – which is for partners to make</p>
+
+<p>b)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The cash call on “portfolio construct”- which is for Solidarity to make</p>
+
+<p><strong>The cash call on “Asset Allocation” – which is for partners to make</strong></p>
+
+<p>Partners need to decide how much of your Capital you choose to allocate to “safety” vs “growth”.&nbsp; To try and impress you with jargon, the industry calls this “Asset Allocation”.&nbsp;</p>
+
+<p>The choice of how much goes into each bucket is a personal choice and should be a function of</p>
+
+<p>a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your long term goals</p>
+
+<p>b)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your belief in the merits of Equities</p>
+
+<p>c)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your short term cash flow requirements</p>
+
+<p>d)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your tolerance for mark downs in Equity</p>
+
+<p>There is no one right answer here.&nbsp; It is a very personal choice.&nbsp; The right answer is what helps you sleep well at night and not feel overexposed to risk.</p>
+
+<p>The mistake many investors make is to allocate too much to “growth” over “safety” when markets are doing well, typically because they fear missing out during a bull run.&nbsp; When the inevitable correction happens, their ability to tolerate markdowns/need for short term cash flow is exposed and they tend to sell at the worst possible time making temporary losses permanent.&nbsp;&nbsp;&nbsp;</p>
+
+<p>However, if one needs to redeem funds because you need to recalibrate “growth” vs “safety” exposure, it is an appropriate thing to do at present. &nbsp;&nbsp;The right time to correct errors is the first instance when one realizes a mistake has been made.</p>
+
+<p><strong>The cash call on “portfolio construct”</strong></p>
+
+<p>This brings us to the key question at hand whether Solidarity should sell existing positions to keep some cash in buffer at present.&nbsp;</p>
+
+<p>Our view on cash exposure/cash calls is as follows</p>
+
+<p>a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We will not be fully invested if we don’t find opportunity.&nbsp; We will wait on the side-lines till prices are at levels we find reasonable.&nbsp; &nbsp;</p>
+
+<p>b)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We will sell down positions gradually when valuations are Euphoric</p>
+
+<p>c)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We don’t believe in selling positions to create cash “just” because the environment is uncertain, if we can find opportunities to deploy Capital.</p>
+
+<p>Point c) merits more explanation</p>
+
+<p>a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Mathematical risk-reward trade-off of taking unnecessary cash calls is not attractive – Assume one sold 20% of the portfolio and on this earned a 30% incremental return because one successfully timed re-entry.&nbsp; &nbsp;Over 5 years, post taxes, this would be a ~1% extra IRR over what one would have earned by not trying to time the market.</p>
+
+<p>b)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This 1% extra return needs to be weighed against the probability of getting this trading call right.&nbsp; We would not have guessed that the markets will collapse 30% in March; neither would we have guessed where they would bottom and how steeply the market would recover.&nbsp; &nbsp;Selling is easy, timing re-entry is very hard.&nbsp;</p>
+
+<p>c)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inevitably, one will end up taking a decision which provides emotional relief, but is adverse to long term outcomes</p>
+
+<p>So this leads to the question whether valuations for our portfolio construct are euphoric at present.</p>
+
+<p>a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In our assessment, other than FMCG and some pockets of Specialty Chemicals, valuations are not euphoric. &nbsp;</p>
+
+<p>b)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rather than take cash off the table, we are using the current uncertainty to add to positions in Telecom, Digital, Banking and Life Insurance till we reach our sector caps.</p>
+
+<p>Fund Managers are supposed to have ice water in their veins and hence tolerate large market movements.&nbsp; Nothing is further from the truth.&nbsp; We too feel the whole gamut of emotions, including fear, when we see prices collapse like they did in March.&nbsp; &nbsp;However, we remind ourselves every day that the only sustainable edge in this business is Behaviour.&nbsp;&nbsp; By replicating what the market is doing, just for short term comfort, we are unlikely to generate superior outcomes.&nbsp;</p>
+
+<p>There is a reason why Equities (Index) – over the long term – have earned a 6% premium over G Secs.&nbsp; This premium is the prize for the pain that is required to tolerate uncertainty and drawdowns.&nbsp; By participating when the environment seems benign, and exiting during uncertain times,&nbsp; returns will be sub-par as one will never be able to take advantage of attractive prices</p>
+          `,
+        }}
+      />
+    ),
+  },
+  {
+    id: "me-10",
     slug: "worsening-macro-situation-in-china-and-high-interest-rates-in-the-us-2",
     title:
       "Worsening macro situation in China and high interest rates in the US",
@@ -4255,7 +5041,40 @@ export const ALL_POSTS: PostData[] = [
         }}
       />
     ),
-  }
+  },
+  {
+    id: "blog-why-we-are-reluctant",
+    slug: "why-we-are-reluctant-to-take-cash-calls-at-present",
+    title: "Why We Are Reluctant To Take Cash Calls At Present",
+    date: "June 8, 2026",
+    author: "Solidarity Investment Managers",
+    categories: ["Blogs"],
+    categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
+    excerpt: (<div>Placeholder excerpt for why we are reluctant to take cash calls.</div>),
+    content: (<div>Placeholder content.</div>),
+  },
+  {
+    id: "blog-dear-prime-minister",
+    slug: "dear-prime-minister-give-us-a-message-of-hope-courage-and-equanimity",
+    title: "Dear Prime Minister, Give Us a Message of Hope, Courage and Equanimity",
+    date: "June 8, 2026",
+    author: "Solidarity Investment Managers",
+    categories: ["Blogs"],
+    categoryLinks: [{ label: "Blogs", path: "/perspectives/blogs" }],
+    excerpt: (<div>Will the lockdown in India end on 17 May or will we as a country go deeper into "economic hara-kiri" ? The first lockdown was perhaps right. In the fog of war, you have to act decisively till you figure out a course of action. However, post mid-April, we seem to acting more out of fear, than with "systems thinking".</div>),
+    content: (<div>
+      <p>Will the lockdown in India end on 17 May or will we as a country go deeper into "economic hara-kiri" ? (Anand Mahindra)</p>
+      <p>The first lockdown was perhaps right. In the fog of war, you have to act decisively till you figure out a course of action. However, post mid-April, we seem to acting more out of fear, than with "systems thinking".</p>
+      <ul>
+        <li>A medical professional will interpret his mandate to save lives at any cost. They are not expected to come up with an economic argument on their recommendations to lock everyone up. However, we need to save livelihoods before the blood bath of job losses commence – business owners and banks don't pay salaries – customers do (Manish Sabharwal).</li>
+      </ul>
+      <ul>
+        <li>Millions in India die of water-borne diseases, poor primary care, malnutrition and plain neglect. Why has the Indian State chosen to protect us from Covid-19, while not attacking other health issues with equal gusto?</li>
+      </ul>
+      <p>The Central Govt. is now trapped in a crisis which it inherited, but has now willingly escalated. Its messaging of how "deadly" Covid -19 is, has been picked up by the media, which has found a new tool to spread fear (and attract eye balls). The pace of opening is now a political issue. State Govts. will not want to be burdened with the responsibility of deaths while they are happy to pass responsibility on loss of jobs to the Centre.</p>
+      <p>The average Indian lives perpetually in a crisis. Covid-19 induced misery is no stranger to us. To over-come this, we need a message of hope, courage and equanimity from our PM, and not one of fear and defensiveness.</p>
+    </div>),
+  },
 ];
 
 export function getPostBySlug(slug: string): PostData | undefined {
