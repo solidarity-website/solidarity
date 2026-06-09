@@ -55,7 +55,7 @@ const navItems: NavItem[] = [
 { label: 'Investor Charter – AIF', href: '/wp-content/uploads/2026/05/Investor-charter-for-AIF-16-Apr-26_V2.pdf', external: true },
       { label: 'DISCLOSURE DOCUMENT', href: '/wp-content/uploads/2026/01/Disclosure_document_SAPL_22_Jan_2026.pdf', external: true },
       { label: 'FEE CALCULATION TOOL', href: '/fee-calculation-tool' },
-      { label: 'INVESTOR COMPLAINTS', href: '/wp-content/uploads/2026/03/Annexure-B-FEB-26-NEW-FORMAT.pdf', external: true },
+      { label: 'INVESTOR COMPLAINTS', href: '/wp-content/uploads/2026/06/Annexure-B-MAY-26-NEW-FORMAT.pdf', external: true },
       { label: 'REGULATORY DETAILS', href: '/about-us/regulatory-details' },
       { label: 'UPI PAYMENT DETAILS', href: '/upi-payment-details' },
       { label: 'STEWARDSHIP CODE – AIF', href: '/wp-content/uploads/2026/01/Stewarship-Code_NP-7Jan26.pdf', external: true },

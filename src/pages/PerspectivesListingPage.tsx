@@ -40,7 +40,7 @@ const BLOGS_SLUG_SEQUENCE = [
   "repetition-of-truths",
   "what-do-you-believe-in",
   "trump-black-money-and-implications-for-stock-prices",
-  "developing-competitive-advantage-as-an-investor",
+  "developing-competitive-advantage-as-an-investor", 
   "role-of-behaviour-in-long-term-investment-performance",
   "the-pain-associated-with-being-a-long-term-investor",
   "the-british-referendum-is-it-time-to-load-the-elephant-gun",
