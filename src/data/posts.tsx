@@ -899,6 +899,168 @@ export const ALL_POSTS: PostData[] = [
     ),
   },
   {
+    id: "cp-30",
+    slug: "investment-thesis-on-yasho-industries-limited",
+    title: "INVESTMENT THESIS ON Yasho Industries Limited",
+    date: "January 15, 2026",
+    author: "Solidarity Investment Managers",
+    categories: ["Blogs", "Company Perspective"],
+    categoryLinks: [
+      {
+        label: "Select Company Perspectives",
+        path: "/perspectives/company-perspective",
+      },
+    ],
+    excerpt: (
+      <div
+        dangerouslySetInnerHTML={{
+          __html:
+            '<p>In this note we explain why Yasho&#8217;s elevated Debt at present is a considered risk and why we retain faith on a company that is executing well amidst a challenging environment.</p><p>~23% of Yasho Revenue comes from the US. It has faced a tariff shock as customers have delayed orders. This happened at a time when Yasho just finished a very large Capacity expansion which resulted in high Balance Sheet leverage. The tariff shock has delayed the plant ramp-up, which has perhaps alarmed investors, and the stock has corrected ~35% in the last six months.</p>',
+        }}
+      />
+    ),
+    content: (
+      <div
+        className="post-content"
+        dangerouslySetInnerHTML={{
+          __html: `<p>In this note we explain why Yasho&#8217;s elevated Debt at present is a considered risk and why we retain faith on a company that is executing well amidst a challenging environment.</p>
+
+<p>~23% of Yasho Revenue comes from the US.&nbsp; It has faced a tariff shock as customers have delayed orders.&nbsp; This happened at a time when Yasho just finished a very large Capacity expansion which resulted in high Balance Sheet leverage (a conscious choice, as we explain below).&nbsp; The tariff shock has delayed the plant ramp-up.&nbsp; The delay, keeping in mind high leverage, has perhaps alarmed investors, some of whom have dumped the stock, which has corrected ~35% in the last six months.</p>
+
+<p>Why do we have a portfolio position with very high leverage?</p>
+
+<p>Debt creates fragility and we prefer no Debt or low Debt companies.&nbsp; However, often, low Debt companies are also those who may not be able to grow 20%+.&nbsp;&nbsp; We are willing to make exceptions in select cases where:</p>
+
+<ul class="wp-block-list">
+<li>The upside can be Asymmetric (rather than linear). <em>In an earlier blog we explained what a company with an Asymmetric upside can do to a portfolio&#8217;s overall return. Read <a href="/wp-content/uploads/2023/08/Solidarity-Asymmetric-Outcomes-14-August-23.pdf" target="_blank" rel="noreferrer noopener">here</a>.</em></li>
+<li>Premature Equity dilution is not in long-term equity shareholders&#8217; interests, including ours.</li>
+<li>We trust promoter judgement when it is backed by a strong execution track record and customer credibility.</li>
+<li>We believe default on Debt repayments is a low probability event.</li>
+<li>There is no promoter Equity pledge which can create a death spiral.</li>
+</ul>
+
+<p>Finally, we manage the risk of high Debt positions by position sizing at an aggregate portfolio level. ~65% of our non-Financial Services portfolio carries Nil or marginal Debt<span id="more-5731"></span></p>
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td><strong>Net Debt/EBITDA</strong></td><td><strong>% of Non-Financial Portfolio</strong></td><td><strong>Hypothesis</strong></td></tr><tr><td>Net Cash</td><td>~58%</td><td rowspan="2">Linear upside expected with 13-18% earnings growth with longevity</td></tr><tr><td>&lt;1x</td><td>~7%</td></tr><tr><td>&#8805; 1x and &lt; 2.5x</td><td>~18%</td><td>&nbsp;</td></tr><tr><td>&#8805; 2.5x</td><td>~17%</td><td>Asymmetric upside: 25-30%+ earnings growth for long periods of time</td></tr></tbody></table></figure>
+
+<p>Managing optimal capital structure in companies on a very strong growth path requires trade-offs</p>
+
+<p>Capital intensive businesses which are on a very high growth path need to keep funding Capex. There are 3 options for the promoters: either they slow down growth, accept short periods of elevated leverage, or dilute equity prematurely before full potential is reflected in the stock price.</p>
+
+<p>A promoter who believes in the long-term potential of their business may prefer to tolerate slightly higher Debt than ideal (rather than premature dilution) if they are confident that a base cash flow will ensure no default.&nbsp;&nbsp; The earnings volatility with higher Debt (an investor concern) is perhaps not a primary concern for them as they focus on the long game and Terminal Value and recognize the trade-off they have accepted.</p>
+
+<p>Let&#8217;s examine this from the perspective of Yasho Industries.</p>
+
+<p><strong>For the sake of brevity, we will not discuss what Yasho does. Partners may read our earlier note on Yasho <a href="/perspectives/post/investment-thesis-on-yasho-industries">here</a>.</strong></p>
+
+<p><strong>Our hypothesis on the B2B flywheel</strong></p>
+
+<p>In B2B businesses, it takes time to establish credibility.&nbsp; Customers need to believe in consistency of quality, reliability of delivery schedules, ability of management to install capacity ahead of growth etc.</p>
+
+<p>However, once credibility is established, scale-up can be rapid.&nbsp; Customers not only increase wallet share in existing products but award new products as well. Credibility can be extended to new customers in the same industry. Well-run companies re-invest cash flows into new product development and additional Capex to create a virtuous cycle.&nbsp; Companies can remain undervalued as earnings models may not capture this progression.</p>
+
+<p><strong>While Earnings have been delayed by 12-18 months due to tariffs we believe Yasho is at the cusp of a strong breakout of growth</strong></p>
+
+<ul class="wp-block-list">
+<li>They have executed well in a tough environment (~30% volume growth in H1FY26, ~50% Pakhajan plant utilisation within ~1.5 years and maintained EBITDAM at ~18%) and so should strongly benefit once environment improves.</li>
+<li>It has done the hard work of acquiring many Blue chip MNC customers and has won product approvals in Lubricant Additives which can take anywhere from 12 to 36 months.</li>
+<li>Despite tariffs Yasho continues to win new business in USA and is actively pursuing opportunities in other markets (Europe, Middle East, Asia etc).</li>
+<li>It is seeing initial signs of credibility from MNC customers. Not only has a customer signed a large 15 year order but it also funded the Capex for the same.</li>
+<li>Yasho has meaningful headroom to grow post its capacity expansion (Peak Sales ~1200 Cr).</li>
+<li>Yasho has crossed a threshold of meaningful scale (&gt;100 Cr EBITDA) which now allows it to invest more meaningfully in R&amp;D talent for new product development. It has recently commissioned a new R&amp;D lab with ~Rs 23 crore of investment.</li>
+</ul>
+
+<p>Hence, there is a reasonable probability that the growth flywheel can start spinning faster.</p>
+
+<figure class="wp-block-image size-full is-resized"><img fetchpriority="high" decoding="async" width="912" height="701" src="/wp-content/uploads/2026/01/image-10.png" alt="Yasho Industries growth flywheel" class="wp-image-5733" style="width:605px;height:auto" /></figure>
+
+<p><strong>Why could Yasho not take the safer route of more linear Capex growth?</strong></p>
+
+<p>To unlock the next phase of growth, Yasho undertook a Capex of ~Rs 500 Cr over FY23-FY25 from a Gross Block of ~250 Cr.&nbsp; This expanded its capacity by ~2.6x (from 12,500 MT to 32,500 MT).&nbsp; This was funded largely through Debt.</p>
+
+<p>This could not have been done through incremental investments and needed a large upfront Capex:</p>
+
+<ul class="wp-block-list">
+<li>A significant portion of the spend (~Rs 250 crores) was required to build shared infrastructure (Utilities, Effluent treatment).</li>
+<li>Minimum critical production capacity lowered per unit cost and added to competitive edge.</li>
+<li>A large upfront Capex also signals to buyers the willingness to invest and be a partner in their long-term strategic plans. The current land parcel is sufficient for 100,000 MT capacity.</li>
+</ul>
+
+<p><strong>Why do we remain confident in Yasho&#8217;s ability to deliver strong growth and manage Debt servicing?</strong></p>
+
+<p>Yasho operates in a large and growing market (~USD 15bn+ TAM across products). And is seeing significant opportunities in Lubricant Additives, where it is a &lt; USD 50 Mn player in a very large USD 10 Bn+ industry, giving it ample room to grow.</p>
+
+<p>The company has executed very well in the last decade.</p>
+
+<ul class="wp-block-list">
+<li>The company has compounded EBITDA at ~21% CAGR while margins have steadily expanded (from 9% in FY15 &#8209;&gt; 18% in TTM Q2 FY26), driven by a rising share of higher-value industrial products in the mix.</li>
+<li>Has historically demonstrated the ability to sweat its assets well and run at peak utilizations. <em>Growth was constrained in FY23-FY24 due to capacity constraints.</em></li>
+<li>The business today is in a structurally stronger position &#8211; ~4x larger scale, ~18% EBITDA margins vs ~10% a decade ago, and much stronger customer credibility.</li>
+</ul>
+
+<figure class="wp-block-image size-full is-resized"><img decoding="async" width="589" height="361" src="/wp-content/uploads/2026/01/image-11.png" alt="Yasho EBITDA growth chart" class="wp-image-5735" style="width:444px;height:auto" /></figure>
+
+<figure class="wp-block-image size-full is-resized"><img decoding="async" width="589" height="378" src="/wp-content/uploads/2026/01/image-12.png" alt="Yasho margin expansion chart" class="wp-image-5736" style="width:439px;height:auto" /></figure>
+
+<p>Note: FY25 is Solidarity estimate.</p>
+
+<p><strong>Yasho continues to execute well in FY26 despite the weak macro environment and tariff shock.</strong></p>
+
+<ul class="wp-block-list">
+<li>Volumes grew ~30% in H1 FY26 vs. H1 FY25.</li>
+<li>Within ~1.5 years of commissioning, the new plant is operating at ~50% capacity utilisation.</li>
+<li>Maintained EBITDA margins at ~18%<sup class="fn" data-fn="7d6de221-0aa8-44ed-af06-9fc1ef380d6b"><a id="7d6de221-0aa8-44ed-af06-9fc1ef380d6b-link" href="#7d6de221-0aa8-44ed-af06-9fc1ef380d6b">1</a></sup> despite low sales growth.</li>
+</ul>
+
+<p><strong>The market&#8217;s concerns on Debt Servicing are rational.</strong></p>
+
+<ul class="wp-block-list">
+<li>While they raised some Equity (~Rs 125 crores in Dec 2024), the Net Debt/EBITDA ballooned during construction and has stayed high (Currently at ~4.4x).</li>
+<li>EBITDA trajectory has been pushed back by 12-15 months due to the tariff shock.</li>
+</ul>
+
+<p><strong>However, we believe Debt servicing is comfortable, despite delays in ramp.</strong></p>
+
+<ul class="wp-block-list">
+<li>Term loans have a back-ended repayment schedule with low repayments in the initial years (~Rs 9 crores in FY26 and ~Rs 32 crores in FY27) and step up in later years.</li>
+<li>Even if we assume a ~Rs 90 crores EBITDA from the old Vapi plant (vs. FY23-FY25 average of ~Rs 108 crores, factoring in the US impact) and a gradual ramp up in the new Pakhajan plant, interest and principal payments can be comfortably serviced.</li>
+<li>Inventory was built to service orders which were delayed due to tariffs. As these orders start flowing to the US/new markets, cash will be released.</li>
+</ul>
+
+<p><strong>A large strategic outsourcing deal that was recently signed supports the growth break out hypothesis.</strong></p>
+
+<ul class="wp-block-list">
+<li>Yasho has recently signed a 15-year agreement with a global MNC for the supply of lubricant additives, with an annual contract value of ~Rs 150 Cr starting end-FY27. Notably, the customer is also funding the capex for the dedicated facility, which is uncommon in such arrangements and reflects a high degree of confidence in Yasho&#8217;s capability and execution. It also signals shortage of quality suppliers.</li>
+<li>Our experience of owning B2B businesses suggests that the first large order is typically a &#8220;starter order&#8221; to test quality/delivery at scale.&nbsp; Once comfort is established, the business can scale up meaningfully over time. For example, Shaily Engineering sales with its first major strategic customer have grown &gt;10x over last 12 years.</li>
+<li>As explained earlier, these wins attract other global customers through borrowed credibility. Consider a few examples: Privi Specialty today supplies Aroma Chemicals to all the top 10 global fragrance companies, who control ~80-90% of global market; Blue Jet Healthcare supplies critical intermediates to 3 out of top 4 global contrast media players, where top 4 control ~75% of the global market. SRF works with all the 4 innovator companies in Agro-Chemicals.</li>
+</ul>
+
+<p>We believe Yasho is now on a similar trajectory if it can continue to execute well.</p>
+
+<p>Progress in business is seldom linear.&nbsp; Most companies face unexpected turbulence where progress appears to stall.&nbsp; One needs to look at Operating metrics in such periods to take cues &#8211; customer wins, capacity additions, new product development etc.&nbsp; If these are tracking well, companies tend to revert to growth trajectory and become better businesses over time.</p>
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="944" height="285" src="/wp-content/uploads/2026/01/image-13.png" alt="Yasho growth trajectory chart" class="wp-image-5737" /></figure>
+
+<p><strong>We believe Yasho is currently trading at attractive entry valuations at present.</strong></p>
+
+<ul class="wp-block-list">
+<li>Despite capacity and capital constraints, Yasho grew operating profits at 20%+ CAGR over the last decade. Now with capital constraint released, capacities in place, product approvals and strong customer wins, we believe Yasho is far better positioned vs. the past.</li>
+<li>While it&#8217;s difficult to model growth when companies are on a non-linear growth phase, we believe Yasho could be a ~Rs 1,700-2,000 crores Revenue company (~20-25% CAGR) with ~18-20% EBITDA margin and ~18-22% pre-tax ROIC by FY30 from an estimated ~800 crores Revenue in FY26e.</li>
+<li>Assuming ~300-400 Cr EBITDA by FY30e combined with a 15-20x EV/EBITDA multiple, the company could be valued at ~4,000-7,500 Cr Market Cap by FY30 versus ~1600 Cr Market Cap today. This presents the opportunity of an Asymmetric upside in the next few years if our hypothesis plays out.</li>
+</ul>
+
+<p>Please click&nbsp;<a href="/wp-content/uploads/2026/01/An-update-on-Yasho-Industries-15-Jan-2026.pdf" target="_blank" rel="noreferrer noopener"><strong>here</strong>&nbsp;</a>if you would like to download the PDF version of this blog</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+<ol class="wp-block-footnotes">
+<li id="7d6de221-0aa8-44ed-af06-9fc1ef380d6b">Management guides for 17-19% EBITDA margin band. <a href="#7d6de221-0aa8-44ed-af06-9fc1ef380d6b-link" aria-label="Jump to footnote reference 1">↩︎</a></li>
+</ol>`,
+        }}
+      />
+    ),
+  },
+  {
     id: "cp-05",
     slug: "investment-thesis-on-axtel-industries",
     title: "Investment Thesis on Axtel Industries",
