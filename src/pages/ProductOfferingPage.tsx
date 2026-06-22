@@ -1,30 +1,62 @@
 import InnerPageLayout from '../components/InnerPageLayout'
+import PerspectivesSidebar from '../components/PerspectivesSidebar'
 import './ProductOfferingPage.css'
 
 export default function ProductOfferingPage() {
   return (
     <InnerPageLayout title="Product Offering">
-      <div className="product-content">
-        <ul className="product-list">
-          <li>Multi-cap portfolio construct to balance growth with stability</li>
-          <li>Minimum 5 Cr investment corpus per family, to enable us to provide personalized attention</li>
-          <li>Customized portfolios rather than model portfolios</li>
-          <li>No lock-in.</li>
-          <li>No exit loads for the Prudence scheme. Exit loads apply for the Emerging Leaders scheme only if redeemed within 36 months from the date of investments.</li>
-          <li>Quarterly letters and calls</li>
-          <li>High touch – quarterly 1-1 meetings for accounts over 10 Cr</li>
-          <li>Customized fee structures</li>
-          <li>
-            Please read our latest investor presentation:{' '}
+      <div className="product-offering-container">
+        <div className="product-offering-main">
+          <div className="product-offering-table-wrapper">
+            <table className="product-offering-table">
+              <thead>
+                <tr>
+                  <th>Scheme</th>
+                  <th>Market cap focus</th>
+                  <th>Underlying approach</th>
+                  <th>Suited for</th>
+                  <th>Lock-in</th>
+                  <th>Subscription</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="scheme-name">Prudence</td>
+                  <td>Flexi-cap</td>
+                  <td>Ownership Mindset</td>
+                  <td>Medium tolerance for volatility</td>
+                  <td>NA</td>
+                  <td>Open</td>
+                </tr>
+                <tr>
+                  <td className="scheme-name">Emerging Leaders</td>
+                  <td>Small cap</td>
+                  <td>Ownership Mindset</td>
+                  <td>Those with high tolerance for volatility, but don’t want to lock in capital</td>
+                  <td>5-year lock-in</td>
+                  <td>Closed</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p className="product-offering-presentation">
+            Please click{' '}
             <a
-              href="wp-content/uploads/2026/03/Introduction-to-Solidarity-30-Mar-2026.pdf"
+              href="/wp-content/uploads/2026/06/Introduction-to-Solidarity-5-Jun-2026-V1-1.pdf"
               target="_blank"
               rel="noopener noreferrer"
+              className="presentation-link"
             >
-              <strong>Introduction to Solidarity Investor Presentation (PDF)</strong>
-            </a>
-          </li>
-        </ul>
+              <strong>here</strong>
+            </a>{' '}
+            to read our latest investor presentation
+          </p>
+        </div>
+
+        <div className="product-offering-sidebar-wrapper">
+          <PerspectivesSidebar />
+        </div>
       </div>
     </InnerPageLayout>
   )

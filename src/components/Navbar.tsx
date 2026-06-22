@@ -4,8 +4,9 @@ import './Navbar.css'
 
 interface DropdownItem {
   label: string
-  href: string
+  href?: string
   external?: boolean
+  dropdown?: DropdownItem[]
 }
 
 interface NavItem {
@@ -20,27 +21,36 @@ const navItems: NavItem[] = [
     label: 'About Us',
     href: '/about-us',
     dropdown: [
-      { label: 'Guiding Principles', href: '/about-us#guide' },
+      { label: 'Goals & Principles', href: '/about-us#guide' },
       { label: 'Team', href: '/team' },
     ],
   },
   {
     label: 'Product',
     dropdown: [
-      { label: 'Product Offering', href: '/product-offering' },
-      { label: 'Portfolio Performance', href: '/portfolio-performance' },
-      { label: 'Fee Structure', href: '/fee-structure' },
-      { label: 'Direct Onboarding', href: '/direct-onboarding' },
-      { label: 'FAQs', href: '/faqs' },
+      {
+        label: 'PMS',
+        dropdown: [
+          { label: 'Product Offering', href: '/product-offering' },
+          { label: 'FAQs', href: '/faqs' },
+          { label: 'Direct Onboarding', href: '/direct-onboarding' },
+        ],
+      },
+      {
+        label: 'AIF',
+        dropdown: [
+          { label: 'Product Offering', href: '/product-offering-2' },
+        ],
+      },
     ],
   },
   {
     label: 'Perspectives',
     dropdown: [
-      { label: 'Blogs', href: '/perspectives/blogs' },
+      { label: 'Insights', href: '/perspectives/blogs' },
       { label: 'Select Company Perspectives', href: '/perspectives/company-perspective' },
-      { label: 'Perspectives on Questions from Client Partners', href: '/perspectives/client-questions' },
       { label: 'Quarterly Letters', href: '/perspectives/quarterly-letters' },
+      { label: 'Perspectives on Questions from Client Partners', href: '/perspectives/client-questions' },
     ],
   },
   {
@@ -51,15 +61,15 @@ const navItems: NavItem[] = [
   {
     label: 'Disclosures',
     dropdown: [
-      { label: 'Investor Charter – PMS', href: '/wp-content/uploads/2026/05/Investor-Charter-PMS-v1.pdf', external: true },
-{ label: 'Investor Charter – AIF', href: '/wp-content/uploads/2026/05/Investor-charter-for-AIF-16-Apr-26_V2.pdf', external: true },
+      { label: 'INVESTOR CHARTER – PMS', href: '/wp-content/uploads/2026/05/Investor-Charter-PMS-v1.pdf', external: true },
+      { label: 'INVESTOR CHARTER – AIF', href: '/wp-content/uploads/2026/05/Investor-charter-for-AIF-16-Apr-26_V2.pdf', external: true },
       { label: 'DISCLOSURE DOCUMENT', href: '/wp-content/uploads/2026/01/Disclosure_document_SAPL_22_Jan_2026.pdf', external: true },
       { label: 'FEE CALCULATION TOOL', href: '/fee-calculation-tool' },
       { label: 'INVESTOR COMPLAINTS', href: '/wp-content/uploads/2026/06/Annexure-B-MAY-26-NEW-FORMAT.pdf', external: true },
-      { label: 'REGULATORY DETAILS', href: '/about-us/regulatory-details' },
       { label: 'UPI PAYMENT DETAILS', href: '/upi-payment-details' },
       { label: 'STEWARDSHIP CODE – AIF', href: '/wp-content/uploads/2026/01/Stewarship-Code_NP-7Jan26.pdf', external: true },
-      { label: 'CSR POLICY', href: '/' },
+      { label: 'CSR POLICY', href: '/wp-content/uploads/2026/06/CSR-policy-4-Jun-26.pdf', external: true },
+      { label: 'REGULATORY INFORMATION', href: '/about-us/regulatory-details' },
     ],
   },
   {
@@ -74,6 +84,7 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [openDropdown, setOpenDropdown] = useState<number | null>(null)
   const [openMobileDropdown, setOpenMobileDropdown] = useState<number | null>(null)
+  const [openMobileSubDropdown, setOpenMobileSubDropdown] = useState<string | null>(null)
 
   const handleScroll = useCallback(() => {
     setScrolled(window.scrollY > 60)
@@ -87,7 +98,10 @@ export default function Navbar() {
   // Close mobile menu on route change / resize
   useEffect(() => {
     const onResize = () => {
-      if (window.innerWidth > 768) setMobileOpen(false)
+      if (window.innerWidth > 768) {
+        setMobileOpen(false)
+        setOpenMobileSubDropdown(null)
+      }
     }
     window.addEventListener('resize', onResize)
     return () => window.removeEventListener('resize', onResize)
@@ -102,7 +116,12 @@ export default function Navbar() {
   const isActive = (item: NavItem) => {
     if (item.dropdown) {
       // Check dropdown children first, plus the item's own href
-      const childMatch = item.dropdown.some(sub => !sub.external && (pathname === sub.href || pathname.startsWith(sub.href.split('#')[0] + '/')))
+      const childMatch = item.dropdown.some(sub => {
+        if (sub.dropdown) {
+          return sub.dropdown.some(c => !c.external && c.href && (pathname === c.href || pathname.startsWith(c.href.split('#')[0] + '/')))
+        }
+        return !sub.external && sub.href && (pathname === sub.href || pathname.startsWith(sub.href.split('#')[0] + '/'))
+      })
       const selfMatch = item.href && !item.external && (pathname === item.href || pathname.startsWith(item.href + '/'))
       return !!(childMatch || selfMatch)
     }
@@ -128,7 +147,7 @@ export default function Navbar() {
   return (
     <header>
       <nav className={`navbar${scrolled ? ' navbar--scrolled' : ''}`} aria-label="Primary">
-        <div className="navbar__inner container">
+        <div className="navbar__inner">
           {/* Logo */}
           <div className="navbar__logo">
             <Link to="/">
@@ -165,18 +184,46 @@ export default function Navbar() {
                     role="menu"
                   >
                     {item.dropdown.map((sub, j) => (
-                      <li key={j} className="navbar__dropdown-item" role="menuitem">
-                        {sub.external ? (
-                          <a href={sub.href} target="_blank" rel="noopener noreferrer" className="navbar__dropdown-link">
-                            {sub.label}
-                          </a>
-                        ) : (
-                          <Link to={sub.href} className="navbar__dropdown-link" onClick={() => setOpenDropdown(null)}>
-                            {sub.label}
-                          </Link>
-                        )}
-                      </li>
-                    ))}
+                        <li
+                          key={j}
+                          className={`navbar__dropdown-item${sub.dropdown ? ' navbar__dropdown-item--has-sub' : ''}`}
+                          role="menuitem"
+                        >
+                          {sub.dropdown ? (
+                            <>
+                              <div className="navbar__dropdown-link navbar__dropdown-link--parent">
+                                <span>{sub.label}</span>
+                                <span className="navbar__sub-chevron">›</span>
+                              </div>
+                              <ul className="navbar__sub-dropdown" role="menu">
+                                {sub.dropdown.map((child, k) => (
+                                  <li key={k} className="navbar__dropdown-item" role="menuitem">
+                                    {child.external ? (
+                                      <a href={child.href} target="_blank" rel="noopener noreferrer" className="navbar__dropdown-link">
+                                        {child.label}
+                                      </a>
+                                    ) : (
+                                      <Link to={child.href!} className="navbar__dropdown-link" onClick={() => setOpenDropdown(null)}>
+                                        {child.label}
+                                      </Link>
+                                    )}
+                                  </li>
+                                ))}
+                              </ul>
+                            </>
+                          ) : (
+                            sub.external ? (
+                              <a href={sub.href} target="_blank" rel="noopener noreferrer" className="navbar__dropdown-link">
+                                {sub.label}
+                              </a>
+                            ) : (
+                              <Link to={sub.href!} className="navbar__dropdown-link" onClick={() => setOpenDropdown(null)}>
+                                {sub.label}
+                              </Link>
+                            )
+                          )}
+                        </li>
+                      ))}
                   </ul>
                 )}
               </li>
@@ -221,19 +268,52 @@ export default function Navbar() {
                       <span className="mobile-menu__chevron" aria-hidden="true">▾</span>
                     </button>
                     <ul className={`mobile-menu__sub${openMobileDropdown === i ? ' mobile-menu__sub--open' : ''}`} role="menu">
-                      {item.dropdown.map((sub, j) => (
-                        <li key={j} className="mobile-menu__sub-item" role="menuitem">
-                          {sub.external ? (
-                            <a href={sub.href} target="_blank" rel="noopener noreferrer" className="mobile-menu__sub-link" onClick={() => setMobileOpen(false)}>
-                              {sub.label}
-                            </a>
-                          ) : (
-                            <Link to={sub.href} className="mobile-menu__sub-link" onClick={() => setMobileOpen(false)}>
-                              {sub.label}
-                            </Link>
-                          )}
-                        </li>
-                      ))}
+                      {item.dropdown.map((sub, j) => {
+                        const subKey = `${i}-${j}`;
+                        const isSubOpen = openMobileSubDropdown === subKey;
+                        return (
+                          <li key={j} className="mobile-menu__sub-item" role="menuitem">
+                            {sub.dropdown ? (
+                              <>
+                                <button
+                                  className={`mobile-menu__sub-link mobile-menu__sub-link--parent${isSubOpen ? ' mobile-menu__sub-link--open' : ''}`}
+                                  onClick={() => setOpenMobileSubDropdown(isSubOpen ? null : subKey)}
+                                  aria-haspopup="true"
+                                  aria-expanded={isSubOpen}
+                                >
+                                  {sub.label}
+                                  <span className="mobile-menu__chevron" aria-hidden="true">▾</span>
+                                </button>
+                                <ul className={`mobile-menu__sub-child${isSubOpen ? ' mobile-menu__sub-child--open' : ''}`} role="menu">
+                                  {sub.dropdown.map((child, k) => (
+                                    <li key={k} className="mobile-menu__sub-child-item" role="menuitem">
+                                      {child.external ? (
+                                        <a href={child.href} target="_blank" rel="noopener noreferrer" className="mobile-menu__sub-child-link" onClick={() => setMobileOpen(false)}>
+                                          {child.label}
+                                        </a>
+                                      ) : (
+                                        <Link to={child.href!} className="mobile-menu__sub-child-link" onClick={() => setMobileOpen(false)}>
+                                          {child.label}
+                                        </Link>
+                                      )}
+                                    </li>
+                                  ))}
+                                </ul>
+                              </>
+                            ) : (
+                              sub.external ? (
+                                <a href={sub.href} target="_blank" rel="noopener noreferrer" className="mobile-menu__sub-link" onClick={() => setMobileOpen(false)}>
+                                  {sub.label}
+                                </a>
+                              ) : (
+                                <Link to={sub.href!} className="mobile-menu__sub-link" onClick={() => setMobileOpen(false)}>
+                                  {sub.label}
+                                </Link>
+                              )
+                            )}
+                          </li>
+                        );
+                      })}
                     </ul>
                   </>
                 ) : (

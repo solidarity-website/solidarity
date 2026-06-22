@@ -11,14 +11,14 @@
 }
 
 .sidebar-widget__title {
-  font-size: 0.9063rem;
+  font-size: 18px;
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 1.5rem;
   padding-bottom: 0.8rem;
-  border-bottom: 3px solid #3c5678; /* Darker/Thicker border as in image */
+  border-bottom: 3px solid #3c5678;
 }
 
 .sidebar-widget ul {
@@ -29,20 +29,22 @@
 
 .sidebar-widget li {
   padding: 0.5rem 0;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: none;
 }
 
 /* Specific styling for Latest Post links to match image */
 .sidebar-latest-item a {
   color: #666;
-  font-size: 0.9063rem;
+  font-size: 15px;
   line-height: 1.6;
   font-weight: 400;
   display: block;
 }
 
 .sidebar-widget li a {
+  font-size: 15px;
   transition: color 0.2s ease;
+  text-decoration: underline;
 }
 
 .sidebar-widget li a:hover {
@@ -51,24 +53,56 @@
 }
 
 /* Search input styling */
-.sidebar-search__input {
-  width: 100%;
-  padding: 8px 12px;
-  font-size: 0.875rem;
-  border: 1px solid #000 !important;
-  border-radius: 0;
-  color: #000;
-  outline: none;
+.sidebar-search__wrapper {
+  position: relative;
+  border: 1px solid #ccc;
   background-color: #fff;
 }
 
+.sidebar-search__input {
+  width: 100%;
+  padding: 10px 44px 10px 14px;
+  font-size: 0.875rem;
+  border: none;
+  color: #333;
+  outline: none;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
 .sidebar-search__input::placeholder {
-  color: #000;
+  color: #999;
   opacity: 1;
 }
 
 .sidebar-search__input:focus {
-  border-color: #3c5678;
+  outline: none;
+}
+
+.sidebar-search__button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #111;
+  padding: 0;
+  transition: color 0.2s ease;
+}
+
+.sidebar-search__button:hover {
+  color: #000;
+}
+
+.sidebar-search__icon {
+  width: 18px;
+  height: 18px;
+  display: block;
 }
 
 @media (max-width: 900px) {

@@ -14,58 +14,57 @@ const CATEGORIES = [
 ]
 
 const DEFAULT_LATEST_SLUGS = [
+  'investment-thesis-on-vasa-denticity',
   'investment-thesis-on-synergy-green-industries-ltd',
-  'perspective-on-qsr-sector-and-rba',
-  'investment-thesis-on-axtel-industries',
+  'investment-thesis-on-yasho-industries-limited',
 ]
 
 interface Props {
   latestPosts?: PostData[]
-  searchQuery?: string
-  onSearchChange?: (q: string) => void
 }
 
-export default function PerspectivesSidebar({ latestPosts, searchQuery, onSearchChange }: Props) {
+export default function PerspectivesSidebar({ latestPosts }: Props) {
   const navigate = useNavigate()
   const [localSearch, setLocalSearch] = useState('')
-  
+
   const posts = latestPosts && latestPosts.length > 0
     ? (latestPosts.filter(Boolean) as PostData[]).slice(0, 3)
     : DEFAULT_LATEST_SLUGS
         .map(slug => ALL_POSTS.find(p => p && p.slug === slug))
         .filter(Boolean) as PostData[]
 
-  const handleSearch = (q: string) => {
-    if (onSearchChange) {
-      onSearchChange(q)
-    } else {
-      setLocalSearch(q)
+  const handleSearchSubmit = () => {
+    if (localSearch.trim()) {
+      navigate(`/perspectives/blogs?s=${encodeURIComponent(localSearch.trim())}`)
     }
   }
 
-  const handleSearchSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    const query = searchQuery ?? localSearch
-    if (query.trim()) {
-      navigate(`/perspectives/blogs?s=${encodeURIComponent(query.trim())}`)
-    }
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter') handleSearchSubmit()
   }
 
   return (
     <aside className="perspectives-sidebar">
       {/* Search Widget - ABOVE CATEGORIES */}
       <section className="sidebar-widget">
-        <form onSubmit={handleSearchSubmit} className="sidebar-search-form">
-          <label htmlFor="sidebar-search-input" className="sr-only">Search</label>
+        <label htmlFor="sidebar-search-input" className="sr-only">Search</label>
+        <div className="sidebar-search__wrapper">
           <input
             id="sidebar-search-input"
             type="text"
             className="sidebar-search__input"
             placeholder="Search..."
-            value={searchQuery ?? localSearch}
-            onChange={e => handleSearch(e.target.value)}
+            value={localSearch}
+            onChange={e => setLocalSearch(e.target.value)}
+            onKeyDown={handleKeyDown}
           />
-        </form>
+          <button type="button" className="sidebar-search__button" aria-label="Search" onClick={handleSearchSubmit}>
+            <svg className="sidebar-search__icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="11" cy="11" r="7"></circle>
+              <line x1="16.5" y1="16.5" x2="22" y2="22"></line>
+            </svg>
+          </button>
+        </div>
       </section>
 
       {/* Categories Widget */}

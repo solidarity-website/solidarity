@@ -10,6 +10,7 @@ import AboutPage from './pages/AboutPage'
 import TeamPage from './pages/TeamPage'
 import TeamMemberDetailPage from './pages/TeamMemberDetailPage'
 import ProductOfferingPage from './pages/ProductOfferingPage'
+import ProductOfferingAifPage from './pages/ProductOfferingAifPage'
 import PortfolioPerformancePage from './pages/PortfolioPerformancePage'
 import FeeStructurePage from './pages/FeeStructurePage'
 import DirectOnboardingPage from './pages/DirectOnboardingPage'
@@ -38,6 +39,7 @@ function getTitleForPath(pathname: string): string {
   else if (pathname === '/about-us/regulatory-details') title = "Regulatory Details"
   else if (pathname.startsWith('/team')) title = "Team"
   else if (pathname === '/product-offering') title = "Product Offering"
+  else if (pathname === '/product-offering-2') title = "Product Offering – AIF"
   else if (pathname === '/portfolio-performance') title = "Portfolio Performance"
   else if (pathname === '/fee-structure') title = "Fee Structure"
   else if (pathname === '/fee-calculation-tool') title = "Fee Calculation Tool"
@@ -119,6 +121,7 @@ function AppShell() {
 
         {/* Product */}
         <Route path="/product-offering"     element={<ProductOfferingPage />} />
+        <Route path="/product-offering-2"   element={<ProductOfferingAifPage />} />
         <Route path="/portfolio-performance" element={<PortfolioPerformancePage />} />
         <Route path="/fee-structure"        element={<FeeStructurePage />} />
         <Route path="/fee-calculation-tool" element={<FeeCalculationToolPage />} />
@@ -127,7 +130,7 @@ function AppShell() {
         <Route path="/investment-approach"  element={<InvestmentApproachPage />} />
 
         {/* Perspectives */}
-        <Route path="/perspectives/blogs"              element={<PerspectivesListingPage categoryTitle="Blogs" filterCategory="Blogs" />} />
+        <Route path="/perspectives/blogs"              element={<PerspectivesListingPage categoryTitle="Perspectives" filterCategory="Blogs" />} />
         <Route path="/perspectives/company-perspective" element={<PerspectivesListingPage categoryTitle="Select Company Perspectives" filterCategory="Company Perspective" />} />
         <Route path="/perspectives/client-questions"   element={<PerspectivesListingPage categoryTitle="Perspective On Questions From Client Partners" filterCategory="Perspective On Questions From Client Partners" />} />
         <Route path="/perspectives/asset-allocation"   element={<PerspectivesListingPage categoryTitle="Asset Allocation" filterCategory="Asset Allocation" />} />

@@ -1,7 +1,7 @@
 /* ============================================================
    DIRECT ONBOARDING PAGE
    ============================================================ */
-.onboard-content { padding: 0; }
+.onboard-content { padding: 0; text-align: center; }
 .onboard-content > p { margin-bottom: var(--space-xl); font-size: 1rem; line-height: 1.9; }
 
 .onboard-steps {

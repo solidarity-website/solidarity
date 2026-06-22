@@ -605,8 +605,8 @@ export default function FAQPage() {
                       aria-expanded={isOpen}
                       aria-controls={panelId}
                     >
-                      <h3>{item.q}</h3>
                       <span className="faq-toggle__icon" aria-hidden="true" />
+                      <h3>{item.q}</h3>
                     </button>
                     {isOpen && (
                       <div id={panelId} className="faq-toggle__content">{item.a}</div>

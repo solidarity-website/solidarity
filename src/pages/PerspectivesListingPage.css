@@ -27,7 +27,7 @@
 
 .post-item__title {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.25rem;
+  font-size: 24px;
   font-weight: 700;
   line-height: 1.35;
   margin-bottom: 1rem;
@@ -47,9 +47,21 @@
 
 .post-item__excerpt {
   color: #555;
-  font-size: 0.9063rem;
+  font-size: 15px;
   line-height: 1.8;
   margin-bottom: 1.2rem;
+}
+
+.post-item__excerpt h1,
+.post-item__excerpt h2,
+.post-item__excerpt h3,
+.post-item__excerpt h4,
+.post-item__excerpt h5,
+.post-item__excerpt h6 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+  margin-top: 0.7rem;
 }
 
 .post-item__excerpt p {
