@@ -98,3 +98,62 @@
   .ql-item { flex-wrap: wrap; }
   .ql-badge { width: 100%; text-align: center; }
 }
+
+.ql-iframe-wrap {
+  width: 100%;
+  overflow: hidden;
+}
+
+.ql-iframe {
+  border: none;
+  display: block;
+}
+
+/* Custom Table Styles matching the Bootstrap bordered table */
+.ql-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.ql-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+
+.ql-table th,
+.ql-table td {
+  padding: 12px 15px;
+  vertical-align: middle;
+  border: 1px solid #dee2e6;
+  text-align: left;
+}
+
+.ql-table th {
+  font-weight: 700;
+  color: #212529;
+  background-color: #fff;
+  font-size: 0.95rem;
+}
+
+.ql-table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.ql-table td {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.ql-table a.ql-link {
+  color: #394872;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.ql-table a.ql-link:hover {
+  color: #1a2542;
+}

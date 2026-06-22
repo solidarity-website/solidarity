@@ -1,29 +1,80 @@
 /* ProductOfferingPage & PortfolioPerformancePage shared styles */
 
-/* ── Product content ── */
-.product-content {
-  display: flex;
-  justify-content: center;
+.product-offering-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 3rem;
+  align-items: start;
 }
 
-.product-list {
-  list-style: disc;
-  padding-left: 1.5rem;
-  max-width: 700px;
+.product-offering-main {
+  min-width: 0;
+}
+
+.product-offering-table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
+
+.product-offering-table {
   width: 100%;
+  border-collapse: collapse;
   text-align: left;
+  font-size: 0.9375rem;
+  background: white;
+  min-width: 650px;
+  border: 1px solid #111;
 }
 
-.product-list li {
+.product-offering-table th {
+  background: transparent;
+  color: #111;
+  font-weight: 700;
+  padding: 1rem 1.2rem;
+  border: 1px solid #111;
+  border-bottom: 2px solid #111;
+}
+
+.product-offering-table td {
+  padding: 1.2rem;
+  border: 1px solid #111;
+  color: #333;
+  line-height: 1.6;
+  vertical-align: middle;
+}
+
+.product-offering-table tbody tr {
+  background: transparent;
+}
+
+.scheme-name {
+  color: #333;
+}
+
+.product-offering-presentation {
   font-size: 0.9375rem;
   line-height: 1.8;
-  margin-bottom: 0.5rem;
   color: var(--color-body);
+  margin-top: 1.5rem;
 }
 
-.product-list a {
-  color: #000080;
+.presentation-link {
+  color: #333;
   text-decoration: underline;
+}
+
+.presentation-link:hover {
+  color: #000;
+}
+
+@media (max-width: 900px) {
+  .product-offering-container {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
 }
 
 /* ── Schemes ── */

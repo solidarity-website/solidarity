@@ -382,9 +382,13 @@ export default function PerspectivesListingPage({
     currentPage * POSTS_PER_PAGE,
   );
 
+  const bannerTitle = searchQuery.trim()
+    ? `Search Results: ${searchQuery.trim()}`
+    : categoryTitle
+
   return (
     <InnerPageLayout
-      title={categoryTitle}
+      title={bannerTitle}
       bannerBg="/assets/perspectives-banner.jpg"
     >
       <div className="perspectives-container">
@@ -418,17 +422,6 @@ export default function PerspectivesListingPage({
 
         <PerspectivesSidebar
           latestPosts={orderedPosts.slice(0, 3)}
-          searchQuery={searchQuery}
-          onSearchChange={(q) => {
-            setSearchQuery(q);
-            setSearchParams(
-              (prev) => {
-                prev.set("page", "1");
-                return prev;
-              },
-              { replace: true },
-            );
-          }}
         />
       </div>
 

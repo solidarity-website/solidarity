@@ -6,14 +6,12 @@ export default function DirectOnboardingPage() {
     <InnerPageLayout title="Direct Onboarding">
       <div className="onboard-content">
         <p>
-          For investing directly with us, please{' '}
+          For investing directly with us, please write to{' '}
           <a
-            href="https://forms.gle/tLNZUX1rBbf9kDPg6"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: '#0000FF', textDecoration: 'underline' }}
+            href="mailto:saplops@solidarity.in"
+            style={{ textDecoration: 'underline' }}
           >
-            click here
+            saplops@solidarity.in
           </a>
         </p>
       </div>
